@@ -59,6 +59,8 @@ def test_transform_bundle_rewrites_identifiers_phones_money_and_units():
     assert patient["telecom"][0]["value"].startswith("0") and " " in patient["telecom"][0]["value"]
     glucose = bundle["entry"][1]["resource"]["valueQuantity"]
     assert glucose["unit"] == "mmol/L" and glucose["value"] == 5.0
+    glucose_code = bundle["entry"][1]["resource"]["code"]["coding"][0]
+    assert glucose_code["code"] == "15074-8" and "Moles" in glucose_code["display"]
     height = bundle["entry"][2]["resource"]["valueQuantity"]
     assert height["unit"] == "cm" and height["value"] == 170.0
     claim = bundle["entry"][3]["resource"]
@@ -117,3 +119,30 @@ def test_died_before_filter(tmp_path):
     stats = process_files([(source, target)], PostProcessOptions(), set(), None,
                           skip=lambda b: died_before(b, date(2016, 1, 1)))
     assert stats.skipped_deceased == 1 and not target.exists()
+
+
+def test_practitioner_numbers_are_scoped_per_run_and_if_none_exist_follows():
+    from synthea_za.postprocess import practitioner_number
+    assert practitioner_number("9999999896", "GP") != practitioner_number("9999999896", "KZN")
+    bundle = {"resourceType": "Bundle", "type": "batch", "entry": [
+        {"fullUrl": "urn:uuid:x", "resource": {"resourceType": "Practitioner", "id": "x",
+                                                 "identifier": [{"system": "http://hl7.org/fhir/sid/us-npi", "value": "9999999896"}]},
+         "request": {"method": "POST", "url": "Practitioner", "ifNoneExist": "identifier=http://hl7.org/fhir/sid/us-npi|9999999896"}},
+        {"fullUrl": "urn:uuid:y", "resource": {"resourceType": "PractitionerRole", "id": "y",
+                                                 "practitioner": {"reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999999896"}},
+         "request": {"method": "POST", "url": "PractitionerRole"}}]}
+    stats = PostProcessStats()
+    transform_bundle(bundle, PostProcessOptions(), set(), stats, scope="GP")
+    identifier = bundle["entry"][0]["resource"]["identifier"][0]
+    expected = f"identifier={identifier['system']}|{identifier['value']}"
+    assert bundle["entry"][0]["request"]["ifNoneExist"] == expected
+    assert bundle["entry"][1]["resource"]["practitioner"]["reference"] == "Practitioner?" + expected
+    assert identifier["value"] == practitioner_number("9999999896", "GP")
+
+
+def test_no_national_id_keeps_social_security_number():
+    bundle = make_bundle()
+    transform_bundle(bundle, PostProcessOptions(national_id=False), set(), PostProcessStats())
+    patient = bundle["entry"][0]["resource"]
+    codes = [c["code"] for i in patient["identifier"] for c in i.get("type", {}).get("coding", [])]
+    assert "SS" in codes and "NNZAF" not in codes and "DL" not in codes

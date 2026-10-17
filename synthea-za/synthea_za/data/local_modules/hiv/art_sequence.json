@@ -3,7 +3,7 @@
   "remarks": [
     "South African replacement for Synthea's hiv/art_sequence submodule (synthea-za).",
     "Chooses the public sector antiretroviral regimen in force at the time of the visit. Before April 2004 no antiretroviral therapy was available in the public sector; a small minority with private cover received dual or triple therapy, which is ignored here.",
-    "When the era changes the previous regimen is stopped (hiv/stop_all_art_meds) and the new one started. About 12% of people move to second line therapy after failing first line."
+    "When the era changes the previous regimen is stopped (hiv/stop_all_art_meds) and the new one started. About 0.4% of monitoring visits (roughly 1.5% a year) move a patient to second line therapy after failing first line."
   ],
   "states": {
     "Initial": {
@@ -46,13 +46,22 @@
           "transition": "Year Check"
         },
         {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_year",
+            "operator": "==",
+            "value": 0
+          },
+          "transition": "Year Check"
+        },
+        {
           "distributions": [
             {
-              "distribution": 0.02,
+              "distribution": 0.004,
               "transition": "Set Second Line"
             },
             {
-              "distribution": 0.98,
+              "distribution": 0.996,
               "transition": "Year Check"
             }
           ]

@@ -26,7 +26,7 @@ from typing import Any, Callable, Dict, Iterable, List, Optional, Set, Tuple
 from synthea_za.config import PostProcessOptions
 from synthea_za.sa_id import (hpcsa_registration, south_african_id, south_african_mobile,
                               south_african_passport)
-from synthea_za.units import convert_quantity
+from synthea_za.units import convert_quantity, converted_code
 
 V2_0203 = "http://terminology.hl7.org/CodeSystem/v2-0203"
 US_SSN_SYSTEM = "http://hl7.org/fhir/sid/us-ssn"
@@ -92,7 +92,7 @@ def rewrite_patient_identifiers(patient: Dict[str, Any], options: PostProcessOpt
         if "NNZAF" in codes:
             has_national_id = True  # already processed: keep as is
             used_ids.add(str(identifier.get("value", "")))
-        if system == US_SSN_SYSTEM or "SS" in codes:
+        if options.national_id and (system == US_SSN_SYSTEM or "SS" in codes):
             continue  # replaced by the national identity number below
         if options.drop_drivers_licence and (system == MA_DRIVERS_LICENCE_SYSTEM or "DL" in codes):
             continue
@@ -130,13 +130,23 @@ def rewrite_telecoms(resource: Dict[str, Any], seed: str, stats: PostProcessStat
             stats.phones_rewritten += 1
 
 
+def practitioner_number(npi: str, scope: str) -> str:
+    """The HPCSA style number for a Synthea NPI within one generation run.
+
+    Synthea restarts its NPI counter in every run, so the province (``scope``) is part of
+    the seed; the same function is used for the Practitioner resource and for every
+    reference to it, so they always agree.
+    """
+    return hpcsa_registration(f"{scope}:{npi}" if scope else npi)
+
+
 def rewrite_practitioner(resource: Dict[str, Any], options: PostProcessOptions,
-                         stats: PostProcessStats) -> None:
+                         stats: PostProcessStats, scope: str = "") -> None:
     changed = False
     for identifier in resource.get("identifier", []):
         if identifier.get("system") == US_NPI_SYSTEM:
             identifier["system"] = options.practitioner_system
-            identifier["value"] = hpcsa_registration(str(identifier.get("value", "")))
+            identifier["value"] = practitioner_number(str(identifier.get("value", "")), scope)
             identifier["type"] = {
                 "coding": [{"system": V2_0203, "code": "PRN", "display": "Provider number"}],
                 "text": "HPCSA registration number",
@@ -149,7 +159,7 @@ def rewrite_practitioner(resource: Dict[str, Any], options: PostProcessOptions,
 NPI_REFERENCE = re.compile(r"^(Practitioner|PractitionerRole)\?identifier=" + re.escape(US_NPI_SYSTEM) + r"\|(\d+)$")
 
 
-def rewrite_practitioner_references(node: Any, options: PostProcessOptions) -> int:
+def rewrite_practitioner_references(node: Any, options: PostProcessOptions, scope: str = "") -> int:
     """Rewrite conditional references that point at practitioners by their US NPI.
 
     Synthea links encounters, claims and other resources to practitioners with
@@ -164,20 +174,25 @@ def rewrite_practitioner_references(node: Any, options: PostProcessOptions) -> i
             match = NPI_REFERENCE.match(reference)
             if match:
                 node["reference"] = (f"{match.group(1)}?identifier={options.practitioner_system}|"
-                                     f"{hpcsa_registration(match.group(2))}")
+                                     f"{practitioner_number(match.group(2), scope)}")
                 changed += 1
+        if_none_exist = node.get("ifNoneExist")
+        if isinstance(if_none_exist, str) and if_none_exist.startswith(f"identifier={US_NPI_SYSTEM}|"):
+            npi = if_none_exist.split("|", 1)[1]
+            node["ifNoneExist"] = f"identifier={options.practitioner_system}|{practitioner_number(npi, scope)}"
+            changed += 1
         identifier = node.get("identifier")
         if isinstance(identifier, dict) and identifier.get("system") == US_NPI_SYSTEM \
                 and isinstance(identifier.get("value"), str) and "type" not in node:
             # a Reference.identifier (logical reference) to a practitioner
             identifier["system"] = options.practitioner_system
-            identifier["value"] = hpcsa_registration(identifier["value"])
+            identifier["value"] = practitioner_number(identifier["value"], scope)
             changed += 1
         for value in node.values():
-            changed += rewrite_practitioner_references(value, options)
+            changed += rewrite_practitioner_references(value, options, scope)
     elif isinstance(node, list):
         for value in node:
-            changed += rewrite_practitioner_references(value, options)
+            changed += rewrite_practitioner_references(value, options, scope)
     return changed
 
 
@@ -217,18 +232,35 @@ def _convert_quantity_in_place(code: Optional[str], quantity: Dict[str, Any]) ->
     return True
 
 
+def _relabel_code(codeable: Dict[str, Any], code: Optional[str]) -> None:
+    """Replace the mass concentration LOINC coding with its molar counterpart."""
+    target = converted_code(code) if code else None
+    if target is None:
+        return
+    new_code, new_display = target
+    for coding in codeable.get("coding", []):
+        if coding.get("system") == "http://loinc.org" and coding.get("code") == code:
+            coding["code"] = new_code
+            if new_display:
+                coding["display"] = new_display
+    if new_display and codeable.get("text"):
+        codeable["text"] = new_display
+
+
 def convert_observation_units(observation: Dict[str, Any], stats: PostProcessStats) -> None:
     code = _loinc_code(observation.get("code", {}))
     if "valueQuantity" in observation and _convert_quantity_in_place(code, observation["valueQuantity"]):
         stats.observations_converted += 1
+        for rng in observation.get("referenceRange", []):
+            for bound in ("low", "high"):
+                if bound in rng:
+                    _convert_quantity_in_place(code, rng[bound])
+        _relabel_code(observation.get("code", {}), code)
     for component in observation.get("component", []):
         component_code = _loinc_code(component.get("code", {}))
         if "valueQuantity" in component and _convert_quantity_in_place(component_code, component["valueQuantity"]):
             stats.observations_converted += 1
-    for rng in observation.get("referenceRange", []):
-        for bound in ("low", "high"):
-            if bound in rng:
-                _convert_quantity_in_place(code, rng[bound])
+            _relabel_code(component.get("code", {}), component_code)
 
 
 def add_meta_tag(resource: Dict[str, Any], tag: str) -> None:
@@ -240,7 +272,9 @@ def add_meta_tag(resource: Dict[str, Any], tag: str) -> None:
 
 
 def transform_bundle(bundle: Dict[str, Any], options: PostProcessOptions,
-                     used_ids: Set[str], stats: PostProcessStats) -> Dict[str, Any]:
+                     used_ids: Set[str], stats: PostProcessStats, scope: str = "") -> Dict[str, Any]:
+    """Apply every rewrite to one bundle. ``scope`` labels the generation run (normally
+    the province code) so practitioner numbers stay unique across runs."""
     stats.bundles += 1
     for entry in bundle.get("entry", []):
         resource = entry.get("resource", {})
@@ -253,7 +287,7 @@ def transform_bundle(bundle: Dict[str, Any], options: PostProcessOptions,
             if options.phones:
                 rewrite_telecoms(resource, seed, stats)
         elif resource_type == "Practitioner":
-            rewrite_practitioner(resource, options, stats)
+            rewrite_practitioner(resource, options, stats, scope)
             if options.phones:
                 rewrite_telecoms(resource, seed, stats)
         elif resource_type in ("Organization", "Location", "RelatedPerson"):
@@ -265,7 +299,7 @@ def transform_bundle(bundle: Dict[str, Any], options: PostProcessOptions,
             add_meta_tag(resource, options.meta_tag)
     if options.currency:
         convert_money(bundle, options, stats)
-    stats.references_rewritten += rewrite_practitioner_references(bundle, options)
+    stats.references_rewritten += rewrite_practitioner_references(bundle, options, scope)
     return bundle
 
 
@@ -297,7 +331,8 @@ def died_before(bundle: Dict[str, Any], cutoff: date) -> bool:
 def process_files(files: Iterable[Tuple[Path, Path]], options: PostProcessOptions,
                   used_ids: Optional[Set[str]] = None,
                   stats: Optional[PostProcessStats] = None,
-                  skip: Optional[Callable[[Dict[str, Any]], bool]] = None) -> PostProcessStats:
+                  skip: Optional[Callable[[Dict[str, Any]], bool]] = None,
+                  scope: str = "") -> PostProcessStats:
     """Transform each ``(source, target)`` pair of bundle files.
 
     ``skip`` may veto a bundle (for example a patient who died before the history window);
@@ -312,7 +347,7 @@ def process_files(files: Iterable[Tuple[Path, Path]], options: PostProcessOption
             stats.skipped_deceased += 1
             continue
         if bundle.get("resourceType") == "Bundle":
-            transform_bundle(bundle, options, used_ids, stats)
+            transform_bundle(bundle, options, used_ids, stats, scope)
         target.parent.mkdir(parents=True, exist_ok=True)
         with target.open("w", encoding="utf-8") as handle:
             json.dump(bundle, handle, indent=2, ensure_ascii=False)
@@ -338,7 +373,7 @@ def process_directory(raw_fhir_dir: Path, out_fhir_dir: Path, options: PostProce
             name = f"{stem}_{label}.json"
         pairs.append((source, out_fhir_dir / name))
     skip = (lambda bundle: died_before(bundle, deceased_cutoff)) if deceased_cutoff else None
-    return process_files(pairs, options, used_ids, stats, skip=skip)
+    return process_files(pairs, options, used_ids, stats, skip=skip, scope=label or "")
 
 
 def copy_other_outputs(raw_dir: Path, out_dir: Path, label: str) -> None:

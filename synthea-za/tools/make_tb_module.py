@@ -192,7 +192,14 @@ def risk_states():
     states["TPT Isoniazid Weekly"] = med("isoniazid", "Set TPT", amount=3, frequency=1, duration_months=3, reason="hiv_diagnosis", attribute="tb_tpt_med_2", period=1, period_unit="weeks")
     states["TPT Isoniazid Twelve Months"] = med("isoniazid", "Set TPT", amount=1, frequency=1, duration_months=12, reason="hiv_diagnosis", attribute="tb_tpt_med_2")
     states["Set TPT"] = {"type": "SetAttribute", "attribute": "tb_preventive_therapy", "value": True, "direct_transition": "End TPT Visit"}
-    states["End TPT Visit"] = {"type": "EncounterEnd", "direct_transition": "Wait A Year"}
+    states["End TPT Visit"] = {"type": "EncounterEnd", "direct_transition": "TPT Course"}
+    states["TPT Course"] = {"type": "Simple", "conditional_transition": [
+        {"transition": "TPT Three Months", "condition": {"condition_type": "Date", "operator": ">=", "year": 2021}},
+        {"transition": "TPT Twelve Months"}]}
+    states["TPT Three Months"] = delay("End TPT Rifapentine", quantity=3)
+    states["TPT Twelve Months"] = delay("End TPT Rifapentine", quantity=12)
+    states["End TPT Rifapentine"] = {"type": "MedicationEnd", "codes": [code("rifapentine")], "direct_transition": "End TPT Isoniazid"}
+    states["End TPT Isoniazid"] = {"type": "MedicationEnd", "codes": [code("isoniazid")], "direct_transition": "TB Risk Check"}
     # calendar periods for the general population
     conditional = []
     periods = sorted(GENERAL_RISK, reverse=True)
@@ -334,9 +341,11 @@ def build():
     states["Condition Resolves Untreated"] = {"type": "ConditionEnd", "referenced_by_attribute": "tb_condition", "direct_transition": "Clear MDR"}
     states["Return To Care"] = encounter("Return Sputum", reason="tb_condition")
     states["Return Sputum"] = xpert_report("Retreatment Resistance Check", positive=True)
-    states["Retreatment Resistance Check"] = {"type": "Simple", "distributed_transition": [
-        {"distribution": 0.08, "transition": "Retreatment MDR Onset"},
-        {"distribution": 0.92, "transition": "Retreatment Regimen"}]}
+    states["Retreatment Resistance Check"] = {"type": "Simple", "complex_transition": [
+        {"condition": {"condition_type": "Attribute", "attribute": "tb_mdr_condition", "operator": "is not nil"},
+         "transition": "MDR Regimen Start"},
+        {"distributions": [{"distribution": 0.08, "transition": "Retreatment MDR Onset"},
+                           {"distribution": 0.92, "transition": "Retreatment Regimen"}]}]}
     states["Retreatment MDR Onset"] = {"type": "ConditionOnset", "codes": [code("rr_tb")], "assign_to_attribute": "tb_mdr_condition",
                                        "target_encounter": "Return To Care", "direct_transition": "MDR Regimen Start"}
     states["Retreatment Regimen"] = {"type": "Simple", "direct_transition": "Intensive Phase Start"}
@@ -356,7 +365,8 @@ def build():
     states["Clear MDR"] = {"type": "Simple", "conditional_transition": [
         {"transition": "End MDR Condition", "condition": {"condition_type": "Attribute", "attribute": "tb_mdr_condition", "operator": "is not nil"}},
         {"transition": "Set TB History"}]}
-    states["End MDR Condition"] = {"type": "ConditionEnd", "referenced_by_attribute": "tb_mdr_condition", "direct_transition": "Set TB History"}
+    states["End MDR Condition"] = {"type": "ConditionEnd", "referenced_by_attribute": "tb_mdr_condition", "direct_transition": "Clear MDR Attribute"}
+    states["Clear MDR Attribute"] = {"type": "SetAttribute", "attribute": "tb_mdr_condition", "direct_transition": "Set TB History"}
     states["Set TB History"] = {"type": "SetAttribute", "attribute": "tb_history", "value": True, "direct_transition": "End Treatment Visit"}
     states["End Treatment Visit"] = {"type": "EncounterEnd", "direct_transition": "Wait A Year"}
 
@@ -392,12 +402,15 @@ def build():
     states["MDR Lost"] = {"type": "Simple", "direct_transition": "Stop MDR Medications Lost"}
     states["MDR Completion Visit"] = encounter("MDR Completion Sputum", reason="tb_condition")
     states["MDR Completion Sputum"] = sputum_monitoring("Stop MDR Medications", positive=False)
+    # the regimens differ by era, so the drugs are ended by code: ending a medication that
+    # was never prescribed is a no-op in Synthea, ending one by a missing attribute is not
+    mdr_drugs = ["bedaquiline", "pretomanid", "linezolid", "levofloxacin", "ethambutol"]
     for prefix, nxt in (("Stop MDR Medications", "TB Cured"), ("Stop MDR Medications Lost", "Set TB History After Loss")):
-        chain = [f"{prefix} 1", f"{prefix} 2", f"{prefix} 3", f"{prefix} 4"]
+        chain = [f"{prefix} {drug}" for drug in mdr_drugs]
         states[prefix] = {"type": "Simple", "direct_transition": chain[0]}
         for index, name in enumerate(chain):
             target = chain[index + 1] if index + 1 < len(chain) else nxt
-            states[name] = {"type": "MedicationEnd", "referenced_by_attribute": f"tb_mdr_med_{index + 1}", "direct_transition": target}
+            states[name] = {"type": "MedicationEnd", "codes": [code(mdr_drugs[index])], "direct_transition": target}
 
     module = {
         "name": "Tuberculosis",

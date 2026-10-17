@@ -216,7 +216,61 @@
     },
     "End TPT Visit": {
       "type": "EncounterEnd",
-      "direct_transition": "Wait A Year"
+      "direct_transition": "TPT Course"
+    },
+    "TPT Course": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "TPT Three Months",
+          "condition": {
+            "condition_type": "Date",
+            "operator": ">=",
+            "year": 2021
+          }
+        },
+        {
+          "transition": "TPT Twelve Months"
+        }
+      ]
+    },
+    "TPT Three Months": {
+      "type": "Delay",
+      "direct_transition": "End TPT Rifapentine",
+      "exact": {
+        "quantity": 3,
+        "unit": "months"
+      }
+    },
+    "TPT Twelve Months": {
+      "type": "Delay",
+      "direct_transition": "End TPT Rifapentine",
+      "exact": {
+        "quantity": 12,
+        "unit": "months"
+      }
+    },
+    "End TPT Rifapentine": {
+      "type": "MedicationEnd",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "242671",
+          "display": "rifapentine 150 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "End TPT Isoniazid"
+    },
+    "End TPT Isoniazid": {
+      "type": "MedicationEnd",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "197832",
+          "display": "isoniazid 300 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "TB Risk Check"
     },
     "General Risk 2030": {
       "type": "Simple",
@@ -1509,14 +1563,26 @@
     },
     "Retreatment Resistance Check": {
       "type": "Simple",
-      "distributed_transition": [
+      "complex_transition": [
         {
-          "distribution": 0.08,
-          "transition": "Retreatment MDR Onset"
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "tb_mdr_condition",
+            "operator": "is not nil"
+          },
+          "transition": "MDR Regimen Start"
         },
         {
-          "distribution": 0.92,
-          "transition": "Retreatment Regimen"
+          "distributions": [
+            {
+              "distribution": 0.08,
+              "transition": "Retreatment MDR Onset"
+            },
+            {
+              "distribution": 0.92,
+              "transition": "Retreatment Regimen"
+            }
+          ]
         }
       ]
     },
@@ -1648,6 +1714,11 @@
     "End MDR Condition": {
       "type": "ConditionEnd",
       "referenced_by_attribute": "tb_mdr_condition",
+      "direct_transition": "Clear MDR Attribute"
+    },
+    "Clear MDR Attribute": {
+      "type": "SetAttribute",
+      "attribute": "tb_mdr_condition",
       "direct_transition": "Set TB History"
     },
     "Set TB History": {
@@ -2035,50 +2106,120 @@
     },
     "Stop MDR Medications": {
       "type": "Simple",
-      "direct_transition": "Stop MDR Medications 1"
+      "direct_transition": "Stop MDR Medications bedaquiline"
     },
-    "Stop MDR Medications 1": {
+    "Stop MDR Medications bedaquiline": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_1",
-      "direct_transition": "Stop MDR Medications 2"
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "1364509",
+          "display": "bedaquiline 100 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications pretomanid"
     },
-    "Stop MDR Medications 2": {
+    "Stop MDR Medications pretomanid": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_2",
-      "direct_transition": "Stop MDR Medications 3"
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "2198370",
+          "display": "pretomanid 200 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications linezolid"
     },
-    "Stop MDR Medications 3": {
+    "Stop MDR Medications linezolid": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_3",
-      "direct_transition": "Stop MDR Medications 4"
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "311347",
+          "display": "linezolid 600 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications levofloxacin"
     },
-    "Stop MDR Medications 4": {
+    "Stop MDR Medications levofloxacin": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_4",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "199885",
+          "display": "levofloxacin 500 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications ethambutol"
+    },
+    "Stop MDR Medications ethambutol": {
+      "type": "MedicationEnd",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "995607",
+          "display": "ethambutol hydrochloride 400 MG Oral Tablet"
+        }
+      ],
       "direct_transition": "TB Cured"
     },
     "Stop MDR Medications Lost": {
       "type": "Simple",
-      "direct_transition": "Stop MDR Medications Lost 1"
+      "direct_transition": "Stop MDR Medications Lost bedaquiline"
     },
-    "Stop MDR Medications Lost 1": {
+    "Stop MDR Medications Lost bedaquiline": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_1",
-      "direct_transition": "Stop MDR Medications Lost 2"
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "1364509",
+          "display": "bedaquiline 100 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications Lost pretomanid"
     },
-    "Stop MDR Medications Lost 2": {
+    "Stop MDR Medications Lost pretomanid": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_2",
-      "direct_transition": "Stop MDR Medications Lost 3"
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "2198370",
+          "display": "pretomanid 200 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications Lost linezolid"
     },
-    "Stop MDR Medications Lost 3": {
+    "Stop MDR Medications Lost linezolid": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_3",
-      "direct_transition": "Stop MDR Medications Lost 4"
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "311347",
+          "display": "linezolid 600 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications Lost levofloxacin"
     },
-    "Stop MDR Medications Lost 4": {
+    "Stop MDR Medications Lost levofloxacin": {
       "type": "MedicationEnd",
-      "referenced_by_attribute": "tb_mdr_med_4",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "199885",
+          "display": "levofloxacin 500 MG Oral Tablet"
+        }
+      ],
+      "direct_transition": "Stop MDR Medications Lost ethambutol"
+    },
+    "Stop MDR Medications Lost ethambutol": {
+      "type": "MedicationEnd",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "995607",
+          "display": "ethambutol hydrochloride 400 MG Oral Tablet"
+        }
+      ],
       "direct_transition": "Set TB History After Loss"
     }
   }

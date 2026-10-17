@@ -92,7 +92,8 @@
       "code": "118",
       "display": "HPV, bivalent"
     },
-    "remark": "School based programme for girls in grade 4 from 2014 using the bivalent vaccine; Synthea applies schedules to all children so the module gives one dose series around age nine",
+    "remark": "School based programme for girls in grade 4 from 2014 using the bivalent vaccine; the gender key restricts the series to girls",
+    "gender": "F",
     "at_months": [
       108,
       114

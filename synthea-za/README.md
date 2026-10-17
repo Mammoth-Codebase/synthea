@@ -14,7 +14,7 @@ progress realistically.
 
 | Area | How it is modelled |
 | --- | --- |
-| Demographics | Statistics South Africa Census 2022: nine provinces, about 350 towns, suburbs and townships with population, sex, age structure, population group (Black African, Coloured, Indian or Asian, White), household income and education per town. Patients are allocated to provinces in proportion to population. |
+| Demographics | Statistics South Africa Census 2022: nine provinces, about 440 towns, suburbs, townships and rural municipalities with population, sex, age structure, population group (Black African, Coloured, Indian or Asian, White), household income and education per town. Patients are allocated to provinces in proportion to population. |
 | Names | Name pools per home language (isiZulu, isiXhosa, Sepedi, Sesotho, Setswana, Xitsonga, siSwati, Tshivenda, isiNdebele, Afrikaans, English) with separate pools for Indian and Coloured South Africans and for migrant communities (Shona, Portuguese, Chichewa, French). Names contain only letters, spaces and hyphens: no digits or symbols. Clinicians are named the same way. |
 | Languages | First language is drawn per population group and province (Census 2022) and exported as a BCP 47 code (for example `zu`, `xh`, `af`, `en-ZA`). Speakers of migrant languages are born abroad. |
 | Addresses | South African street names, four digit postal codes, province in the address, country `ZA`, coordinates inside the town. |
@@ -38,7 +38,7 @@ summarised in the generator and module files):
 | TB outcomes (drug sensitive) | 83% success, 8% died, 9% lost to follow up; RR-TB 3.5% of new cases | NDoH cohort 2023 |
 | Hypertension, adults 15+ | 46% of women, 44% of men | SADHS 2016 |
 | Diabetes by population group | Black African 8.9%, Coloured 9.9%, White 16%, Indian 32% | SANHANES-1 |
-| Current smoking | 21% daily (men 35%, women 8%) | GATS 2021 |
+| Current smoking | 21% of adults, applied as 35% of men and 8% of women | GATS 2021 |
 | Medical scheme cover | about 15% of the population | Council for Medical Schemes 2023 |
 | Homicide and road deaths | 37-44 and 19 per 100 000 | SAMRC, RTMC |
 
@@ -101,9 +101,12 @@ Post-processing switches: `--no-national-id`, `--national-id-system URI`,
 
 ## Loading into HealthShare
 
-The bundles are FHIR R4 transaction bundles (`POST` entries with `urn:uuid` references), so
-they can be posted to the FHIR server base URL of a HealthShare Unified Care Record or
-HealthShare Health Connect FHIR endpoint. Post the organisation and practitioner bundles
+The bundles are FHIR R4 transaction bundles. Patient bundles use `urn:uuid` references
+internally and conditional `Organization?identifier=...` and `Practitioner?identifier=...`
+references to the facility and practitioner bundles, so those two bundles must be loaded
+first and the server must support conditional references in transactions (HealthShare
+does). They can be posted to the FHIR server base URL of a HealthShare Unified Care Record
+or HealthShare Health Connect FHIR endpoint. Post the organisation and practitioner bundles
 first, then the patients:
 
 ```bash
@@ -111,6 +114,11 @@ synthea-za load ./output/fhir --url https://healthshare.example/csp/healthshare/
     --username superuser --password '...'
 synthea-za load ./output/fhir --url ... --token "$BEARER" --dry-run
 ```
+
+Bundles range from a few hundred kilobytes to tens of megabytes (patients on long term
+dialysis or oncology care carry tens of thousands of resources); raise the server's request
+size limit or time-out if large bundles are rejected, or generate with `--only-alive` and a
+shorter `--years-of-history` for a lighter corpus.
 
 Patients carry a medical record number (`MR`, Synthea's `http://hospital.smarthealthit.org`
 system unless `--mrn-system` is set) and the South African ID number (`NNZAF`, system
@@ -145,8 +153,14 @@ synthea-za build-jar
 The Synthea fork in the parent directory carries small, backwards compatible changes that
 make this possible: name pools per language and population group (`Names.java`), a
 configurable first language distribution and an honoured Coloured population column
-(`Demographics.java`), configurable smoking and alcohol probabilities and no repeated
-middle names (`LifecycleModule.java`). The defaults keep Synthea's US behaviour.
+(`Demographics.java`), configurable smoking and alcohol probabilities (overall or per sex)
+and no repeated middle names (`LifecycleModule.java`), clinicians named from the
+population group of their facility's town (`Provider.java`), rounded `SetAttribute`
+distributions stored as integers (`State.java`), numeric observation values of any type in
+the exporters (`ExportHelper.java`) and an optional `gender` key in the immunisation
+schedule (`Immunizations.java`). The defaults keep Synthea's US behaviour; `git log --
+src/main/java` lists every change. The jar is rebuilt automatically when it is older than
+these sources.
 
 ## Editing the reference data
 

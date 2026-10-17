@@ -84,13 +84,16 @@ def load_directory(fhir_dir: Path, options: LoadOptions) -> Dict[str, int]:
             except urllib.error.HTTPError as exc:
                 detail = exc.read().decode("utf-8", errors="replace")[:500]
                 print(f"{path.name}: HTTP {exc.code} {detail}", file=sys.stderr)
-                if attempt > options.retries:
+                permanent = 400 <= exc.code < 500 and exc.code != 429
+                if permanent or attempt > options.retries:
                     results["failed"] += 1
                     if options.stop_on_error:
                         return results
                     break
                 time.sleep(2 * attempt)
-            except (urllib.error.URLError, TimeoutError) as exc:
+            except (urllib.error.URLError, OSError) as exc:
+                # URLError covers DNS and connection failures; OSError covers timeouts and
+                # connections the server drops mid-request (RemoteDisconnected, reset)
                 print(f"{path.name}: {exc}", file=sys.stderr)
                 if attempt > options.retries:
                     results["failed"] += 1

@@ -35,6 +35,7 @@ EDUCATION_COLUMNS = ["LESS_THAN_HS", "HS_DEGREE", "SOME_COLLEGE", "BS_DEGREE"]
 RACE_COLUMNS = ["WHITE", "BLACK", "ASIAN", "NATIVE", "OTHER"]
 PROVIDER_COLUMNS = ["id", "name", "address", "city", "state", "zip", "phone", "ownership",
                     "emergency", "lat", "lon"]
+REQUIRED_PROVIDER_FILES = {"hospitals.csv", "primary_care.csv", "urgent_care.csv"}
 
 
 @dataclass
@@ -434,14 +435,22 @@ def check_providers_csv(path: Path, result: ValidationResult, ids: Optional[Set[
     if not path.is_file():
         result.error(path.name, "missing")
         return counts
-    rows = _read_csv(path)
-    header = list(rows[0].keys()) if rows else []
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        reader = csv.DictReader(handle)
+        header = list(reader.fieldnames or [])
+        rows = list(reader)
     missing = [c for c in PROVIDER_COLUMNS if c not in header]
     for column in missing:
         result.error(path.name, f"missing column {column}")
     if missing or not rows:
-        if not rows:
-            result.error(path.name, "no rows")
+        if not rows and not missing:
+            if path.name in REQUIRED_PROVIDER_FILES:
+                result.error(path.name, "no rows")
+            else:
+                # optional kinds (e.g. veterans.csv) may be header-only so that Synthea
+                # loads nothing for them
+                result.counts.setdefault("empty_provider_files", 0)
+                result.counts["empty_provider_files"] += 1
         return counts
     for row in rows:
         label = f"{row['name']} ({row['city']})"
@@ -478,9 +487,8 @@ def validate_providers(data_dir: Path, result: ValidationResult,
     if not providers.is_dir():
         result.error("providers", "missing directory")
         return
-    required = {"hospitals.csv", "primary_care.csv", "urgent_care.csv"}
     present = {p.name for p in providers.glob("*.csv")}
-    for name in sorted(required - present):
+    for name in sorted(REQUIRED_PROVIDER_FILES - present):
         result.error(name, "missing provider file")
     ids: Set[str] = set()
     per_kind: Dict[str, Dict[str, int]] = {}
@@ -497,10 +505,10 @@ def validate_payers(data_dir: Path, result: ValidationResult) -> None:
     companies = payers / "insurance_companies.csv"
     plans = payers / "insurance_plans.csv"
     eligibilities = payers / "insurance_eligibilities.csv"
-    for path in (companies, plans, eligibilities):
-        if not path.is_file():
-            result.error(path.name, "missing")
-    if not result.ok:
+    missing = [path for path in (companies, plans, eligibilities) if not path.is_file()]
+    for path in missing:
+        result.error(path.name, "missing")
+    if missing:
         return
     company_rows = _read_csv(companies)
     company_ids = set()

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import sys
 import time
@@ -18,7 +19,7 @@ from synthea_za.overlay import build_overlay
 from synthea_za.postprocess import PostProcessOptions as _PPO  # noqa: F401  (re-export for tests)
 from synthea_za.postprocess import copy_other_outputs, process_directory
 from synthea_za.report import render_markdown, summarise
-from synthea_za.runner import RunnerError, ensure_jar, run_all
+from synthea_za.runner import RunnerError, ensure_jar, ensure_java, run_all
 from synthea_za.validate import PART_KINDS, validate_data_dir, validate_part
 
 
@@ -63,11 +64,16 @@ def _postprocess_options(args: argparse.Namespace) -> PostProcessOptions:
     )
 
 
+def _key_value(item: str) -> str:
+    """argparse type for KEY=VALUE arguments."""
+    if "=" not in item or not item.split("=", 1)[0].strip():
+        raise argparse.ArgumentTypeError(f"expected KEY=VALUE, got '{item}'")
+    return item
+
+
 def _parse_properties(values: Optional[List[str]]) -> dict:
     properties = {}
     for item in values or []:
-        if "=" not in item:
-            raise argparse.ArgumentTypeError(f"--property expects key=value, got '{item}'")
         key, value = item.split("=", 1)
         properties[key.strip()] = value.strip()
     return properties
@@ -98,14 +104,15 @@ def build_parser() -> argparse.ArgumentParser:
     gen.add_argument("--keep-old-deaths", action="store_true",
                      help="also export patients who died before the history window (they have almost no records)")
     gen.add_argument("--jar", type=Path, default=DEFAULT_JAR, help="path to synthea-with-dependencies.jar")
-    gen.add_argument("--java", default="java", help="java executable (default: java on PATH)")
+    gen.add_argument("--java", default=os.environ.get("JAVA", "java"),
+                     help="java executable (default: $JAVA or java on PATH)")
     gen.add_argument("--java-opt", action="append", default=[], help="extra JVM option, e.g. -Xmx8g (repeatable)")
     gen.add_argument("--no-build", action="store_true", help="fail instead of building the jar when it is missing")
     gen.add_argument("--jobs", type=int, default=1, help="number of provinces to simulate concurrently")
     gen.add_argument("--keep-raw", action="store_true", help="keep Synthea's unprocessed output under <output>/.work")
     gen.add_argument("--clinical-notes", action="store_true", help="also export clinical notes (DocumentReference)")
     gen.add_argument("--csv", action="store_true", help="also export Synthea CSV tables")
-    gen.add_argument("--property", action="append", default=[], metavar="KEY=VALUE",
+    gen.add_argument("--property", action="append", default=[], metavar="KEY=VALUE", type=_key_value,
                      help="override any synthea.properties setting (repeatable)")
     gen.add_argument("--synthea-arg", action="append", default=[], help="extra argument passed to Synthea verbatim")
     gen.add_argument("--no-report", action="store_true", help="skip the corpus summary report")
@@ -113,6 +120,8 @@ def build_parser() -> argparse.ArgumentParser:
 
     build = sub.add_parser("build-jar", help="build the Synthea jar with Gradle")
     build.add_argument("--jar", type=Path, default=DEFAULT_JAR)
+    build.add_argument("--java", default=os.environ.get("JAVA", "java"),
+                       help="java executable used for the build (default: $JAVA or java on PATH)")
 
     val = sub.add_parser("validate-data", help="validate the South African reference data")
     val.add_argument("--data-dir", type=Path, default=DATA_DIR)
@@ -139,7 +148,7 @@ def build_parser() -> argparse.ArgumentParser:
     load.add_argument("--username", default=None)
     load.add_argument("--password", default=None)
     load.add_argument("--token", default=None, help="bearer token")
-    load.add_argument("--header", action="append", default=[], metavar="NAME=VALUE")
+    load.add_argument("--header", action="append", default=[], metavar="NAME=VALUE", type=_key_value)
     load.add_argument("--timeout", type=int, default=300)
     load.add_argument("--retries", type=int, default=2)
     load.add_argument("--dry-run", action="store_true")
@@ -152,9 +161,12 @@ def build_parser() -> argparse.ArgumentParser:
 def command_generate(args: argparse.Namespace) -> int:
     provinces = list(PROVINCES)
     if args.province:
-        provinces = [find_province(p) for p in args.province]
+        provinces = list(dict.fromkeys(find_province(p) for p in args.province))
     if args.city and len(provinces) != 1:
         print("--city requires exactly one --province", file=sys.stderr)
+        return 2
+    if args.patients < 1:
+        print("--patients must be at least 1", file=sys.stderr)
         return 2
     output = Path(args.output).resolve()
     config = GenerationConfig(
@@ -183,6 +195,7 @@ def command_generate(args: argparse.Namespace) -> int:
     )
     started = time.time()
     try:
+        ensure_java(config.java)
         jar = ensure_jar(config)
     except RunnerError as exc:
         print(f"error: {exc}", file=sys.stderr)
@@ -200,6 +213,10 @@ def command_generate(args: argparse.Namespace) -> int:
     if fhir_out.exists():
         shutil.rmtree(fhir_out)
     fhir_out.mkdir()
+    for stale in ("csv", "metadata", "notes"):
+        shutil.rmtree(output / stale, ignore_errors=True)
+    for stale_file in ("summary.json", "summary.md", "manifest.json"):
+        (output / stale_file).unlink(missing_ok=True)
     overlay = build_overlay(config)
     try:
         results = run_all(config, overlay, jar)
@@ -210,9 +227,9 @@ def command_generate(args: argparse.Namespace) -> int:
     used_ids = set()
     stats = None
     deceased_cutoff = None
+    reference = (date(int(args.reference_date[:4]), int(args.reference_date[4:6]), int(args.reference_date[6:8]))
+                 if args.reference_date else date.today())
     if not args.keep_old_deaths:
-        reference = (date(int(args.reference_date[:4]), int(args.reference_date[4:6]), int(args.reference_date[6:8]))
-                     if args.reference_date else date.today())
         try:
             deceased_cutoff = reference.replace(year=reference.year - config.years_of_history)
         except ValueError:  # 29 February
@@ -242,7 +259,7 @@ def command_generate(args: argparse.Namespace) -> int:
     (output / "manifest.json").write_text(json.dumps(manifest, indent=2), encoding="utf-8")
 
     if not args.no_report and stats is not None and stats.patients:
-        summary = summarise(fhir_out)
+        summary = summarise(fhir_out, reference=reference)
         (output / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
         (output / "summary.md").write_text(render_markdown(summary), encoding="utf-8")
 
@@ -263,9 +280,10 @@ def command_generate(args: argparse.Namespace) -> int:
 
 
 def command_build(args: argparse.Namespace) -> int:
-    config = GenerationConfig(patients=0, output_dir=Path("."), jar=Path(args.jar), build_if_missing=True)
+    config = GenerationConfig(patients=0, output_dir=Path("."), jar=Path(args.jar), java=args.java,
+                              build_if_missing=True)
     try:
-        jar = ensure_jar(config)
+        jar = ensure_jar(config, force=True)
     except RunnerError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1

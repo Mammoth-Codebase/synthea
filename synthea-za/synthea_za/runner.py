@@ -14,7 +14,7 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 
-from synthea_za.config import SYNTHEA_ROOT, GenerationConfig, Province, allocate_patients
+from synthea_za.config import DEFAULT_JAR, SYNTHEA_ROOT, GenerationConfig, Province, allocate_patients
 from synthea_za.overlay import OverlayPaths
 
 # Built in Synthea modules that only make sense for the United States.
@@ -57,23 +57,54 @@ def ensure_java(java: str) -> str:
     return resolved
 
 
-def ensure_jar(config: GenerationConfig) -> Path:
-    """Return the path to the Synthea fat jar, building it with Gradle when missing."""
+def jar_is_stale(jar: Path, sources: Path = SYNTHEA_ROOT / "src" / "main") -> bool:
+    """True when any Synthea source or resource file is newer than the built jar."""
+    if not jar.is_file() or not sources.is_dir():
+        return False
+    built = jar.stat().st_mtime
+    for path in sources.rglob("*"):
+        if path.is_file() and path.stat().st_mtime > built:
+            return True
+    return False
+
+
+def ensure_jar(config: GenerationConfig, force: bool = False) -> Path:
+    """Return the path to the Synthea fat jar, building it with Gradle when missing.
+
+    The default jar (built from the fork in the parent directory) is rebuilt when it is
+    older than the Synthea sources, so changes to the fork are never silently ignored.
+    A jar passed explicitly with ``--jar`` is used as it is.
+    """
     jar = Path(config.jar)
-    if jar.is_file():
-        return jar
-    if not config.build_if_missing:
-        raise RunnerError(f"Synthea jar not found at {jar}. Run 'synthea-za build-jar' first.")
+    is_default = jar.resolve() == DEFAULT_JAR.resolve()
+    if jar.is_file() and not force:
+        if not (is_default and config.build_if_missing and jar_is_stale(jar)):
+            return jar
+        _log(f"Synthea jar at {jar} is older than the Synthea sources; rebuilding it")
+    elif not jar.is_file():
+        if not config.build_if_missing:
+            raise RunnerError(f"Synthea jar not found at {jar}. Run 'synthea-za build-jar' first.")
+        if not is_default:
+            raise RunnerError(f"Synthea jar not found at {jar}. Pass an existing jar, or omit "
+                              f"--jar to build {DEFAULT_JAR} with Gradle.")
+    elif not is_default:
+        raise RunnerError(f"Only the default jar {DEFAULT_JAR} can be built; {jar} was given.")
     gradlew = SYNTHEA_ROOT / ("gradlew.bat" if platform.system() == "Windows" else "gradlew")
     if not gradlew.exists():
         raise RunnerError(
             f"Synthea jar not found at {jar} and no Gradle wrapper at {gradlew}. "
             "Pass --jar to an existing synthea-with-dependencies.jar.")
-    _log(f"Synthea jar not found at {jar}; building it with {gradlew.name} uberJar "
-         "(first build downloads dependencies and can take several minutes)")
+    if not jar.is_file():
+        _log(f"Synthea jar not found at {jar}; building it with {gradlew.name} uberJar "
+             "(first build downloads dependencies and can take several minutes)")
     command = [str(gradlew), "uberJar", "-x", "test", "-x", "checkstyleMain",
                "-x", "checkstyleTest", "--no-daemon"]
-    completed = subprocess.run(command, cwd=str(SYNTHEA_ROOT))
+    env = dict(os.environ)
+    java = Path(ensure_java(config.java)).resolve()
+    if java.parent.name == "bin":
+        # let the Gradle wrapper find the same JDK that will run Synthea
+        env.setdefault("JAVA_HOME", str(java.parent.parent))
+    completed = subprocess.run(command, cwd=str(SYNTHEA_ROOT), env=env)
     if completed.returncode != 0 or not jar.is_file():
         raise RunnerError("Gradle build failed; see the output above.")
     return jar
@@ -111,8 +142,9 @@ def build_command(config: GenerationConfig, overlay: OverlayPaths, jar: Path,
     if modules:
         command += ["-m", os.pathsep.join(modules)]
     if config.reference_date:
-        command += ["-r", config.reference_date]
-    if config.end_date:
+        # -r only moves the age reference; -e ends the simulation and the export window
+        command += ["-r", config.reference_date, "-e", config.end_date or config.reference_date]
+    elif config.end_date:
         command += ["-e", config.end_date]
     if config.age_range:
         command += ["-a", config.age_range]
@@ -157,6 +189,10 @@ def run_province(config: GenerationConfig, overlay: OverlayPaths, jar: Path,
                 _log(f"[{province.name}] {text}")
         return_code = process.wait()
     seconds = time.time() - started
+    if return_code == 0 and not any(line.startswith("Records:") for line in summary):
+        # Synthea exits 0 after an argument or configuration error without generating anything
+        return_code = 1
+        summary.append("Synthea produced no records (argument or configuration error)")
     if return_code != 0:
         _log(f"[{province.name}] Synthea exited with code {return_code}; see {log_file}")
     else:

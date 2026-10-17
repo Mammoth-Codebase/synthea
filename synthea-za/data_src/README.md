@@ -23,7 +23,11 @@ letters, spaces and hyphens: no digits, apostrophes or other symbols.
 
 Per province (code GP, KZN, WC, EC, LP, MP, NW, FS, NC):
 
-* `<CODE>_demographics.csv`: Synthea demographics columns, one row per town.
+* `<CODE>_demographics.csv`: Synthea demographics columns, one row per town. `POPESTIMATE2015`
+  only weights where patients live, so rural local municipalities are listed under their main
+  town with the municipal population; the population weighted group shares of each province
+  should stay close to Census 2022 (checked for KwaZulu-Natal, where the suburb sample alone
+  over-represented the Indian and White population groups).
 * `<CODE>_zipcodes.csv`: `,USPS,ST,NAME,ZCTA5,LAT,LON` with four digit postal codes.
 * `<CODE>_sdoh.csv`: social determinants per district or metro.
 
