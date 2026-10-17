@@ -47,8 +47,9 @@ public abstract class ExportHelper {
     } else if (observation.value instanceof String) {
       value = (String)observation.value;
     } else if (observation.value instanceof Number) {
-      // round to 1 decimal place for display
-      value = String.format(Locale.US, "%.1f", observation.value);
+      // round to 1 decimal place for display; integers (e.g. rounded distributions such as
+      // CD4 counts) are formatted the same way as doubles
+      value = String.format(Locale.US, "%.1f", ((Number) observation.value).doubleValue());
     } else if (observation.value instanceof SampledData) {
       value = sampledDataToValueString((SampledData) observation.value);
     } else if (observation.value instanceof Attachment) {
