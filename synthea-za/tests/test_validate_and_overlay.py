@@ -56,3 +56,15 @@ def test_overlay_contains_required_resources(tmp_path):
     assert "exporter.fhir.use_us_core_ig = false" in text
     if overlay.module_overrides_file:
         assert "module_override = " in text
+
+
+def test_module_overrides_keys_are_escaped_for_java_properties():
+    """Java's Properties parser splits keys at unescaped colons and spaces."""
+    text = (DATA_DIR / "module_overrides.properties").read_text()
+    keys = [line.split(" = ")[0] for line in text.splitlines()
+            if line.strip() and not line.strip().startswith("#")]
+    assert keys, "no overrides defined"
+    for key in keys:
+        assert "\\:\\:" in key, key
+        unescaped = key.replace("\\:", "").replace("\\ ", "").replace("\\=", "")
+        assert ":" not in unescaped and " " not in unescaped, key
