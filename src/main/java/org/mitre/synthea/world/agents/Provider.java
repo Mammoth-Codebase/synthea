@@ -696,6 +696,8 @@ public class Provider implements QuadTreeElement, Serializable {
 
       String race = cityDemographics.pickRace(random);
       out.put(Person.RACE, race);
+      // the name generator consults the race of the person it is naming
+      doc.attributes.put(Person.RACE, race);
       String ethnicity = cityDemographics.pickEthnicity(random);
       out.put(Person.ETHNICITY, ethnicity);
       String language = cityDemographics.languageFromRaceAndEthnicity(race, ethnicity,

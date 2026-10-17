@@ -2,6 +2,7 @@ package org.mitre.synthea.world.geography;
 
 import com.google.common.collect.HashBasedTable;
 import com.google.common.collect.Table;
+import com.google.gson.Gson;
 
 import java.io.IOException;
 import java.io.Serializable;
@@ -65,6 +66,137 @@ public class Demographics implements Comparable<Demographics>, Serializable {
   public Map<String, Double> education;
   /** Eduction distribution for the population */
   private RandomCollection<String> educationDistribution;
+
+  /** Config key naming an optional JSON file of language distributions by race. */
+  public static final String LANGUAGES_FILE_CONFIG =
+      "generate.demographics.languages.default_file";
+
+  /**
+   * Config key: when true, the OTHER race column of the demographics CSV is used exactly as
+   * provided instead of being derived from the remainder of the other race columns.
+   */
+  public static final String HONOR_OTHER_RACE_CONFIG =
+      "generate.demographics.honor_other_race_column";
+
+  /**
+   * Optional language distributions by race, loaded from the file named by
+   * {@link #LANGUAGES_FILE_CONFIG}. The outer key is the lower case state name or "default",
+   * the inner key is the lower case race (or "hispanic") and the value holds the weighted
+   * language choices. Null when no file is configured, in which case the built in
+   * US distributions are used.
+   */
+  private static Map<String, Map<String, RandomCollection<String>>> languageDistributions =
+      loadLanguageDistributions();
+
+  private static Map<String, Map<String, RandomCollection<String>>> loadLanguageDistributions() {
+    String filename = Config.get(LANGUAGES_FILE_CONFIG);
+    if (filename == null || filename.trim().isEmpty()) {
+      return null;
+    }
+    try {
+      String json = Utilities.readResourceOrPath(filename.trim());
+      return parseLanguageDistributions(json);
+    } catch (Exception e) {
+      System.err.println("ERROR: unable to load language distributions: " + filename);
+      e.printStackTrace();
+      return null;
+    }
+  }
+
+  /**
+   * Replace the language distributions with the ones defined in the given JSON, or revert to
+   * the configured file when the JSON is null. Intended for unit tests and programmatic callers.
+   * @param json JSON content in the same structure as a languages file, or null to reset
+   */
+  public static void useLanguageDistributions(String json) {
+    if (json == null) {
+      languageDistributions = loadLanguageDistributions();
+    } else {
+      languageDistributions = parseLanguageDistributions(json);
+    }
+  }
+
+  /**
+   * Parse a language distribution file. The format is
+   * <pre>
+   * {
+   *   "default": { "black": { "zulu": 0.3, "xhosa": 0.2 }, "white": { "english": 1.0 } },
+   *   "by_state": { "KwaZulu-Natal": { "black": { "zulu": 0.9, "xhosa": 0.1 } } }
+   * }
+   * </pre>
+   * Race keys may also be placed at the top level instead of under "default". The key
+   * "hispanic" is consulted for people of Hispanic ethnicity before their race key.
+   * @param json the JSON content
+   * @return map of lower case state name (or "default") to race to language distribution
+   */
+  @SuppressWarnings("unchecked")
+  static Map<String, Map<String, RandomCollection<String>>> parseLanguageDistributions(
+      String json) {
+    Map<String, Object> raw = new Gson().fromJson(json, Map.class);
+    Map<String, Map<String, RandomCollection<String>>> result = new HashMap<>();
+    Map<String, Object> defaults = new HashMap<>();
+    for (Map.Entry<String, Object> entry : raw.entrySet()) {
+      if ("by_state".equals(entry.getKey())) {
+        Map<String, Object> states = (Map<String, Object>) entry.getValue();
+        for (Map.Entry<String, Object> state : states.entrySet()) {
+          result.put(state.getKey().toLowerCase(),
+              parseRaceLanguages((Map<String, Object>) state.getValue()));
+        }
+      } else if ("default".equals(entry.getKey())) {
+        defaults.putAll((Map<String, Object>) entry.getValue());
+      } else {
+        defaults.put(entry.getKey(), entry.getValue());
+      }
+    }
+    result.put("default", parseRaceLanguages(defaults));
+    return result;
+  }
+
+  @SuppressWarnings("unchecked")
+  private static Map<String, RandomCollection<String>> parseRaceLanguages(
+      Map<String, Object> raw) {
+    Map<String, RandomCollection<String>> result = new HashMap<>();
+    for (Map.Entry<String, Object> race : raw.entrySet()) {
+      Map<String, Object> languages = (Map<String, Object>) race.getValue();
+      RandomCollection<String> collection = new RandomCollection<>();
+      int added = 0;
+      for (Map.Entry<String, Object> language : languages.entrySet()) {
+        double weight = ((Number) language.getValue()).doubleValue();
+        if (weight > 0) {
+          collection.add(weight, language.getKey().toLowerCase());
+          added++;
+        }
+      }
+      if (added > 0) {
+        result.put(race.getKey().toLowerCase(), collection);
+      }
+    }
+    return result;
+  }
+
+  /**
+   * Find the configured language distribution for this location's state and the given
+   * race (or "hispanic") key.
+   * @param key lower case race or "hispanic"
+   * @return the distribution, or null when none is configured for the key
+   */
+  private RandomCollection<String> configuredLanguages(String key) {
+    if (languageDistributions == null || key == null) {
+      return null;
+    }
+    if (state != null) {
+      Map<String, RandomCollection<String>> byState =
+          languageDistributions.get(state.toLowerCase());
+      if (byState != null && byState.containsKey(key)) {
+        return byState.get(key);
+      }
+    }
+    Map<String, RandomCollection<String>> defaults = languageDistributions.get("default");
+    if (defaults != null) {
+      return defaults.get(key);
+    }
+    return null;
+  }
 
   /**
    * Pick an age based on the population distribution for the city.
@@ -164,6 +296,18 @@ public class Demographics implements Comparable<Demographics>, Serializable {
    */
   public String languageFromRaceAndEthnicity(String race, String ethnicity,
       RandomNumberGenerator random) {
+    // A configured language file (see LANGUAGES_FILE_CONFIG) takes precedence over the
+    // built in US distributions below.
+    RandomCollection<String> configured = null;
+    if ("hispanic".equals(ethnicity)) {
+      configured = configuredLanguages("hispanic");
+    }
+    if (configured == null && race != null) {
+      configured = configuredLanguages(race.toLowerCase());
+    }
+    if (configured != null) {
+      return configured.next(random);
+    }
     if (ethnicity.equals("hispanic")) {
       RandomCollection<String> hispanicLanguageUsage = new RandomCollection<>();
       // https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_5YR_B16006&prodType=table
@@ -509,7 +653,16 @@ public class Demographics implements Comparable<Demographics>, Serializable {
       d.race.put(race.toLowerCase(), percentage);
       percentageTotal += percentage;
     }
-    if (percentageTotal < 1.0) {
+    if (Config.getAsBoolean(HONOR_OTHER_RACE_CONFIG, false)) {
+      // The OTHER column is a real population group in this dataset: keep it as provided and
+      // assign any rounding remainder to it rather than inventing a "hawaiian" share.
+      double other = d.race.get("other");
+      if (percentageTotal < 1.0) {
+        other += (1.0 - percentageTotal);
+      }
+      d.race.put("hawaiian", 0.0);
+      d.race.put("other", other);
+    } else if (percentageTotal < 1.0) {
       // Account for Hawaiian and Pacific Islanders
       // and mixed race responses, and responses
       // that chose not to answer the race question.

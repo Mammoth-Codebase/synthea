@@ -161,6 +161,10 @@ public final class LifecycleModule extends Module {
       String middleName = null;
       if (person.rand() <= MIDDLE_NAME_PROBABILITY) {
         middleName = Names.fakeFirstName(gender, language, person);
+        if (middleName.equals(firstName)) {
+          // avoid "Priya Priya" when a small name pool repeats the first name
+          middleName = Names.fakeFirstName(gender, language, person);
+        }
         attributes.put(Person.MIDDLE_NAME, middleName);
       }
       attributes.put(Person.LAST_NAME, lastName);
