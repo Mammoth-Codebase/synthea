@@ -1,0 +1,11 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-UC-001,Kimberley Day Hospital,10 Long Street,Kimberley,Northern Cape,8301,053 831 2500,Private,Yes,-28.7332,24.7599
+NC-UC-002,Diamond Fields Emergency Centre,65 Du Toitspan Road,Kimberley,Northern Cape,8301,053 832 4100,Private,Yes,-28.7322,24.7609
+NC-UC-003,Galeshewe Emergency Centre,5 Seochoareng Street,Galeshewe,Northern Cape,8345,053 830 2200,Government,Yes,-28.7050,24.7360
+NC-UC-004,Upington Day Hospital,21 Le Roux Street,Upington,Northern Cape,8801,054 331 1300,Private,Yes,-28.4600,21.2510
+NC-UC-005,Kalahari Emergency Centre,8 Scott Street,Upington,Northern Cape,8801,054 332 2600,Private,Yes,-28.4540,21.2490
+NC-UC-006,Kathu Emergency Centre,12 Hendrik van Eck Road,Kathu,Northern Cape,8446,053 723 1400,Private,Yes,-27.6930,23.0560
+NC-UC-007,Kuruman Day Hospital,31 Beare Street,Kuruman,Northern Cape,8460,053 712 3300,Private,Yes,-27.4480,23.4370
+NC-UC-008,Springbok Emergency Centre,14 Voortrekker Street,Springbok,Northern Cape,8240,027 718 1200,Private,Yes,-29.6620,17.8830
+NC-UC-009,De Aar Emergency Centre,18 Station Street,De Aar,Northern Cape,7000,053 631 2700,Private,Yes,-30.6460,24.0090
+NC-UC-010,Postmasburg Emergency Centre,6 Main Street,Postmasburg,Northern Cape,8420,053 313 2100,Private,Yes,-28.3270,23.0730

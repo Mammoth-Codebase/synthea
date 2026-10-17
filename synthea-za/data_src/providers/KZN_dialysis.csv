@@ -1,0 +1,7 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-D-001,Durban Renal Unit,Mazisi Kunene Road,Durban Central,KwaZulu-Natal,4001,031 783 2459,Private,No,-29.8491,31.0032
+KZN-D-002,Umhlanga Renal Unit,Umhlanga Rocks Drive,Umhlanga,KwaZulu-Natal,4320,031 662 9311,Private,No,-29.7232,31.0712
+KZN-D-003,Pietermaritzburg Renal Unit,Townbush Road,Pietermaritzburg,KwaZulu-Natal,3201,033 836 1153,Private,No,-29.5862,30.3672
+KZN-D-004,Richards Bay Renal Unit,Krewelkring Road,Richards Bay,KwaZulu-Natal,3900,035 576 6393,Private,No,-28.7742,32.0471
+KZN-D-005,Newcastle Renal Unit,Hospital Street,Newcastle,KwaZulu-Natal,2940,034 351 9905,Private,No,-27.7612,29.9402
+KZN-D-006,Port Shepstone Renal Unit,Marine Drive,Port Shepstone,KwaZulu-Natal,4240,039 208 7126,Private,No,-30.7482,30.4482

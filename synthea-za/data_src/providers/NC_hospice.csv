@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-HO-001,Hospice Kimberley,28 Memorial Road,Kimberley,Northern Cape,8301,053 832 3400,Private,No,-28.7412,24.7339
+NC-HO-002,Upington Hospice,15 Mutual Street,Upington,Northern Cape,8801,054 331 2900,Private,No,-28.4630,21.2530
+NC-HO-003,Kuruman Hospice,9 Seodin Road,Kuruman,Northern Cape,8460,053 712 4500,Private,No,-27.4570,23.4350
+NC-HO-004,Namakwa Hospice,7 Van der Stel Street,Springbok,Northern Cape,8240,027 712 2300,Private,No,-29.6610,17.8900

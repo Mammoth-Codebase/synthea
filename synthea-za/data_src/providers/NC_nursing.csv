@@ -1,0 +1,9 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-N-001,Nazareth House,8 Lawson Street,Kimberley,Northern Cape,8301,053 831 1250,Private,No,-28.7372,24.7569
+NC-N-002,Huis Kiepersol,15 Oliver Road,Kimberley,Northern Cape,8301,053 832 5120,Private,No,-28.7322,24.7679
+NC-N-003,Rusoord Frail Care Centre,3 Carters Glen Road,Kimberley,Northern Cape,8301,053 831 7340,Private,No,-28.7442,24.7699
+NC-N-004,Huis Tuiste Old Age Home,19 Park Street,Upington,Northern Cape,8801,054 332 1810,Private,No,-28.4640,21.2510
+NC-N-005,Huis Spes Bona,11 Friedlander Street,De Aar,Northern Cape,7000,053 631 1460,Private,No,-30.6470,24.0160
+NC-N-006,Huis Namakwaland,5 Keerom Street,Springbok,Northern Cape,8240,027 712 1920,Private,No,-29.6670,17.8880
+NC-N-007,Kuruman Frail Care Centre,22 Church Street,Kuruman,Northern Cape,8460,053 712 2270,Private,No,-27.4490,23.4280
+NC-N-008,Huis Hantam,6 Water Street,Calvinia,Northern Cape,8190,027 341 1480,Private,No,-31.4700,19.7730

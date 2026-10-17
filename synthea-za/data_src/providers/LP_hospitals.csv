@@ -1,0 +1,40 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-H-001,Pietersburg Hospital,1 Hospital Street,Polokwane,Limpopo,0699,015 287 5000,Government,Yes,-23.9010,29.4590
+LP-H-002,Mankweng Hospital,1 Hospital Road,Mankweng,Limpopo,0727,015 286 1000,Government,Yes,-23.8840,29.7310
+LP-H-003,Seshego Hospital,1 Hospital Street,Seshego,Limpopo,0742,015 223 5141,Government,Yes,-23.8490,29.3900
+LP-H-004,Lebowakgomo Hospital,1 Hospital Road,Lebowakgomo,Limpopo,0737,015 633 7900,Government,Yes,-24.2960,29.5580
+LP-H-005,Thabamoopo Hospital,2 Thabamoopo Road,Lebowakgomo,Limpopo,0737,015 632 9000,Government,No,-24.3080,29.5500
+LP-H-006,Helene Franz Hospital,1 Bochum Main Road,Senwabarwana,Limpopo,0790,015 505 0005,Government,Yes,-23.2860,28.9630
+LP-H-007,WF Knobel Hospital,1 Ga-Mashashane Road,Moletjie,Limpopo,0744,015 222 6000,Government,Yes,-23.7430,29.2750
+LP-H-008,Zebediela Hospital,1 Moletlane Road,Zebediela,Limpopo,0620,015 662 0030,Government,Yes,-24.3080,29.3240
+LP-H-009,Pholoso Hospital,1 Burger Street,Polokwane,Limpopo,0699,015 290 2000,Private,Yes,-23.9080,29.4620
+LP-H-010,Thornhill Hospital,20 Thabo Mbeki Street,Polokwane,Limpopo,0700,015 290 3600,Private,Yes,-23.8960,29.4780
+LP-H-011,Tshilidzini Hospital,1 Tshilidzini Road,Shayandima,Limpopo,0945,015 964 1061,Government,Yes,-22.9880,30.4320
+LP-H-012,Donald Fraser Hospital,1 Vhufuli Road,Sibasa,Limpopo,0970,015 963 1778,Government,Yes,-22.9100,30.4600
+LP-H-013,Siloam Hospital,1 Siloam Road,Nzhelele,Limpopo,0993,015 973 0004,Government,Yes,-22.8600,30.1500
+LP-H-014,Elim Hospital,1 Elim Hospital Road,Elim,Limpopo,0960,015 556 3201,Government,Yes,-23.1680,30.0470
+LP-H-015,Louis Trichardt Memorial Hospital,1 Rissik Street,Makhado,Limpopo,0920,015 516 0344,Government,Yes,-23.0470,29.9080
+LP-H-016,Messina Hospital,1 Pat Harrison Road,Musina,Limpopo,0900,015 534 0446,Government,Yes,-22.3420,30.0450
+LP-H-017,Malamulele Hospital,1 Hospital Street,Malamulele,Limpopo,0982,015 851 0026,Government,Yes,-23.0050,30.6910
+LP-H-018,Zoutpansberg Hospital,10 Songozwi Street,Makhado,Limpopo,0920,015 519 0100,Private,Yes,-23.0420,29.9120
+LP-H-019,Thohoyandou Private Hospital,15 Mphephu Drive,Thohoyandou,Limpopo,0950,015 962 5100,Private,Yes,-22.9500,30.4830
+LP-H-020,Letaba Hospital,1 Letaba Hospital Road,Nkowankowa,Limpopo,0870,015 303 8200,Government,Yes,-23.8600,30.2500
+LP-H-021,Van Velden Memorial Hospital,27 Claude Wheatley Street,Tzaneen,Limpopo,0850,015 307 8800,Government,Yes,-23.8320,30.1600
+LP-H-022,Dr CN Phatudi Hospital,1 Lenyenye Main Road,Lenyenye,Limpopo,0857,015 355 8000,Government,Yes,-23.9720,30.2720
+LP-H-023,Kgapane Hospital,1 Kgapane Hospital Road,Ga-Kgapane,Limpopo,0838,015 328 8000,Government,Yes,-23.6380,30.2320
+LP-H-024,Nkhensani Hospital,1 Hospital Road,Giyani,Limpopo,0826,015 811 7300,Government,Yes,-23.3130,30.7160
+LP-H-025,Maphutha Malatji Hospital,1 Namakgale Main Road,Namakgale,Limpopo,1391,015 783 2800,Government,Yes,-23.9540,31.0470
+LP-H-026,Tzaneen Private Hospital,2 Danie Joubert Street,Tzaneen,Limpopo,0850,015 306 0200,Private,Yes,-23.8290,30.1680
+LP-H-027,Phalaborwa Private Hospital,12 Mellor Street,Phalaborwa,Limpopo,1390,015 781 3300,Private,Yes,-23.9450,31.1380
+LP-H-028,St Ritas Hospital,1 Glen Cowie Road,Jane Furse,Limpopo,1085,013 265 2000,Government,Yes,-24.7780,29.8560
+LP-H-029,Jane Furse Hospital,1 Hospital Road,Jane Furse,Limpopo,1085,013 265 1000,Government,Yes,-24.7430,29.8420
+LP-H-030,Philadelphia Hospital,1 Dennilton Main Road,Elandsdoorn,Limpopo,0485,013 983 0117,Government,Yes,-25.2920,29.2350
+LP-H-031,Groblersdal Hospital,1 Van Riebeeck Street,Groblersdal,Limpopo,0470,013 262 3024,Government,Yes,-25.1680,29.3980
+LP-H-032,Dilokong Hospital,1 Driekop Road,Burgersfort,Limpopo,1150,013 214 7100,Government,Yes,-24.6000,30.2100
+LP-H-033,Mokopane Hospital,1 Hospital Street,Mokopane,Limpopo,0600,015 409 2000,Government,Yes,-24.1900,29.0050
+LP-H-034,FH Odendaal Hospital,1 Nelson Mandela Drive,Modimolle,Limpopo,0510,014 718 3200,Government,Yes,-24.7020,28.4060
+LP-H-035,Warmbaths Hospital,1 Chris Hani Drive,Bela-Bela,Limpopo,0480,014 736 2121,Government,Yes,-24.8850,28.2920
+LP-H-036,Thabazimbi Hospital,1 Hospital Street,Thabazimbi,Limpopo,0380,014 777 1530,Government,Yes,-24.5930,27.4120
+LP-H-037,Ellisras Hospital,1 Hospital Street,Lephalale,Limpopo,0555,014 763 2321,Government,Yes,-23.6790,27.7030
+LP-H-038,Mokopane Private Hospital,30 Thabo Mbeki Drive,Mokopane,Limpopo,0601,015 491 5700,Private,Yes,-24.1960,29.0120
+LP-H-039,Lephalale Private Hospital,5 Nelson Mandela Drive,Lephalale,Limpopo,0555,014 763 9000,Private,Yes,-23.6740,27.6980

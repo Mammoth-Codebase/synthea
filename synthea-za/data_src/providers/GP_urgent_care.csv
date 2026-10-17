@@ -1,0 +1,14 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-UC-001,Sandton Day Hospital,10 Stella Street Sandown,Sandton,Gauteng,2196,011 784 3350,Private,Yes,-26.1060,28.0560
+GP-UC-002,Rosebank Emergency Centre,22 Cradock Avenue Rosebank,Johannesburg Central,Gauteng,2193,011 447 2280,Private,Yes,-26.1460,28.0420
+GP-UC-003,Hillbrow Emergency Unit,Cnr Esselen Street and Klein Street Hillbrow,Johannesburg Central,Gauteng,2001,011 720 6710,Government,Yes,-26.1895,28.0460
+GP-UC-004,Fourways Emergency Centre,Cnr Witkoppen Road and Cedar Road Fourways,Randburg,Gauteng,2169,011 465 1180,Private,Yes,-26.0180,28.0100
+GP-UC-005,Soweto Day Hospital,Chris Hani Road Diepkloof,Soweto,Gauteng,1864,011 938 2170,Private,Yes,-26.2520,27.9450
+GP-UC-006,Centurion Day Hospital,1 Embankment Road Zwartkop,Centurion,Gauteng,0157,012 643 2440,Private,Yes,-25.8550,28.1800
+GP-UC-007,Menlyn Day Hospital,Cnr Atterbury Road and Lois Avenue Menlyn,Pretoria Central,Gauteng,0081,012 348 1120,Private,Yes,-25.7830,28.2760
+GP-UC-008,Pretoria North Emergency Centre,140 Burger Street Pretoria North,Pretoria Central,Gauteng,0182,012 546 3350,Private,Yes,-25.6830,28.1730
+GP-UC-009,Benoni Emergency Centre,26 Tom Jones Street Benoni,Benoni,Gauteng,1501,011 421 3340,Private,Yes,-26.1880,28.3200
+GP-UC-010,Kempton Park Day Hospital,45 Pretoria Road Kempton Park,Kempton Park,Gauteng,1619,011 975 1390,Private,Yes,-26.1050,28.2280
+GP-UC-011,Germiston Day Hospital,89 Meyer Street Germiston,Germiston,Gauteng,1401,011 873 2240,Private,Yes,-26.2180,28.1650
+GP-UC-012,Vaal Emergency Centre,33 Frikkie Meyer Boulevard Vanderbijlpark,Vanderbijlpark,Gauteng,1911,016 933 2320,Private,Yes,-26.7120,27.8400
+GP-UC-013,Krugersdorp Day Hospital,10 Luipaard Street Krugersdorp,Krugersdorp,Gauteng,1739,011 953 2230,Private,Yes,-26.1020,27.7700

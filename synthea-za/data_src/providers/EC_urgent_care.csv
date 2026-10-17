@@ -1,0 +1,13 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-UC-001,Greenacres Emergency Centre,Ring Road Greenacres,Gqeberha Central,Eastern Cape,6045,041 271 7611,Private,Yes,-33.9450,25.5680
+EC-UC-002,Newton Park Day Hospital,55 Cape Road Newton Park,Gqeberha Central,Eastern Cape,6045,041 306 3386,Private,Yes,-33.9560,25.5680
+EC-UC-003,Walmer Day Hospital,27 Heugh Road Walmer,Walmer,Eastern Cape,6070,041 703 6676,Private,Yes,-33.9860,25.5900
+EC-UC-004,Motherwell Twenty-Four Hour Centre,Addo Road Motherwell,Motherwell,Eastern Cape,6211,041 410 4582,Government,Yes,-33.7710,25.5760
+EC-UC-005,Kariega Day Hospital,48 Market Street Kariega,Kariega,Eastern Cape,6230,041 866 7818,Private,Yes,-33.7430,25.4320
+EC-UC-006,Vincent Emergency Centre,20 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 740 2947,Private,Yes,-32.9940,27.8880
+EC-UC-007,Quigney Day Hospital,31 Inverleith Terrace Quigney,East London,Eastern Cape,5213,043 515 6309,Private,Yes,-33.0190,27.9180
+EC-UC-008,Mdantsane Twenty-Four Hour Clinic,Mdantsane Access Road Mdantsane,Mdantsane,Eastern Cape,5219,043 477 9380,Government,Yes,-32.9290,27.7650
+EC-UC-009,Mthatha Emergency Centre,52 Nelson Mandela Drive Mthatha,Mthatha,Eastern Cape,5100,047 822 1164,Private,Yes,-31.5890,28.8100
+EC-UC-010,Komani Day Hospital,37 Cathcart Road Komani,Komani,Eastern Cape,5320,045 768 9506,Private,Yes,-31.9320,26.8800
+EC-UC-011,Makhanda Emergency Centre,22 Beaufort Street Makhanda,Makhanda,Eastern Cape,6139,046 474 2341,Private,Yes,-33.3210,26.5000
+EC-UC-012,Jeffreys Bay Day Hospital,14 Da Gama Road Jeffreys Bay,Jeffreys Bay,Eastern Cape,6330,042 856 9287,Private,Yes,-34.0590,24.8990

@@ -24,6 +24,27 @@ progress realistically.
 | Disease burden | HIV calibrated to the South African epidemic (Thembisa/UNAIDS shape: diagnoses at AIDS stage before 2004, the 2010 to 2015 testing surge, women diagnosed younger, falling mortality, continuous ART for most people after 2016) with South African regimens (d4T/3TC/EFV, TDF/3TC/EFV, TEE, TLD); a new tuberculosis module (Xpert MTB/RIF diagnosis, RHZE/RH treatment, HIV co-infection, drug resistant disease, loss to follow up, recurrence, death); hypertension and diabetes prevalence by population group; injury and opioid rates; smoking and alcohol; the EPI-SA immunisation schedule (BCG, OPV, hexavalent, PCV, measles, Td, HPV). |
 | Units | Common chemistry results are converted to SI units (mmol/L, umol/L). |
 
+## Calibration targets
+
+The disease calibration was set against published South African figures (web research
+summarised in the generator and module files):
+
+| Indicator | Target used | Source |
+| --- | --- | --- |
+| HIV prevalence, all ages, 2022 | 12.7% (women 16.4%, men 8.8%; women 35-39 about 34%) | HSRC SABSSM VI |
+| HIV: diagnosed, on ART among diagnosed, 2024 | 95%, 81.5% | Thembisa 4.8 |
+| First line ART by period | d4T/3TC/EFV 2004, TDF/3TC/EFV 2010, TEE 2013, TLD Dec 2019 | National guidelines |
+| TB incidence | about 1 000 per 100 000 in 2008, 427 in 2023; 54% of TB patients HIV positive | WHO Global TB Report |
+| TB outcomes (drug sensitive) | 83% success, 8% died, 9% lost to follow up; RR-TB 3.5% of new cases | NDoH cohort 2023 |
+| Hypertension, adults 15+ | 46% of women, 44% of men | SADHS 2016 |
+| Diabetes by population group | Black African 8.9%, Coloured 9.9%, White 16%, Indian 32% | SANHANES-1 |
+| Current smoking | 21% daily (men 35%, women 8%) | GATS 2021 |
+| Medical scheme cover | about 15% of the population | Council for Medical Schemes 2023 |
+| Homicide and road deaths | 37-44 and 19 per 100 000 | SAMRC, RTMC |
+
+Synthea reproduces these as emergent properties of the simulation, so a generated corpus
+approximates them rather than matching them exactly; `summary.md` reports what was produced.
+
 ## Requirements
 
 * Python 3.9 or newer (no third party packages are required at run time).

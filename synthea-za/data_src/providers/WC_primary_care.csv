@@ -1,0 +1,87 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-P-001,Robbie Nurock Community Day Centre,78 Buitenkant Street,Cape Town Central,Western Cape,8001,021 465 7011,Government,No,-33.9292,18.4232
+WC-P-002,Woodstock Community Health Centre,Mountain Road Woodstock,Cape Town Central,Western Cape,7925,021 442 1800,Government,No,-33.9292,18.4455
+WC-P-003,Cape Town Family Practice,44 Loop Street,Cape Town Central,Western Cape,8001,021 422 2630,Private,No,-33.9205,18.4195
+WC-P-004,Site B Community Health Centre,Ntlazane Road Site B,Khayelitsha,Western Cape,7784,021 361 5700,Government,No,-34.0292,18.6702
+WC-P-005,Michael Mapongwana Community Health Centre,Steve Biko Road Harare,Khayelitsha,Western Cape,7784,021 361 3900,Government,No,-34.0512,18.6912
+WC-P-006,Kuyasa Clinic,Walter Sisulu Drive Kuyasa,Khayelitsha,Western Cape,7784,021 364 1200,Government,No,-34.0462,18.7082
+WC-P-007,Mitchells Plain Community Health Centre,AZ Berman Drive Mitchells Plain,Mitchells Plain,Western Cape,7785,021 392 5161,Government,No,-34.0452,18.6102
+WC-P-008,Lentegeur Community Health Centre,Merrydale Avenue Lentegeur,Mitchells Plain,Western Cape,7785,021 371 7080,Government,No,-34.0302,18.6112
+WC-P-009,Westridge Family Practice,12 Weltevreden Road Westridge,Mitchells Plain,Western Cape,7785,021 391 4455,Private,No,-34.0532,18.6012
+WC-P-010,Gugulethu Community Health Centre,NY3 Gugulethu,Gugulethu,Western Cape,7750,021 637 1280,Government,No,-33.9772,18.5682
+WC-P-011,Vuyani Clinic,NY1 Gugulethu,Gugulethu,Western Cape,7750,021 637 2420,Government,No,-33.9832,18.5642
+WC-P-012,Nyanga Community Health Centre,Sithandathu Avenue Nyanga,Nyanga,Western Cape,7750,021 386 1131,Government,No,-33.9922,18.5872
+WC-P-013,Crossroads Community Health Centre,Lansdowne Road Crossroads,Nyanga,Western Cape,7750,021 386 1511,Government,No,-33.9962,18.5992
+WC-P-014,Langa Clinic,Washington Street Langa,Langa,Western Cape,7455,021 694 1740,Government,No,-33.9452,18.5272
+WC-P-015,Inzame Zabantu Community Health Centre,Govan Mbeki Road Philippi East,Philippi,Western Cape,7785,021 371 2300,Government,No,-34.0012,18.5892
+WC-P-016,Browns Farm Clinic,Stock Road Browns Farm,Philippi,Western Cape,7785,021 371 6300,Government,No,-33.9992,18.5712
+WC-P-017,Dr Abdurahman Community Health Centre,Klipfontein Road Kewtown,Athlone,Western Cape,7764,021 637 1150,Government,No,-33.9602,18.5082
+WC-P-018,Athlone Medical Centre,18 Belgravia Road Athlone,Athlone,Western Cape,7764,021 696 5550,Private,No,-33.9632,18.5002
+WC-P-019,Bellville South Community Day Centre,Kasselsvlei Road Bellville South,Bellville,Western Cape,7530,021 951 5900,Government,No,-33.9172,18.6262
+WC-P-020,Bellville Medical Centre,40 Durban Road Bellville,Bellville,Western Cape,7530,021 948 3310,Private,No,-33.8992,18.6292
+WC-P-021,Parow Community Health Centre,Tallent Street Parow,Parow,Western Cape,7500,021 930 8050,Government,No,-33.9012,18.5912
+WC-P-022,Bishop Lavis Community Health Centre,Lavis Drive Bishop Lavis,Parow,Western Cape,7500,021 934 4260,Government,No,-33.9502,18.5822
+WC-P-023,Elsies River Community Health Centre,Halt Road Elsies River,Goodwood,Western Cape,7460,021 931 8080,Government,No,-33.9302,18.5702
+WC-P-024,Goodwood Family Practice,55 Voortrekker Road Goodwood,Goodwood,Western Cape,7460,021 591 2232,Private,No,-33.9112,18.5512
+WC-P-025,Durbanville Clinic,Oxford Street Durbanville,Durbanville,Western Cape,7550,021 970 3111,Government,No,-33.8322,18.6512
+WC-P-026,Durbanville Medical Centre,22 Wellington Road Durbanville,Durbanville,Western Cape,7550,021 975 1750,Private,No,-33.8292,18.6482
+WC-P-027,Kuils River Clinic,Van Riebeeck Road Kuils River,Kuils River,Western Cape,7580,021 900 1600,Government,No,-33.9212,18.6912
+WC-P-028,Kuils River Family Practice,8 Church Street Kuils River,Kuils River,Western Cape,7580,021 903 2171,Private,No,-33.9232,18.6952
+WC-P-029,Mfuleni Community Health Centre,Mfuleni Main Road Mfuleni,Blue Downs,Western Cape,7100,021 909 1100,Government,No,-34.0032,18.6782
+WC-P-030,Eerste River Clinic,Beverley Street Eerste River,Blue Downs,Western Cape,7100,021 902 2400,Government,No,-33.9982,18.7102
+WC-P-031,Delft Community Health Centre,Delft Main Road Delft,Delft,Western Cape,7100,021 954 2238,Government,No,-33.9702,18.6412
+WC-P-032,Delft South Clinic,Hindle Road Delft South,Delft,Western Cape,7100,021 955 2000,Government,No,-33.9802,18.6462
+WC-P-033,Kraaifontein Community Health Centre,Brighton Road Kraaifontein,Kraaifontein,Western Cape,7570,021 987 0080,Government,No,-33.8512,18.7212
+WC-P-034,Wallacedene Clinic,Ndabeni Street Wallacedene,Kraaifontein,Western Cape,7570,021 987 7920,Government,No,-33.8592,18.7352
+WC-P-035,Brackenfell Clinic,Williams Street Brackenfell,Brackenfell,Western Cape,7560,021 982 4232,Government,No,-33.8762,18.6992
+WC-P-036,Brackenfell Family Practice,15 Paradys Street Brackenfell,Brackenfell,Western Cape,7560,021 981 2770,Private,No,-33.8732,18.7032
+WC-P-037,Macassar Community Day Centre,Musica Avenue Macassar,Somerset West,Western Cape,7130,021 857 2130,Government,No,-34.0702,18.7652
+WC-P-038,Somerset West Medical Centre,48 Main Road Somerset West,Somerset West,Western Cape,7130,021 852 5820,Private,No,-34.0812,18.8452
+WC-P-039,Gustrouw Community Day Centre,Gustrouw Road Strand,Strand,Western Cape,7140,021 845 5680,Government,No,-34.1082,18.8352
+WC-P-040,Strand Family Practice,30 Beach Road Strand,Strand,Western Cape,7140,021 853 2430,Private,No,-34.1122,18.8262
+WC-P-041,Lady Michaelis Community Day Centre,Main Road Plumstead,Wynberg,Western Cape,7800,021 762 2461,Government,No,-34.0142,18.4662
+WC-P-042,Wynberg Medical Centre,10 Church Street Wynberg,Wynberg,Western Cape,7800,021 797 6300,Private,No,-34.0052,18.4702
+WC-P-043,Claremont Family Practice,25 Protea Road Claremont,Claremont,Western Cape,7708,021 671 4420,Private,No,-33.9812,18.4672
+WC-P-044,Rondebosch Family Practice,6 Belmont Road Rondebosch,Rondebosch,Western Cape,7700,021 685 7610,Private,No,-33.9602,18.4712
+WC-P-045,Sea Point Medical Centre,102 Main Road Sea Point,Sea Point,Western Cape,8005,021 434 3120,Private,No,-33.9162,18.3892
+WC-P-046,Dunoon Community Health Centre,Dunoon Main Road Dunoon,Milnerton,Western Cape,7441,021 557 2000,Government,No,-33.8302,18.5342
+WC-P-047,Milnerton Medical Centre,20 Koeberg Road Milnerton,Milnerton,Western Cape,7441,021 551 4650,Private,No,-33.8732,18.5062
+WC-P-048,Table View Clinic,Blaauwberg Road Table View,Table View,Western Cape,7441,021 557 3812,Government,No,-33.8212,18.4922
+WC-P-049,Table View Family Practice,14 Parklands Main Road Table View,Table View,Western Cape,7441,021 556 2270,Private,No,-33.8152,18.4952
+WC-P-050,Saxonsea Clinic,Reygersdal Avenue Saxonsea,Atlantis,Western Cape,7349,021 572 2370,Government,No,-33.5712,18.4882
+WC-P-051,Atlantis Medical Centre,5 Wesfleur Circle Atlantis,Atlantis,Western Cape,7349,021 572 3310,Private,No,-33.5672,18.4842
+WC-P-052,Hout Bay Clinic,Main Road Hout Bay,Hout Bay,Western Cape,7806,021 790 1050,Government,No,-34.0462,18.3562
+WC-P-053,Masiphumelele Clinic,Pokela Road Masiphumelele,Fish Hoek,Western Cape,7975,021 785 3101,Government,No,-34.1282,18.3722
+WC-P-054,Fish Hoek Medical Centre,62 Main Road Fish Hoek,Fish Hoek,Western Cape,7975,021 782 2210,Private,No,-34.1372,18.4312
+WC-P-055,Kayamandi Clinic,Masitandane Road Kayamandi,Stellenbosch,Western Cape,7600,021 889 5340,Government,No,-33.9212,18.8472
+WC-P-056,Cloetesville Community Day Centre,Long Street Cloetesville,Stellenbosch,Western Cape,7600,021 889 5450,Government,No,-33.9152,18.8562
+WC-P-057,Stellenbosch Medical Centre,12 Bird Street Stellenbosch,Stellenbosch,Western Cape,7600,021 887 0330,Private,No,-33.9342,18.8632
+WC-P-058,TC Newman Community Day Centre,Van der Stel Street Paarl,Paarl,Western Cape,7646,021 862 4220,Government,No,-33.7312,18.9602
+WC-P-059,Mbekweni Clinic,Nelson Mandela Avenue Mbekweni,Paarl,Western Cape,7646,021 868 2030,Government,No,-33.6952,18.9792
+WC-P-060,Paarl Medical Centre,36 Lady Grey Street Paarl,Paarl,Western Cape,7646,021 872 3380,Private,No,-33.7322,18.9632
+WC-P-061,Wellington Community Day Centre,Church Street Wellington,Wellington,Western Cape,7655,021 864 1230,Government,No,-33.6412,19.0112
+WC-P-062,Worcester Community Day Centre,Durban Street Worcester,Worcester,Western Cape,6850,023 348 4300,Government,No,-33.6462,19.4462
+WC-P-063,Avian Park Clinic,Kingfisher Street Avian Park,Worcester,Western Cape,6850,023 347 5160,Government,No,-33.6302,19.4302
+WC-P-064,Worcester Medical Centre,50 Church Street Worcester,Worcester,Western Cape,6850,023 342 2140,Private,No,-33.6442,19.4492
+WC-P-065,Malmesbury Clinic,Piet Retief Street Malmesbury,Malmesbury,Western Cape,7300,022 482 2630,Government,No,-33.4612,18.7312
+WC-P-066,Vredenburg Clinic,Main Road Vredenburg,Vredenburg,Western Cape,7380,022 713 1170,Government,No,-32.9062,17.9902
+WC-P-067,Louwville Clinic,Lukin Road Louwville,Vredenburg,Western Cape,7380,022 713 3180,Government,No,-32.9122,17.9862
+WC-P-068,Saldanha Clinic,Main Street Saldanha,Saldanha,Western Cape,7395,022 714 1340,Government,No,-33.0122,17.9452
+WC-P-069,Zwelihle Clinic,Swartdam Road Zwelihle,Hermanus,Western Cape,7200,028 313 8081,Government,No,-34.4262,19.2132
+WC-P-070,Hermanus Medical Centre,7 Main Road Hermanus,Hermanus,Western Cape,7200,028 312 2500,Private,No,-34.4192,19.2352
+WC-P-071,Caledon Clinic,Hospital Street Caledon,Caledon,Western Cape,7230,028 212 1340,Government,No,-34.2322,19.4272
+WC-P-072,Grabouw Community Health Centre,Main Road Grabouw,Grabouw,Western Cape,7160,021 859 2580,Government,No,-34.1512,19.0182
+WC-P-073,Railton Clinic,Buitekant Street Railton,Swellendam,Western Cape,6740,028 514 2700,Government,No,-34.0252,20.4352
+WC-P-074,Thembalethu Community Day Centre,Ngcakani Street Thembalethu,George,Western Cape,6529,044 801 9150,Government,No,-33.9982,22.4812
+WC-P-075,Pacaltsdorp Clinic,Mission Street Pacaltsdorp,George,Western Cape,6529,044 803 9240,Government,No,-34.0032,22.4442
+WC-P-076,George Medical Centre,90 York Street George,George,Western Cape,6530,044 874 4360,Private,No,-33.9612,22.4602
+WC-P-077,Knysna Town Clinic,Clyde Street Knysna,Knysna,Western Cape,6571,044 302 6500,Government,No,-34.0352,23.0462
+WC-P-078,Knysna Medical Centre,16 Main Road Knysna,Knysna,Western Cape,6571,044 382 5140,Private,No,-34.0382,23.0502
+WC-P-079,Kwanokuthula Community Day Centre,Kwanokuthula Main Road Kwanokuthula,Plettenberg Bay,Western Cape,6600,044 501 1600,Government,No,-34.0362,23.3302
+WC-P-080,Plettenberg Bay Medical Centre,9 Marine Drive Plettenberg Bay,Plettenberg Bay,Western Cape,6600,044 533 2080,Private,No,-34.0542,23.3742
+WC-P-081,Alma Community Day Centre,Alhof Drive Mossel Bay,Mossel Bay,Western Cape,6506,044 604 6300,Government,No,-34.1762,22.1312
+WC-P-082,Kwanonqaba Clinic,Mayixhale Street Kwanonqaba,Mossel Bay,Western Cape,6506,044 695 2100,Government,No,-34.1652,22.1182
+WC-P-083,Mossel Bay Medical Centre,28 Marsh Street Mossel Bay,Mossel Bay,Western Cape,6506,044 691 1120,Private,No,-34.1822,22.1472
+WC-P-084,Bridgton Clinic,Aster Street Bridgton,Oudtshoorn,Western Cape,6625,044 203 7500,Government,No,-33.5812,22.2072
+WC-P-085,Oudtshoorn Medical Centre,44 Baron van Reede Street Oudtshoorn,Oudtshoorn,Western Cape,6625,044 272 3350,Private,No,-33.5892,22.2022
+WC-P-086,Beaufort West Clinic,Bird Street Beaufort West,Beaufort West,Western Cape,6970,023 414 2050,Government,No,-32.3582,22.5842

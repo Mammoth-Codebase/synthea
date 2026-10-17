@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-DI-001,Parktown Renal Unit,24 Oxford Road Parktown,Johannesburg Central,Gauteng,2193,011 484 3340,Private,No,-26.1780,28.0400
+GP-DI-002,Soweto Renal Unit,Koma Road Jabulani,Soweto,Gauteng,1868,011 936 5570,Private,No,-26.2470,27.8660
+GP-DI-003,Pretoria Renal Unit,560 Pretorius Street Arcadia,Pretoria Central,Gauteng,0083,012 440 2230,Private,No,-25.7470,28.2200
+GP-DI-004,Centurion Dialysis Centre,265 West Avenue Centurion,Centurion,Gauteng,0157,012 663 1140,Private,No,-25.8570,28.1880
+GP-DI-005,Benoni Renal Unit,55 Elston Avenue Benoni,Benoni,Gauteng,1501,011 422 4480,Private,No,-26.1870,28.3180
+GP-DI-006,Vaal Renal Unit,12 Joubert Street Vereeniging,Vereeniging,Gauteng,1939,016 421 1150,Private,No,-26.6740,27.9270
+GP-DI-007,Krugersdorp Dialysis Centre,23 Ockerse Street Krugersdorp,Krugersdorp,Gauteng,1739,011 665 1270,Private,No,-26.0990,27.7690

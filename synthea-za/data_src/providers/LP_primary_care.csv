@@ -1,0 +1,66 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-PC-001,Westenburg Clinic,12 Mirage Street,Polokwane,Limpopo,0699,015 293 1050,Government,No,-23.9180,29.4320
+LP-PC-002,Nirvana Clinic,25 Lotus Street,Polokwane,Limpopo,0699,015 293 1142,Government,No,-23.9120,29.4330
+LP-PC-003,Polokwane Medical Centre,61 Biccard Street,Polokwane,Limpopo,0699,015 291 3380,Private,No,-23.9040,29.4650
+LP-PC-004,Seshego Clinic,1 Chris Hani Street,Seshego,Limpopo,0742,015 223 7730,Government,No,-23.8440,29.3860
+LP-PC-005,Seshego Medical Centre,40 Nelson Mandela Drive,Seshego,Limpopo,0742,015 223 4461,Private,No,-23.8500,29.3920
+LP-PC-006,Mankweng Clinic,1 Mankweng Main Road,Mankweng,Limpopo,0727,015 267 0266,Government,No,-23.8850,29.7250
+LP-PC-007,Turfloop Medical Centre,8 University Road,Mankweng,Limpopo,0727,015 268 2150,Private,No,-23.8900,29.7320
+LP-PC-008,Lebowakgomo Clinic,1 Zone A Main Road,Lebowakgomo,Limpopo,0737,015 633 6210,Government,No,-24.3020,29.5620
+LP-PC-009,Lebowakgomo Medical Centre,5 Zone B Mall Road,Lebowakgomo,Limpopo,0737,015 633 4785,Private,No,-24.2980,29.5650
+LP-PC-010,Moletjie Clinic,1 Moshate Road,Moletjie,Limpopo,0744,015 222 1030,Government,No,-23.7420,29.2820
+LP-PC-011,Ga-Mphahlele Clinic,1 Mphahlele Main Road,Ga-Mphahlele,Limpopo,0736,015 633 1201,Government,No,-24.1980,29.6520
+LP-PC-012,Moletlane Clinic,1 Moletlane Main Road,Zebediela,Limpopo,0620,015 662 1120,Government,No,-24.3120,29.3180
+LP-PC-013,Senwabarwana Clinic,2 Bochum Main Road,Senwabarwana,Limpopo,0790,015 505 1370,Government,No,-23.2920,28.9580
+LP-PC-014,Mogwadi Clinic,1 Dendron Main Road,Mogwadi,Limpopo,0715,015 501 0205,Government,No,-23.3820,29.3220
+LP-PC-015,Makwarela Clinic,1 Makwarela Main Road,Thohoyandou,Limpopo,0950,015 962 1320,Government,No,-22.9400,30.4900
+LP-PC-016,Thohoyandou Medical Centre,22 Mphephu Drive,Thohoyandou,Limpopo,0950,015 962 4406,Private,No,-22.9480,30.4860
+LP-PC-017,Nancefield Clinic,1 Nancefield Main Road,Musina,Limpopo,0900,015 534 1180,Government,No,-22.3500,30.0350
+LP-PC-018,Musina Medical Centre,7 Irwin Street,Musina,Limpopo,0900,015 534 2345,Private,No,-22.3360,30.0420
+LP-PC-019,Makhado Clinic,14 Krogh Street,Makhado,Limpopo,0920,015 516 1040,Government,No,-23.0430,29.9030
+LP-PC-020,Louis Trichardt Medical Centre,33 Burger Street,Makhado,Limpopo,0920,015 516 2270,Private,No,-23.0460,29.9100
+LP-PC-021,Malamulele Clinic,2 Main Street,Malamulele,Limpopo,0982,015 851 1230,Government,No,-23.0090,30.6960
+LP-PC-022,Shayandima Clinic,1 Shayandima Main Road,Shayandima,Limpopo,0945,015 964 1200,Government,No,-22.9920,30.4280
+LP-PC-023,Tshilwavhusiku Clinic,1 Tshilwavhusiku Main Road,Tshilwavhusiku,Limpopo,0920,015 583 0120,Government,No,-23.0320,30.1520
+LP-PC-024,Waterval Clinic,1 Waterval Main Road,Elim,Limpopo,0960,015 556 1150,Government,No,-23.1750,30.0580
+LP-PC-025,Sibasa Clinic,1 Sibasa Main Road,Sibasa,Limpopo,0970,015 963 1210,Government,No,-22.9450,30.4680
+LP-PC-026,Nzhelele Clinic,1 Dzanani Main Road,Nzhelele,Limpopo,0993,015 973 1130,Government,No,-22.8320,30.0320
+LP-PC-027,Hlanganani Clinic,1 Hlanganani Main Road,Hlanganani,Limpopo,0948,015 556 2140,Government,No,-23.1620,30.4020
+LP-PC-028,Giyani Community Health Centre,1 Section A Main Road,Giyani,Limpopo,0826,015 812 1255,Government,No,-23.3080,30.7210
+LP-PC-029,Giyani Medical Centre,10 Main Road,Giyani,Limpopo,0826,015 812 3320,Private,No,-23.3120,30.7170
+LP-PC-030,Tzaneen Clinic,9 Peace Street,Tzaneen,Limpopo,0850,015 307 1310,Government,No,-23.8350,30.1610
+LP-PC-031,Tzaneen Medical Centre,15 Agatha Street,Tzaneen,Limpopo,0850,015 307 4480,Private,No,-23.8310,30.1650
+LP-PC-032,Nkowankowa Community Health Centre,1 Nkowankowa Main Road,Nkowankowa,Limpopo,0870,015 303 1230,Government,No,-23.8800,30.2890
+LP-PC-033,Phalaborwa Clinic,4 Sealene Road,Phalaborwa,Limpopo,1390,015 781 1050,Government,No,-23.9440,31.1390
+LP-PC-034,Phalaborwa Medical Centre,18 Hendrik van Eck Street,Phalaborwa,Limpopo,1390,015 781 5520,Private,No,-23.9400,31.1430
+LP-PC-035,Namakgale Clinic,1 Namakgale Zone B Road,Namakgale,Limpopo,1391,015 783 1220,Government,No,-23.9580,31.0430
+LP-PC-036,Lenyenye Clinic,1 Lenyenye Main Road,Lenyenye,Limpopo,0857,015 355 1130,Government,No,-23.9680,30.2680
+LP-PC-037,Hoedspruit Clinic,3 Kudu Street,Hoedspruit,Limpopo,1380,015 793 1115,Government,No,-24.3520,30.9540
+LP-PC-038,Hoedspruit Medical Centre,12 Springbok Street,Hoedspruit,Limpopo,1380,015 793 2225,Private,No,-24.3480,30.9580
+LP-PC-039,Kgapane Clinic,2 Kgapane Main Road,Ga-Kgapane,Limpopo,0838,015 328 1140,Government,No,-23.6420,30.2280
+LP-PC-040,Lulekani Clinic,1 Lulekani Main Road,Lulekani,Limpopo,1392,015 783 1350,Government,No,-23.8820,31.0780
+LP-PC-041,Burgersfort Clinic,5 Aloe Street,Burgersfort,Limpopo,1150,013 231 7120,Government,No,-24.6790,30.3310
+LP-PC-042,Burgersfort Medical Centre,21 Dirk Winterbach Street,Burgersfort,Limpopo,1150,013 231 8840,Private,No,-24.6750,30.3360
+LP-PC-043,Jane Furse Gateway Clinic,2 Hospital Road,Jane Furse,Limpopo,1085,013 265 1240,Government,No,-24.7470,29.8380
+LP-PC-044,Groblersdal Clinic,12 Grobler Street,Groblersdal,Limpopo,0470,013 262 1130,Government,No,-25.1720,29.3930
+LP-PC-045,Groblersdal Medical Centre,8 Tautes Avenue,Groblersdal,Limpopo,0470,013 262 4450,Private,No,-25.1680,29.3970
+LP-PC-046,Marble Hall Clinic,6 Fourie Street,Marble Hall,Limpopo,0450,013 261 1220,Government,No,-24.9680,29.2910
+LP-PC-047,Marble Hall Family Practice,14 Bothma Street,Marble Hall,Limpopo,0450,013 261 2370,Private,No,-24.9640,29.2950
+LP-PC-048,Steelpoort Clinic,1 Steelpoort Main Road,Steelpoort,Limpopo,1133,013 230 1140,Government,No,-24.7320,30.2020
+LP-PC-049,Praktiseer Community Health Centre,1 Praktiseer Main Road,Praktiseer,Limpopo,1155,013 231 1360,Government,No,-24.6520,30.2880
+LP-PC-050,Ga-Masemola Clinic,1 Masemola Main Road,Ga-Masemola,Limpopo,1060,013 265 3120,Government,No,-24.6020,29.7220
+LP-PC-051,Elandsdoorn Clinic,1 Elandsdoorn Main Road,Elandsdoorn,Limpopo,0485,013 983 1130,Government,No,-25.2790,29.2560
+LP-PC-052,Mokopane Clinic,16 Ruiter Road,Mokopane,Limpopo,0600,015 491 1320,Government,No,-24.1960,29.0070
+LP-PC-053,Mokopane Medical Centre,44 Hooge Street,Mokopane,Limpopo,0601,015 491 4480,Private,No,-24.1920,29.0110
+LP-PC-054,Mahwelereng Clinic,1 Mahwelereng Main Road,Mahwelereng,Limpopo,0626,015 483 1210,Government,No,-24.1620,28.9680
+LP-PC-055,Phagameng Clinic,1 Phagameng Main Road,Modimolle,Limpopo,0510,014 717 1240,Government,No,-24.7050,28.4120
+LP-PC-056,Modimolle Medical Centre,25 Potgieter Street,Modimolle,Limpopo,0510,014 717 3360,Private,No,-24.6980,28.4060
+LP-PC-057,Bela-Bela Clinic,9 Moffat Street,Bela-Bela,Limpopo,0480,014 736 1150,Government,No,-24.8850,28.2880
+LP-PC-058,Bela-Bela Medical Centre,31 Pretoria Road,Bela-Bela,Limpopo,0480,014 736 4470,Private,No,-24.8810,28.2920
+LP-PC-059,Thabazimbi Clinic,7 Eland Street,Thabazimbi,Limpopo,0380,014 777 1230,Government,No,-24.5930,27.4080
+LP-PC-060,Thabazimbi Family Practice,18 Rietbok Street,Thabazimbi,Limpopo,0380,014 777 2290,Private,No,-24.5890,27.4120
+LP-PC-061,Lephalale Clinic,10 Chris Hani Drive,Lephalale,Limpopo,0555,014 763 1240,Government,No,-23.6790,27.6980
+LP-PC-062,Lephalale Medical Centre,22 Nelson Mandela Drive,Lephalale,Limpopo,0555,014 763 4410,Private,No,-23.6750,27.7020
+LP-PC-063,Marapong Clinic,1 Marapong Main Road,Marapong,Limpopo,0556,014 763 5120,Government,No,-23.6520,27.6320
+LP-PC-064,Mookgophong Clinic,8 Nelson Mandela Drive,Mookgophong,Limpopo,0560,014 743 1160,Government,No,-24.5250,28.7150
+LP-PC-065,Northam Clinic,1 Northam Main Road,Northam,Limpopo,0360,014 784 1130,Government,No,-24.9520,27.2630

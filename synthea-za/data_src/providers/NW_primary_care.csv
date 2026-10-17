@@ -1,0 +1,73 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-PC-001,Rustenburg Town Clinic,45 Nelson Mandela Drive,Rustenburg,North West,0299,014 592 1346,Government,No,-25.6866,27.2425
+NW-PC-002,Cashan Family Practice,12 Kameeldoring Avenue,Rustenburg,North West,0300,014 597 5724,Private,No,-25.6641,27.2428
+NW-PC-003,Waterfall Medical Centre,8 Waterfall Avenue,Rustenburg,North West,0299,014 537 9602,Private,No,-25.6726,27.2366
+NW-PC-004,Tlhabane Community Health Centre,14 Moruleng Street,Tlhabane,North West,0309,014 566 7072,Government,No,-25.6444,27.2001
+NW-PC-005,Boitekong Community Health Centre,3 Mandela Street,Boitekong,North West,0308,014 538 4147,Government,No,-25.5958,27.2648
+NW-PC-006,Freedom Park Clinic,6 Freedom Road,Freedom Park,North West,0299,014 592 7920,Government,No,-25.6407,27.3145
+NW-PC-007,Phokeng Clinic,9 Legato Road,Phokeng,North West,0335,014 566 8583,Government,No,-25.5893,27.1153
+NW-PC-008,Bafokeng Medical Centre,21 Mogono Street,Phokeng,North West,0335,014 573 7956,Private,No,-25.5632,27.1185
+NW-PC-009,Marikana Clinic,4 Station Road,Marikana,North West,0284,014 572 8823,Government,No,-25.6818,27.4787
+NW-PC-010,Mogwase Community Health Centre,11 Moruleng Road,Mogwase,North West,0314,014 555 7943,Government,No,-25.2922,27.2332
+NW-PC-011,Brits Town Clinic,30 Murray Avenue,Brits,North West,0250,012 252 9985,Government,No,-25.6449,27.7948
+NW-PC-012,Brits Medical Centre,55 Pienaar Street,Brits,North West,0250,012 252 4807,Private,No,-25.6144,27.7860
+NW-PC-013,Elandsrand Family Practice,7 Tom Street,Brits,North West,0250,012 250 3830,Private,No,-25.6204,27.7764
+NW-PC-014,Oukasie Clinic,2 Thabo Mbeki Street,Oukasie,North West,0250,012 252 8166,Government,No,-25.6138,27.7766
+NW-PC-015,Letlhabile Community Health Centre,1 Sekwati Street,Letlhabile,North West,0264,012 255 6762,Government,No,-25.4880,27.8016
+NW-PC-016,Hartbeespoort Clinic,18 Scott Street,Hartbeespoort,North West,0216,012 259 5796,Government,No,-25.7332,27.8818
+NW-PC-017,Ifafi Family Practice,24 Van Rensburg Street,Hartbeespoort,North West,0216,012 259 2433,Private,No,-25.7340,27.8625
+NW-PC-018,Koster Clinic,15 Hoof Street,Koster,North West,0348,014 543 8466,Government,No,-25.8738,26.9031
+NW-PC-019,Borolelo Clinic,3 Borolelo Main Road,Swartruggens,North West,2835,014 544 8601,Government,No,-25.6516,26.6954
+NW-PC-020,Makapanstad Community Health Centre,5 Makapanstad Main Road,Makapanstad,North West,0404,012 716 4409,Government,No,-25.2244,28.1181
+NW-PC-021,Mathibestad Clinic,2 Mathibestad Road,Makapanstad,North West,0404,012 718 8006,Government,No,-25.2210,28.0820
+NW-PC-022,Mahikeng Gateway Clinic,1 Sekame Road,Mahikeng,North West,2745,018 381 5053,Government,No,-25.8812,25.6446
+NW-PC-023,Montshioa Clinic,10 Montshioa Main Road,Mahikeng,North West,2737,018 384 6578,Government,No,-25.8526,25.6568
+NW-PC-024,Golfview Medical Centre,33 Carrington Street,Mahikeng,North West,2745,018 381 8095,Private,No,-25.8663,25.6267
+NW-PC-025,Mmabatho Community Health Centre,6 Dr James Moroka Drive,Mmabatho,North West,2735,018 386 8873,Government,No,-25.8408,25.6180
+NW-PC-026,Riviera Park Medical Centre,19 Riviera Park Avenue,Mmabatho,North West,2735,018 386 8763,Private,No,-25.8613,25.6208
+NW-PC-027,Lichtenburg Clinic,25 Scholtz Street,Lichtenburg,North West,2740,018 632 9520,Government,No,-26.1450,26.1726
+NW-PC-028,Lichtenburg Medical Centre,47 Bantjes Street,Lichtenburg,North West,2740,018 633 6664,Private,No,-26.1680,26.1799
+NW-PC-029,Boikhutso Clinic,8 Boikhutso Main Road,Boikhutso,North West,2740,018 632 4350,Government,No,-26.1335,26.1533
+NW-PC-030,Itsoseng Clinic,12 Unit Two Road,Itsoseng,North West,2744,018 338 7560,Government,No,-26.0508,25.9420
+NW-PC-031,Ikageleng Clinic,4 Ikageleng Main Road,Zeerust,North West,2865,018 642 6200,Government,No,-25.5489,26.1010
+NW-PC-032,Zeerust Family Practice,28 Church Street,Zeerust,North West,2865,018 642 5777,Private,No,-25.5400,26.0920
+NW-PC-033,Dinokana Clinic,1 Dinokana Main Road,Dinokana,North West,2868,018 363 2644,Government,No,-25.4412,25.8735
+NW-PC-034,Coligny Clinic,16 Voortrekker Street,Coligny,North West,2725,018 673 2518,Government,No,-26.3309,26.2995
+NW-PC-035,Delareyville Clinic,20 Schoeman Street,Delareyville,North West,2770,053 948 7742,Government,No,-26.6950,25.4554
+NW-PC-036,Delareyville Family Practice,9 Kerk Street,Delareyville,North West,2770,053 948 7965,Private,No,-26.6771,25.4617
+NW-PC-037,Atamelang Clinic,3 Atamelang Main Road,Atamelang,North West,2772,053 948 3471,Government,No,-26.7091,25.4162
+NW-PC-038,Ottosdal Clinic,14 Van Riebeeck Street,Ottosdal,North West,2610,018 571 8872,Government,No,-26.8176,25.9838
+NW-PC-039,Klerksdorp Gateway Clinic,9 Joe Slovo Road,Klerksdorp,North West,2571,018 464 3060,Government,No,-26.8514,26.6234
+NW-PC-040,Wilkoppies Medical Centre,41 Totius Street,Klerksdorp,North West,2571,018 468 4774,Private,No,-26.8642,26.6479
+NW-PC-041,Flamwood Family Practice,17 Kiepersol Avenue,Klerksdorp,North West,2574,018 464 3646,Private,No,-26.8737,26.6444
+NW-PC-042,Grace Mokgomo Community Health Centre,2 Jouberton Main Road,Jouberton,North West,2574,018 466 6907,Government,No,-26.8974,26.5828
+NW-PC-043,Jouberton Clinic,27 Extension Road,Jouberton,North West,2574,018 465 1300,Government,No,-26.8926,26.5672
+NW-PC-044,Kanana Clinic,5 Kanana Main Road,Kanana,North West,2619,018 475 8533,Government,No,-26.9531,26.6510
+NW-PC-045,Khuma Clinic,8 Khuma Main Road,Khuma,North West,2551,018 484 5874,Government,No,-26.9179,26.7830
+NW-PC-046,Alabama Clinic,11 Alabama Road,Alabama,North West,2571,018 465 6482,Government,No,-26.8619,26.6143
+NW-PC-047,Orkney Clinic,22 Leask Street,Orkney,North West,2619,018 473 1978,Government,No,-26.9704,26.6742
+NW-PC-048,Orkney Medical Centre,6 Milner Avenue,Orkney,North West,2619,018 473 1813,Private,No,-26.9830,26.6821
+NW-PC-049,Stilfontein Clinic,13 Bram Fischer Street,Stilfontein,North West,2551,018 484 5034,Government,No,-26.8390,26.7616
+NW-PC-050,Stilfontein Family Practice,31 Delfos Street,Stilfontein,North West,2551,018 484 8541,Private,No,-26.8588,26.7764
+NW-PC-051,Potchefstroom Gateway Clinic,33 Hoffman Street,Potchefstroom,North West,2531,018 297 1405,Government,No,-26.7260,27.0974
+NW-PC-052,Baillie Park Medical Centre,48 Beyers Naude Avenue,Potchefstroom,North West,2520,018 294 2341,Private,No,-26.7334,27.1098
+NW-PC-053,Bult Family Practice,15 Tom Street,Potchefstroom,North West,2531,018 297 2883,Private,No,-26.7028,27.0906
+NW-PC-054,Steve Tshwete Community Health Centre,1 Ikageng Main Road,Ikageng,North West,2531,018 295 1755,Government,No,-26.7058,27.0511
+NW-PC-055,Ikageng Clinic,19 Molefe Street,Ikageng,North West,2531,018 295 4189,Government,No,-26.7313,27.0387
+NW-PC-056,Promosa Clinic,7 Promosa Main Road,Promosa,North West,2531,018 293 2336,Government,No,-26.6893,27.0519
+NW-PC-057,Ventersdorp Clinic,10 Church Street,Ventersdorp,North West,2710,018 264 7060,Government,No,-26.3055,26.8312
+NW-PC-058,Ventersdorp Family Practice,23 Van Tonder Street,Ventersdorp,North West,2710,018 264 8959,Private,No,-26.3025,26.8188
+NW-PC-059,Tshing Clinic,4 Tshing Main Road,Tshing,North West,2710,018 264 3674,Government,No,-26.3257,26.8198
+NW-PC-060,Wolmaransstad Clinic,12 Piet Retief Street,Wolmaransstad,North West,2630,018 596 8477,Government,No,-27.1840,26.0019
+NW-PC-061,Wolmaransstad Medical Centre,36 Kruger Street,Wolmaransstad,North West,2630,018 596 7422,Private,No,-27.1939,25.9897
+NW-PC-062,Vryburg Clinic,18 Market Street,Vryburg,North West,8601,053 927 9298,Government,No,-26.9691,24.7193
+NW-PC-063,Vryburg Medical Centre,29 Stella Street,Vryburg,North West,8600,053 927 3927,Private,No,-26.9351,24.7189
+NW-PC-064,Vryburg Family Practice,7 Molopo Street,Vryburg,North West,8601,053 927 4407,Private,No,-26.9301,24.7467
+NW-PC-065,Huhudi Clinic,3 Huhudi Main Road,Huhudi,North West,8601,053 927 3714,Government,No,-26.9667,24.7560
+NW-PC-066,Taung Clinic,6 Taung Station Road,Taung,North West,8580,053 994 5752,Government,No,-27.5528,24.7925
+NW-PC-067,Pudimoe Clinic,2 Pudimoe Main Road,Taung,North West,8580,053 994 9286,Government,No,-27.4230,24.7330
+NW-PC-068,Ipelegeng Clinic,9 Ipelegeng Main Road,Schweizer-Reneke,North West,2780,053 963 4845,Government,No,-27.1644,25.3402
+NW-PC-069,Schweizer-Reneke Family Practice,14 Schweizer Street,Schweizer-Reneke,North West,2780,053 963 8909,Private,No,-27.1765,25.3435
+NW-PC-070,Bloemhof Clinic,11 Kerk Street,Bloemhof,North West,2660,053 433 4334,Government,No,-27.6598,25.6059
+NW-PC-071,Christiana Clinic,16 Robyn Street,Christiana,North West,2680,053 441 6256,Government,No,-27.9102,25.1577
+NW-PC-072,Ganyesa Clinic,4 Ganyesa Main Road,Ganyesa,North West,8613,053 998 5894,Government,No,-26.6147,24.1654

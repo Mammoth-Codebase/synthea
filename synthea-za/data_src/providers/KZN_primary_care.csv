@@ -1,0 +1,81 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-PC-001,Lancers Road Clinic,35 Lancers Road,Durban Central,KwaZulu-Natal,4001,031 218 6766,Government,No,-29.8521,31.0075
+KZN-PC-002,Musgrave Medical Centre,118 Musgrave Road,Durban Central,KwaZulu-Natal,4001,031 329 8328,Private,No,-29.8432,31.0049
+KZN-PC-003,Glenwood Family Practice,22 Bulwer Road,Durban Central,KwaZulu-Natal,4001,031 805 1508,Private,No,-29.8689,30.9935
+KZN-PC-004,Umlazi Clinic,Griffiths Mxenge Highway,Umlazi,KwaZulu-Natal,4031,031 947 1788,Government,No,-29.9634,30.8926
+KZN-PC-005,Mangosuthu Medical Centre,Mangosuthu Highway,Umlazi,KwaZulu-Natal,4031,031 386 5000,Private,No,-29.9712,30.8795
+KZN-PC-006,KwaMashu Community Health Centre,Malandela Road,KwaMashu,KwaZulu-Natal,4360,031 687 5778,Government,No,-29.7412,30.9835
+KZN-PC-007,Bester Family Practice,Bester Road,KwaMashu,KwaZulu-Natal,4360,031 294 5636,Private,No,-29.7503,30.9872
+KZN-PC-008,Phoenix Community Health Centre,Grove End Drive,Phoenix,KwaZulu-Natal,4068,031 629 8570,Government,No,-29.7061,31.0132
+KZN-PC-009,Phoenix Medical Centre,Phoenix Highway,Phoenix,KwaZulu-Natal,4068,031 806 5786,Private,No,-29.7002,31.0209
+KZN-PC-010,Chatsworth Clinic,Florence Nightingale Drive,Chatsworth,KwaZulu-Natal,4092,031 488 9926,Government,No,-29.9102,30.8701
+KZN-PC-011,Chatsworth Medical Centre,Higginson Highway,Chatsworth,KwaZulu-Natal,4092,031 757 4340,Private,No,-29.9164,30.8588
+KZN-PC-012,Pinetown Clinic,Kings Road,Pinetown,KwaZulu-Natal,3610,031 933 3009,Government,No,-29.8158,30.8532
+KZN-PC-013,Pinetown Family Practice,Old Main Road,Pinetown,KwaZulu-Natal,3610,031 404 6513,Private,No,-29.8193,30.8467
+KZN-PC-014,Inanda Community Health Centre,Inanda Main Road,Inanda,KwaZulu-Natal,4310,031 348 6203,Government,No,-29.6991,30.9349
+KZN-PC-015,Ntuzuma Clinic,Ntuzuma Main Road,Ntuzuma,KwaZulu-Natal,4359,031 884 9133,Government,No,-29.7211,30.9538
+KZN-PC-016,Umhlanga Medical Centre,Lighthouse Road,Umhlanga,KwaZulu-Natal,4320,031 528 8350,Private,No,-29.7276,31.0872
+KZN-PC-017,Gateway Family Practice,Centenary Boulevard,Umhlanga,KwaZulu-Natal,4320,031 501 9665,Private,No,-29.7254,31.0734
+KZN-PC-018,Westville Medical Centre,Jan Hofmeyr Road,Westville,KwaZulu-Natal,3629,031 377 6172,Private,No,-29.8298,30.9265
+KZN-PC-019,Westville Family Practice,Buckingham Terrace,Westville,KwaZulu-Natal,3629,031 689 4309,Private,No,-29.8324,30.9312
+KZN-PC-020,Isipingo Clinic,Old Main Road,Isipingo,KwaZulu-Natal,4110,031 631 5516,Government,No,-29.9887,30.9251
+KZN-PC-021,Isipingo Medical Centre,Inwabi Road,Isipingo,KwaZulu-Natal,4110,031 962 8116,Private,No,-29.9872,30.9288
+KZN-PC-022,Amanzimtoti Clinic,Beach Road,Amanzimtoti,KwaZulu-Natal,4126,031 243 3389,Government,No,-30.0512,30.8846
+KZN-PC-023,Amanzimtoti Family Practice,Kingsway Road,Amanzimtoti,KwaZulu-Natal,4126,031 810 3412,Private,No,-30.0478,30.8858
+KZN-PC-024,Verulam Clinic,Wick Street,Verulam,KwaZulu-Natal,4340,031 964 6113,Government,No,-29.6487,31.0481
+KZN-PC-025,Verulam Medical Centre,Todd Street,Verulam,KwaZulu-Natal,4340,031 383 8745,Private,No,-29.6512,31.0523
+KZN-PC-026,Tongaat Community Health Centre,Main Road,Tongaat,KwaZulu-Natal,4400,031 907 1344,Government,No,-29.5714,31.1189
+KZN-PC-027,Tongaat Medical Centre,Gopalall Hurbans Road,Tongaat,KwaZulu-Natal,4400,031 780 8474,Private,No,-29.5689,31.1232
+KZN-PC-028,Hillcrest Clinic,Old Main Road,Hillcrest,KwaZulu-Natal,3650,031 956 5003,Government,No,-29.7802,30.7659
+KZN-PC-029,Hillcrest Family Practice,Hospital Road,Hillcrest,KwaZulu-Natal,3650,031 684 6567,Private,No,-29.7781,30.7621
+KZN-PC-030,East Boom Community Health Centre,Boom Street,Pietermaritzburg,KwaZulu-Natal,3201,033 775 9042,Government,No,-29.6072,30.3861
+KZN-PC-031,Scottsville Medical Centre,Durban Road,Pietermaritzburg,KwaZulu-Natal,3209,033 654 5988,Private,No,-29.6213,30.3952
+KZN-PC-032,Hayfields Family Practice,Cleland Road,Pietermaritzburg,KwaZulu-Natal,3201,033 587 1368,Private,No,-29.6238,30.4142
+KZN-PC-033,Imbalenhle Community Health Centre,Thwala Road,Edendale,KwaZulu-Natal,3217,033 810 8105,Government,No,-29.6421,30.3512
+KZN-PC-034,Caluza Clinic,Caluza Road,Edendale,KwaZulu-Natal,3217,033 760 9223,Government,No,-29.6552,30.3161
+KZN-PC-035,Howick Clinic,Somme Street,Howick,KwaZulu-Natal,3290,033 240 8016,Government,No,-29.4842,30.2341
+KZN-PC-036,Howick Medical Centre,Main Street,Howick,KwaZulu-Natal,3290,033 217 3407,Private,No,-29.4821,30.2302
+KZN-PC-037,Richards Bay Clinic,Anglers Road,Richards Bay,KwaZulu-Natal,3900,035 372 3917,Government,No,-28.7821,32.0412
+KZN-PC-038,Richards Bay Medical Centre,Bullion Boulevard,Richards Bay,KwaZulu-Natal,3900,035 293 8698,Private,No,-28.7716,32.0502
+KZN-PC-039,Meerensee Family Practice,Pelican Road,Richards Bay,KwaZulu-Natal,3900,035 429 2163,Private,No,-28.7906,32.0961
+KZN-PC-040,Empangeni Clinic,Turnbull Street,Empangeni,KwaZulu-Natal,3880,035 561 7646,Government,No,-28.7512,31.8912
+KZN-PC-041,Empangeni Medical Centre,Commercial Road,Empangeni,KwaZulu-Natal,3880,035 357 6801,Private,No,-28.7482,31.8958
+KZN-PC-042,Eshowe Clinic,Osborn Road,Eshowe,KwaZulu-Natal,3815,035 823 7225,Government,No,-28.8912,31.4712
+KZN-PC-043,Eshowe Family Practice,Main Street,Eshowe,KwaZulu-Natal,3815,035 630 4285,Private,No,-28.8887,31.4685
+KZN-PC-044,Esikhaleni Clinic,Esikhaleni Main Road,Esikhaleni,KwaZulu-Natal,3887,035 488 6352,Government,No,-28.8668,31.9023
+KZN-PC-045,Ladysmith Clinic,Keate Street,Ladysmith,KwaZulu-Natal,3370,036 745 1184,Government,No,-28.5583,29.7832
+KZN-PC-046,Ladysmith Medical Centre,Murchison Street,Ladysmith,KwaZulu-Natal,3370,036 758 6976,Private,No,-28.5612,29.7789
+KZN-PC-047,Ezakheni Clinic,Ezakheni Main Road,Ezakheni,KwaZulu-Natal,3381,036 728 1653,Government,No,-28.6318,29.9032
+KZN-PC-048,Estcourt Clinic,Harding Street,Estcourt,KwaZulu-Natal,3310,036 467 3297,Government,No,-29.0081,29.8732
+KZN-PC-049,Estcourt Family Practice,Lorne Street,Estcourt,KwaZulu-Natal,3310,036 322 2290,Private,No,-29.0112,29.8681
+KZN-PC-050,Vryheid Clinic,Mark Street,Vryheid,KwaZulu-Natal,3100,034 848 2896,Government,No,-27.7712,30.7932
+KZN-PC-051,Vryheid Medical Centre,Kerk Street,Vryheid,KwaZulu-Natal,3100,034 762 3378,Private,No,-27.7681,30.7891
+KZN-PC-052,Ulundi Clinic,Princess Magogo Street,Ulundi,KwaZulu-Natal,3838,035 758 6916,Government,No,-28.3182,31.4201
+KZN-PC-053,Nongoma Clinic,Main Road,Nongoma,KwaZulu-Natal,3950,035 509 6816,Government,No,-27.9021,31.6482
+KZN-PC-054,Pongola Clinic,Naude Street,Pongola,KwaZulu-Natal,3170,034 286 6409,Government,No,-27.3812,31.6201
+KZN-PC-055,Mtubatuba Clinic,Inkosi Mtubatuba Road,Mtubatuba,KwaZulu-Natal,3935,035 790 2913,Government,No,-28.4182,32.1812
+KZN-PC-056,Mtubatuba Medical Centre,Riverview Road,Mtubatuba,KwaZulu-Natal,3935,035 781 9573,Private,No,-28.4142,32.1872
+KZN-PC-057,Mkuze Clinic,Main Road,Mkuze,KwaZulu-Natal,3965,035 919 3785,Government,No,-27.6181,32.0352
+KZN-PC-058,KwaDukuza Clinic,Hulett Street,KwaDukuza,KwaZulu-Natal,4450,032 551 5044,Government,No,-29.3352,31.2862
+KZN-PC-059,KwaDukuza Medical Centre,Mahatma Gandhi Street,KwaDukuza,KwaZulu-Natal,4450,032 822 9360,Private,No,-29.3312,31.2891
+KZN-PC-060,Shakaskraal Clinic,Shakaskraal Main Road,Ballito,KwaZulu-Natal,4420,032 903 9401,Government,No,-29.4502,31.2231
+KZN-PC-061,Ballito Medical Centre,Ballito Drive,Ballito,KwaZulu-Natal,4420,032 410 5720,Private,No,-29.5372,31.2158
+KZN-PC-062,Sundumbili Clinic,Sundumbili Main Road,Mandeni,KwaZulu-Natal,4490,032 997 5314,Government,No,-29.1372,31.4012
+KZN-PC-063,Mandeni Medical Centre,Twala Street,Mandeni,KwaZulu-Natal,4490,032 317 1065,Private,No,-29.1531,31.3972
+KZN-PC-064,Kokstad Clinic,Hope Street,Kokstad,KwaZulu-Natal,4700,039 924 8306,Government,No,-30.5512,29.4192
+KZN-PC-065,Kokstad Medical Centre,Main Street,Kokstad,KwaZulu-Natal,4700,039 791 8094,Private,No,-30.5482,29.4231
+KZN-PC-066,Ixopo Clinic,High Street,Ixopo,KwaZulu-Natal,3276,039 341 8763,Government,No,-30.1512,30.0652
+KZN-PC-067,Gamalakhe Community Health Centre,Gamalakhe Main Road,Port Shepstone,KwaZulu-Natal,4240,039 618 3319,Government,No,-30.7812,30.4021
+KZN-PC-068,Port Shepstone Medical Centre,Aiken Street,Port Shepstone,KwaZulu-Natal,4240,039 988 4056,Private,No,-30.7402,30.4532
+KZN-PC-069,Margate Clinic,Marine Drive,Margate,KwaZulu-Natal,4275,039 845 8431,Government,No,-30.8631,30.3722
+KZN-PC-070,Margate Family Practice,Valley Road,Margate,KwaZulu-Natal,4275,039 885 9305,Private,No,-30.8612,30.3681
+KZN-PC-071,Scottburgh Clinic,Williamson Street,Scottburgh,KwaZulu-Natal,4180,039 637 9988,Government,No,-30.2862,30.7512
+KZN-PC-072,Scottburgh Medical Centre,Bram Fischer Road,Scottburgh,KwaZulu-Natal,4180,039 813 2387,Private,No,-30.2832,30.7561
+KZN-PC-073,Dundee Clinic,Victoria Street,Dundee,KwaZulu-Natal,3000,034 587 3135,Government,No,-28.1681,30.2312
+KZN-PC-074,Dundee Family Practice,Gladstone Street,Dundee,KwaZulu-Natal,3000,034 998 2086,Private,No,-28.1652,30.2362
+KZN-PC-075,Greytown Clinic,Durban Street,Greytown,KwaZulu-Natal,3250,033 714 9885,Government,No,-29.0652,30.5972
+KZN-PC-076,Newcastle Clinic,Scott Street,Newcastle,KwaZulu-Natal,2940,034 521 6027,Government,No,-27.7592,29.9342
+KZN-PC-077,Newcastle Medical Centre,Allen Street,Newcastle,KwaZulu-Natal,2940,034 317 7986,Private,No,-27.7562,29.9282
+KZN-PC-078,Arbor Park Family Practice,Arbor Park Drive,Newcastle,KwaZulu-Natal,2940,034 955 8580,Private,No,-27.7702,29.9412
+KZN-PC-079,Madadeni Clinic,Madadeni Main Road,Madadeni,KwaZulu-Natal,2951,034 722 1301,Government,No,-27.7622,30.0581
+KZN-PC-080,Osizweni Community Health Centre,Osizweni Main Road,Osizweni,KwaZulu-Natal,2952,034 702 7438,Government,No,-27.7912,30.1221

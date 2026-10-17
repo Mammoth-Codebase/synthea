@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-HH-001,Cape Town Home Nursing,15 Kloof Street Gardens,Cape Town Central,Western Cape,8001,021 424 7760,Private,No,-33.9302,18.4122
+WC-HH-002,Tygerberg Home Nursing,72 Voortrekker Road Bellville,Bellville,Western Cape,7530,021 948 6230,Private,No,-33.9002,18.6272
+WC-HH-003,Winelands Home Nursing,21 Andringa Street Stellenbosch,Stellenbosch,Western Cape,7600,021 887 6610,Private,No,-33.9342,18.8612
+WC-HH-004,Garden Route Home Nursing,33 Cathedral Street George,George,Western Cape,6530,044 874 2290,Private,No,-33.9632,22.4592

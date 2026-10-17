@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-D-001,Cape Town Renal Unit,20 Hof Street Gardens,Cape Town Central,Western Cape,8001,021 461 7800,Private,No,-33.9312,18.4162
+WC-D-002,Tygerberg Renal Unit,Francie van Zijl Drive Parow Valley,Parow,Western Cape,7500,021 938 5120,Government,No,-33.9102,18.6122
+WC-D-003,Bellville Renal Unit,15 Durban Road Bellville,Bellville,Western Cape,7530,021 946 2300,Private,No,-33.8982,18.6302
+WC-D-004,Claremont Renal Unit,5 Grove Avenue Claremont,Claremont,Western Cape,7708,021 671 9800,Private,No,-33.9822,18.4652
+WC-D-005,Paarl Renal Unit,28 Berlyn Street Paarl,Paarl,Western Cape,7646,021 807 8300,Private,No,-33.7412,18.9612
+WC-D-006,Worcester Renal Unit,32 Fairbairn Street Worcester,Worcester,Western Cape,6850,023 347 0900,Private,No,-33.6432,19.4452
+WC-D-007,George Renal Unit,12 Gloucester Avenue George,George,Western Cape,6530,044 803 2400,Private,No,-33.9612,22.4572

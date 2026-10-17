@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-N-001,Nazareth House,1 Derry Street Vredehoek,Cape Town Central,Western Cape,8001,021 461 1635,Private,No,-33.9362,18.4202
+WC-N-002,Huis Luckhoff,46 Alma Road Rosebank,Rondebosch,Western Cape,7700,021 689 3101,Private,No,-33.9572,18.4692
+WC-N-003,Huis Zonnekus,18 Rose Street Milnerton,Milnerton,Western Cape,7441,021 551 2070,Private,No,-33.8742,18.5042
+WC-N-004,Serenitas Frail Care,29 Altena Road Strand,Strand,Western Cape,7140,021 853 2120,Private,No,-34.1092,18.8312
+WC-N-005,Huis Silwerkruin,24 Pentz Street Wellington,Wellington,Western Cape,7655,021 873 1070,Private,No,-33.6422,19.0092
+WC-N-006,Huis Lettie Theron,15 Luyt Street Hermanus,Hermanus,Western Cape,7200,028 312 1012,Private,No,-34.4192,19.2372
+WC-N-007,George Frail Care Centre,38 Meade Street George,George,Western Cape,6530,044 874 1780,Private,No,-33.9622,22.4622

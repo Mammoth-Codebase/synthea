@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+FS-N-001,Ons Tuiste Old Age Home,20 Dan Pienaar Drive,Bloemfontein,Free State,9301,051 163 6293,Private,No,-29.1030,26.2200
+FS-N-002,Striata Frail Care Centre,5 Furstenburg Road,Bloemfontein,Free State,9301,051 164 4212,Private,No,-29.1200,26.2100
+FS-N-003,Goldfields Old Age Home,18 Long Road,Welkom,Free State,9469,057 165 2131,Private,No,-27.9520,26.7840
+FS-N-004,Huis Najaar Old Age Home,15 Pretorius Street,Bethlehem,Free State,9701,058 166 0050,Private,No,-28.2330,28.3030
+FS-N-005,Kroonstad Frail Care Centre,28 Murray Street,Kroonstad,Free State,9499,056 166 7969,Private,No,-27.6530,27.2330
+FS-N-006,Huis Vaalpark Old Age Home,9 Grey Avenue,Sasolburg,Free State,1948,016 167 5888,Private,No,-26.7800,27.8430
+FS-N-007,Harrismith Frail Care Centre,22 Southey Street,Harrismith,Free State,9880,058 168 3807,Private,No,-28.2660,29.1340

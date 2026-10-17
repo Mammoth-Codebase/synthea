@@ -1,0 +1,75 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-PC-001,Beaconsfield Clinic,22 Central Road,Kimberley,Northern Cape,8301,053 831 1540,Government,No,-28.7462,24.7539
+NC-PC-002,Florianville Clinic,5 Lobelia Street,Kimberley,Northern Cape,8301,053 871 2260,Government,No,-28.7162,24.7359
+NC-PC-003,Du Toitspan Family Practice,150 Du Toitspan Road,Kimberley,Northern Cape,8301,053 832 3180,Private,No,-28.7342,24.7629
+NC-PC-004,Hadison Park Medical Centre,12 Central Avenue,Kimberley,Northern Cape,8301,053 861 4420,Private,No,-28.7222,24.7379
+NC-PC-005,Betty Gaetsewe Clinic,14 Seochoareng Street,Galeshewe,Northern Cape,8345,053 830 1150,Government,No,-28.7040,24.7320
+NC-PC-006,Masakhane Clinic,3 Phakamile Mabija Road,Galeshewe,Northern Cape,8345,053 830 1370,Government,No,-28.7150,24.7450
+NC-PC-007,Galeshewe Family Practice,41 Nobengula Street,Galeshewe,Northern Cape,8345,053 871 5620,Private,No,-28.7070,24.7430
+NC-PC-008,Roodepan Clinic,7 Jacaranda Street,Roodepan,Northern Cape,8309,053 872 1160,Government,No,-28.6800,24.7560
+NC-PC-009,Ritchie Clinic,4 Modderrivier Road,Ritchie,Northern Cape,8710,053 511 0260,Government,No,-29.0380,24.5930
+NC-PC-010,Barkly West Clinic,18 Campbell Street,Barkly West,Northern Cape,8375,053 531 0820,Government,No,-28.5350,24.5170
+NC-PC-011,Delportshoop Community Health Centre,6 Church Street,Delportshoop,Northern Cape,8377,053 561 0120,Government,No,-28.4080,24.3130
+NC-PC-012,Warrenton Clinic,9 Kerk Street,Warrenton,Northern Cape,8530,053 497 3380,Government,No,-28.1170,24.8500
+NC-PC-013,Jan Kempdorp Clinic,12 Pniel Street,Jan Kempdorp,Northern Cape,8550,053 456 0540,Government,No,-27.9200,24.8300
+NC-PC-014,Hartswater Clinic,6 Du Plessis Street,Hartswater,Northern Cape,8570,053 474 0660,Government,No,-27.7580,24.8060
+NC-PC-015,Hartswater Medical Centre,21 Hoofweg Street,Hartswater,Northern Cape,8570,053 474 1270,Private,No,-27.7530,24.7990
+NC-PC-016,Pampierstad Community Health Centre,2 Mokgatlhe Street,Pampierstad,Northern Cape,8566,053 475 0090,Government,No,-27.7820,24.6900
+NC-PC-017,Kuruman Clinic,16 Seodin Road,Kuruman,Northern Cape,8460,053 712 1610,Government,No,-27.4550,23.4360
+NC-PC-018,Wrenchville Clinic,5 Dippenaar Street,Kuruman,Northern Cape,8460,053 712 2230,Government,No,-27.4450,23.4230
+NC-PC-019,Kuruman Medical Centre,40 Main Street,Kuruman,Northern Cape,8460,053 712 3450,Private,No,-27.4500,23.4350
+NC-PC-020,Mothibistad Clinic,8 Mogodi Street,Mothibistad,Northern Cape,8474,053 773 0140,Government,No,-27.3840,23.4220
+NC-PC-021,Bankhara-Bodulong Clinic,3 Legae Street,Bankhara-Bodulong,Northern Cape,8460,053 712 7170,Government,No,-27.4320,23.4030
+NC-PC-022,Batlharos Clinic,11 Moffat Road,Batlharos,Northern Cape,8477,053 773 0510,Government,No,-27.3340,23.3430
+NC-PC-023,Kathu Clinic,9 Rietbok Street,Kathu,Northern Cape,8446,053 723 1120,Government,No,-27.6920,23.0450
+NC-PC-024,Sesheng Clinic,2 Tlhatlogang Street,Kathu,Northern Cape,8446,053 723 1660,Government,No,-27.7080,23.0650
+NC-PC-025,Kathu Family Practice,17 Hendrik van Eck Road,Kathu,Northern Cape,8446,053 723 2470,Private,No,-27.6940,23.0540
+NC-PC-026,Olifantshoek Community Health Centre,4 Kerk Street,Olifantshoek,Northern Cape,8450,053 771 0180,Government,No,-27.9380,22.7360
+NC-PC-027,Springbok Community Health Centre,12 Namakwa Street,Springbok,Northern Cape,8240,027 712 2150,Government,No,-29.6680,17.8890
+NC-PC-028,Namakwa Medical Centre,33 Voortrekker Street,Springbok,Northern Cape,8240,027 718 1360,Private,No,-29.6610,17.8820
+NC-PC-029,Springbok Family Practice,8 Van Riebeeck Street,Springbok,Northern Cape,8240,027 718 2210,Private,No,-29.6620,17.8910
+NC-PC-030,Okiep Clinic,5 Main Road,Okiep,Northern Cape,8270,027 744 1150,Government,No,-29.5950,17.8750
+NC-PC-031,Nababeep Clinic,3 Hospital Street,Nababeep,Northern Cape,8265,027 718 8270,Government,No,-29.5970,17.7770
+NC-PC-032,Steinkopf Community Health Centre,7 Kerk Street,Steinkopf,Northern Cape,8244,027 721 8030,Government,No,-29.2590,17.7380
+NC-PC-033,Port Nolloth Clinic,10 Beach Road,Port Nolloth,Northern Cape,8280,027 851 8360,Government,No,-29.2570,16.8710
+NC-PC-034,Port Nolloth Medical Centre,4 Main Road,Port Nolloth,Northern Cape,8280,027 851 7120,Private,No,-29.2520,16.8660
+NC-PC-035,Calvinia Clinic,14 Water Street,Calvinia,Northern Cape,8190,027 341 1430,Government,No,-31.4690,19.7730
+NC-PC-036,Hantam Medical Centre,27 Hoop Street,Calvinia,Northern Cape,8190,027 341 2610,Private,No,-31.4740,19.7790
+NC-PC-037,Garies Clinic,6 Church Street,Garies,Northern Cape,8220,027 652 1260,Government,No,-30.5640,17.9930
+NC-PC-038,Pofadder Clinic,3 Main Street,Pofadder,Northern Cape,8890,054 933 0340,Government,No,-29.1260,19.3940
+NC-PC-039,Sutherland Clinic,8 Jubilee Street,Sutherland,Northern Cape,6920,023 571 1320,Government,No,-32.3960,20.6690
+NC-PC-040,Fraserburg Clinic,4 Kerk Street,Fraserburg,Northern Cape,6960,023 741 1210,Government,No,-31.9140,21.5160
+NC-PC-041,Williston Clinic,5 Hoop Street,Williston,Northern Cape,8920,053 391 3260,Government,No,-31.3460,20.9220
+NC-PC-042,De Aar Clinic,14 Station Street,De Aar,Northern Cape,7000,053 631 0820,Government,No,-30.6470,24.0080
+NC-PC-043,Nonzwakazi Clinic,2 Maduna Street,De Aar,Northern Cape,7000,053 631 1570,Government,No,-30.6620,24.0220
+NC-PC-044,De Aar Medical Centre,27 Friedlander Street,De Aar,Northern Cape,7000,053 631 2340,Private,No,-30.6480,24.0170
+NC-PC-045,Colesberg Clinic,19 Church Street,Colesberg,Northern Cape,9795,051 753 0420,Government,No,-30.7230,25.1000
+NC-PC-046,Colesberg Family Practice,7 Bell Street,Colesberg,Northern Cape,9795,051 753 1180,Private,No,-30.7180,25.0940
+NC-PC-047,Hanover Community Health Centre,3 Market Street,Hanover,Northern Cape,7005,053 643 0150,Government,No,-31.0710,24.4520
+NC-PC-048,Britstown Community Health Centre,8 Kerk Street,Britstown,Northern Cape,8782,053 672 0210,Government,No,-30.5940,23.5060
+NC-PC-049,Victoria West Clinic,15 Church Street,Victoria West,Northern Cape,7070,053 621 0380,Government,No,-31.3980,23.1160
+NC-PC-050,Victoria West Family Practice,22 Mark Street,Victoria West,Northern Cape,7070,053 621 1140,Private,No,-31.4030,23.1210
+NC-PC-051,Carnarvon Clinic,9 Victoria Street,Carnarvon,Northern Cape,8925,053 382 3240,Government,No,-30.9710,22.1320
+NC-PC-052,Prieska Clinic,11 Victoria Street,Prieska,Northern Cape,8940,053 353 1460,Government,No,-29.6620,22.7480
+NC-PC-053,Prieska Medical Centre,24 Main Street,Prieska,Northern Cape,8940,053 353 2270,Private,No,-29.6680,22.7430
+NC-PC-054,Douglas Clinic,5 Breedt Street,Douglas,Northern Cape,8730,053 298 1720,Government,No,-29.0600,23.7760
+NC-PC-055,Douglas Family Practice,18 Campbell Street,Douglas,Northern Cape,8730,053 298 2350,Private,No,-29.0550,23.7690
+NC-PC-056,Hopetown Clinic,4 Van der Walt Street,Hopetown,Northern Cape,8750,053 203 0290,Government,No,-29.6220,24.0840
+NC-PC-057,Noupoort Community Health Centre,6 Church Street,Noupoort,Northern Cape,5950,049 842 0170,Government,No,-31.1910,24.9530
+NC-PC-058,Rosedale Clinic,12 Rosedale Road,Upington,Northern Cape,8801,054 332 1680,Government,No,-28.4710,21.2680
+NC-PC-059,Progress Clinic,5 Progress Street,Upington,Northern Cape,8801,054 338 2450,Government,No,-28.4450,21.2460
+NC-PC-060,Upington Medical Centre,61 Schroder Street,Upington,Northern Cape,8801,054 331 2730,Private,No,-28.4610,21.2500
+NC-PC-061,Schroder Street Family Practice,88 Schroder Street,Upington,Northern Cape,8801,054 332 3810,Private,No,-28.4590,21.2520
+NC-PC-062,Paballelo Clinic,9 Dakota Road,Paballelo,Northern Cape,8809,054 338 4120,Government,No,-28.4270,21.2270
+NC-PC-063,Paballelo Family Practice,21 Maduna Street,Paballelo,Northern Cape,8809,054 338 5310,Private,No,-28.4330,21.2340
+NC-PC-064,Keimoes Clinic,7 Main Road,Keimoes,Northern Cape,8860,054 461 1320,Government,No,-28.7100,20.9810
+NC-PC-065,Keimoes Family Practice,14 Kanoneiland Road,Keimoes,Northern Cape,8860,054 461 2180,Private,No,-28.7050,20.9750
+NC-PC-066,Kakamas Clinic,9 Voortrekker Road,Kakamas,Northern Cape,8870,054 431 0620,Government,No,-28.7680,20.6130
+NC-PC-067,Kakamas Medical Centre,25 Main Street,Kakamas,Northern Cape,8870,054 431 1150,Private,No,-28.7730,20.6180
+NC-PC-068,Groblershoop Community Health Centre,3 Kerk Street,Groblershoop,Northern Cape,8850,054 833 0160,Government,No,-28.9030,21.9870
+NC-PC-069,Kenhardt Clinic,6 Kerk Street,Kenhardt,Northern Cape,8900,054 651 0310,Government,No,-29.3470,21.1590
+NC-PC-070,Postmasburg Clinic,11 Main Street,Postmasburg,Northern Cape,8420,053 313 1270,Government,No,-28.3270,23.0670
+NC-PC-071,Boichoko Clinic,4 Mokwena Street,Postmasburg,Northern Cape,8420,053 313 2540,Government,No,-28.3400,23.0820
+NC-PC-072,Postmasburg Medical Centre,28 Springbok Street,Postmasburg,Northern Cape,8420,053 313 3160,Private,No,-28.3280,23.0740
+NC-PC-073,Danielskuil Community Health Centre,8 Barker Street,Danielskuil,Northern Cape,8405,053 384 0140,Government,No,-28.1860,23.5430
+NC-PC-074,Danielskuil Family Practice,15 Main Street,Danielskuil,Northern Cape,8405,053 384 0820,Private,No,-28.1910,23.5480

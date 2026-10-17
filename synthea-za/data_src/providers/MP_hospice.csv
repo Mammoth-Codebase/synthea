@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+MP-HO-001,Lowveld Hospice,45 Ehmke Street,Mbombela,Mpumalanga,1200,013 755 2522,Private,No,-25.4675,30.9643
+MP-HO-002,Witbank Hospice,25 Plumer Street,Emalahleni,Mpumalanga,1034,013 656 3860,Private,No,-25.8633,29.2334
+MP-HO-003,Middelburg Hospice,30 Joubert Street,Middelburg,Mpumalanga,1050,013 243 3185,Private,No,-25.7810,29.4698
+MP-HO-004,Highveld Hospice,12 Heunis Street,Secunda,Mpumalanga,2302,017 631 3230,Private,No,-26.5127,29.2040

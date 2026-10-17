@@ -1,0 +1,40 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-H-001,Chris Hani Baragwanath Academic Hospital,26 Chris Hani Road Diepkloof,Soweto,Gauteng,1864,011 933 8000,Government,Yes,-26.2608,27.9405
+GP-H-002,Bheki Mlangeni District Hospital,Koma Road Jabulani,Soweto,Gauteng,1868,011 241 5500,Government,Yes,-26.2460,27.8650
+GP-H-003,Charlotte Maxeke Johannesburg Academic Hospital,17 Jubilee Road Parktown,Johannesburg Central,Gauteng,2193,011 488 4911,Government,Yes,-26.1765,28.0445
+GP-H-004,Helen Joseph Hospital,1 Perth Road Westdene,Johannesburg Central,Gauteng,2193,011 489 1011,Government,Yes,-26.1835,28.0025
+GP-H-005,Rahima Moosa Mother and Child Hospital,Cnr Fuel Street and Oudtshoorn Street Coronationville,Johannesburg Central,Gauteng,2193,011 470 9000,Government,Yes,-26.1860,27.9830
+GP-H-006,Lenasia South Hospital,Cnr Mackenzie Street and Mbatha Street Lenasia South,Lenasia,Gauteng,1829,011 213 9500,Government,Yes,-26.3655,27.8510
+GP-H-007,Sizwe Tropical Disease Hospital,Cnr Club Street and Modderfontein Road Sandringham,Alexandra,Gauteng,2090,011 531 4300,Government,No,-26.1345,28.1120
+GP-H-008,Steve Biko Academic Hospital,Cnr Steve Biko Road and Malherbe Street,Pretoria Central,Gauteng,0002,012 354 1000,Government,Yes,-25.7335,28.2015
+GP-H-009,Tshwane District Hospital,Cnr Steve Biko Road and Dr Savage Road,Pretoria Central,Gauteng,0002,012 354 7000,Government,Yes,-25.7355,28.2000
+GP-H-010,Dr George Mukhari Academic Hospital,Molotlegi Street Zone 1,Ga-Rankuwa,Gauteng,0208,012 529 3000,Government,Yes,-25.6185,28.0155
+GP-H-011,Kalafong Provincial Tertiary Hospital,Kalafong Road,Atteridgeville,Gauteng,0008,012 318 6500,Government,Yes,-25.7625,28.0875
+GP-H-012,Mamelodi Regional Hospital,19 Serapeng Street Mamelodi East,Mamelodi,Gauteng,0122,012 841 8300,Government,Yes,-25.7180,28.3830
+GP-H-013,Jubilee District Hospital,Jubilee Road Temba,Hammanskraal,Gauteng,0407,012 717 9300,Government,Yes,-25.3965,28.2985
+GP-H-014,Odi District Hospital,Klipgat Road,Mabopane,Gauteng,0190,012 725 2400,Government,Yes,-25.4965,28.0640
+GP-H-015,Bronkhorstspruit Hospital,Kraal Street,Bronkhorstspruit,Gauteng,1020,013 932 2033,Government,Yes,-25.8090,28.7445
+GP-H-016,Tembisa Provincial Tertiary Hospital,Flint Mazibuko Street Olifantsfontein,Tembisa,Gauteng,1632,011 923 2000,Government,Yes,-25.9955,28.2245
+GP-H-017,Bertha Gxowa Hospital,Angus Street,Germiston,Gauteng,1401,011 278 7640,Government,Yes,-26.2195,28.1690
+GP-H-018,Tambo Memorial Hospital,Railway Street,Boksburg,Gauteng,1459,011 898 8000,Government,Yes,-26.2065,28.2575
+GP-H-019,Thelle Mogoerane Regional Hospital,Barry Marais Road,Vosloorus,Gauteng,1475,011 891 7000,Government,Yes,-26.3415,28.1960
+GP-H-020,Far East Rand Hospital,Hospital Road New State Areas,Springs,Gauteng,1559,011 812 8300,Government,Yes,-26.2630,28.4015
+GP-H-021,Pholosong Hospital,Tsakane Road Tsakane,Brakpan,Gauteng,1541,011 812 5000,Government,Yes,-26.3060,28.3835
+GP-H-022,Heidelberg Hospital,Hospital Street,Heidelberg,Gauteng,1441,016 341 1100,Government,Yes,-26.5075,28.3575
+GP-H-023,Kopanong Hospital,2 Casino Road Duncanville,Vereeniging,Gauteng,1939,016 428 7000,Government,Yes,-26.6655,27.9290
+GP-H-024,Sebokeng Hospital,Moshoeshoe Street Zone 7,Sebokeng,Gauteng,1983,016 930 3000,Government,Yes,-26.5705,27.8425
+GP-H-025,Leratong Hospital,1 Adcock Street Chamdor,Kagiso,Gauteng,1754,011 411 3500,Government,Yes,-26.1160,27.7920
+GP-H-026,Dr Yusuf Dadoo Hospital,Cnr Hospital Street and Rustenburg Road,Krugersdorp,Gauteng,1739,011 951 6000,Government,Yes,-26.0965,27.7780
+GP-H-027,Carletonville Hospital,Annan Road,Carletonville,Gauteng,2499,018 787 9000,Government,Yes,-26.3585,27.3990
+GP-H-028,Milpark Hospital,9 Guild Road Parktown West,Johannesburg Central,Gauteng,2193,011 480 5600,Private,Yes,-26.1800,28.0185
+GP-H-029,Morningside Hospital,Cnr Rivonia Road and Hill Road Morningside,Sandton,Gauteng,2196,011 282 5000,Private,Yes,-26.0870,28.0565
+GP-H-030,Olivedale Hospital,Cnr President Fouche Drive and Windsor Way Olivedale,Randburg,Gauteng,2169,011 777 2000,Private,Yes,-26.0400,27.9800
+GP-H-031,Flora Hospital,Cnr Ontdekkers Road and Nic Diederichs Boulevard Floracliffe,Roodepoort,Gauteng,1709,011 470 7777,Private,Yes,-26.1365,27.9105
+GP-H-032,Carstenhof Hospital,101 Old Pretoria Main Road,Midrand,Gauteng,1685,011 655 5500,Private,Yes,-25.9895,28.1265
+GP-H-033,Unitas Hospital,Clifton Avenue Lyttelton Manor,Centurion,Gauteng,0157,012 677 8000,Private,Yes,-25.8440,28.2025
+GP-H-034,Wilgers Hospital,Cnr Denneboom Road and Simon Vermooten Road Die Wilgers,Pretoria Central,Gauteng,0081,012 807 8100,Private,Yes,-25.7640,28.3100
+GP-H-035,Glynnwood Hospital,33 Harrison Street,Benoni,Gauteng,1501,011 741 5000,Private,Yes,-26.1890,28.3170
+GP-H-036,Arwyp Medical Centre,20 Pine Avenue,Kempton Park,Gauteng,1619,011 922 1000,Private,Yes,-26.1055,28.2305
+GP-H-037,Clinton Hospital,Cnr Clinton Road and Du Plessis Road New Redruth,Alberton,Gauteng,1449,011 907 1811,Private,Yes,-26.2670,28.1190
+GP-H-038,Midvaal Hospital,Cnr Beaconsfield Avenue and Joubert Street,Vereeniging,Gauteng,1939,016 440 6000,Private,Yes,-26.6725,27.9225
+GP-H-039,Emfuleni Hospital,Cnr Delfos Boulevard and Frikkie Meyer Boulevard,Vanderbijlpark,Gauteng,1911,016 950 8000,Private,Yes,-26.7085,27.8385

@@ -1,0 +1,6 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-HO-001,Highway Hospice,Locksley Drive,Durban Central,KwaZulu-Natal,4091,031 927 9479,Private,No,-29.8321,30.9821
+KZN-HO-002,Msunduzi Hospice,Marriott Road,Pietermaritzburg,KwaZulu-Natal,3201,033 253 8536,Private,No,-29.5912,30.3712
+KZN-HO-003,South Coast Hospice,Williamson Street,Port Shepstone,KwaZulu-Natal,4240,039 646 5714,Private,No,-30.7462,30.4512
+KZN-HO-004,Zululand Hospice,Union Street,Empangeni,KwaZulu-Natal,3880,035 821 9726,Private,No,-28.7532,31.8972
+KZN-HO-005,Howick Hospice,Harvard Street,Howick,KwaZulu-Natal,3290,033 207 5488,Private,No,-29.4812,30.2312

@@ -1,0 +1,12 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+MP-UC-001,Nelspruit Day Hospital,25 Van der Merwe Street,Mbombela,Mpumalanga,1200,013 752 3300,Private,Yes,-25.4685,30.9783
+MP-UC-002,Riverside Emergency Centre,10 Riverside Drive,Mbombela,Mpumalanga,1201,013 757 1911,Private,Yes,-25.4925,30.9723
+MP-UC-003,White River Day Hospital,5 Kruger Park Street,White River,Mpumalanga,1240,013 750 1255,Private,Yes,-25.3277,31.0097
+MP-UC-004,Hazyview Twenty Four Hour Medical Centre,20 Main Road,Hazyview,Mpumalanga,1242,013 737 6565,Private,Yes,-25.0383,31.1296
+MP-UC-005,Bushbuckridge Emergency Centre,4 Main Road,Bushbuckridge,Mpumalanga,1280,013 799 3150,Government,Yes,-24.8273,31.0717
+MP-UC-006,Emalahleni Day Hospital,12 Botha Avenue,Emalahleni,Mpumalanga,1035,013 690 4400,Private,Yes,-25.8793,29.2274
+MP-UC-007,Witbank Emergency Centre,40 OR Tambo Road,Emalahleni,Mpumalanga,1034,013 656 7900,Private,Yes,-25.8673,29.2374
+MP-UC-008,Middelburg Day Hospital,18 Joubert Street,Middelburg,Mpumalanga,1050,013 282 9100,Private,Yes,-25.7790,29.4708
+MP-UC-009,Secunda Emergency Centre,9 Nelson Mandela Drive,Secunda,Mpumalanga,2302,017 634 7711,Private,Yes,-26.5217,29.2120
+MP-UC-010,Ermelo Day Hospital,30 Joubert Street,Ermelo,Mpumalanga,2350,017 811 7700,Private,Yes,-26.5283,29.9873
+MP-UC-011,Standerton Emergency Centre,14 Dr Beyers Naude Street,Standerton,Mpumalanga,2430,017 712 8180,Private,Yes,-26.9460,29.2440

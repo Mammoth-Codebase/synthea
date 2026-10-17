@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-NU-001,Huis Herfsblaar,1244 Webb Street Queenswood,Pretoria Central,Gauteng,0083,012 333 9410,Private,No,-25.7310,28.2520
+GP-NU-002,Nazareth House,1 Webb Street Yeoville,Johannesburg Central,Gauteng,2198,011 648 1002,Private,No,-26.1820,28.0630
+GP-NU-003,Ons Tuis Riviera,120 Soutpansberg Road Riviera,Pretoria Central,Gauteng,0083,012 329 0230,Private,No,-25.7370,28.2150
+GP-NU-004,Benoni Frail Care Centre,31 Elm Avenue Northmead,Benoni,Gauteng,1501,011 849 4630,Private,No,-26.1740,28.3220
+GP-NU-005,Vereeniging Frail Care Centre,14 Leslie Street Vereeniging,Vereeniging,Gauteng,1939,016 421 5560,Private,No,-26.6750,27.9300
+GP-NU-006,Krugersdorp Frail Care Centre,11 Fifth Street Krugersdorp North,Krugersdorp,Gauteng,1739,011 665 2210,Private,No,-26.0890,27.7760
+GP-NU-007,Itlhokomeleng Old Age Home,Seventh Avenue Alexandra,Alexandra,Gauteng,2090,011 443 2370,Private,No,-26.1070,28.0960

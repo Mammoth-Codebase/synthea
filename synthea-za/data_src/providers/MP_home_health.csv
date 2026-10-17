@@ -1,0 +1,6 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+MP-HH-001,Mbombela Home Nursing,12 Brown Street,Mbombela,Mpumalanga,1200,013 752 6604,Private,No,-25.4725,30.9753
+MP-HH-002,Lowveld Home Care Services,6 Chief Mgiyeni Khumalo Drive,White River,Mpumalanga,1240,013 751 4418,Private,No,-25.3287,31.0167
+MP-HH-003,Emalahleni Home Nursing,22 President Avenue,Emalahleni,Mpumalanga,1035,013 656 8830,Private,No,-25.8673,29.2374
+MP-HH-004,Highveld Home Nursing,11 Walter Sisulu Street,Secunda,Mpumalanga,2302,017 634 5570,Private,No,-26.5147,29.1960
+MP-HH-005,Ermelo Home Care Services,16 Church Street,Ermelo,Mpumalanga,2350,017 811 5063,Private,No,-26.5293,29.9883

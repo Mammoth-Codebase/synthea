@@ -1,0 +1,6 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-HO-001,St Francis Hospice,15 Mangold Street Newton Park,Gqeberha Central,Eastern Cape,6001,041 807 4687,Private,No,-33.9570,25.5650
+EC-HO-002,Hospice East London,6 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 255 5427,Private,No,-33.0000,27.8990
+EC-HO-003,Mthatha Hospice,9 Madeira Street Mthatha,Mthatha,Eastern Cape,5100,047 745 1923,Private,No,-31.5770,28.7750
+EC-HO-004,Komani Hospice,44 Robinson Road Komani,Komani,Eastern Cape,5320,045 377 2441,Private,No,-31.9200,26.8900
+EC-HO-005,Makhanda Hospice,30 African Street Makhanda,Makhanda,Eastern Cape,6140,046 548 9917,Private,No,-33.3130,26.5120

@@ -1,0 +1,6 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-HH-001,Johannesburg Home Nursing,14 Sturdee Avenue Rosebank,Johannesburg Central,Gauteng,2193,011 788 2340,Private,No,-26.1450,28.0400
+GP-HH-002,Pretoria Home Nursing,221 Garsfontein Road Menlo Park,Pretoria Central,Gauteng,0081,012 460 3310,Private,No,-25.7690,28.2530
+GP-HH-003,East Rand Home Care,12 North Rand Road Boksburg,Boksburg,Gauteng,1459,011 826 4410,Private,No,-26.2000,28.2550
+GP-HH-004,Vaal Home Nursing,9 Louis Trichardt Boulevard Vanderbijlpark,Vanderbijlpark,Gauteng,1911,016 981 2250,Private,No,-26.7050,27.8350
+GP-HH-005,West Rand Home Care,45 Paardekraal Drive Krugersdorp,Krugersdorp,Gauteng,1739,011 955 1670,Private,No,-26.0960,27.7740

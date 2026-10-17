@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-D-001,Polokwane Renal Unit,15 Burger Street,Polokwane,Limpopo,0699,015 290 2340,Private,No,-23.9070,29.4610
+LP-D-002,Pietersburg Hospital Renal Unit,3 Hospital Street,Polokwane,Limpopo,0699,015 287 5260,Government,No,-23.9000,29.4600
+LP-D-003,Thohoyandou Renal Unit,17 Mphephu Drive,Thohoyandou,Limpopo,0950,015 962 5190,Private,No,-22.9490,30.4840
+LP-D-004,Tzaneen Renal Unit,4 Danie Joubert Street,Tzaneen,Limpopo,0850,015 306 0260,Private,No,-23.8300,30.1670
+LP-D-005,Mokopane Renal Unit,32 Thabo Mbeki Drive,Mokopane,Limpopo,0601,015 491 5760,Private,No,-24.1950,29.0130
+LP-D-006,Makhado Renal Unit,12 Songozwi Street,Makhado,Limpopo,0920,015 519 0160,Private,No,-23.0410,29.9130
+LP-D-007,Phalaborwa Renal Unit,14 Mellor Street,Phalaborwa,Limpopo,1390,015 781 3360,Private,No,-23.9460,31.1370

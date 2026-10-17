@@ -1,0 +1,356 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+100,Chris Hani Baragwanath Academic Hospital,26 Chris Hani Road Diepkloof,Soweto,Gauteng,1864,011 933 8000,Government,Yes,-26.2608,27.9405
+101,Bheki Mlangeni District Hospital,Koma Road Jabulani,Soweto,Gauteng,1868,011 241 5500,Government,Yes,-26.2460,27.8650
+102,Charlotte Maxeke Johannesburg Academic Hospital,17 Jubilee Road Parktown,Johannesburg Central,Gauteng,2193,011 488 4911,Government,Yes,-26.1765,28.0445
+103,Helen Joseph Hospital,1 Perth Road Westdene,Johannesburg Central,Gauteng,2193,011 489 1011,Government,Yes,-26.1835,28.0025
+104,Rahima Moosa Mother and Child Hospital,Cnr Fuel Street and Oudtshoorn Street Coronationville,Johannesburg Central,Gauteng,2193,011 470 9000,Government,Yes,-26.1860,27.9830
+105,Lenasia South Hospital,Cnr Mackenzie Street and Mbatha Street Lenasia South,Lenasia,Gauteng,1829,011 213 9500,Government,Yes,-26.3655,27.8510
+106,Sizwe Tropical Disease Hospital,Cnr Club Street and Modderfontein Road Sandringham,Alexandra,Gauteng,2090,011 531 4300,Government,No,-26.1345,28.1120
+107,Steve Biko Academic Hospital,Cnr Steve Biko Road and Malherbe Street,Pretoria Central,Gauteng,0002,012 354 1000,Government,Yes,-25.7335,28.2015
+108,Tshwane District Hospital,Cnr Steve Biko Road and Dr Savage Road,Pretoria Central,Gauteng,0002,012 354 7000,Government,Yes,-25.7355,28.2000
+109,Dr George Mukhari Academic Hospital,Molotlegi Street Zone 1,Ga-Rankuwa,Gauteng,0208,012 529 3000,Government,Yes,-25.6185,28.0155
+110,Kalafong Provincial Tertiary Hospital,Kalafong Road,Atteridgeville,Gauteng,0008,012 318 6500,Government,Yes,-25.7625,28.0875
+111,Mamelodi Regional Hospital,19 Serapeng Street Mamelodi East,Mamelodi,Gauteng,0122,012 841 8300,Government,Yes,-25.7180,28.3830
+112,Jubilee District Hospital,Jubilee Road Temba,Hammanskraal,Gauteng,0407,012 717 9300,Government,Yes,-25.3965,28.2985
+113,Odi District Hospital,Klipgat Road,Mabopane,Gauteng,0190,012 725 2400,Government,Yes,-25.4965,28.0640
+114,Bronkhorstspruit Hospital,Kraal Street,Bronkhorstspruit,Gauteng,1020,013 932 2033,Government,Yes,-25.8090,28.7445
+115,Tembisa Provincial Tertiary Hospital,Flint Mazibuko Street Olifantsfontein,Tembisa,Gauteng,1632,011 923 2000,Government,Yes,-25.9955,28.2245
+116,Bertha Gxowa Hospital,Angus Street,Germiston,Gauteng,1401,011 278 7640,Government,Yes,-26.2195,28.1690
+117,Tambo Memorial Hospital,Railway Street,Boksburg,Gauteng,1459,011 898 8000,Government,Yes,-26.2065,28.2575
+118,Thelle Mogoerane Regional Hospital,Barry Marais Road,Vosloorus,Gauteng,1475,011 891 7000,Government,Yes,-26.3415,28.1960
+119,Far East Rand Hospital,Hospital Road New State Areas,Springs,Gauteng,1559,011 812 8300,Government,Yes,-26.2630,28.4015
+120,Pholosong Hospital,Tsakane Road Tsakane,Brakpan,Gauteng,1541,011 812 5000,Government,Yes,-26.3060,28.3835
+121,Heidelberg Hospital,Hospital Street,Heidelberg,Gauteng,1441,016 341 1100,Government,Yes,-26.5075,28.3575
+122,Kopanong Hospital,2 Casino Road Duncanville,Vereeniging,Gauteng,1939,016 428 7000,Government,Yes,-26.6655,27.9290
+123,Sebokeng Hospital,Moshoeshoe Street Zone 7,Sebokeng,Gauteng,1983,016 930 3000,Government,Yes,-26.5705,27.8425
+124,Leratong Hospital,1 Adcock Street Chamdor,Kagiso,Gauteng,1754,011 411 3500,Government,Yes,-26.1160,27.7920
+125,Dr Yusuf Dadoo Hospital,Cnr Hospital Street and Rustenburg Road,Krugersdorp,Gauteng,1739,011 951 6000,Government,Yes,-26.0965,27.7780
+126,Carletonville Hospital,Annan Road,Carletonville,Gauteng,2499,018 787 9000,Government,Yes,-26.3585,27.3990
+127,Milpark Hospital,9 Guild Road Parktown West,Johannesburg Central,Gauteng,2193,011 480 5600,Private,Yes,-26.1800,28.0185
+128,Morningside Hospital,Cnr Rivonia Road and Hill Road Morningside,Sandton,Gauteng,2196,011 282 5000,Private,Yes,-26.0870,28.0565
+129,Olivedale Hospital,Cnr President Fouche Drive and Windsor Way Olivedale,Randburg,Gauteng,2169,011 777 2000,Private,Yes,-26.0400,27.9800
+130,Flora Hospital,Cnr Ontdekkers Road and Nic Diederichs Boulevard Floracliffe,Roodepoort,Gauteng,1709,011 470 7777,Private,Yes,-26.1365,27.9105
+131,Carstenhof Hospital,101 Old Pretoria Main Road,Midrand,Gauteng,1685,011 655 5500,Private,Yes,-25.9895,28.1265
+132,Unitas Hospital,Clifton Avenue Lyttelton Manor,Centurion,Gauteng,0157,012 677 8000,Private,Yes,-25.8440,28.2025
+133,Wilgers Hospital,Cnr Denneboom Road and Simon Vermooten Road Die Wilgers,Pretoria Central,Gauteng,0081,012 807 8100,Private,Yes,-25.7640,28.3100
+134,Glynnwood Hospital,33 Harrison Street,Benoni,Gauteng,1501,011 741 5000,Private,Yes,-26.1890,28.3170
+135,Arwyp Medical Centre,20 Pine Avenue,Kempton Park,Gauteng,1619,011 922 1000,Private,Yes,-26.1055,28.2305
+136,Clinton Hospital,Cnr Clinton Road and Du Plessis Road New Redruth,Alberton,Gauteng,1449,011 907 1811,Private,Yes,-26.2670,28.1190
+137,Midvaal Hospital,Cnr Beaconsfield Avenue and Joubert Street,Vereeniging,Gauteng,1939,016 440 6000,Private,Yes,-26.6725,27.9225
+138,Emfuleni Hospital,Cnr Delfos Boulevard and Frikkie Meyer Boulevard,Vanderbijlpark,Gauteng,1911,016 950 8000,Private,Yes,-26.7085,27.8385
+139,Inkosi Albert Luthuli Central Hospital,800 Vusi Mzimela Road,Durban Central,KwaZulu-Natal,4091,031 511 7276,Government,Yes,-29.8742,30.9893
+140,King Edward VIII Hospital,Rick Turner Road,Durban Central,KwaZulu-Natal,4001,031 218 4623,Government,Yes,-29.8781,30.9975
+141,Addington Hospital,Erskine Terrace,Durban Central,KwaZulu-Natal,4001,031 398 7092,Government,Yes,-29.8641,31.0398
+142,King Dinuzulu Hospital Complex,75 RD Naidu Drive,Durban Central,KwaZulu-Natal,4091,031 805 6224,Government,Yes,-29.8287,30.9962
+143,McCord Provincial Eye Hospital,28 McCord Road,Durban Central,KwaZulu-Natal,4091,031 909 5022,Government,No,-29.8432,31.0012
+144,St Augustines Hospital,107 JB Marks Road,Durban Central,KwaZulu-Natal,4001,031 387 4891,Private,Yes,-29.8602,31.0098
+145,Entabeni Hospital,148 Mazisi Kunene Road,Durban Central,KwaZulu-Natal,4001,031 920 7743,Private,Yes,-29.8475,31.0015
+146,Prince Mshiyeni Memorial Hospital,Mangosuthu Highway,Umlazi,KwaZulu-Natal,4031,031 673 8224,Government,Yes,-29.9662,30.9102
+147,RK Khan Hospital,RK Khan Circle,Chatsworth,KwaZulu-Natal,4092,031 293 2675,Government,Yes,-29.9048,30.8893
+148,Mahatma Gandhi Memorial Hospital,100 Phoenix Highway,Phoenix,KwaZulu-Natal,4068,031 402 7112,Government,Yes,-29.6951,31.0118
+149,Umhlanga Hospital,323 Umhlanga Rocks Drive,Umhlanga,KwaZulu-Natal,4320,031 830 8378,Private,Yes,-29.7215,31.0702
+150,Westville Hospital,7 Harry Gwala Road,Westville,KwaZulu-Natal,3629,031 742 4972,Private,Yes,-29.8291,30.9204
+151,Hillcrest Hospital,Kassier Road,Hillcrest,KwaZulu-Natal,3650,031 693 6759,Private,Yes,-29.7731,30.7748
+152,Greys Hospital,Townbush Road,Pietermaritzburg,KwaZulu-Natal,3201,033 618 8584,Government,Yes,-29.5853,30.3648
+153,Northdale Hospital,Chota Motala Road,Pietermaritzburg,KwaZulu-Natal,3201,033 979 7404,Government,Yes,-29.5742,30.4057
+154,St Annes Hospital,Montrose Park Boulevard,Pietermaritzburg,KwaZulu-Natal,3201,033 612 2904,Private,Yes,-29.5938,30.3659
+155,Edendale Hospital,Selby Msimang Road,Edendale,KwaZulu-Natal,3217,033 906 4529,Government,Yes,-29.6352,30.3253
+156,Umgeni Hospital,Hospital Road,Howick,KwaZulu-Natal,3290,033 765 6522,Government,No,-29.4865,30.2298
+157,Ngwelezana Hospital,Thanduyise Road,Empangeni,KwaZulu-Natal,3880,035 365 3114,Government,Yes,-28.7623,31.8732
+158,Richards Bay Hospital,Krewelkring Road,Richards Bay,KwaZulu-Natal,3900,035 282 2066,Private,Yes,-28.7752,32.0461
+159,Eshowe Hospital,Kangela Street,Eshowe,KwaZulu-Natal,3815,035 372 1512,Government,Yes,-28.8938,31.4652
+160,Nkonjeni Hospital,Mahlabathini Main Road,Ulundi,KwaZulu-Natal,3838,035 600 5555,Government,Yes,-28.2598,31.4876
+161,Benedictine Hospital,Main Road,Nongoma,KwaZulu-Natal,3950,035 649 2041,Government,Yes,-27.9043,31.6421
+162,Itshelejuba Hospital,Itshelejuba Road,Pongola,KwaZulu-Natal,3170,034 739 2941,Government,Yes,-27.3412,31.5879
+163,Bethesda Hospital,Ubombo Main Road,Mkuze,KwaZulu-Natal,3965,035 815 6168,Government,Yes,-27.5742,32.0818
+164,Vryheid Hospital,Hoog Street,Vryheid,KwaZulu-Natal,3100,034 444 9235,Government,Yes,-27.7652,30.7948
+165,Ladysmith Regional Hospital,36 Malcolm Road,Ladysmith,KwaZulu-Natal,3370,036 666 1086,Government,Yes,-28.5531,29.7762
+166,La Verna Hospital,1 Convent Road,Ladysmith,KwaZulu-Natal,3370,036 684 5064,Private,Yes,-28.5642,29.7721
+167,Estcourt Hospital,Old Main Road,Estcourt,KwaZulu-Natal,3310,036 682 3421,Government,Yes,-29.0132,29.8744
+168,Newcastle Provincial Hospital,4 Hospital Street,Newcastle,KwaZulu-Natal,2940,034 227 6973,Government,Yes,-27.7558,29.9303
+169,Newcastle Private Hospital,Hospital Street,Newcastle,KwaZulu-Natal,2940,034 760 9483,Private,Yes,-27.7621,29.9412
+170,Madadeni Provincial Hospital,Madadeni Main Road,Madadeni,KwaZulu-Natal,2951,034 300 5959,Government,Yes,-27.7563,30.0624
+171,Dundee Provincial Hospital,121 McKenzie Street,Dundee,KwaZulu-Natal,3000,034 495 5840,Government,Yes,-28.1702,30.2372
+172,Greytown Hospital,Bell Street,Greytown,KwaZulu-Natal,3250,033 636 2115,Government,Yes,-29.0632,30.5951
+173,General Justice Gizenga Mpanza Regional Hospital,King Shaka Street,KwaDukuza,KwaZulu-Natal,4450,032 878 4035,Government,Yes,-29.3369,31.2912
+174,Port Shepstone Regional Hospital,7 Bazley Street,Port Shepstone,KwaZulu-Natal,4240,039 606 5375,Government,Yes,-30.7432,30.4518
+175,Hibiscus Hospital,Marine Drive,Port Shepstone,KwaZulu-Natal,4240,039 728 9778,Private,Yes,-30.7498,30.4476
+176,GJ Crookes Hospital,Hospital Road,Scottburgh,KwaZulu-Natal,4180,039 372 4067,Government,Yes,-30.2867,30.7502
+177,Christ the King Hospital,Main Street,Ixopo,KwaZulu-Natal,3276,039 542 2363,Government,Yes,-30.1538,30.0631
+178,East Griqualand and Usher Memorial Hospital,Elliot Street,Kokstad,KwaZulu-Natal,4700,039 825 6223,Government,Yes,-30.5471,29.4202
+179,Groote Schuur Hospital,Main Road Observatory,Cape Town Central,Western Cape,7925,021 404 9111,Government,Yes,-33.9412,18.4625
+180,Tygerberg Hospital,Francie van Zijl Drive Parow Valley,Parow,Western Cape,7500,021 938 4911,Government,Yes,-33.9097,18.6119
+181,Red Cross War Memorial Childrens Hospital,Klipfontein Road Rondebosch,Rondebosch,Western Cape,7700,021 658 5111,Government,Yes,-33.9596,18.4920
+182,New Somerset Hospital,Portswood Road Green Point,Sea Point,Western Cape,8005,021 402 6911,Government,Yes,-33.9095,18.4150
+183,Mowbray Maternity Hospital,Hornsey Road Mowbray,Rondebosch,Western Cape,7700,021 659 5500,Government,No,-33.9468,18.4752
+184,Victoria Hospital Wynberg,Alphen Hill Road Wynberg,Wynberg,Western Cape,7800,021 799 1111,Government,Yes,-34.0075,18.4562
+185,Karl Bremer Hospital,Mike Pienaar Boulevard Bellville,Bellville,Western Cape,7530,021 918 1911,Government,Yes,-33.8873,18.6152
+186,Helderberg Hospital,Hospital Road Somerset West,Somerset West,Western Cape,7130,021 850 4700,Government,Yes,-34.0832,18.8462
+187,Khayelitsha District Hospital,Walter Sisulu Drive Khayelitsha,Khayelitsha,Western Cape,7784,021 360 4200,Government,Yes,-34.0412,18.6774
+188,Mitchells Plain District Hospital,AZ Berman Drive Lentegeur,Mitchells Plain,Western Cape,7785,021 377 4300,Government,Yes,-34.0334,18.6165
+189,False Bay Hospital,Kommetjie Road Fish Hoek,Fish Hoek,Western Cape,7975,021 782 1121,Government,Yes,-34.1332,18.4248
+190,Wesfleur Hospital,Wesfleur Circle Atlantis,Atlantis,Western Cape,7349,021 571 8043,Government,Yes,-33.5662,18.4858
+191,Eerste River Hospital,Humboldt Avenue Eerste River,Blue Downs,Western Cape,7100,021 902 8000,Government,Yes,-34.0003,18.7182
+192,Lentegeur Hospital,Highlands Drive Lentegeur,Mitchells Plain,Western Cape,7785,021 370 1111,Government,No,-34.0302,18.6232
+193,Stellenbosch Hospital,Merriman Avenue Stellenbosch,Stellenbosch,Western Cape,7600,021 808 6100,Government,Yes,-33.9332,18.8641
+194,Paarl Hospital,Hospital Street Paarl,Paarl,Western Cape,7646,021 860 2500,Government,Yes,-33.7318,18.9642
+195,Worcester Hospital,Murray Street Worcester,Worcester,Western Cape,6850,023 348 1100,Government,Yes,-33.6498,19.4512
+196,Swartland Hospital,Hospital Street Malmesbury,Malmesbury,Western Cape,7300,022 487 9200,Government,Yes,-33.4598,18.7352
+197,Vredenburg Hospital,Voortrekker Road Vredenburg,Vredenburg,Western Cape,7380,022 709 7200,Government,Yes,-32.9082,17.9918
+198,Hermanus Hospital,Hospital Street Hermanus,Hermanus,Western Cape,7200,028 312 1166,Government,Yes,-34.4202,19.2362
+199,Caledon Hospital,Hospital Street Caledon,Caledon,Western Cape,7230,028 212 1070,Government,Yes,-34.2312,19.4302
+200,Swellendam Hospital,Hospital Street Swellendam,Swellendam,Western Cape,6740,028 514 1140,Government,Yes,-34.0232,20.4422
+201,George Hospital,Davidson Road George,George,Western Cape,6529,044 802 4500,Government,Yes,-33.9642,22.4642
+202,Knysna Hospital,Hospital Hill Knysna,Knysna,Western Cape,6571,044 302 8400,Government,Yes,-34.0372,23.0492
+203,Mossel Bay Hospital,Marsh Street Mossel Bay,Mossel Bay,Western Cape,6506,044 604 6100,Government,Yes,-34.1812,22.1482
+204,Oudtshoorn Hospital,Park Road Oudtshoorn,Oudtshoorn,Western Cape,6625,044 203 7200,Government,Yes,-33.5922,22.2032
+205,Beaufort West Hospital,Voortrekker Street Beaufort West,Beaufort West,Western Cape,6970,023 414 8200,Government,Yes,-32.3572,22.5852
+206,Christiaan Barnard Memorial Hospital,DF Malan Street Foreshore,Cape Town Central,Western Cape,8001,021 441 0000,Private,Yes,-33.9218,18.4282
+207,Panorama Hospital,Rothschild Boulevard Panorama,Parow,Western Cape,7500,021 938 2111,Private,Yes,-33.8812,18.5792
+208,Constantiaberg Hospital,Burnham Road Plumstead,Wynberg,Western Cape,7800,021 799 2911,Private,Yes,-34.0202,18.4562
+209,Kingsbury Hospital,Wilderness Road Claremont,Claremont,Western Cape,7708,021 670 4000,Private,Yes,-33.9802,18.4662
+210,Milnerton Hospital,Racecourse Road Milnerton,Milnerton,Western Cape,7441,021 529 9000,Private,Yes,-33.8752,18.5032
+211,Louis Leipoldt Hospital,Broadway Street Bellville,Bellville,Western Cape,7530,021 957 6000,Private,Yes,-33.9022,18.6312
+212,Durbanville Hospital,Wellington Road Durbanville,Durbanville,Western Cape,7550,021 980 2100,Private,Yes,-33.8312,18.6522
+213,Cape Gate Hospital,Okavango Road Brackenfell,Brackenfell,Western Cape,7560,021 983 5600,Private,Yes,-33.8602,18.7032
+214,Kuils River Hospital,Van Riebeeck Road Kuils River,Kuils River,Western Cape,7580,021 900 6000,Private,Yes,-33.9232,18.6882
+215,Vergelegen Hospital,Main Road Somerset West,Somerset West,Western Cape,7130,021 850 9000,Private,Yes,-34.0762,18.8472
+216,Paarl Private Hospital,Berlyn Street Paarl,Paarl,Western Cape,7646,021 807 8000,Private,Yes,-33.7402,18.9602
+217,George Private Hospital,Gloucester Avenue George,George,Western Cape,6530,044 803 2000,Private,Yes,-33.9602,22.4582
+218,Plettenberg Bay Private Hospital,Muller Street Plettenberg Bay,Plettenberg Bay,Western Cape,6600,044 501 5000,Private,Yes,-34.0502,23.3702
+219,Livingstone Hospital,Stanford Road Korsten,Gqeberha Central,Eastern Cape,6020,041 472 5428,Government,Yes,-33.9390,25.5680
+220,Port Elizabeth Provincial Hospital,Buckingham Road Mount Croix,Gqeberha Central,Eastern Cape,6001,041 567 4288,Government,Yes,-33.9738,25.6052
+221,Dora Nginza Hospital,Spondo Street Zwide,Zwide,Eastern Cape,6201,041 459 5681,Government,Yes,-33.9060,25.5490
+222,Elizabeth Donkin Hospital,Walmer Road South End,Gqeberha Central,Eastern Cape,6001,041 324 7673,Government,No,-33.9518,25.6062
+223,Uitenhage Provincial Hospital,Hospital Street Kariega,Kariega,Eastern Cape,6230,041 703 6639,Government,Yes,-33.7620,25.4250
+224,St Georges Hospital,40 Park Drive St Georges Park,Gqeberha Central,Eastern Cape,6001,041 847 3833,Private,Yes,-33.9640,25.6060
+225,Greenacres Hospital,Rochelle Road Greenacres,Gqeberha Central,Eastern Cape,6045,041 503 9277,Private,Yes,-33.9460,25.5660
+226,Mercantile Hospital,Durban Road Korsten,Gqeberha Central,Eastern Cape,6020,041 253 7054,Private,Yes,-33.9330,25.5850
+227,Isivivana Hospital,Siyabonga Drive Kwadwesi,Zwide,Eastern Cape,6201,041 299 8661,Private,Yes,-33.8800,25.5300
+228,Cuyler Hospital,72 Cuyler Street Kariega,Kariega,Eastern Cape,6229,041 394 9687,Private,Yes,-33.7410,25.3870
+229,Frere Hospital,Amalinda Main Road Amalinda,East London,Eastern Cape,5247,043 658 9915,Government,Yes,-32.9910,27.8980
+230,Cecilia Makiwane Hospital,Billie Road Mdantsane,Mdantsane,Eastern Cape,5219,043 540 2562,Government,Yes,-32.9730,27.7740
+231,Grey Hospital,Alexandra Road Qonce,Qonce,Eastern Cape,5601,043 810 7764,Government,Yes,-32.8880,27.3790
+232,Bhisho Hospital,Prince Alfred Road Bhisho,Bhisho,Eastern Cape,5605,040 391 1890,Government,Yes,-32.8430,27.4280
+233,St Dominics Hospital,45 St Marks Road Southernwood,East London,Eastern Cape,5201,043 620 6930,Private,Yes,-33.0110,27.8990
+234,Beacon Bay Hospital,Bonza Bay Road Beacon Bay,East London,Eastern Cape,5247,043 210 1028,Private,Yes,-32.9620,27.9480
+235,East London Private Hospital,32 Albany Street Southernwood,East London,Eastern Cape,5213,043 338 5844,Private,Yes,-33.0210,27.9130
+236,Nelson Mandela Academic Hospital,Sisson Street Fort Gale,Mthatha,Eastern Cape,5100,047 890 5945,Government,Yes,-31.6030,28.7870
+237,Mthatha Regional Hospital,Nelson Mandela Drive Mthatha,Mthatha,Eastern Cape,5099,047 638 8634,Government,Yes,-31.5829,28.7644
+238,St Marys Hospital,30 Durham Street Mthatha,Mthatha,Eastern Cape,5100,047 413 2079,Private,Yes,-31.5710,28.7730
+239,St Elizabeth Hospital,Main Road Lusikisiki,Lusikisiki,Eastern Cape,4820,039 849 8249,Government,Yes,-31.3937,29.5427
+240,St Barnabas Hospital,Hospital Road Ntlaza,Libode,Eastern Cape,5160,047 456 8148,Government,Yes,-31.5300,29.0430
+241,Dr Malizo Mpehle Memorial Hospital,Main Road Tsolo,Tsolo,Eastern Cape,5170,047 356 6589,Government,Yes,-31.3230,28.7550
+242,Isilimela Hospital,Isilimela Road Port St Johns,Port St Johns,Eastern Cape,5120,047 600 3102,Government,Yes,-31.6350,29.5150
+243,Frontier Hospital,Komani Street Komani,Komani,Eastern Cape,5320,045 217 2597,Government,Yes,-31.8950,26.8790
+244,Komani Private Hospital,28 Griffith Street Komani,Komani,Eastern Cape,5319,045 426 8997,Private,Yes,-31.9066,26.8693
+245,Cofimvaba Hospital,Main Street Cofimvaba,Cofimvaba,Eastern Cape,5380,047 610 6531,Government,Yes,-32.0200,27.6080
+246,All Saints Hospital,Hospital Road Ngcobo,Ngcobo,Eastern Cape,5050,047 267 3728,Government,Yes,-31.6620,28.0270
+247,Cradock Hospital,Durban Street Cradock,Cradock,Eastern Cape,5880,048 636 4635,Government,Yes,-32.1852,25.6272
+248,Butterworth Hospital,Mthatha Road Butterworth,Butterworth,Eastern Cape,4960,047 761 7390,Government,Yes,-32.3530,28.1550
+249,Fort Beaufort Hospital,Campbell Street Fort Beaufort,Fort Beaufort,Eastern Cape,5720,046 622 2923,Government,Yes,-32.7660,26.6370
+250,Greenville Hospital,Main Road Mbizana,Mbizana,Eastern Cape,4800,039 798 1000,Government,Yes,-30.8360,29.8480
+251,Tayler Bequest Hospital,Hospital Road Matatiele,Matatiele,Eastern Cape,4730,039 726 1751,Government,Yes,-30.3480,28.8360
+252,Madzikane KaZulu Memorial Hospital,Main Road KwaBhaca,KwaBhaca,Eastern Cape,5090,039 218 3955,Government,Yes,-30.9330,28.9800
+253,Aliwal North Hospital,Dan Pienaar Avenue Aliwal North,Aliwal North,Eastern Cape,9750,051 850 5275,Government,Yes,-30.7020,26.6830
+254,Empilisweni Hospital,Main Road Sterkspruit,Sterkspruit,Eastern Cape,9762,051 295 2112,Government,Yes,-30.5370,27.3820
+255,Settlers Hospital,Milner Street Makhanda,Makhanda,Eastern Cape,6139,046 587 6203,Government,Yes,-33.2860,26.5450
+256,Midlands Hospital,Hospital Street Graaff-Reinet,Graaff-Reinet,Eastern Cape,6280,049 792 4146,Government,Yes,-32.2630,24.5680
+257,Humansdorp Hospital,Du Plessis Street Humansdorp,Humansdorp,Eastern Cape,6300,042 880 2679,Government,Yes,-34.0140,24.7540
+258,Andries Vosloo Hospital,Paulet Street Somerset East,Somerset East,Eastern Cape,5850,042 715 9761,Government,Yes,-32.7060,25.5900
+259,Victoria Hospital Alice,Hospital Street Alice,Alice,Eastern Cape,5700,040 653 1141,Government,Yes,-32.7930,26.8370
+260,Stutterheim Hospital,Hospital Road Stutterheim,Stutterheim,Eastern Cape,4930,043 683 1313,Government,Yes,-32.5740,27.4260
+261,Mount Ayliff Hospital,Hospital Road eMaxesibeni,eMaxesibeni,Eastern Cape,4735,039 254 0236,Government,Yes,-30.8130,29.3640
+262,Taylor Bequest Hospital Mount Fletcher,Hospital Road Mount Fletcher,Mount Fletcher,Eastern Cape,4770,039 257 0099,Government,Yes,-30.6960,28.5040
+263,Pietersburg Hospital,1 Hospital Street,Polokwane,Limpopo,0699,015 287 5000,Government,Yes,-23.9010,29.4590
+264,Mankweng Hospital,1 Hospital Road,Mankweng,Limpopo,0727,015 286 1000,Government,Yes,-23.8840,29.7310
+265,Seshego Hospital,1 Hospital Street,Seshego,Limpopo,0742,015 223 5141,Government,Yes,-23.8490,29.3900
+266,Lebowakgomo Hospital,1 Hospital Road,Lebowakgomo,Limpopo,0737,015 633 7900,Government,Yes,-24.2960,29.5580
+267,Thabamoopo Hospital,2 Thabamoopo Road,Lebowakgomo,Limpopo,0737,015 632 9000,Government,No,-24.3080,29.5500
+268,Helene Franz Hospital,1 Bochum Main Road,Senwabarwana,Limpopo,0790,015 505 0005,Government,Yes,-23.2860,28.9630
+269,WF Knobel Hospital,1 Ga-Mashashane Road,Moletjie,Limpopo,0744,015 222 6000,Government,Yes,-23.7430,29.2750
+270,Zebediela Hospital,1 Moletlane Road,Zebediela,Limpopo,0620,015 662 0030,Government,Yes,-24.3080,29.3240
+271,Pholoso Hospital,1 Burger Street,Polokwane,Limpopo,0699,015 290 2000,Private,Yes,-23.9080,29.4620
+272,Thornhill Hospital,20 Thabo Mbeki Street,Polokwane,Limpopo,0700,015 290 3600,Private,Yes,-23.8960,29.4780
+273,Tshilidzini Hospital,1 Tshilidzini Road,Shayandima,Limpopo,0945,015 964 1061,Government,Yes,-22.9880,30.4320
+274,Donald Fraser Hospital,1 Vhufuli Road,Sibasa,Limpopo,0970,015 963 1778,Government,Yes,-22.9100,30.4600
+275,Siloam Hospital,1 Siloam Road,Nzhelele,Limpopo,0993,015 973 0004,Government,Yes,-22.8600,30.1500
+276,Elim Hospital,1 Elim Hospital Road,Elim,Limpopo,0960,015 556 3201,Government,Yes,-23.1680,30.0470
+277,Louis Trichardt Memorial Hospital,1 Rissik Street,Makhado,Limpopo,0920,015 516 0344,Government,Yes,-23.0470,29.9080
+278,Messina Hospital,1 Pat Harrison Road,Musina,Limpopo,0900,015 534 0446,Government,Yes,-22.3420,30.0450
+279,Malamulele Hospital,1 Hospital Street,Malamulele,Limpopo,0982,015 851 0026,Government,Yes,-23.0050,30.6910
+280,Zoutpansberg Hospital,10 Songozwi Street,Makhado,Limpopo,0920,015 519 0100,Private,Yes,-23.0420,29.9120
+281,Thohoyandou Private Hospital,15 Mphephu Drive,Thohoyandou,Limpopo,0950,015 962 5100,Private,Yes,-22.9500,30.4830
+282,Letaba Hospital,1 Letaba Hospital Road,Nkowankowa,Limpopo,0870,015 303 8200,Government,Yes,-23.8600,30.2500
+283,Van Velden Memorial Hospital,27 Claude Wheatley Street,Tzaneen,Limpopo,0850,015 307 8800,Government,Yes,-23.8320,30.1600
+284,Dr CN Phatudi Hospital,1 Lenyenye Main Road,Lenyenye,Limpopo,0857,015 355 8000,Government,Yes,-23.9720,30.2720
+285,Kgapane Hospital,1 Kgapane Hospital Road,Ga-Kgapane,Limpopo,0838,015 328 8000,Government,Yes,-23.6380,30.2320
+286,Nkhensani Hospital,1 Hospital Road,Giyani,Limpopo,0826,015 811 7300,Government,Yes,-23.3130,30.7160
+287,Maphutha Malatji Hospital,1 Namakgale Main Road,Namakgale,Limpopo,1391,015 783 2800,Government,Yes,-23.9540,31.0470
+288,Tzaneen Private Hospital,2 Danie Joubert Street,Tzaneen,Limpopo,0850,015 306 0200,Private,Yes,-23.8290,30.1680
+289,Phalaborwa Private Hospital,12 Mellor Street,Phalaborwa,Limpopo,1390,015 781 3300,Private,Yes,-23.9450,31.1380
+290,St Ritas Hospital,1 Glen Cowie Road,Jane Furse,Limpopo,1085,013 265 2000,Government,Yes,-24.7780,29.8560
+291,Jane Furse Hospital,1 Hospital Road,Jane Furse,Limpopo,1085,013 265 1000,Government,Yes,-24.7430,29.8420
+292,Philadelphia Hospital,1 Dennilton Main Road,Elandsdoorn,Limpopo,0485,013 983 0117,Government,Yes,-25.2920,29.2350
+293,Groblersdal Hospital,1 Van Riebeeck Street,Groblersdal,Limpopo,0470,013 262 3024,Government,Yes,-25.1680,29.3980
+294,Dilokong Hospital,1 Driekop Road,Burgersfort,Limpopo,1150,013 214 7100,Government,Yes,-24.6000,30.2100
+295,Mokopane Hospital,1 Hospital Street,Mokopane,Limpopo,0600,015 409 2000,Government,Yes,-24.1900,29.0050
+296,FH Odendaal Hospital,1 Nelson Mandela Drive,Modimolle,Limpopo,0510,014 718 3200,Government,Yes,-24.7020,28.4060
+297,Warmbaths Hospital,1 Chris Hani Drive,Bela-Bela,Limpopo,0480,014 736 2121,Government,Yes,-24.8850,28.2920
+298,Thabazimbi Hospital,1 Hospital Street,Thabazimbi,Limpopo,0380,014 777 1530,Government,Yes,-24.5930,27.4120
+299,Ellisras Hospital,1 Hospital Street,Lephalale,Limpopo,0555,014 763 2321,Government,Yes,-23.6790,27.7030
+300,Mokopane Private Hospital,30 Thabo Mbeki Drive,Mokopane,Limpopo,0601,015 491 5700,Private,Yes,-24.1960,29.0120
+301,Lephalale Private Hospital,5 Nelson Mandela Drive,Lephalale,Limpopo,0555,014 763 9000,Private,Yes,-23.6740,27.6980
+302,Rob Ferreira Hospital,1 Madiba Drive,Mbombela,Mpumalanga,1200,013 741 6100,Government,Yes,-25.4695,30.9683
+303,Nelspruit Hospital,1 Louise Street,Mbombela,Mpumalanga,1201,013 759 0500,Private,Yes,-25.4645,30.9903
+304,Kiaat Hospital,9 Kiaat Street,Mbombela,Mpumalanga,1200,013 755 3000,Private,Yes,-25.4805,30.9603
+305,Lowveld Hospital,39 Sonheuwel Street,Mbombela,Mpumalanga,1201,013 753 2900,Private,Yes,-25.4785,30.9763
+306,Themba Hospital,1 Themba Hospital Road,Kabokweni,Mpumalanga,1245,013 796 9500,Government,Yes,-25.3263,31.0950
+307,White River Hospital,12 Peter Graham Street,White River,Mpumalanga,1240,013 751 2700,Private,Yes,-25.3347,31.0147
+308,Barberton Hospital,1 Hospital Street,Barberton,Mpumalanga,1300,013 712 2301,Government,Yes,-25.7899,31.0501
+309,Barberton TB Hospital,24 Crown Street,Barberton,Mpumalanga,1300,013 712 3550,Government,No,-25.7829,31.0581
+310,Shongwe Hospital,1 Shongwe Hospital Road,Kamhlushwa,Mpumalanga,1345,013 781 0200,Government,Yes,-25.7253,31.6403
+311,Tonga Hospital,1 Tonga Main Road,Kamhlushwa,Mpumalanga,1345,013 780 0356,Government,Yes,-25.7153,31.8053
+312,Matikwana Hospital,1 Matikwana Road,Mkhuhlu,Mpumalanga,1246,013 795 5000,Government,Yes,-25.0297,31.2398
+313,Mapulaneng Hospital,1 Mapulaneng Road,Bushbuckridge,Mpumalanga,1280,013 799 0214,Government,Yes,-24.8353,31.0697
+314,Tintswalo Hospital,1 Tintswalo Road,Acornhoek,Mpumalanga,1360,013 795 8000,Government,Yes,-24.5950,31.0853
+315,Sabie Hospital,10 Main Street,Sabie,Mpumalanga,1260,013 764 1222,Government,Yes,-25.0950,30.7803
+316,Lydenburg Hospital,1 Hospital Street,Mashishing,Mpumalanga,1120,013 235 2211,Government,Yes,-25.0944,30.4499
+317,Witbank Hospital,1 Mandela Street,Emalahleni,Mpumalanga,1035,013 653 2000,Government,Yes,-25.8733,29.2334
+318,Witbank TB Hospital,2 Hospital Street,Emalahleni,Mpumalanga,1034,013 656 1313,Government,No,-25.8653,29.2284
+319,Cosmos Hospital,39 Botha Avenue,Emalahleni,Mpumalanga,1035,013 690 2000,Private,Yes,-25.8823,29.2254
+320,Middelburg Hospital,1 Dr Beyers Naude Street,Middelburg,Mpumalanga,1050,013 282 2000,Government,Yes,-25.7730,29.4648
+321,Midmed Hospital,10 Fitzpatrick Street,Middelburg,Mpumalanga,1055,013 283 8000,Private,Yes,-25.7700,29.4598
+322,Bernice Samuel Hospital,1 Samuel Road,Delmas,Mpumalanga,2210,013 665 1301,Government,Yes,-26.1478,28.6798
+323,KwaMhlanga Hospital,1 Hospital Road,KwaMhlanga,Mpumalanga,1022,013 947 3500,Government,Yes,-25.4303,28.7050
+324,Mmametlhake Hospital,1 Mmametlhake Main Road,Siyabuswa,Mpumalanga,0472,013 976 1310,Government,Yes,-25.0497,28.9300
+325,Matibidi Hospital,1 Matibidi Main Road,Graskop,Mpumalanga,1270,013 767 0100,Government,Yes,-24.7800,30.8900
+326,Impungwe Hospital,1 Impungwe Road,Kwaggafontein,Mpumalanga,0458,013 986 0101,Government,Yes,-25.2950,28.8550
+327,H A Grove Hospital,20 Vermooten Street,eMakhazeni,Mpumalanga,1100,013 253 0100,Government,Yes,-25.6902,30.0333
+328,Ermelo Hospital,1 Joubert Street,Ermelo,Mpumalanga,2350,017 811 2031,Government,Yes,-26.5303,29.9803
+329,Ermelo Private Hospital,25 De Jager Street,Ermelo,Mpumalanga,2351,017 819 1000,Private,Yes,-26.5413,29.9903
+330,Evander Hospital,1 Hospital Street,Secunda,Mpumalanga,2302,017 632 1000,Government,Yes,-26.4697,29.1000
+331,Highveld Hospital,1 Nelson Mandela Drive,Secunda,Mpumalanga,2302,017 638 8000,Private,Yes,-26.5197,29.2200
+332,Secunda Private Hospital,15 Heunis Street,Secunda,Mpumalanga,2302,017 631 1000,Private,Yes,-26.5147,29.2050
+333,Bethal Hospital,1 Hospital Street,Bethal,Mpumalanga,2310,017 647 1133,Government,Yes,-26.4520,29.4697
+334,Standerton Hospital,1 Hospital Street,Standerton,Mpumalanga,2430,017 712 9200,Government,Yes,-26.9450,29.2550
+335,Standerton TB Hospital,5 Dr Beyers Naude Street,Standerton,Mpumalanga,2430,017 712 3000,Government,No,-26.9550,29.2450
+336,Piet Retief Hospital,1 Hospital Street,eMkhondo,Mpumalanga,2380,017 826 2121,Government,Yes,-27.0050,30.8050
+337,Amajuba Memorial Hospital,1 Hospital Street,Volksrust,Mpumalanga,2470,017 735 5071,Government,Yes,-27.3647,29.8803
+338,Carolina Hospital,1 Hospital Street,Carolina,Mpumalanga,1185,017 843 1012,Government,Yes,-26.0647,30.1147
+339,Embhuleni Hospital,1 Embhuleni Road,Elukwatini,Mpumalanga,1192,017 883 0025,Government,Yes,-26.0050,30.7450
+340,Elsie Ballot Hospital,10 Church Street,Amsterdam,Mpumalanga,2375,017 846 0088,Government,Yes,-26.6303,30.6697
+341,Job Shimankana Tabane Hospital,19 Heystek Street,Rustenburg,North West,0299,014 592 8938,Government,Yes,-25.6758,27.2395
+342,Peglerae Hospital,26 Bosch Street,Rustenburg,North West,0300,014 597 3888,Private,Yes,-25.6513,27.2429
+343,Ferncrest Hospital,2 Tlhabane Road,Tlhabane,North West,0309,014 566 2415,Private,Yes,-25.6409,27.2241
+344,Andrew Saffy Memorial Hospital,1 Wonderkop Road,Marikana,North West,0284,014 572 6160,Private,Yes,-25.7129,27.4704
+345,Moses Kotane Hospital,1 Ledig Main Road,Mogwase,North West,0314,014 555 3237,Government,Yes,-25.3300,27.1000
+346,George Stegmann Hospital,3 Saulspoort Road,Mogwase,North West,0314,014 555 6355,Government,Yes,-25.1650,27.1700
+347,Brits District Hospital,17 Reitz Street,Brits,North West,0250,012 252 6906,Government,Yes,-25.6149,27.7920
+348,Brits Private Hospital,42 Van Velden Street,Brits,North West,0250,012 250 7212,Private,Yes,-25.6411,27.7803
+349,Koster Hospital,8 Kerk Street,Koster,North West,0348,014 543 6780,Government,Yes,-25.8523,26.8876
+350,Swartruggens Hospital,11 Voortrekker Street,Swartruggens,North West,2835,014 544 6996,Government,Yes,-25.6370,26.6928
+351,Mahikeng Provincial Hospital,1 Sekame Road,Mahikeng,North West,2745,018 384 3847,Government,Yes,-25.8822,25.6550
+352,Victoria Hospital,22 Shippard Street,Mahikeng,North West,2745,018 383 7826,Private,Yes,-25.8514,25.6529
+353,Bophelong Psychiatric Hospital,4 Vryburg Road,Mmabatho,North West,2735,018 386 6026,Government,No,-25.8312,25.6015
+354,Bophelong Private Hospital,16 Nelson Mandela Drive,Mmabatho,North West,2735,018 386 8584,Private,Yes,-25.8637,25.6373
+355,General De La Rey Hospital,60 Melville Street,Lichtenburg,North West,2740,018 632 5744,Government,Yes,-26.1667,26.1746
+356,Thusong Hospital,1 Hospital Road,Itsoseng,North West,2744,018 338 3088,Government,Yes,-26.0673,25.9327
+357,Gelukspan District Hospital,2 Radithuso Road,Itsoseng,North West,2744,018 338 3038,Government,Yes,-26.0300,25.8800
+358,Zeerust Hospital,14 President Street,Zeerust,North West,2865,018 642 3480,Government,Yes,-25.5376,26.0767
+359,Lehurutshe Hospital,5 Lehurutshe Main Road,Dinokana,North West,2868,018 363 4210,Government,Yes,-25.4670,25.9830
+360,Delareyville Hospital,31 Delarey Street,Delareyville,North West,2770,053 948 1780,Government,Yes,-26.6782,25.4838
+361,Klerksdorp Hospital,9 Joe Slovo Road,Klerksdorp,North West,2571,018 462 3912,Government,Yes,-26.8719,26.6475
+362,Tshepong Hospital,1 Tshepong Road,Alabama,North West,2571,018 406 2832,Government,Yes,-26.8819,26.5959
+363,Wilmed Park Hospital,35 Totius Street,Klerksdorp,North West,2571,018 468 5856,Private,Yes,-26.8781,26.6467
+364,Anncron Hospital,20 Wells Street,Klerksdorp,North West,2574,018 462 1117,Private,Yes,-26.8545,26.6344
+365,Sunningdale Hospital,8 Sunningdale Avenue,Klerksdorp,North West,2574,018 462 3003,Private,Yes,-26.8620,26.6215
+366,Vaal Reefs Hospital,1 Western Levels Road,Orkney,North West,2619,018 473 6097,Private,Yes,-26.9827,26.6842
+367,Potchefstroom Hospital,33 Hoffman Street,Potchefstroom,North West,2531,018 294 7492,Government,Yes,-26.7257,27.0910
+368,Witrand Hospital,1 Witrand Road,Potchefstroom,North West,2520,018 294 7739,Government,No,-26.7342,27.1047
+369,Mooimed Hospital,15 Nelson Mandela Drive,Potchefstroom,North West,2531,018 293 1231,Private,Yes,-26.6955,27.0890
+370,Potchefstroom Private Hospital,52 Gerrit Maritz Street,Potchefstroom,North West,2520,018 293 3320,Private,Yes,-26.7133,27.1047
+371,Ventersdorp Hospital,6 Van Riebeeck Street,Ventersdorp,North West,2710,018 264 1311,Government,Yes,-26.3138,26.8051
+372,Nic Bodenstein Hospital,18 Kruger Street,Wolmaransstad,North West,2630,018 596 1447,Government,Yes,-27.1824,25.9650
+373,Joe Morolong Memorial Hospital,12 Vry Street,Vryburg,North West,8601,053 927 3307,Government,Yes,-26.9583,24.7311
+374,Vryburg Private Hospital,40 De Kock Street,Vryburg,North West,8600,053 927 8778,Private,Yes,-26.9676,24.7381
+375,Taung Hospital,1 Hospital Road,Taung,North West,8580,053 994 9545,Government,Yes,-27.5185,24.7860
+376,Schweizer-Reneke Hospital,25 Schweizer Street,Schweizer-Reneke,North West,2780,053 963 7879,Government,Yes,-27.1987,25.3511
+377,Bloemhof Hospital,7 Bloem Street,Bloemhof,North West,2660,053 433 8936,Government,Yes,-27.6516,25.5971
+378,Christiana Hospital,21 Robyn Street,Christiana,North West,2680,053 441 3088,Government,Yes,-27.9121,25.1658
+379,Ganyesa Hospital,1 Main Road,Ganyesa,North West,8613,053 998 9524,Government,Yes,-26.5997,24.1680
+380,Universitas Academic Hospital,1 Logeman Street,Bloemfontein,Free State,9321,051 111 2648,Government,Yes,-29.1105,26.1835
+381,Pelonomi Tertiary Hospital,121 Dr Belcher Road,Bloemfontein,Free State,9301,051 112 0567,Government,Yes,-29.1395,26.2475
+382,National District Hospital,56 Roth Avenue,Bloemfontein,Free State,9301,051 112 8486,Government,Yes,-29.1148,26.2125
+383,Free State Psychiatric Complex,1 Kings Way,Bloemfontein,Free State,9301,051 113 6405,Government,No,-29.1318,26.2195
+384,Universitas Private Hospital,23 Logeman Street,Bloemfontein,Free State,9321,051 114 4324,Private,Yes,-29.1095,26.1860
+385,Rosepark Hospital,28 Gustav Crescent,Bloemfontein,Free State,9317,051 115 2243,Private,Yes,-29.1475,26.1905
+386,Pasteur Hospital,92 Zastron Street,Bloemfontein,Free State,9301,051 116 0162,Private,Yes,-29.1182,26.2068
+387,Bloemfontein Private Hospital,64 Kellner Street,Bloemfontein,Free State,9301,051 116 8081,Private,Yes,-29.1136,26.2082
+388,Botshabelo District Hospital,1 Mokwena Street,Botshabelo,Free State,9781,051 117 6000,Government,Yes,-29.2345,26.7185
+389,Dr JS Moroka District Hospital,1 Station Road,Thaba Nchu,Free State,9780,051 118 3919,Government,Yes,-29.2158,26.8345
+390,Bongani Regional Hospital,1 Mothusi Street,Thabong,Free State,9463,057 119 1838,Government,Yes,-27.9815,26.7905
+391,Welkom Private Hospital,22 Koppie Alleen Road,Welkom,Free State,9459,057 119 9757,Private,Yes,-27.9845,26.7325
+392,Thusanong District Hospital,1 Hospital Street,Odendaalsrus,Free State,9480,057 120 7676,Government,Yes,-27.8672,26.6840
+393,Katleho District Hospital,1 Harmony Road,Virginia,Free State,9430,057 121 5595,Government,Yes,-28.1012,26.8672
+394,Winburg District Hospital,12 Church Street,Winburg,Free State,9420,051 122 3514,Government,Yes,-28.5175,27.0012
+395,Mohau District Hospital,8 Hospital Street,Hoopstad,Free State,9479,053 123 1433,Government,Yes,-27.8342,25.9172
+396,Dihlabeng Regional Hospital,20 Muller Street,Bethlehem,Free State,9701,058 123 9352,Government,Yes,-28.2305,28.3045
+397,Phekolong District Hospital,1 Phekolong Road,Bohlokong,Free State,9702,058 124 7271,Government,Yes,-28.2212,28.3410
+398,Hoogland Hospital,33 Lindley Street,Bethlehem,Free State,9701,058 125 5190,Private,Yes,-28.2345,28.2985
+399,Mofumahadi Manapo Mopeli Regional Hospital,1 Hospital Road,Phuthaditjhaba,Free State,9866,058 126 3109,Government,Yes,-28.5325,28.8180
+400,Elizabeth Ross District Hospital,1 Elizabeth Ross Road,Phuthaditjhaba,Free State,9870,058 127 1028,Government,Yes,-28.5085,28.8425
+401,Thebe District Hospital,40 Stuart Street,Harrismith,Free State,9880,058 127 8947,Government,Yes,-28.2672,29.1335
+402,Harrismith Private Hospital,12 Warden Street,Harrismith,Free State,9880,058 128 6866,Private,Yes,-28.2705,29.1298
+403,Ficksburg District Hospital,15 Kerk Street,Ficksburg,Free State,9730,051 129 4785,Government,Yes,-28.8682,27.8665
+404,Mantsopa District Hospital,20 Piet Retief Street,Ladybrand,Free State,9745,051 130 2704,Government,Yes,-29.1992,27.4512
+405,Itemoheng District Hospital,22 Van Riebeeck Street,Senekal,Free State,9600,058 131 0623,Government,Yes,-28.3182,27.6172
+406,Nketoana District Hospital,17 Sarel Cilliers Street,Reitz,Free State,9810,058 131 8542,Government,Yes,-27.8012,28.4345
+407,Phumelela District Hospital,10 Kerk Street,Vrede,Free State,9835,058 132 6461,Government,Yes,-27.4342,29.1665
+408,Boitumelo Regional Hospital,7 Hospital Road,Kroonstad,Free State,9499,056 133 4380,Government,Yes,-27.6522,27.2342
+409,Kroon Hospital,40 Cross Street,Kroonstad,Free State,9499,056 134 2299,Private,Yes,-27.6485,27.2305
+410,Fezi Ngubentombi District Hospital,9 Fichardt Street,Sasolburg,Free State,1947,016 135 0218,Government,Yes,-26.8172,27.8180
+411,Vaalpark Hospital,10 Hennie Alberts Street,Sasolburg,Free State,1948,016 135 8137,Private,Yes,-26.7792,27.8395
+412,Parys District Hospital,25 Boom Street,Parys,Free State,9585,056 136 6056,Government,Yes,-26.9015,27.4525
+413,Tokollo District Hospital,14 Van Riebeeck Street,Heilbron,Free State,9650,058 137 3975,Government,Yes,-27.2842,27.9672
+414,Mafube District Hospital,18 Brand Street,Frankfort,Free State,9830,058 138 1894,Government,Yes,-27.2845,28.5012
+415,Diamant District Hospital,5 Charles Street,Jagersfontein,Free State,9974,051 138 9813,Government,Yes,-29.7672,25.4335
+416,Albert Nzula District Hospital,30 Louw Street,Trompsburg,Free State,9913,051 139 7732,Government,Yes,-30.0335,25.7835
+417,Stoffel Coetzee District Hospital,12 Brand Street,Smithfield,Free State,9966,051 140 5651,Government,Yes,-30.2172,26.5335
+418,Embekweni District Hospital,8 Hoofd Street,Zastron,Free State,9950,051 141 3570,Government,Yes,-30.3005,27.0838
+419,Robert Mangaliso Sobukwe Hospital,1 Du Toitspan Road,Kimberley,Northern Cape,8301,053 802 9111,Government,Yes,-28.7252,24.7619
+420,West End Hospital,1 Beaconsfield Road,Kimberley,Northern Cape,8301,053 802 2300,Government,No,-28.7482,24.7559
+421,Northern Cape Mental Health Hospital,9 Memorial Road,Kimberley,Northern Cape,8301,053 802 5000,Government,No,-28.7402,24.7319
+422,Kimberley Private Hospital,177 Du Toitspan Road,Kimberley,Northern Cape,8301,053 838 1111,Private,Yes,-28.7362,24.7639
+423,Gariep Hospital,1 Welgevonden Avenue,Kimberley,Northern Cape,8301,053 807 2000,Private,Yes,-28.7432,24.7719
+424,Royal Hospital and Heart Centre,1 Carrington Road,Kimberley,Northern Cape,8301,053 045 0500,Private,Yes,-28.7382,24.7589
+425,Galeshewe Day Hospital,1 Nobengula Street,Galeshewe,Northern Cape,8345,053 830 3600,Government,Yes,-28.7060,24.7340
+426,Professor ZK Matthews Hospital,1 Hospital Street,Barkly West,Northern Cape,8375,053 531 0471,Government,Yes,-28.5410,24.5240
+427,Warrenton Hospital,15 Market Street,Warrenton,Northern Cape,8530,053 497 3121,Government,Yes,-28.1120,24.8450
+428,Jan Kempdorp Hospital,1 Hospital Road,Jan Kempdorp,Northern Cape,8550,053 456 0206,Government,Yes,-27.9270,24.8360
+429,Connie Vorster Hospital,2 Hendrik Street,Hartswater,Northern Cape,8570,053 474 0043,Government,Yes,-27.7520,24.7990
+430,Kuruman Hospital,1 Main Street,Kuruman,Northern Cape,8460,053 712 8100,Government,Yes,-27.4560,23.4370
+431,Tshwaragano Hospital,1 Hospital Road,Batlharos,Northern Cape,8477,053 712 8300,Government,Yes,-27.3270,23.3440
+432,Kuruman Private Hospital,24 Voortrekker Street,Kuruman,Northern Cape,8460,053 712 0100,Private,Yes,-27.4470,23.4260
+433,Kathu Private Hospital,1 Frikkie Meyer Street,Kathu,Northern Cape,8446,053 723 2800,Private,Yes,-27.7010,23.0570
+434,Dr Van Niekerk Hospital,1 Hospital Street,Springbok,Northern Cape,8240,027 712 1551,Government,Yes,-29.6600,17.8810
+435,Port Nolloth Hospital,3 Main Road,Port Nolloth,Northern Cape,8280,027 851 8055,Government,Yes,-29.2510,16.8720
+436,Abraham Esau Hospital,1 Hospital Street,Calvinia,Northern Cape,8190,027 341 1105,Government,Yes,-31.4750,19.7800
+437,Garies Hospital,2 Main Road,Garies,Northern Cape,8220,027 652 1011,Government,Yes,-30.5600,17.9870
+438,Pofadder Hospital,5 Church Street,Pofadder,Northern Cape,8890,054 933 0066,Government,Yes,-29.1300,19.3990
+439,Sutherland Hospital,4 Piet Retief Street,Sutherland,Northern Cape,6920,023 571 1030,Government,Yes,-32.3910,20.6680
+440,Fraserburg Hospital,7 Voortrekker Street,Fraserburg,Northern Cape,6960,023 741 1070,Government,Yes,-31.9180,21.5100
+441,Williston Hospital,10 Kerk Street,Williston,Northern Cape,8920,053 391 3080,Government,Yes,-31.3410,20.9280
+442,De Aar Hospital,1 Visser Street,De Aar,Northern Cape,7000,053 632 9000,Government,Yes,-30.6560,24.0200
+443,Manne Dipico Hospital,11 Bell Street,Colesberg,Northern Cape,9795,051 753 0631,Government,Yes,-30.7170,25.0930
+444,Victoria West Hospital,8 Pastorie Street,Victoria West,Northern Cape,7070,053 621 0026,Government,Yes,-31.4040,23.1220
+445,Carnarvon Hospital,6 Hospital Street,Carnarvon,Northern Cape,8925,053 382 3012,Government,Yes,-30.9670,22.1320
+446,Prieska Hospital,2 Hospital Street,Prieska,Northern Cape,8940,053 353 1110,Government,Yes,-29.6680,22.7420
+447,Douglas Hospital,12 Campbell Street,Douglas,Northern Cape,8730,053 298 1500,Government,Yes,-29.0530,23.7750
+448,Hopetown Hospital,9 Kerk Street,Hopetown,Northern Cape,8750,053 203 0043,Government,Yes,-29.6270,24.0900
+449,Dr Harry Surtie Hospital,1 Hospital Road,Upington,Northern Cape,8801,054 338 7000,Government,Yes,-28.4470,21.2700
+450,Upington Private Hospital,54 Schroder Street,Upington,Northern Cape,8801,054 338 8100,Private,Yes,-28.4610,21.2480
+451,Keimoes Hospital,3 Hospital Street,Keimoes,Northern Cape,8860,054 461 1055,Government,Yes,-28.7040,20.9740
+452,Kakamas Hospital,5 Voortrekker Road,Kakamas,Northern Cape,8870,054 431 0046,Government,Yes,-28.7740,20.6180
+453,Kenhardt Hospital,2 Hospital Street,Kenhardt,Northern Cape,8900,054 651 0020,Government,Yes,-29.3430,21.1530
+454,Postmasburg Hospital,1 Hospital Street,Postmasburg,Northern Cape,8420,053 313 1900,Government,Yes,-28.3340,23.0750

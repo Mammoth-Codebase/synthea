@@ -1,0 +1,41 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-H-001,Inkosi Albert Luthuli Central Hospital,800 Vusi Mzimela Road,Durban Central,KwaZulu-Natal,4091,031 511 7276,Government,Yes,-29.8742,30.9893
+KZN-H-002,King Edward VIII Hospital,Rick Turner Road,Durban Central,KwaZulu-Natal,4001,031 218 4623,Government,Yes,-29.8781,30.9975
+KZN-H-003,Addington Hospital,Erskine Terrace,Durban Central,KwaZulu-Natal,4001,031 398 7092,Government,Yes,-29.8641,31.0398
+KZN-H-004,King Dinuzulu Hospital Complex,75 RD Naidu Drive,Durban Central,KwaZulu-Natal,4091,031 805 6224,Government,Yes,-29.8287,30.9962
+KZN-H-005,McCord Provincial Eye Hospital,28 McCord Road,Durban Central,KwaZulu-Natal,4091,031 909 5022,Government,No,-29.8432,31.0012
+KZN-H-006,St Augustines Hospital,107 JB Marks Road,Durban Central,KwaZulu-Natal,4001,031 387 4891,Private,Yes,-29.8602,31.0098
+KZN-H-007,Entabeni Hospital,148 Mazisi Kunene Road,Durban Central,KwaZulu-Natal,4001,031 920 7743,Private,Yes,-29.8475,31.0015
+KZN-H-008,Prince Mshiyeni Memorial Hospital,Mangosuthu Highway,Umlazi,KwaZulu-Natal,4031,031 673 8224,Government,Yes,-29.9662,30.9102
+KZN-H-009,RK Khan Hospital,RK Khan Circle,Chatsworth,KwaZulu-Natal,4092,031 293 2675,Government,Yes,-29.9048,30.8893
+KZN-H-010,Mahatma Gandhi Memorial Hospital,100 Phoenix Highway,Phoenix,KwaZulu-Natal,4068,031 402 7112,Government,Yes,-29.6951,31.0118
+KZN-H-011,Umhlanga Hospital,323 Umhlanga Rocks Drive,Umhlanga,KwaZulu-Natal,4320,031 830 8378,Private,Yes,-29.7215,31.0702
+KZN-H-012,Westville Hospital,7 Harry Gwala Road,Westville,KwaZulu-Natal,3629,031 742 4972,Private,Yes,-29.8291,30.9204
+KZN-H-013,Hillcrest Hospital,Kassier Road,Hillcrest,KwaZulu-Natal,3650,031 693 6759,Private,Yes,-29.7731,30.7748
+KZN-H-014,Greys Hospital,Townbush Road,Pietermaritzburg,KwaZulu-Natal,3201,033 618 8584,Government,Yes,-29.5853,30.3648
+KZN-H-015,Northdale Hospital,Chota Motala Road,Pietermaritzburg,KwaZulu-Natal,3201,033 979 7404,Government,Yes,-29.5742,30.4057
+KZN-H-016,St Annes Hospital,Montrose Park Boulevard,Pietermaritzburg,KwaZulu-Natal,3201,033 612 2904,Private,Yes,-29.5938,30.3659
+KZN-H-017,Edendale Hospital,Selby Msimang Road,Edendale,KwaZulu-Natal,3217,033 906 4529,Government,Yes,-29.6352,30.3253
+KZN-H-018,Umgeni Hospital,Hospital Road,Howick,KwaZulu-Natal,3290,033 765 6522,Government,No,-29.4865,30.2298
+KZN-H-019,Ngwelezana Hospital,Thanduyise Road,Empangeni,KwaZulu-Natal,3880,035 365 3114,Government,Yes,-28.7623,31.8732
+KZN-H-020,Richards Bay Hospital,Krewelkring Road,Richards Bay,KwaZulu-Natal,3900,035 282 2066,Private,Yes,-28.7752,32.0461
+KZN-H-021,Eshowe Hospital,Kangela Street,Eshowe,KwaZulu-Natal,3815,035 372 1512,Government,Yes,-28.8938,31.4652
+KZN-H-022,Nkonjeni Hospital,Mahlabathini Main Road,Ulundi,KwaZulu-Natal,3838,035 600 5555,Government,Yes,-28.2598,31.4876
+KZN-H-023,Benedictine Hospital,Main Road,Nongoma,KwaZulu-Natal,3950,035 649 2041,Government,Yes,-27.9043,31.6421
+KZN-H-024,Itshelejuba Hospital,Itshelejuba Road,Pongola,KwaZulu-Natal,3170,034 739 2941,Government,Yes,-27.3412,31.5879
+KZN-H-025,Bethesda Hospital,Ubombo Main Road,Mkuze,KwaZulu-Natal,3965,035 815 6168,Government,Yes,-27.5742,32.0818
+KZN-H-026,Vryheid Hospital,Hoog Street,Vryheid,KwaZulu-Natal,3100,034 444 9235,Government,Yes,-27.7652,30.7948
+KZN-H-027,Ladysmith Regional Hospital,36 Malcolm Road,Ladysmith,KwaZulu-Natal,3370,036 666 1086,Government,Yes,-28.5531,29.7762
+KZN-H-028,La Verna Hospital,1 Convent Road,Ladysmith,KwaZulu-Natal,3370,036 684 5064,Private,Yes,-28.5642,29.7721
+KZN-H-029,Estcourt Hospital,Old Main Road,Estcourt,KwaZulu-Natal,3310,036 682 3421,Government,Yes,-29.0132,29.8744
+KZN-H-030,Newcastle Provincial Hospital,4 Hospital Street,Newcastle,KwaZulu-Natal,2940,034 227 6973,Government,Yes,-27.7558,29.9303
+KZN-H-031,Newcastle Private Hospital,Hospital Street,Newcastle,KwaZulu-Natal,2940,034 760 9483,Private,Yes,-27.7621,29.9412
+KZN-H-032,Madadeni Provincial Hospital,Madadeni Main Road,Madadeni,KwaZulu-Natal,2951,034 300 5959,Government,Yes,-27.7563,30.0624
+KZN-H-033,Dundee Provincial Hospital,121 McKenzie Street,Dundee,KwaZulu-Natal,3000,034 495 5840,Government,Yes,-28.1702,30.2372
+KZN-H-034,Greytown Hospital,Bell Street,Greytown,KwaZulu-Natal,3250,033 636 2115,Government,Yes,-29.0632,30.5951
+KZN-H-035,General Justice Gizenga Mpanza Regional Hospital,King Shaka Street,KwaDukuza,KwaZulu-Natal,4450,032 878 4035,Government,Yes,-29.3369,31.2912
+KZN-H-036,Port Shepstone Regional Hospital,7 Bazley Street,Port Shepstone,KwaZulu-Natal,4240,039 606 5375,Government,Yes,-30.7432,30.4518
+KZN-H-037,Hibiscus Hospital,Marine Drive,Port Shepstone,KwaZulu-Natal,4240,039 728 9778,Private,Yes,-30.7498,30.4476
+KZN-H-038,GJ Crookes Hospital,Hospital Road,Scottburgh,KwaZulu-Natal,4180,039 372 4067,Government,Yes,-30.2867,30.7502
+KZN-H-039,Christ the King Hospital,Main Street,Ixopo,KwaZulu-Natal,3276,039 542 2363,Government,Yes,-30.1538,30.0631
+KZN-H-040,East Griqualand and Usher Memorial Hospital,Elliot Street,Kokstad,KwaZulu-Natal,4700,039 825 6223,Government,Yes,-30.5471,29.4202

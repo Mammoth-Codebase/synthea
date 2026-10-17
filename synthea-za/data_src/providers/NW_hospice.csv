@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-HO-001,Hospice Rustenburg,16 Kock Street,Rustenburg,North West,0299,014 592 6465,Private,No,-25.6618,27.2590
+NW-HO-002,Hospice Klerksdorp,25 Margaretha Prinsloo Street,Klerksdorp,North West,2574,018 468 7957,Private,No,-26.8626,26.6388
+NW-HO-003,Potchefstroom Hospice,39 Meyer Street,Potchefstroom,North West,2520,018 294 2939,Private,No,-26.6953,27.0917
+NW-HO-004,Mahikeng Hospice,12 Robinson Street,Mahikeng,North West,2745,018 381 3391,Private,No,-25.8758,25.6349

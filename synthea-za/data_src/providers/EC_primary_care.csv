@@ -1,0 +1,66 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-PC-001,Central Community Health Centre,Govan Mbeki Avenue Central,Gqeberha Central,Eastern Cape,6001,041 723 6234,Government,No,-33.9708,25.6162
+EC-PC-002,Newton Park Family Practice,18 Cape Road Newton Park,Gqeberha Central,Eastern Cape,6045,041 701 5084,Private,No,-33.9610,25.5630
+EC-PC-003,Korsten Clinic,Durban Road Korsten,Gqeberha Central,Eastern Cape,6020,041 511 3921,Government,No,-33.9350,25.5860
+EC-PC-004,Walmer Clinic,Heugh Road Walmer,Walmer,Eastern Cape,6070,041 421 6378,Government,No,-33.9910,25.5930
+EC-PC-005,Walmer Medical Centre,11 Main Road Walmer,Walmer,Eastern Cape,6070,041 389 8590,Private,No,-33.9820,25.5590
+EC-PC-006,New Brighton Clinic,Mendi Road New Brighton,New Brighton,Eastern Cape,6200,041 606 3612,Government,No,-33.9030,25.6050
+EC-PC-007,KwaZakhele Community Health Centre,Daku Road KwaZakhele,KwaZakhele,Eastern Cape,6205,041 890 1916,Government,No,-33.9050,25.5660
+EC-PC-008,Zwide Clinic,Koyana Street Zwide,Zwide,Eastern Cape,6201,041 646 8619,Government,No,-33.8950,25.5480
+EC-PC-009,Motherwell Community Health Centre,Addo Road Motherwell,Motherwell,Eastern Cape,6211,041 812 7919,Government,No,-33.8040,25.5720
+EC-PC-010,Motherwell Family Practice,Tyinira Street Motherwell,Motherwell,Eastern Cape,6211,041 486 3051,Private,No,-33.8120,25.6040
+EC-PC-011,Bethelsdorp Clinic,Stanford Road Bethelsdorp,Bethelsdorp,Eastern Cape,6059,041 268 7771,Government,No,-33.8770,25.5050
+EC-PC-012,Kariega Community Health Centre,Caledon Street Kariega,Kariega,Eastern Cape,6229,041 616 2534,Government,No,-33.7700,25.3810
+EC-PC-013,Cannon Hill Family Practice,22 Mitchell Street Kariega,Kariega,Eastern Cape,6230,041 732 4561,Private,No,-33.7700,25.4380
+EC-PC-014,KwaNobuhle Clinic,Matanzima Road KwaNobuhle,KwaNobuhle,Eastern Cape,6242,041 650 2660,Government,No,-33.7940,25.3890
+EC-PC-015,Despatch Medical Centre,40 Main Road Despatch,Despatch,Eastern Cape,6220,041 641 7812,Private,No,-33.8260,25.4970
+EC-PC-016,Empilweni Gompo Community Health Centre,Gompo Town Duncan Village,Duncan Village,Eastern Cape,5209,043 472 3208,Government,No,-32.9870,27.8830
+EC-PC-017,Vincent Medical Centre,12 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 753 8717,Private,No,-33.0030,27.8970
+EC-PC-018,Quigney Family Practice,9 Currie Street Quigney,East London,Eastern Cape,5213,043 600 5021,Private,No,-33.0180,27.9170
+EC-PC-019,Nontyatyambo Community Health Centre,Mdantsane Access Road Mdantsane,Mdantsane,Eastern Cape,5219,043 237 2281,Government,No,-32.9650,27.7950
+EC-PC-020,Mdantsane Zone Nine Clinic,Daluxolo Street Mdantsane,Mdantsane,Eastern Cape,5219,043 407 6059,Government,No,-32.9470,27.7960
+EC-PC-021,Duncan Village Day Hospital,Douglas Smit Highway Duncan Village,Duncan Village,Eastern Cape,5209,043 572 2867,Government,No,-32.9800,27.8920
+EC-PC-022,Qonce Clinic,Buffalo Road Qonce,Qonce,Eastern Cape,5601,043 524 5257,Government,No,-32.8500,27.4010
+EC-PC-023,Qonce Family Practice,8 Cambridge Road Qonce,Qonce,Eastern Cape,5601,043 794 1695,Private,No,-32.8940,27.4070
+EC-PC-024,Zwelitsha Clinic,Main Road Zwelitsha,Zwelitsha,Eastern Cape,5608,040 742 3434,Government,No,-32.9440,27.4350
+EC-PC-025,Bhisho Clinic,Independence Avenue Bhisho,Bhisho,Eastern Cape,5605,040 790 1942,Government,No,-32.8780,27.4330
+EC-PC-026,Ngangelizwe Community Health Centre,Ngangelizwe Main Road Mthatha,Mthatha,Eastern Cape,5099,047 796 7984,Government,No,-31.5869,28.7894
+EC-PC-027,Mthatha Medical Centre,35 Sutherland Street Mthatha,Mthatha,Eastern Cape,5100,047 543 2170,Private,No,-31.5940,28.7820
+EC-PC-028,Southernwood Family Practice,14 Madeira Street Mthatha,Mthatha,Eastern Cape,5100,047 294 3913,Private,No,-31.5650,28.7940
+EC-PC-029,Lusikisiki Clinic,Main Road Lusikisiki,Lusikisiki,Eastern Cape,4820,039 577 5069,Government,No,-31.3597,29.5817
+EC-PC-030,Port St Johns Clinic,Main Street Port St Johns,Port St Johns,Eastern Cape,5120,047 849 4969,Government,No,-31.6190,29.5460
+EC-PC-031,Libode Clinic,Main Road Libode,Libode,Eastern Cape,5160,047 544 5301,Government,No,-31.5340,29.0360
+EC-PC-032,Qumbu Clinic,Main Street Qumbu,Qumbu,Eastern Cape,5180,047 319 8443,Government,No,-31.1540,28.8470
+EC-PC-033,Tsolo Clinic,Main Road Tsolo,Tsolo,Eastern Cape,5170,047 500 9429,Government,No,-31.3370,28.7790
+EC-PC-034,Komani Community Health Centre,Cathcart Road Komani,Komani,Eastern Cape,5320,045 553 2436,Government,No,-31.9260,26.8450
+EC-PC-035,Komani Medical Centre,60 Robinson Road Komani,Komani,Eastern Cape,5319,045 365 9177,Private,No,-31.8966,26.9053
+EC-PC-036,Cofimvaba Clinic,Main Street Cofimvaba,Cofimvaba,Eastern Cape,5380,047 628 4973,Government,No,-32.0070,27.5630
+EC-PC-037,Ngcobo Clinic,Main Street Ngcobo,Ngcobo,Eastern Cape,5050,047 714 5925,Government,No,-31.6690,27.9880
+EC-PC-038,Cradock Clinic,Market Street Cradock,Cradock,Eastern Cape,5880,048 364 2151,Government,No,-32.1362,25.5992
+EC-PC-039,Cradock Family Practice,15 Adderley Street Cradock,Cradock,Eastern Cape,5880,048 498 5871,Private,No,-32.1672,25.6492
+EC-PC-040,Butterworth Community Health Centre,Mthatha Road Butterworth,Butterworth,Eastern Cape,4960,047 371 4777,Government,No,-32.3070,28.1440
+EC-PC-041,Butterworth Medical Centre,21 Merriman Street Butterworth,Butterworth,Eastern Cape,4960,047 674 7708,Private,No,-32.3600,28.1720
+EC-PC-042,Dutywa Community Health Centre,Main Road Dutywa,Dutywa,Eastern Cape,5000,047 439 3115,Government,No,-32.1220,28.3100
+EC-PC-043,Willowvale Clinic,Main Street Willowvale,Willowvale,Eastern Cape,5040,047 264 5627,Government,No,-32.2460,28.4760
+EC-PC-044,Fort Beaufort Clinic,Durban Street Fort Beaufort,Fort Beaufort,Eastern Cape,5720,046 857 8037,Government,No,-32.8100,26.6570
+EC-PC-045,Alice Clinic,Main Street Alice,Alice,Eastern Cape,5700,040 742 4374,Government,No,-32.7970,26.8110
+EC-PC-046,Stutterheim Clinic,Hill Street Stutterheim,Stutterheim,Eastern Cape,4930,043 723 4025,Government,No,-32.5870,27.3970
+EC-PC-047,Mbizana Community Health Centre,Main Street Mbizana,Mbizana,Eastern Cape,4800,039 467 7982,Government,No,-30.8850,29.8850
+EC-PC-048,Matatiele Clinic,Main Street Matatiele,Matatiele,Eastern Cape,4730,039 553 1225,Government,No,-30.3570,28.7900
+EC-PC-049,Matatiele Family Practice,26 Boom Street Matatiele,Matatiele,Eastern Cape,4730,039 407 1674,Private,No,-30.3310,28.7970
+EC-PC-050,KwaBhaca Clinic,Main Road KwaBhaca,KwaBhaca,Eastern Cape,5090,039 714 4481,Government,No,-30.8920,29.0080
+EC-PC-051,eMaxesibeni Clinic,Main Street eMaxesibeni,eMaxesibeni,Eastern Cape,4735,039 432 2321,Government,No,-30.8170,29.3890
+EC-PC-052,Aliwal North Clinic,Somerset Street Aliwal North,Aliwal North,Eastern Cape,9750,051 262 9821,Government,No,-30.6840,26.7040
+EC-PC-053,Aliwal North Family Practice,33 Barkly Street Aliwal North,Aliwal North,Eastern Cape,9750,051 884 9921,Private,No,-30.7060,26.7000
+EC-PC-054,Sterkspruit Community Health Centre,Main Road Sterkspruit,Sterkspruit,Eastern Cape,9762,051 208 5583,Government,No,-30.5090,27.3660
+EC-PC-055,Mount Fletcher Clinic,Main Street Mount Fletcher,Mount Fletcher,Eastern Cape,4770,039 321 5253,Government,No,-30.6930,28.5060
+EC-PC-056,Joza Community Health Centre,Raglan Road Joza,Makhanda,Eastern Cape,6139,046 728 5603,Government,No,-33.3320,26.5300
+EC-PC-057,Makhanda Medical Centre,45 Hill Street Makhanda,Makhanda,Eastern Cape,6140,046 859 5102,Private,No,-33.3220,26.5270
+EC-PC-058,Graaff-Reinet Clinic,Caledon Street Graaff-Reinet,Graaff-Reinet,Eastern Cape,6280,049 675 2198,Government,No,-32.2290,24.5660
+EC-PC-059,Graaff-Reinet Family Practice,17 Church Street Graaff-Reinet,Graaff-Reinet,Eastern Cape,6280,049 524 2422,Private,No,-32.2390,24.5140
+EC-PC-060,Jeffreys Bay Clinic,Da Gama Road Jeffreys Bay,Jeffreys Bay,Eastern Cape,6330,042 230 2456,Government,No,-34.0360,24.9110
+EC-PC-061,Jeffreys Bay Medical Centre,8 Schelde Street Jeffreys Bay,Jeffreys Bay,Eastern Cape,6330,042 382 8054,Private,No,-34.0660,24.8930
+EC-PC-062,Humansdorp Clinic,Voortrekker Street Humansdorp,Humansdorp,Eastern Cape,6300,042 208 2173,Government,No,-34.0500,24.7490
+EC-PC-063,Somerset East Clinic,Nojoli Street Somerset East,Somerset East,Eastern Cape,5850,042 614 1542,Government,No,-32.7080,25.6010
+EC-PC-064,Somerset East Family Practice,19 Paulet Street Somerset East,Somerset East,Eastern Cape,5850,042 723 4564,Private,No,-32.7200,25.5940
+EC-PC-065,Braelyn Clinic,Jarvis Road Braelyn,East London,Eastern Cape,5201,043 745 2210,Government,No,-33.0050,27.8850

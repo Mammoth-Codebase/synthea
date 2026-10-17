@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-D-001,Rustenburg Renal Unit,28 Bosch Street,Rustenburg,North West,0300,014 592 9031,Private,No,-25.6594,27.2242
+NW-D-002,Tshepong Renal Unit,1 Tshepong Road,Alabama,North West,2571,018 465 2697,Government,No,-26.8669,26.6105
+NW-D-003,Klerksdorp Renal Unit,37 Totius Street,Klerksdorp,North West,2571,018 464 2253,Private,No,-26.8738,26.6330
+NW-D-004,Potchefstroom Renal Unit,17 Nelson Mandela Drive,Potchefstroom,North West,2531,018 297 6474,Private,No,-26.7247,27.1153
+NW-D-005,Mahikeng Renal Unit,24 Shippard Street,Mahikeng,North West,2745,018 381 8884,Private,No,-25.8613,25.6484
+NW-D-006,Brits Renal Unit,44 Van Velden Street,Brits,North West,0250,012 250 9287,Private,No,-25.6432,27.7989
+NW-D-007,Vryburg Renal Unit,42 De Kock Street,Vryburg,North West,8600,053 927 3225,Private,No,-26.9363,24.7335

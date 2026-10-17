@@ -1,0 +1,45 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-H-001,Livingstone Hospital,Stanford Road Korsten,Gqeberha Central,Eastern Cape,6020,041 472 5428,Government,Yes,-33.9390,25.5680
+EC-H-002,Port Elizabeth Provincial Hospital,Buckingham Road Mount Croix,Gqeberha Central,Eastern Cape,6001,041 567 4288,Government,Yes,-33.9738,25.6052
+EC-H-003,Dora Nginza Hospital,Spondo Street Zwide,Zwide,Eastern Cape,6201,041 459 5681,Government,Yes,-33.9060,25.5490
+EC-H-004,Elizabeth Donkin Hospital,Walmer Road South End,Gqeberha Central,Eastern Cape,6001,041 324 7673,Government,No,-33.9518,25.6062
+EC-H-005,Uitenhage Provincial Hospital,Hospital Street Kariega,Kariega,Eastern Cape,6230,041 703 6639,Government,Yes,-33.7620,25.4250
+EC-H-006,St Georges Hospital,40 Park Drive St Georges Park,Gqeberha Central,Eastern Cape,6001,041 847 3833,Private,Yes,-33.9640,25.6060
+EC-H-007,Greenacres Hospital,Rochelle Road Greenacres,Gqeberha Central,Eastern Cape,6045,041 503 9277,Private,Yes,-33.9460,25.5660
+EC-H-008,Mercantile Hospital,Durban Road Korsten,Gqeberha Central,Eastern Cape,6020,041 253 7054,Private,Yes,-33.9330,25.5850
+EC-H-009,Isivivana Hospital,Siyabonga Drive Kwadwesi,Zwide,Eastern Cape,6201,041 299 8661,Private,Yes,-33.8800,25.5300
+EC-H-010,Cuyler Hospital,72 Cuyler Street Kariega,Kariega,Eastern Cape,6229,041 394 9687,Private,Yes,-33.7410,25.3870
+EC-H-011,Frere Hospital,Amalinda Main Road Amalinda,East London,Eastern Cape,5247,043 658 9915,Government,Yes,-32.9910,27.8980
+EC-H-012,Cecilia Makiwane Hospital,Billie Road Mdantsane,Mdantsane,Eastern Cape,5219,043 540 2562,Government,Yes,-32.9730,27.7740
+EC-H-013,Grey Hospital,Alexandra Road Qonce,Qonce,Eastern Cape,5601,043 810 7764,Government,Yes,-32.8880,27.3790
+EC-H-014,Bhisho Hospital,Prince Alfred Road Bhisho,Bhisho,Eastern Cape,5605,040 391 1890,Government,Yes,-32.8430,27.4280
+EC-H-015,St Dominics Hospital,45 St Marks Road Southernwood,East London,Eastern Cape,5201,043 620 6930,Private,Yes,-33.0110,27.8990
+EC-H-016,Beacon Bay Hospital,Bonza Bay Road Beacon Bay,East London,Eastern Cape,5247,043 210 1028,Private,Yes,-32.9620,27.9480
+EC-H-017,East London Private Hospital,32 Albany Street Southernwood,East London,Eastern Cape,5213,043 338 5844,Private,Yes,-33.0210,27.9130
+EC-H-018,Nelson Mandela Academic Hospital,Sisson Street Fort Gale,Mthatha,Eastern Cape,5100,047 890 5945,Government,Yes,-31.6030,28.7870
+EC-H-019,Mthatha Regional Hospital,Nelson Mandela Drive Mthatha,Mthatha,Eastern Cape,5099,047 638 8634,Government,Yes,-31.5829,28.7644
+EC-H-020,St Marys Hospital,30 Durham Street Mthatha,Mthatha,Eastern Cape,5100,047 413 2079,Private,Yes,-31.5710,28.7730
+EC-H-021,St Elizabeth Hospital,Main Road Lusikisiki,Lusikisiki,Eastern Cape,4820,039 849 8249,Government,Yes,-31.3937,29.5427
+EC-H-022,St Barnabas Hospital,Hospital Road Ntlaza,Libode,Eastern Cape,5160,047 456 8148,Government,Yes,-31.5300,29.0430
+EC-H-023,Dr Malizo Mpehle Memorial Hospital,Main Road Tsolo,Tsolo,Eastern Cape,5170,047 356 6589,Government,Yes,-31.3230,28.7550
+EC-H-024,Isilimela Hospital,Isilimela Road Port St Johns,Port St Johns,Eastern Cape,5120,047 600 3102,Government,Yes,-31.6350,29.5150
+EC-H-025,Frontier Hospital,Komani Street Komani,Komani,Eastern Cape,5320,045 217 2597,Government,Yes,-31.8950,26.8790
+EC-H-026,Komani Private Hospital,28 Griffith Street Komani,Komani,Eastern Cape,5319,045 426 8997,Private,Yes,-31.9066,26.8693
+EC-H-027,Cofimvaba Hospital,Main Street Cofimvaba,Cofimvaba,Eastern Cape,5380,047 610 6531,Government,Yes,-32.0200,27.6080
+EC-H-028,All Saints Hospital,Hospital Road Ngcobo,Ngcobo,Eastern Cape,5050,047 267 3728,Government,Yes,-31.6620,28.0270
+EC-H-029,Cradock Hospital,Durban Street Cradock,Cradock,Eastern Cape,5880,048 636 4635,Government,Yes,-32.1852,25.6272
+EC-H-030,Butterworth Hospital,Mthatha Road Butterworth,Butterworth,Eastern Cape,4960,047 761 7390,Government,Yes,-32.3530,28.1550
+EC-H-031,Fort Beaufort Hospital,Campbell Street Fort Beaufort,Fort Beaufort,Eastern Cape,5720,046 622 2923,Government,Yes,-32.7660,26.6370
+EC-H-032,Greenville Hospital,Main Road Mbizana,Mbizana,Eastern Cape,4800,039 798 1000,Government,Yes,-30.8360,29.8480
+EC-H-033,Tayler Bequest Hospital,Hospital Road Matatiele,Matatiele,Eastern Cape,4730,039 726 1751,Government,Yes,-30.3480,28.8360
+EC-H-034,Madzikane KaZulu Memorial Hospital,Main Road KwaBhaca,KwaBhaca,Eastern Cape,5090,039 218 3955,Government,Yes,-30.9330,28.9800
+EC-H-035,Aliwal North Hospital,Dan Pienaar Avenue Aliwal North,Aliwal North,Eastern Cape,9750,051 850 5275,Government,Yes,-30.7020,26.6830
+EC-H-036,Empilisweni Hospital,Main Road Sterkspruit,Sterkspruit,Eastern Cape,9762,051 295 2112,Government,Yes,-30.5370,27.3820
+EC-H-037,Settlers Hospital,Milner Street Makhanda,Makhanda,Eastern Cape,6139,046 587 6203,Government,Yes,-33.2860,26.5450
+EC-H-038,Midlands Hospital,Hospital Street Graaff-Reinet,Graaff-Reinet,Eastern Cape,6280,049 792 4146,Government,Yes,-32.2630,24.5680
+EC-H-039,Humansdorp Hospital,Du Plessis Street Humansdorp,Humansdorp,Eastern Cape,6300,042 880 2679,Government,Yes,-34.0140,24.7540
+EC-H-040,Andries Vosloo Hospital,Paulet Street Somerset East,Somerset East,Eastern Cape,5850,042 715 9761,Government,Yes,-32.7060,25.5900
+EC-H-041,Victoria Hospital Alice,Hospital Street Alice,Alice,Eastern Cape,5700,040 653 1141,Government,Yes,-32.7930,26.8370
+EC-H-042,Stutterheim Hospital,Hospital Road Stutterheim,Stutterheim,Eastern Cape,4930,043 683 1313,Government,Yes,-32.5740,27.4260
+EC-H-043,Mount Ayliff Hospital,Hospital Road eMaxesibeni,eMaxesibeni,Eastern Cape,4735,039 254 0236,Government,Yes,-30.8130,29.3640
+EC-H-044,Taylor Bequest Hospital Mount Fletcher,Hospital Road Mount Fletcher,Mount Fletcher,Eastern Cape,4770,039 257 0099,Government,Yes,-30.6960,28.5040

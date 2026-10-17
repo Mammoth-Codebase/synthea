@@ -1,0 +1,89 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-PC-001,Zola Community Health Centre,Ndaba Drive Zola,Soweto,Gauteng,1868,011 936 1300,Government,No,-26.2440,27.8440
+GP-PC-002,Chiawelo Community Health Centre,Mhlaba Drive Chiawelo,Soweto,Gauteng,1818,011 980 1700,Government,No,-26.2820,27.8630
+GP-PC-003,Lillian Ngoyi Community Health Centre,Cnr Chris Hani Road and Immink Drive Diepkloof,Soweto,Gauteng,1864,011 985 6200,Government,No,-26.2530,27.9415
+GP-PC-004,Hillbrow Community Health Centre,Cnr Esselen Street and Klein Street Hillbrow,Johannesburg Central,Gauteng,2001,011 720 6600,Government,No,-26.1890,28.0455
+GP-PC-005,Yeoville Clinic,Cnr Raleigh Street and Fortesque Road Yeoville,Johannesburg Central,Gauteng,2198,011 648 3701,Government,No,-26.1830,28.0640
+GP-PC-006,Braamfontein Medical Centre,25 Jorissen Street Braamfontein,Johannesburg Central,Gauteng,2017,011 339 1420,Private,No,-26.1930,28.0335
+GP-PC-007,Bryanston Clinic,Cnr Main Road and Mount Street Bryanston,Sandton,Gauteng,2191,011 463 1700,Government,No,-26.0560,28.0215
+GP-PC-008,Rivonia Family Practice,12 Rivonia Boulevard Rivonia,Sandton,Gauteng,2128,011 803 2250,Private,No,-26.0590,28.0605
+GP-PC-009,Randburg Clinic,Cnr Hill Street and Jan Smuts Avenue,Randburg,Gauteng,2194,011 886 3420,Government,No,-26.0940,27.9950
+GP-PC-010,Ferndale Family Practice,10 Dale Road Ferndale,Randburg,Gauteng,2194,011 789 3360,Private,No,-26.0990,28.0010
+GP-PC-011,Northriding Medical Centre,34 Bellairs Drive Northriding,Randburg,Gauteng,2169,011 462 5180,Private,No,-26.0530,27.9580
+GP-PC-012,Discoverers Community Health Centre,Cnr Mahatma Gandhi Street and Goldman Street Florida,Roodepoort,Gauteng,1709,011 472 3300,Government,No,-26.1715,27.9135
+GP-PC-013,Princess Clinic,Nkosi Street Princess,Roodepoort,Gauteng,1724,011 760 2020,Government,No,-26.1540,27.8620
+GP-PC-014,Wilgeheuwel Family Practice,15 Van Dalen Road Wilgeheuwel,Roodepoort,Gauteng,2170,011 794 2130,Private,No,-26.0880,27.9230
+GP-PC-015,Alexandra Community Health Centre,Eighth Avenue Alexandra,Alexandra,Gauteng,2090,011 882 1081,Government,No,-26.1050,28.0980
+GP-PC-016,East Bank Clinic,Cnr London Road and Far East Bank Drive,Alexandra,Gauteng,2090,011 443 2560,Government,No,-26.1010,28.1130
+GP-PC-017,Rabie Ridge Clinic,Bokmakierie Street Rabie Ridge,Midrand,Gauteng,1685,011 393 1610,Government,No,-25.9920,28.1640
+GP-PC-018,Kyalami Family Practice,7 Kyalami Boulevard Kyalami,Midrand,Gauteng,1687,011 466 0580,Private,No,-25.9820,28.0810
+GP-PC-019,Diepsloot Clinic,Ingonyama Road Diepsloot South,Diepsloot,Gauteng,2189,011 464 3310,Government,No,-25.9360,28.0120
+GP-PC-020,Diepsloot Community Health Centre,Ingonyama Road Diepsloot West,Diepsloot,Gauteng,2189,011 464 1320,Government,No,-25.9300,28.0050
+GP-PC-021,Lenasia Clinic,Cnr Nirvana Drive and Rose Avenue,Lenasia,Gauteng,1827,011 852 3122,Government,No,-26.3190,27.8280
+GP-PC-022,Lenasia Medical Centre,46 Protea Avenue Lenasia,Lenasia,Gauteng,1827,011 854 7120,Private,No,-26.3250,27.8340
+GP-PC-023,Orange Farm Clinic,Link Road Orange Farm,Orange Farm,Gauteng,1841,011 850 1220,Government,No,-26.4860,27.8580
+GP-PC-024,Stretford Community Health Centre,Mpho Street Stretford,Orange Farm,Gauteng,1841,011 850 0760,Government,No,-26.4790,27.8690
+GP-PC-025,Eldorado Park Clinic,Nickel Street Eldorado Park,Eldorado Park,Gauteng,1811,011 945 1040,Government,No,-26.2985,27.8945
+GP-PC-026,Skinner Street Clinic,302 Nana Sita Street Pretoria Central,Pretoria Central,Gauteng,0002,012 358 7221,Government,No,-25.7515,28.1900
+GP-PC-027,Sunnyside Clinic,Cnr Kotze Street and Troye Street Sunnyside,Pretoria Central,Gauteng,0002,012 344 1150,Government,No,-25.7560,28.2060
+GP-PC-028,Hatfield Medical Centre,1122 Burnett Street Hatfield,Pretoria Central,Gauteng,0083,012 362 4420,Private,No,-25.7490,28.2370
+GP-PC-029,Olievenhoutbosch Clinic,Rethabile Street Olievenhoutbosch,Centurion,Gauteng,0175,012 661 1920,Government,No,-25.9040,28.1080
+GP-PC-030,Lyttelton Clinic,Cnr Cantonments Road and Rabie Street Lyttelton,Centurion,Gauteng,0157,012 664 5820,Government,No,-25.8390,28.2050
+GP-PC-031,Centurion Medical Centre,1041 Lenchen Avenue North,Centurion,Gauteng,0157,012 663 4410,Private,No,-25.8560,28.1870
+GP-PC-032,Stanza Bopape Community Health Centre,Tsamaya Road Mamelodi East,Mamelodi,Gauteng,0122,012 805 6300,Government,No,-25.7120,28.3950
+GP-PC-033,Mamelodi West Clinic,Hinterland Avenue Mamelodi West,Mamelodi,Gauteng,0122,012 805 4540,Government,No,-25.7210,28.3600
+GP-PC-034,Soshanguve Community Health Centre,Aubrey Matlala Road Soshanguve,Soshanguve,Gauteng,0152,012 790 2210,Government,No,-25.5260,28.1020
+GP-PC-035,Kgabo Clinic,Ruth First Street Soshanguve,Soshanguve,Gauteng,0152,012 790 4480,Government,No,-25.5080,28.0920
+GP-PC-036,Atteridgeville Clinic,Cnr Maunde Street and Komane Street,Atteridgeville,Gauteng,0008,012 373 1240,Government,No,-25.7720,28.0800
+GP-PC-037,Saulsville Clinic,Mazibuko Street Saulsville,Atteridgeville,Gauteng,0008,012 386 1340,Government,No,-25.7700,28.0650
+GP-PC-038,Ga-Rankuwa Clinic,Tsebe Street Zone 1,Ga-Rankuwa,Gauteng,0208,012 700 1310,Government,No,-25.6150,27.9950
+GP-PC-039,Mabopane Clinic,Dikgang Street Mabopane,Mabopane,Gauteng,0190,012 701 2650,Government,No,-25.5010,28.0180
+GP-PC-040,Mabopane Medical Centre,3 Molefe Makinta Highway Mabopane,Mabopane,Gauteng,0190,012 702 3210,Private,No,-25.5060,28.0280
+GP-PC-041,Hammanskraal Clinic,Old Warmbaths Road Hammanskraal,Hammanskraal,Gauteng,0400,012 711 0870,Government,No,-25.4120,28.2780
+GP-PC-042,Temba Community Health Centre,Mogale Street Temba,Hammanskraal,Gauteng,0407,012 717 4120,Government,No,-25.3940,28.3090
+GP-PC-043,Laudium Community Health Centre,Cnr Tangerine Street and Eleventh Avenue,Laudium,Gauteng,0037,012 374 3240,Government,No,-25.7740,28.1050
+GP-PC-044,Cullinan Clinic,Oak Avenue Cullinan,Cullinan,Gauteng,1000,012 734 1760,Government,No,-25.6740,28.5220
+GP-PC-045,Bronkhorstspruit Clinic,Cnr Church Street and Market Street,Bronkhorstspruit,Gauteng,1020,013 932 0290,Government,No,-25.8110,28.7420
+GP-PC-046,Tembisa Main Clinic,Andrew Mapheto Drive,Tembisa,Gauteng,1632,011 926 3360,Government,No,-25.9990,28.2180
+GP-PC-047,Winnie Mandela Clinic,Isiziba Street Winnie Mandela Section,Tembisa,Gauteng,1632,011 316 1410,Government,No,-25.9850,28.2130
+GP-PC-048,Tembisa Medical Centre,21 Sam Molele Drive,Tembisa,Gauteng,1632,011 926 7730,Private,No,-26.0020,28.2300
+GP-PC-049,Delville Clinic,Cnr Victoria Street and Harold Road Delville,Germiston,Gauteng,1401,011 825 1720,Government,No,-26.2250,28.1800
+GP-PC-050,Primrose Clinic,Cnr Rietfontein Road and Beaconsfield Avenue Primrose,Germiston,Gauteng,1401,011 828 3450,Government,No,-26.1850,28.1680
+GP-PC-051,Bedfordview Medical Centre,44 Van Buuren Road Bedfordview,Germiston,Gauteng,2008,011 616 2430,Private,No,-26.1790,28.1350
+GP-PC-052,Actonville Clinic,Cnr Fourth Street and Mayet Drive Actonville,Benoni,Gauteng,1501,011 422 1530,Government,No,-26.1840,28.3360
+GP-PC-053,Rynfield Clinic,Cnr Pretoria Road and Eighth Avenue Rynfield,Benoni,Gauteng,1514,011 849 3220,Government,No,-26.1590,28.3410
+GP-PC-054,Reiger Park Clinic,Lemur Street Reiger Park,Boksburg,Gauteng,1459,011 898 4660,Government,No,-26.2200,28.2400
+GP-PC-055,Sunward Park Medical Centre,33 Kingfisher Avenue Sunward Park,Boksburg,Gauteng,1459,011 913 1260,Private,No,-26.2500,28.2500
+GP-PC-056,Kwa-Thema Community Health Centre,Cnr Moloi Street and Teboho Street Kwa-Thema,Springs,Gauteng,1559,011 736 3360,Government,No,-26.2990,28.3870
+GP-PC-057,Springs Family Practice,21 Fourth Street Springs,Springs,Gauteng,1559,011 812 2170,Private,No,-26.2480,28.4010
+GP-PC-058,Kempton Park Clinic,Cnr Monument Road and Long Street,Kempton Park,Gauteng,1619,011 999 0540,Government,No,-26.1030,28.2330
+GP-PC-059,Birchleigh Family Practice,18 Bergrivier Drive Birchleigh,Kempton Park,Gauteng,1619,011 391 4420,Private,No,-26.0770,28.2360
+GP-PC-060,Alberton Clinic,Cnr Voortrekker Road and Du Plessis Road,Alberton,Gauteng,1449,011 907 1710,Government,No,-26.2660,28.1230
+GP-PC-061,Brackenhurst Medical Centre,25 Hennie Alberts Street Brackenhurst,Alberton,Gauteng,1448,011 867 3350,Private,No,-26.2970,28.1120
+GP-PC-062,Ramokonopi Community Health Centre,Mokoena Street Ramokonopi,Katlehong,Gauteng,1431,011 905 1830,Government,No,-26.3400,28.1540
+GP-PC-063,Katlehong Clinic,Kumalo Street Katlehong,Katlehong,Gauteng,1431,011 860 2220,Government,No,-26.3300,28.1440
+GP-PC-064,Thokoza Clinic,Khumalo Street Thokoza,Thokoza,Gauteng,1426,011 905 2330,Government,No,-26.3630,28.1460
+GP-PC-065,Vosloorus Clinic,Sam Sekoati Avenue Vosloorus,Vosloorus,Gauteng,1475,011 906 5310,Government,No,-26.3490,28.2010
+GP-PC-066,Daveyton Main Clinic,Eiselen Street Daveyton,Daveyton,Gauteng,1520,011 424 1540,Government,No,-26.1510,28.4190
+GP-PC-067,Brakpan Clinic,Cnr Victoria Avenue and Kingsway,Brakpan,Gauteng,1541,011 740 2150,Government,No,-26.2360,28.3690
+GP-PC-068,Nigel Clinic,Cnr Kingsway and Third Avenue,Nigel,Gauteng,1491,011 814 1340,Government,No,-26.4200,28.4680
+GP-PC-069,Sharpeville Clinic,Seeiso Street Sharpeville,Vereeniging,Gauteng,1939,016 422 3340,Government,No,-26.6890,27.8720
+GP-PC-070,Three Rivers Medical Centre,14 General Hertzog Road Three Rivers,Vereeniging,Gauteng,1929,016 423 2210,Private,No,-26.6700,27.9680
+GP-PC-071,Vanderbijlpark Clinic,Cnr Attie Fourie Street and Rossini Boulevard,Vanderbijlpark,Gauteng,1911,016 950 5220,Government,No,-26.7100,27.8380
+GP-PC-072,Boipatong Clinic,Nelson Mandela Street Boipatong,Vanderbijlpark,Gauteng,1911,016 988 2140,Government,No,-26.6780,27.8600
+GP-PC-073,Johan Heyns Community Health Centre,Moshoeshoe Street Zone 12,Sebokeng,Gauteng,1983,016 592 5410,Government,No,-26.5800,27.8400
+GP-PC-074,Sebokeng Clinic,Mokoena Street Zone 14,Sebokeng,Gauteng,1983,016 592 1250,Government,No,-26.5920,27.8340
+GP-PC-075,Evaton Clinic,Adams Road Evaton,Evaton,Gauteng,1984,016 594 2230,Government,No,-26.5340,27.8510
+GP-PC-076,Empilisweni Clinic,Easton Road Evaton West,Evaton,Gauteng,1984,016 594 7110,Government,No,-26.5250,27.8340
+GP-PC-077,Heidelberg Clinic,Cnr Voortrekker Street and Ueckermann Street,Heidelberg,Gauteng,1441,016 341 4220,Government,No,-26.5040,28.3600
+GP-PC-078,Ratanda Clinic,Mokoena Street Ratanda,Heidelberg,Gauteng,1441,016 341 2470,Government,No,-26.5370,28.3460
+GP-PC-079,Krugersdorp Clinic,Cnr Human Street and Burger Street,Krugersdorp,Gauteng,1739,011 951 2320,Government,No,-26.1010,27.7720
+GP-PC-080,Munsieville Clinic,Mogale Street Munsieville,Krugersdorp,Gauteng,1739,011 660 7330,Government,No,-26.0770,27.7730
+GP-PC-081,Noordheuwel Family Practice,60 Robert Broom Drive Noordheuwel,Krugersdorp,Gauteng,1739,011 954 1860,Private,No,-26.0940,27.7900
+GP-PC-082,Randfontein Clinic,Cnr Sutherland Avenue and Stubbs Street,Randfontein,Gauteng,1759,011 411 2240,Government,No,-26.1840,27.7010
+GP-PC-083,Toekomsrus Clinic,Maree Street Toekomsrus,Randfontein,Gauteng,1759,011 693 1470,Government,No,-26.2100,27.6900
+GP-PC-084,Carletonville Clinic,Cnr Annan Road and Kaolin Street,Carletonville,Gauteng,2499,018 788 2230,Government,No,-26.3610,27.3980
+GP-PC-085,Khutsong Clinic,Letsie Street Khutsong,Carletonville,Gauteng,2499,018 786 1140,Government,No,-26.3420,27.3330
+GP-PC-086,Kagiso Clinic,Kagiso Avenue Kagiso,Kagiso,Gauteng,1754,011 410 1250,Government,No,-26.1520,27.7850
+GP-PC-087,Westonaria Clinic,Cnr Hospital Street and Neptune Street,Westonaria,Gauteng,1779,011 753 1250,Government,No,-26.3190,27.6510
+GP-PC-088,Bekkersdal Clinic,Sebenza Street Bekkersdal,Westonaria,Gauteng,1779,011 753 4360,Government,No,-26.2850,27.6700

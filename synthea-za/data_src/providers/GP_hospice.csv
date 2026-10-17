@@ -1,0 +1,6 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+GP-HO-001,Hospice Witwatersrand,53 Houghton Drive Houghton,Johannesburg Central,Gauteng,2198,011 483 9100,Private,No,-26.1710,28.0580
+GP-HO-002,Sungardens Hospice,350 Rossouw Street Die Wilgers,Pretoria Central,Gauteng,0081,012 807 0670,Private,No,-25.7700,28.3000
+GP-HO-003,Centurion Hospice,1 Rooibok Avenue Centurion,Centurion,Gauteng,0157,012 664 2240,Private,No,-25.8480,28.1950
+GP-HO-004,Hospice East Rand,11 Cadogan Avenue Rynfield,Benoni,Gauteng,1514,011 425 2130,Private,No,-26.1600,28.3400
+GP-HO-005,Soweto Hospice,Ben Naude Drive Diepkloof,Soweto,Gauteng,1864,011 985 3520,Private,No,-26.2480,27.9480

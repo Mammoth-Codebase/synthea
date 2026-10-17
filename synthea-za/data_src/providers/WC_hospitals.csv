@@ -1,0 +1,41 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-H-001,Groote Schuur Hospital,Main Road Observatory,Cape Town Central,Western Cape,7925,021 404 9111,Government,Yes,-33.9412,18.4625
+WC-H-002,Tygerberg Hospital,Francie van Zijl Drive Parow Valley,Parow,Western Cape,7500,021 938 4911,Government,Yes,-33.9097,18.6119
+WC-H-003,Red Cross War Memorial Childrens Hospital,Klipfontein Road Rondebosch,Rondebosch,Western Cape,7700,021 658 5111,Government,Yes,-33.9596,18.4920
+WC-H-004,New Somerset Hospital,Portswood Road Green Point,Sea Point,Western Cape,8005,021 402 6911,Government,Yes,-33.9095,18.4150
+WC-H-005,Mowbray Maternity Hospital,Hornsey Road Mowbray,Rondebosch,Western Cape,7700,021 659 5500,Government,No,-33.9468,18.4752
+WC-H-006,Victoria Hospital Wynberg,Alphen Hill Road Wynberg,Wynberg,Western Cape,7800,021 799 1111,Government,Yes,-34.0075,18.4562
+WC-H-007,Karl Bremer Hospital,Mike Pienaar Boulevard Bellville,Bellville,Western Cape,7530,021 918 1911,Government,Yes,-33.8873,18.6152
+WC-H-008,Helderberg Hospital,Hospital Road Somerset West,Somerset West,Western Cape,7130,021 850 4700,Government,Yes,-34.0832,18.8462
+WC-H-009,Khayelitsha District Hospital,Walter Sisulu Drive Khayelitsha,Khayelitsha,Western Cape,7784,021 360 4200,Government,Yes,-34.0412,18.6774
+WC-H-010,Mitchells Plain District Hospital,AZ Berman Drive Lentegeur,Mitchells Plain,Western Cape,7785,021 377 4300,Government,Yes,-34.0334,18.6165
+WC-H-011,False Bay Hospital,Kommetjie Road Fish Hoek,Fish Hoek,Western Cape,7975,021 782 1121,Government,Yes,-34.1332,18.4248
+WC-H-012,Wesfleur Hospital,Wesfleur Circle Atlantis,Atlantis,Western Cape,7349,021 571 8043,Government,Yes,-33.5662,18.4858
+WC-H-013,Eerste River Hospital,Humboldt Avenue Eerste River,Blue Downs,Western Cape,7100,021 902 8000,Government,Yes,-34.0003,18.7182
+WC-H-014,Lentegeur Hospital,Highlands Drive Lentegeur,Mitchells Plain,Western Cape,7785,021 370 1111,Government,No,-34.0302,18.6232
+WC-H-015,Stellenbosch Hospital,Merriman Avenue Stellenbosch,Stellenbosch,Western Cape,7600,021 808 6100,Government,Yes,-33.9332,18.8641
+WC-H-016,Paarl Hospital,Hospital Street Paarl,Paarl,Western Cape,7646,021 860 2500,Government,Yes,-33.7318,18.9642
+WC-H-017,Worcester Hospital,Murray Street Worcester,Worcester,Western Cape,6850,023 348 1100,Government,Yes,-33.6498,19.4512
+WC-H-018,Swartland Hospital,Hospital Street Malmesbury,Malmesbury,Western Cape,7300,022 487 9200,Government,Yes,-33.4598,18.7352
+WC-H-019,Vredenburg Hospital,Voortrekker Road Vredenburg,Vredenburg,Western Cape,7380,022 709 7200,Government,Yes,-32.9082,17.9918
+WC-H-020,Hermanus Hospital,Hospital Street Hermanus,Hermanus,Western Cape,7200,028 312 1166,Government,Yes,-34.4202,19.2362
+WC-H-021,Caledon Hospital,Hospital Street Caledon,Caledon,Western Cape,7230,028 212 1070,Government,Yes,-34.2312,19.4302
+WC-H-022,Swellendam Hospital,Hospital Street Swellendam,Swellendam,Western Cape,6740,028 514 1140,Government,Yes,-34.0232,20.4422
+WC-H-023,George Hospital,Davidson Road George,George,Western Cape,6529,044 802 4500,Government,Yes,-33.9642,22.4642
+WC-H-024,Knysna Hospital,Hospital Hill Knysna,Knysna,Western Cape,6571,044 302 8400,Government,Yes,-34.0372,23.0492
+WC-H-025,Mossel Bay Hospital,Marsh Street Mossel Bay,Mossel Bay,Western Cape,6506,044 604 6100,Government,Yes,-34.1812,22.1482
+WC-H-026,Oudtshoorn Hospital,Park Road Oudtshoorn,Oudtshoorn,Western Cape,6625,044 203 7200,Government,Yes,-33.5922,22.2032
+WC-H-027,Beaufort West Hospital,Voortrekker Street Beaufort West,Beaufort West,Western Cape,6970,023 414 8200,Government,Yes,-32.3572,22.5852
+WC-H-028,Christiaan Barnard Memorial Hospital,DF Malan Street Foreshore,Cape Town Central,Western Cape,8001,021 441 0000,Private,Yes,-33.9218,18.4282
+WC-H-029,Panorama Hospital,Rothschild Boulevard Panorama,Parow,Western Cape,7500,021 938 2111,Private,Yes,-33.8812,18.5792
+WC-H-030,Constantiaberg Hospital,Burnham Road Plumstead,Wynberg,Western Cape,7800,021 799 2911,Private,Yes,-34.0202,18.4562
+WC-H-031,Kingsbury Hospital,Wilderness Road Claremont,Claremont,Western Cape,7708,021 670 4000,Private,Yes,-33.9802,18.4662
+WC-H-032,Milnerton Hospital,Racecourse Road Milnerton,Milnerton,Western Cape,7441,021 529 9000,Private,Yes,-33.8752,18.5032
+WC-H-033,Louis Leipoldt Hospital,Broadway Street Bellville,Bellville,Western Cape,7530,021 957 6000,Private,Yes,-33.9022,18.6312
+WC-H-034,Durbanville Hospital,Wellington Road Durbanville,Durbanville,Western Cape,7550,021 980 2100,Private,Yes,-33.8312,18.6522
+WC-H-035,Cape Gate Hospital,Okavango Road Brackenfell,Brackenfell,Western Cape,7560,021 983 5600,Private,Yes,-33.8602,18.7032
+WC-H-036,Kuils River Hospital,Van Riebeeck Road Kuils River,Kuils River,Western Cape,7580,021 900 6000,Private,Yes,-33.9232,18.6882
+WC-H-037,Vergelegen Hospital,Main Road Somerset West,Somerset West,Western Cape,7130,021 850 9000,Private,Yes,-34.0762,18.8472
+WC-H-038,Paarl Private Hospital,Berlyn Street Paarl,Paarl,Western Cape,7646,021 807 8000,Private,Yes,-33.7402,18.9602
+WC-H-039,George Private Hospital,Gloucester Avenue George,George,Western Cape,6530,044 803 2000,Private,Yes,-33.9602,22.4582
+WC-H-040,Plettenberg Bay Private Hospital,Muller Street Plettenberg Bay,Plettenberg Bay,Western Cape,6600,044 501 5000,Private,Yes,-34.0502,23.3702

@@ -1,0 +1,13 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-UC-001,Berea Emergency Centre,Berea Road,Durban Central,KwaZulu-Natal,4001,031 549 5207,Private,Yes,-29.8512,31.0021
+KZN-UC-002,Umhlanga Day Hospital,Umhlanga Rocks Drive,Umhlanga,KwaZulu-Natal,4320,031 882 5958,Private,Yes,-29.7241,31.0792
+KZN-UC-003,Pinetown Day Hospital,Josiah Gumede Road,Pinetown,KwaZulu-Natal,3610,031 559 4755,Private,Yes,-29.8172,30.8551
+KZN-UC-004,Chatsworth Emergency Centre,Higginson Highway,Chatsworth,KwaZulu-Natal,4092,031 450 6055,Private,Yes,-29.9121,30.8612
+KZN-UC-005,KwaMashu Emergency Centre,Malandela Road,KwaMashu,KwaZulu-Natal,4360,031 337 9801,Government,Yes,-29.7432,30.9802
+KZN-UC-006,Amanzimtoti Day Hospital,Kingsway Road,Amanzimtoti,KwaZulu-Natal,4126,031 499 8537,Private,Yes,-30.0492,30.8812
+KZN-UC-007,Hayfields Day Hospital,Cleland Road,Pietermaritzburg,KwaZulu-Natal,3201,033 671 3804,Private,Yes,-29.6252,30.4172
+KZN-UC-008,Richards Bay Emergency Centre,Lira Link,Richards Bay,KwaZulu-Natal,3900,035 737 4881,Private,Yes,-28.7762,32.0432
+KZN-UC-009,Newcastle Day Hospital,Victoria Road,Newcastle,KwaZulu-Natal,2940,034 719 6825,Private,Yes,-27.7542,29.9362
+KZN-UC-010,Ladysmith Emergency Centre,Lyell Street,Ladysmith,KwaZulu-Natal,3370,036 826 5264,Private,Yes,-28.5572,29.7792
+KZN-UC-011,Ballito Day Hospital,Leonora Drive,Ballito,KwaZulu-Natal,4420,032 915 4313,Private,Yes,-29.5412,31.2112
+KZN-UC-012,Margate Emergency Centre,Marine Drive,Margate,KwaZulu-Natal,4275,039 421 8231,Private,Yes,-30.8652,30.3742

@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-HH-001,Kimberley Home Nursing,36 Lawson Street,Kimberley,Northern Cape,8301,053 831 4810,Private,No,-28.7362,24.7559
+NC-HH-002,Diamond Fields Home Care Services,9 Carrington Road,Kimberley,Northern Cape,8301,053 832 9120,Private,No,-28.7372,24.7599
+NC-HH-003,Upington Home Nursing,33 Mark Street,Upington,Northern Cape,8801,054 331 5270,Private,No,-28.4600,21.2500
+NC-HH-004,Kathu Home Care Services,7 Kameeldoring Street,Kathu,Northern Cape,8446,053 723 8030,Private,No,-27.6920,23.0530

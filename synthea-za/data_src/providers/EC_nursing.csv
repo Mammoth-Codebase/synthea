@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-N-001,Aristea Frail Care,9 Park Drive St Georges Park,Gqeberha Central,Eastern Cape,6001,041 683 9477,Private,No,-33.9688,25.5852
+EC-N-002,Nazareth House Port Elizabeth,38 Park Drive St Georges Park,Gqeberha Central,Eastern Cape,6001,041 717 9207,Private,No,-33.9660,25.6080
+EC-N-003,Summerwood Frail Care,24 Church Road Walmer,Walmer,Eastern Cape,6070,041 472 3360,Private,No,-33.9760,25.5540
+EC-N-004,Huis Bergsig,16 Caledon Street Kariega,Kariega,Eastern Cape,6230,041 451 9526,Private,No,-33.7930,25.3940
+EC-N-005,Fairhaven Old Age Home,18 Pearce Street Berea,East London,Eastern Cape,5247,043 268 9225,Private,No,-33.0000,27.8950
+EC-N-006,Ekuphumleni Old Age Home,Zone Nine Mdantsane,Mdantsane,Eastern Cape,5219,043 226 2401,Government,No,-32.9230,27.7940
+EC-N-007,Mthatha Frail Care Centre,21 Sutherland Street Mthatha,Mthatha,Eastern Cape,5100,047 706 3870,Private,No,-31.5790,28.7810

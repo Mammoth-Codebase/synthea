@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-N-001,Nazareth House,82 Mazisi Kunene Road,Durban Central,KwaZulu-Natal,4001,031 409 8847,Private,No,-29.8562,30.9992
+KZN-N-002,Hillcrest Frail Care,Inanda Road,Hillcrest,KwaZulu-Natal,3650,031 459 4559,Private,No,-29.7762,30.7702
+KZN-N-003,Amanzimtoti Frail Care,Beach Road,Amanzimtoti,KwaZulu-Natal,4126,031 284 7623,Private,No,-30.0532,30.8872
+KZN-N-004,Sunnyside Park Home,Blackburrow Road,Pietermaritzburg,KwaZulu-Natal,3201,033 502 5610,Private,No,-29.5882,30.3732
+KZN-N-005,Newcastle Frail Care Centre,Harding Street,Newcastle,KwaZulu-Natal,2940,034 388 2847,Private,No,-27.7612,29.9262
+KZN-N-006,Margate Frail Care,Hibiscus Road,Margate,KwaZulu-Natal,4275,039 359 5825,Private,No,-30.8672,30.3692
+KZN-N-007,Bayside Frail Care,Pelican Road,Richards Bay,KwaZulu-Natal,3900,035 851 3700,Private,No,-28.7922,32.0932

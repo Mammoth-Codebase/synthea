@@ -1,0 +1,41 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+1285,Hospice Witwatersrand,53 Houghton Drive Houghton,Johannesburg Central,Gauteng,2198,011 483 9100,Private,No,-26.1710,28.0580
+1286,Sungardens Hospice,350 Rossouw Street Die Wilgers,Pretoria Central,Gauteng,0081,012 807 0670,Private,No,-25.7700,28.3000
+1287,Centurion Hospice,1 Rooibok Avenue Centurion,Centurion,Gauteng,0157,012 664 2240,Private,No,-25.8480,28.1950
+1288,Hospice East Rand,11 Cadogan Avenue Rynfield,Benoni,Gauteng,1514,011 425 2130,Private,No,-26.1600,28.3400
+1289,Soweto Hospice,Ben Naude Drive Diepkloof,Soweto,Gauteng,1864,011 985 3520,Private,No,-26.2480,27.9480
+1290,Highway Hospice,Locksley Drive,Durban Central,KwaZulu-Natal,4091,031 927 9479,Private,No,-29.8321,30.9821
+1291,Msunduzi Hospice,Marriott Road,Pietermaritzburg,KwaZulu-Natal,3201,033 253 8536,Private,No,-29.5912,30.3712
+1292,South Coast Hospice,Williamson Street,Port Shepstone,KwaZulu-Natal,4240,039 646 5714,Private,No,-30.7462,30.4512
+1293,Zululand Hospice,Union Street,Empangeni,KwaZulu-Natal,3880,035 821 9726,Private,No,-28.7532,31.8972
+1294,Howick Hospice,Harvard Street,Howick,KwaZulu-Natal,3290,033 207 5488,Private,No,-29.4812,30.2312
+1295,St Lukes Hospice,92 Wetton Road Kenilworth,Wynberg,Western Cape,7800,021 797 5335,Private,No,-33.9962,18.4802
+1296,Helderberg Hospice,Hospital Road Somerset West,Somerset West,Western Cape,7130,021 852 4608,Private,No,-34.0842,18.8472
+1297,Drakenstein Hospice,20 Durban Street Paarl,Paarl,Western Cape,7646,021 872 4060,Private,No,-33.7352,18.9612
+1298,Knysna Sedgefield Hospice,6 Trotter Street Knysna,Knysna,Western Cape,6571,044 384 0593,Private,No,-34.0362,23.0482
+1299,Stellenbosch Hospice,8 Van Riebeeck Street Stellenbosch,Stellenbosch,Western Cape,7600,021 886 5665,Private,No,-33.9352,18.8592
+1300,St Francis Hospice,15 Mangold Street Newton Park,Gqeberha Central,Eastern Cape,6001,041 807 4687,Private,No,-33.9570,25.5650
+1301,Hospice East London,6 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 255 5427,Private,No,-33.0000,27.8990
+1302,Mthatha Hospice,9 Madeira Street Mthatha,Mthatha,Eastern Cape,5100,047 745 1923,Private,No,-31.5770,28.7750
+1303,Komani Hospice,44 Robinson Road Komani,Komani,Eastern Cape,5320,045 377 2441,Private,No,-31.9200,26.8900
+1304,Makhanda Hospice,30 African Street Makhanda,Makhanda,Eastern Cape,6140,046 548 9917,Private,No,-33.3130,26.5120
+1305,Polokwane Hospice,28 Landdros Mare Street,Polokwane,Limpopo,0699,015 295 4260,Private,No,-23.9070,29.4700
+1306,Tzaneen Hospice,11 Skirving Street,Tzaneen,Limpopo,0850,015 307 2890,Private,No,-23.8360,30.1620
+1307,Zoutpansberg Hospice,19 Kruger Street,Makhado,Limpopo,0920,015 516 3380,Private,No,-23.0480,29.9070
+1308,Mokopane Hospice,27 Retief Street,Mokopane,Limpopo,0600,015 491 2270,Private,No,-24.1970,29.0060
+1309,Lowveld Hospice,45 Ehmke Street,Mbombela,Mpumalanga,1200,013 755 2522,Private,No,-25.4675,30.9643
+1310,Witbank Hospice,25 Plumer Street,Emalahleni,Mpumalanga,1034,013 656 3860,Private,No,-25.8633,29.2334
+1311,Middelburg Hospice,30 Joubert Street,Middelburg,Mpumalanga,1050,013 243 3185,Private,No,-25.7810,29.4698
+1312,Highveld Hospice,12 Heunis Street,Secunda,Mpumalanga,2302,017 631 3230,Private,No,-26.5127,29.2040
+1313,Hospice Rustenburg,16 Kock Street,Rustenburg,North West,0299,014 592 6465,Private,No,-25.6618,27.2590
+1314,Hospice Klerksdorp,25 Margaretha Prinsloo Street,Klerksdorp,North West,2574,018 468 7957,Private,No,-26.8626,26.6388
+1315,Potchefstroom Hospice,39 Meyer Street,Potchefstroom,North West,2520,018 294 2939,Private,No,-26.6953,27.0917
+1316,Mahikeng Hospice,12 Robinson Street,Mahikeng,North West,2745,018 381 3391,Private,No,-25.8758,25.6349
+1317,Naledi Hospice,14 Gordon Street,Bloemfontein,Free State,9301,051 153 1564,Private,No,-29.1200,26.2150
+1318,Goldfields Hospice,10 Bok Street,Welkom,Free State,9459,057 153 9483,Private,No,-27.9800,26.7350
+1319,Bethlehem Hospice,8 Cambridge Street,Bethlehem,Free State,9701,058 154 7402,Private,No,-28.2350,28.2970
+1320,Sasolburg Hospice,20 Louis Trichardt Street,Sasolburg,Free State,1947,016 155 5321,Private,No,-26.8190,27.8160
+1321,Hospice Kimberley,28 Memorial Road,Kimberley,Northern Cape,8301,053 832 3400,Private,No,-28.7412,24.7339
+1322,Upington Hospice,15 Mutual Street,Upington,Northern Cape,8801,054 331 2900,Private,No,-28.4630,21.2530
+1323,Kuruman Hospice,9 Seodin Road,Kuruman,Northern Cape,8460,053 712 4500,Private,No,-27.4570,23.4350
+1324,Namakwa Hospice,7 Van der Stel Street,Springbok,Northern Cape,8240,027 712 2300,Private,No,-29.6610,17.8900

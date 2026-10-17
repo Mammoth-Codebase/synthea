@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-N-001,Rusoord Frail Care,21 Von Wielligh Street,Rustenburg,North West,0299,014 537 2209,Private,No,-25.6580,27.2561
+NW-N-002,Huis Eikelaan,10 Esselen Street,Potchefstroom,North West,2520,018 297 3042,Private,No,-26.7134,27.0889
+NW-N-003,Ons Hulde Old Age Home,43 Leask Street,Klerksdorp,North West,2571,018 468 3003,Private,No,-26.8698,26.6157
+NW-N-004,Huis Welverdiend,27 Murray Avenue,Brits,North West,0250,012 250 9881,Private,No,-25.6162,27.7606
+NW-N-005,Mahikeng Frail Care Centre,18 Robinson Street,Mahikeng,North West,2745,018 381 2055,Private,No,-25.8508,25.6515
+NW-N-006,Huis Sorgvry,35 Market Street,Vryburg,North West,8601,053 927 7346,Private,No,-26.9622,24.7236
+NW-N-007,Lichtenburg Old Age Home,31 Scholtz Street,Lichtenburg,North West,2740,018 632 7723,Private,No,-26.1587,26.1758

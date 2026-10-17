@@ -1,0 +1,13 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-UC-001,Polokwane Day Hospital,45 Grobler Street,Polokwane,Limpopo,0699,015 291 4800,Private,Yes,-23.9030,29.4640
+LP-UC-002,Bendor Emergency Centre,10 Bendor Drive,Polokwane,Limpopo,0699,015 297 6600,Private,Yes,-23.8880,29.4850
+LP-UC-003,Rethabile Community Health Centre,1 Rethabile Road,Polokwane,Limpopo,0700,015 293 2440,Government,Yes,-23.9260,29.4440
+LP-UC-004,Thohoyandou Day Hospital,8 Thavhani Drive,Thohoyandou,Limpopo,0950,015 962 7700,Private,Yes,-22.9440,30.4880
+LP-UC-005,Makhado Emergency Centre,21 Trichardt Street,Makhado,Limpopo,0920,015 516 5500,Private,Yes,-23.0440,29.9060
+LP-UC-006,Tzaneen Day Hospital,12 Boundary Street,Tzaneen,Limpopo,0850,015 307 6600,Private,Yes,-23.8340,30.1640
+LP-UC-007,Phalaborwa Emergency Centre,6 Essenhout Street,Phalaborwa,Limpopo,1390,015 781 7700,Private,Yes,-23.9410,31.1420
+LP-UC-008,Mokopane Day Hospital,19 Pretorius Street,Mokopane,Limpopo,0601,015 491 7700,Private,Yes,-24.1930,29.0080
+LP-UC-009,Lephalale Emergency Centre,14 Chris Hani Drive,Lephalale,Limpopo,0555,014 763 7700,Private,Yes,-23.6760,27.7010
+LP-UC-010,Bela-Bela Day Hospital,16 Voortrekker Street,Bela-Bela,Limpopo,0480,014 736 6600,Private,Yes,-24.8840,28.2910
+LP-UC-011,Burgersfort Emergency Centre,9 Hendrik Potgieter Street,Burgersfort,Limpopo,1150,013 231 6600,Private,Yes,-24.6760,30.3340
+LP-UC-012,Hoedspruit Emergency Centre,5 Marula Street,Hoedspruit,Limpopo,1380,015 793 5500,Private,Yes,-24.3510,30.9570

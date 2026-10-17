@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+KZN-HH-001,Durban Home Nursing,Musgrave Road,Durban Central,KwaZulu-Natal,4001,031 877 9022,Private,No,-29.8442,31.0062
+KZN-HH-002,Pietermaritzburg Home Nursing,Victoria Road,Pietermaritzburg,KwaZulu-Natal,3201,033 327 9162,Private,No,-29.6012,30.3822
+KZN-HH-003,Richards Bay Home Nursing,Bullion Boulevard,Richards Bay,KwaZulu-Natal,3900,035 979 4322,Private,No,-28.7732,32.0512
+KZN-HH-004,South Coast Home Nursing,Marine Drive,Margate,KwaZulu-Natal,4275,039 865 7943,Private,No,-30.8622,30.3712

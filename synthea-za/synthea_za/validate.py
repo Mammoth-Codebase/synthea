@@ -410,7 +410,12 @@ def validate_geography(data_dir: Path, result: ValidationResult) -> None:
     else:
         result.error(timezones.name, "missing")
 
-    check_sdoh_csv(geo / "sdoh.csv", result)
+    districts = check_sdoh_csv(geo / "sdoh.csv", result)
+    if districts and (geo / "demographics.csv").is_file():
+        for row in _read_csv(geo / "demographics.csv"):
+            if row.get("CTYNAME") and row["CTYNAME"] not in districts:
+                result.warning("sdoh.csv", f"district '{row['CTYNAME']}' ({row.get('STNAME')}) has no social determinants row")
+                districts.add(row["CTYNAME"])  # report each district once
     for required in ("fipscodes.csv", "foreign_birthplace.json"):
         if not (geo / required).is_file():
             result.error(required, "missing")
@@ -549,7 +554,14 @@ def validate_part(kind: str, path: Path, province: Optional[str] = None) -> Vali
     elif kind == "sdoh":
         check_sdoh_csv(path, result)
     elif kind == "providers":
-        check_providers_csv(path, result, expected_province=province)
+        # when the file follows the data_src layout (<CODE>_<kind>.csv next to a geography
+        # folder) the province's postal code file supplies the known town names
+        known_towns = None
+        code = path.name.split("_", 1)[0]
+        zipcodes = path.parent.parent / "geography" / f"{code}_zipcodes.csv"
+        if zipcodes.is_file():
+            known_towns = check_zipcodes_csv(zipcodes, ValidationResult())
+        check_providers_csv(path, result, expected_province=province, known_towns=known_towns)
     else:
         result.error(str(path), f"unknown part kind '{kind}' (expected one of {', '.join(PART_KINDS)})")
     return result

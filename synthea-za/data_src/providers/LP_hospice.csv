@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-HO-001,Polokwane Hospice,28 Landdros Mare Street,Polokwane,Limpopo,0699,015 295 4260,Private,No,-23.9070,29.4700
+LP-HO-002,Tzaneen Hospice,11 Skirving Street,Tzaneen,Limpopo,0850,015 307 2890,Private,No,-23.8360,30.1620
+LP-HO-003,Zoutpansberg Hospice,19 Kruger Street,Makhado,Limpopo,0920,015 516 3380,Private,No,-23.0480,29.9070
+LP-HO-004,Mokopane Hospice,27 Retief Street,Mokopane,Limpopo,0600,015 491 2270,Private,No,-24.1970,29.0060

@@ -1,0 +1,39 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+1389,Johannesburg Home Nursing,14 Sturdee Avenue Rosebank,Johannesburg Central,Gauteng,2193,011 788 2340,Private,No,-26.1450,28.0400
+1390,Pretoria Home Nursing,221 Garsfontein Road Menlo Park,Pretoria Central,Gauteng,0081,012 460 3310,Private,No,-25.7690,28.2530
+1391,East Rand Home Care,12 North Rand Road Boksburg,Boksburg,Gauteng,1459,011 826 4410,Private,No,-26.2000,28.2550
+1392,Vaal Home Nursing,9 Louis Trichardt Boulevard Vanderbijlpark,Vanderbijlpark,Gauteng,1911,016 981 2250,Private,No,-26.7050,27.8350
+1393,West Rand Home Care,45 Paardekraal Drive Krugersdorp,Krugersdorp,Gauteng,1739,011 955 1670,Private,No,-26.0960,27.7740
+1394,Durban Home Nursing,Musgrave Road,Durban Central,KwaZulu-Natal,4001,031 877 9022,Private,No,-29.8442,31.0062
+1395,Pietermaritzburg Home Nursing,Victoria Road,Pietermaritzburg,KwaZulu-Natal,3201,033 327 9162,Private,No,-29.6012,30.3822
+1396,Richards Bay Home Nursing,Bullion Boulevard,Richards Bay,KwaZulu-Natal,3900,035 979 4322,Private,No,-28.7732,32.0512
+1397,South Coast Home Nursing,Marine Drive,Margate,KwaZulu-Natal,4275,039 865 7943,Private,No,-30.8622,30.3712
+1398,Cape Town Home Nursing,15 Kloof Street Gardens,Cape Town Central,Western Cape,8001,021 424 7760,Private,No,-33.9302,18.4122
+1399,Tygerberg Home Nursing,72 Voortrekker Road Bellville,Bellville,Western Cape,7530,021 948 6230,Private,No,-33.9002,18.6272
+1400,Winelands Home Nursing,21 Andringa Street Stellenbosch,Stellenbosch,Western Cape,7600,021 887 6610,Private,No,-33.9342,18.8612
+1401,Garden Route Home Nursing,33 Cathedral Street George,George,Western Cape,6530,044 874 2290,Private,No,-33.9632,22.4592
+1402,Gqeberha Home Nursing,27 Cape Road Newton Park,Gqeberha Central,Eastern Cape,6045,041 279 9401,Private,No,-33.9580,25.5920
+1403,East London Home Nursing,17 Gately Street Quigney,East London,Eastern Cape,5213,043 891 2196,Private,No,-33.0190,27.9170
+1404,Mthatha Home Nursing,11 Sutherland Street Mthatha,Mthatha,Eastern Cape,5100,047 725 7334,Private,No,-31.5760,28.7900
+1405,Komani Home Care Services,19 Robinson Road Komani,Komani,Eastern Cape,5320,045 293 8781,Private,No,-31.9030,26.8660
+1406,Polokwane Home Nursing,52 Schoeman Street,Polokwane,Limpopo,0699,015 291 5530,Private,No,-23.9050,29.4680
+1407,Tzaneen Home Nursing,6 Agatha Street,Tzaneen,Limpopo,0850,015 307 5540,Private,No,-23.8320,30.1660
+1408,Thohoyandou Home Care Services,11 Thavhani Drive,Thohoyandou,Limpopo,0950,015 962 3350,Private,No,-22.9470,30.4870
+1409,Mokopane Home Nursing,21 Hooge Street,Mokopane,Limpopo,0601,015 491 6650,Private,No,-24.1910,29.0100
+1410,Mbombela Home Nursing,12 Brown Street,Mbombela,Mpumalanga,1200,013 752 6604,Private,No,-25.4725,30.9753
+1411,Lowveld Home Care Services,6 Chief Mgiyeni Khumalo Drive,White River,Mpumalanga,1240,013 751 4418,Private,No,-25.3287,31.0167
+1412,Emalahleni Home Nursing,22 President Avenue,Emalahleni,Mpumalanga,1035,013 656 8830,Private,No,-25.8673,29.2374
+1413,Highveld Home Nursing,11 Walter Sisulu Street,Secunda,Mpumalanga,2302,017 634 5570,Private,No,-26.5147,29.1960
+1414,Ermelo Home Care Services,16 Church Street,Ermelo,Mpumalanga,2350,017 811 5063,Private,No,-26.5293,29.9883
+1415,Rustenburg Home Nursing,14 Von Wielligh Street,Rustenburg,North West,0300,014 597 5516,Private,No,-25.6655,27.2526
+1416,Klerksdorp Home Nursing,19 Wells Street,Klerksdorp,North West,2571,018 468 1290,Private,No,-26.8660,26.6256
+1417,Potchefstroom Home Care Services,26 Meyer Street,Potchefstroom,North West,2531,018 294 2848,Private,No,-26.6970,27.0824
+1418,Mahikeng Home Nursing,15 Carrington Street,Mahikeng,North West,2745,018 381 7839,Private,No,-25.8682,25.6593
+1419,Bloemfontein Home Nursing,36 Zastron Street,Bloemfontein,Free State,9301,051 174 1022,Private,No,-29.1190,26.2090
+1420,Goldfields Home Nursing,45 Stateway,Welkom,Free State,9459,057 174 8941,Private,No,-27.9840,26.7310
+1421,Eastern Free State Home Nursing,19 Commissioner Street,Bethlehem,Free State,9701,058 175 6860,Private,No,-28.2300,28.3070
+1422,Vaal Home Care,30 Fichardt Street,Sasolburg,Free State,1947,016 176 4779,Private,No,-26.8160,27.8170
+1423,Kimberley Home Nursing,36 Lawson Street,Kimberley,Northern Cape,8301,053 831 4810,Private,No,-28.7362,24.7559
+1424,Diamond Fields Home Care Services,9 Carrington Road,Kimberley,Northern Cape,8301,053 832 9120,Private,No,-28.7372,24.7599
+1425,Upington Home Nursing,33 Mark Street,Upington,Northern Cape,8801,054 331 5270,Private,No,-28.4600,21.2500
+1426,Kathu Home Care Services,7 Kameeldoring Street,Kathu,Northern Cape,8446,053 723 8030,Private,No,-27.6920,23.0530

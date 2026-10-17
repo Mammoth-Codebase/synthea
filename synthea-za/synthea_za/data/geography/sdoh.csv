@@ -1,0 +1,53 @@
+FIPS_CODE,COUNTY_CODE,COUNTY,ST,STATE,FOOD_INSECURITY,SEVERE_HOUSING_COST_BURDEN,UNEMPLOYED,NO_VEHICLE_ACCESS,UNINSURED
+7001,1,City of Johannesburg,GP,Gauteng,0.20,0.22,0.32,0.60,0.78
+7002,2,City of Tshwane,GP,Gauteng,0.19,0.20,0.30,0.58,0.77
+7003,3,Ekurhuleni,GP,Gauteng,0.22,0.21,0.35,0.65,0.82
+7042,42,Sedibeng,GP,Gauteng,0.28,0.18,0.44,0.72,0.88
+7048,48,West Rand,GP,Gauteng,0.25,0.18,0.40,0.70,0.86
+52001,1,eThekwini,KZN,KwaZulu-Natal,0.18,0.22,0.30,0.60,0.80
+52002,2,uMgungundlovu,KZN,KwaZulu-Natal,0.22,0.20,0.33,0.68,0.85
+52003,3,King Cetshwayo,KZN,KwaZulu-Natal,0.25,0.17,0.36,0.74,0.88
+52004,4,uThukela,KZN,KwaZulu-Natal,0.28,0.15,0.42,0.78,0.91
+52005,5,Zululand,KZN,KwaZulu-Natal,0.32,0.13,0.45,0.82,0.93
+52006,6,uMkhanyakude,KZN,KwaZulu-Natal,0.34,0.12,0.48,0.84,0.94
+52007,7,iLembe,KZN,KwaZulu-Natal,0.24,0.18,0.35,0.72,0.88
+52008,8,Harry Gwala,KZN,KwaZulu-Natal,0.30,0.13,0.42,0.80,0.92
+52009,9,Ugu,KZN,KwaZulu-Natal,0.26,0.16,0.38,0.75,0.89
+52010,10,uMzinyathi,KZN,KwaZulu-Natal,0.33,0.12,0.47,0.83,0.94
+52011,11,Amajuba,KZN,KwaZulu-Natal,0.27,0.17,0.44,0.74,0.90
+3001,1,City of Cape Town,WC,Western Cape,0.18,0.22,0.24,0.55,0.76
+3002,2,Cape Winelands,WC,Western Cape,0.20,0.16,0.20,0.64,0.82
+3003,3,Garden Route,WC,Western Cape,0.22,0.18,0.26,0.62,0.82
+3004,4,Overberg,WC,Western Cape,0.22,0.15,0.21,0.66,0.84
+3005,5,West Coast,WC,Western Cape,0.21,0.13,0.20,0.66,0.85
+3006,6,Central Karoo,WC,Western Cape,0.30,0.12,0.35,0.78,0.90
+4100,4100,Nelson Mandela Bay,EC,Eastern Cape,0.2,0.22,0.37,0.6,0.8
+4101,4101,Buffalo City,EC,Eastern Cape,0.22,0.2,0.36,0.62,0.82
+4102,4102,OR Tambo,EC,Eastern Cape,0.33,0.14,0.46,0.84,0.94
+4103,4103,Chris Hani,EC,Eastern Cape,0.3,0.15,0.44,0.78,0.92
+4104,4104,Amathole,EC,Eastern Cape,0.33,0.14,0.46,0.83,0.94
+4105,4105,Alfred Nzo,EC,Eastern Cape,0.34,0.13,0.48,0.85,0.95
+4106,4106,Joe Gqabi,EC,Eastern Cape,0.3,0.15,0.42,0.78,0.92
+4107,4107,Sarah Baartman,EC,Eastern Cape,0.24,0.18,0.33,0.66,0.86
+7035,35,Capricorn,LP,Limpopo,0.22,0.14,0.36,0.70,0.88
+7034,34,Vhembe,LP,Limpopo,0.26,0.12,0.40,0.78,0.91
+7033,33,Mopani,LP,Limpopo,0.26,0.12,0.42,0.76,0.91
+7047,47,Sekhukhune,LP,Limpopo,0.30,0.12,0.48,0.80,0.93
+7036,36,Waterberg,LP,Limpopo,0.24,0.14,0.34,0.70,0.87
+6032,32,Ehlanzeni,MP,Mpumalanga,0.28,0.18,0.36,0.76,0.90
+6030,30,Gert Sibande,MP,Mpumalanga,0.26,0.19,0.34,0.70,0.88
+6031,31,Nkangala,MP,Mpumalanga,0.24,0.20,0.36,0.68,0.86
+7037,37,Bojanala,NW,North West,0.22,0.18,0.36,0.7,0.86
+7038,38,Ngaka Modiri Molema,NW,North West,0.28,0.16,0.4,0.78,0.9
+7039,39,Dr Ruth Segomotsi Mompati,NW,North West,0.32,0.15,0.42,0.82,0.92
+7040,40,Dr Kenneth Kaunda,NW,North West,0.24,0.2,0.38,0.65,0.85
+8001,1,Mangaung,FS,Free State,0.20,0.20,0.33,0.62,0.80
+8018,18,Lejweleputswa,FS,Free State,0.26,0.18,0.42,0.72,0.86
+8019,19,Thabo Mofutsanyana,FS,Free State,0.30,0.15,0.45,0.80,0.90
+8020,20,Fezile Dabi,FS,Free State,0.24,0.18,0.40,0.70,0.85
+8016,16,Xhariep,FS,Free State,0.30,0.14,0.38,0.78,0.90
+9001,1,Frances Baard,NC,Northern Cape,0.22,0.18,0.36,0.62,0.82
+9002,2,John Taolo Gaetsewe,NC,Northern Cape,0.30,0.15,0.42,0.78,0.88
+9003,3,Namakwa,NC,Northern Cape,0.24,0.14,0.27,0.66,0.86
+9004,4,Pixley ka Seme,NC,Northern Cape,0.30,0.16,0.38,0.74,0.90
+9005,5,ZF Mgcawu,NC,Northern Cape,0.26,0.15,0.32,0.68,0.86

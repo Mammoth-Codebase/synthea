@@ -1,0 +1,40 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-H-001,Job Shimankana Tabane Hospital,19 Heystek Street,Rustenburg,North West,0299,014 592 8938,Government,Yes,-25.6758,27.2395
+NW-H-002,Peglerae Hospital,26 Bosch Street,Rustenburg,North West,0300,014 597 3888,Private,Yes,-25.6513,27.2429
+NW-H-003,Ferncrest Hospital,2 Tlhabane Road,Tlhabane,North West,0309,014 566 2415,Private,Yes,-25.6409,27.2241
+NW-H-004,Andrew Saffy Memorial Hospital,1 Wonderkop Road,Marikana,North West,0284,014 572 6160,Private,Yes,-25.7129,27.4704
+NW-H-005,Moses Kotane Hospital,1 Ledig Main Road,Mogwase,North West,0314,014 555 3237,Government,Yes,-25.3300,27.1000
+NW-H-006,George Stegmann Hospital,3 Saulspoort Road,Mogwase,North West,0314,014 555 6355,Government,Yes,-25.1650,27.1700
+NW-H-007,Brits District Hospital,17 Reitz Street,Brits,North West,0250,012 252 6906,Government,Yes,-25.6149,27.7920
+NW-H-008,Brits Private Hospital,42 Van Velden Street,Brits,North West,0250,012 250 7212,Private,Yes,-25.6411,27.7803
+NW-H-009,Koster Hospital,8 Kerk Street,Koster,North West,0348,014 543 6780,Government,Yes,-25.8523,26.8876
+NW-H-010,Swartruggens Hospital,11 Voortrekker Street,Swartruggens,North West,2835,014 544 6996,Government,Yes,-25.6370,26.6928
+NW-H-011,Mahikeng Provincial Hospital,1 Sekame Road,Mahikeng,North West,2745,018 384 3847,Government,Yes,-25.8822,25.6550
+NW-H-012,Victoria Hospital,22 Shippard Street,Mahikeng,North West,2745,018 383 7826,Private,Yes,-25.8514,25.6529
+NW-H-013,Bophelong Psychiatric Hospital,4 Vryburg Road,Mmabatho,North West,2735,018 386 6026,Government,No,-25.8312,25.6015
+NW-H-014,Bophelong Private Hospital,16 Nelson Mandela Drive,Mmabatho,North West,2735,018 386 8584,Private,Yes,-25.8637,25.6373
+NW-H-015,General De La Rey Hospital,60 Melville Street,Lichtenburg,North West,2740,018 632 5744,Government,Yes,-26.1667,26.1746
+NW-H-016,Thusong Hospital,1 Hospital Road,Itsoseng,North West,2744,018 338 3088,Government,Yes,-26.0673,25.9327
+NW-H-017,Gelukspan District Hospital,2 Radithuso Road,Itsoseng,North West,2744,018 338 3038,Government,Yes,-26.0300,25.8800
+NW-H-018,Zeerust Hospital,14 President Street,Zeerust,North West,2865,018 642 3480,Government,Yes,-25.5376,26.0767
+NW-H-019,Lehurutshe Hospital,5 Lehurutshe Main Road,Dinokana,North West,2868,018 363 4210,Government,Yes,-25.4670,25.9830
+NW-H-020,Delareyville Hospital,31 Delarey Street,Delareyville,North West,2770,053 948 1780,Government,Yes,-26.6782,25.4838
+NW-H-021,Klerksdorp Hospital,9 Joe Slovo Road,Klerksdorp,North West,2571,018 462 3912,Government,Yes,-26.8719,26.6475
+NW-H-022,Tshepong Hospital,1 Tshepong Road,Alabama,North West,2571,018 406 2832,Government,Yes,-26.8819,26.5959
+NW-H-023,Wilmed Park Hospital,35 Totius Street,Klerksdorp,North West,2571,018 468 5856,Private,Yes,-26.8781,26.6467
+NW-H-024,Anncron Hospital,20 Wells Street,Klerksdorp,North West,2574,018 462 1117,Private,Yes,-26.8545,26.6344
+NW-H-025,Sunningdale Hospital,8 Sunningdale Avenue,Klerksdorp,North West,2574,018 462 3003,Private,Yes,-26.8620,26.6215
+NW-H-026,Vaal Reefs Hospital,1 Western Levels Road,Orkney,North West,2619,018 473 6097,Private,Yes,-26.9827,26.6842
+NW-H-027,Potchefstroom Hospital,33 Hoffman Street,Potchefstroom,North West,2531,018 294 7492,Government,Yes,-26.7257,27.0910
+NW-H-028,Witrand Hospital,1 Witrand Road,Potchefstroom,North West,2520,018 294 7739,Government,No,-26.7342,27.1047
+NW-H-029,Mooimed Hospital,15 Nelson Mandela Drive,Potchefstroom,North West,2531,018 293 1231,Private,Yes,-26.6955,27.0890
+NW-H-030,Potchefstroom Private Hospital,52 Gerrit Maritz Street,Potchefstroom,North West,2520,018 293 3320,Private,Yes,-26.7133,27.1047
+NW-H-031,Ventersdorp Hospital,6 Van Riebeeck Street,Ventersdorp,North West,2710,018 264 1311,Government,Yes,-26.3138,26.8051
+NW-H-032,Nic Bodenstein Hospital,18 Kruger Street,Wolmaransstad,North West,2630,018 596 1447,Government,Yes,-27.1824,25.9650
+NW-H-033,Joe Morolong Memorial Hospital,12 Vry Street,Vryburg,North West,8601,053 927 3307,Government,Yes,-26.9583,24.7311
+NW-H-034,Vryburg Private Hospital,40 De Kock Street,Vryburg,North West,8600,053 927 8778,Private,Yes,-26.9676,24.7381
+NW-H-035,Taung Hospital,1 Hospital Road,Taung,North West,8580,053 994 9545,Government,Yes,-27.5185,24.7860
+NW-H-036,Schweizer-Reneke Hospital,25 Schweizer Street,Schweizer-Reneke,North West,2780,053 963 7879,Government,Yes,-27.1987,25.3511
+NW-H-037,Bloemhof Hospital,7 Bloem Street,Bloemhof,North West,2660,053 433 8936,Government,Yes,-27.6516,25.5971
+NW-H-038,Christiana Hospital,21 Robyn Street,Christiana,North West,2680,053 441 3088,Government,Yes,-27.9121,25.1658
+NW-H-039,Ganyesa Hospital,1 Main Road,Ganyesa,North West,8613,053 998 9524,Government,Yes,-26.5997,24.1680

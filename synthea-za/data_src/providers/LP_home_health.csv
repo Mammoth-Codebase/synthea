@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-HH-001,Polokwane Home Nursing,52 Schoeman Street,Polokwane,Limpopo,0699,015 291 5530,Private,No,-23.9050,29.4680
+LP-HH-002,Tzaneen Home Nursing,6 Agatha Street,Tzaneen,Limpopo,0850,015 307 5540,Private,No,-23.8320,30.1660
+LP-HH-003,Thohoyandou Home Care Services,11 Thavhani Drive,Thohoyandou,Limpopo,0950,015 962 3350,Private,No,-22.9470,30.4870
+LP-HH-004,Mokopane Home Nursing,21 Hooge Street,Mokopane,Limpopo,0601,015 491 6650,Private,No,-24.1910,29.0100

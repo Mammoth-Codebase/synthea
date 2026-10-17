@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+FS-HS-001,Naledi Hospice,14 Gordon Street,Bloemfontein,Free State,9301,051 153 1564,Private,No,-29.1200,26.2150
+FS-HS-002,Goldfields Hospice,10 Bok Street,Welkom,Free State,9459,057 153 9483,Private,No,-27.9800,26.7350
+FS-HS-003,Bethlehem Hospice,8 Cambridge Street,Bethlehem,Free State,9701,058 154 7402,Private,No,-28.2350,28.2970
+FS-HS-004,Sasolburg Hospice,20 Louis Trichardt Street,Sasolburg,Free State,1947,016 155 5321,Private,No,-26.8190,27.8160

@@ -1,0 +1,7 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-D-001,Robert Mangaliso Sobukwe Renal Unit,1 Du Toitspan Road,Kimberley,Northern Cape,8301,053 802 9400,Government,No,-28.7242,24.7609
+NC-D-002,Kimberley Renal Unit,20 Lennox Street,Kimberley,Northern Cape,8301,053 831 6300,Private,No,-28.7352,24.7579
+NC-D-003,Diamond Fields Dialysis Centre,4 Jacobson Avenue,Kimberley,Northern Cape,8301,053 832 7700,Private,No,-28.7392,24.7659
+NC-D-004,Upington Renal Unit,27 Schroder Street,Upington,Northern Cape,8801,054 332 4400,Private,No,-28.4620,21.2490
+NC-D-005,Kathu Dialysis Centre,3 Rietbok Street,Kathu,Northern Cape,8446,053 723 5500,Private,No,-27.6910,23.0460
+NC-D-006,Kuruman Renal Unit,18 Livingstone Street,Kuruman,Northern Cape,8460,053 712 6600,Private,No,-27.4540,23.4380

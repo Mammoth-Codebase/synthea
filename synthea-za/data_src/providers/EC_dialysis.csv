@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-D-001,Port Elizabeth Renal Unit,Rochelle Road Greenacres,Gqeberha Central,Eastern Cape,6045,041 818 9009,Private,No,-33.9450,25.5670
+EC-D-002,Livingstone Renal Unit,Stanford Road Korsten,Gqeberha Central,Eastern Cape,6020,041 768 8730,Government,No,-33.9390,25.5630
+EC-D-003,Kariega Renal Unit,70 Cuyler Street Kariega,Kariega,Eastern Cape,6229,041 540 7752,Private,No,-33.7650,25.3800
+EC-D-004,East London Renal Unit,15 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 679 8978,Private,No,-32.9940,27.8960
+EC-D-005,Frere Renal Unit,Amalinda Main Road Amalinda,East London,Eastern Cape,5247,043 582 4696,Government,No,-32.9920,27.8880
+EC-D-006,Mthatha Renal Unit,28 Durham Street Mthatha,Mthatha,Eastern Cape,5100,047 709 2171,Private,No,-31.5540,28.8010
+EC-D-007,Komani Renal Unit,30 Griffith Street Komani,Komani,Eastern Cape,5319,045 413 4509,Private,No,-31.8956,26.8723

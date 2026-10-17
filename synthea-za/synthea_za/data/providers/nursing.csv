@@ -1,0 +1,65 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+1325,Huis Herfsblaar,1244 Webb Street Queenswood,Pretoria Central,Gauteng,0083,012 333 9410,Private,No,-25.7310,28.2520
+1326,Nazareth House,1 Webb Street Yeoville,Johannesburg Central,Gauteng,2198,011 648 1002,Private,No,-26.1820,28.0630
+1327,Ons Tuis Riviera,120 Soutpansberg Road Riviera,Pretoria Central,Gauteng,0083,012 329 0230,Private,No,-25.7370,28.2150
+1328,Benoni Frail Care Centre,31 Elm Avenue Northmead,Benoni,Gauteng,1501,011 849 4630,Private,No,-26.1740,28.3220
+1329,Vereeniging Frail Care Centre,14 Leslie Street Vereeniging,Vereeniging,Gauteng,1939,016 421 5560,Private,No,-26.6750,27.9300
+1330,Krugersdorp Frail Care Centre,11 Fifth Street Krugersdorp North,Krugersdorp,Gauteng,1739,011 665 2210,Private,No,-26.0890,27.7760
+1331,Itlhokomeleng Old Age Home,Seventh Avenue Alexandra,Alexandra,Gauteng,2090,011 443 2370,Private,No,-26.1070,28.0960
+1332,Nazareth House,82 Mazisi Kunene Road,Durban Central,KwaZulu-Natal,4001,031 409 8847,Private,No,-29.8562,30.9992
+1333,Hillcrest Frail Care,Inanda Road,Hillcrest,KwaZulu-Natal,3650,031 459 4559,Private,No,-29.7762,30.7702
+1334,Amanzimtoti Frail Care,Beach Road,Amanzimtoti,KwaZulu-Natal,4126,031 284 7623,Private,No,-30.0532,30.8872
+1335,Sunnyside Park Home,Blackburrow Road,Pietermaritzburg,KwaZulu-Natal,3201,033 502 5610,Private,No,-29.5882,30.3732
+1336,Newcastle Frail Care Centre,Harding Street,Newcastle,KwaZulu-Natal,2940,034 388 2847,Private,No,-27.7612,29.9262
+1337,Margate Frail Care,Hibiscus Road,Margate,KwaZulu-Natal,4275,039 359 5825,Private,No,-30.8672,30.3692
+1338,Bayside Frail Care,Pelican Road,Richards Bay,KwaZulu-Natal,3900,035 851 3700,Private,No,-28.7922,32.0932
+1339,Nazareth House,1 Derry Street Vredehoek,Cape Town Central,Western Cape,8001,021 461 1635,Private,No,-33.9362,18.4202
+1340,Huis Luckhoff,46 Alma Road Rosebank,Rondebosch,Western Cape,7700,021 689 3101,Private,No,-33.9572,18.4692
+1341,Huis Zonnekus,18 Rose Street Milnerton,Milnerton,Western Cape,7441,021 551 2070,Private,No,-33.8742,18.5042
+1342,Serenitas Frail Care,29 Altena Road Strand,Strand,Western Cape,7140,021 853 2120,Private,No,-34.1092,18.8312
+1343,Huis Silwerkruin,24 Pentz Street Wellington,Wellington,Western Cape,7655,021 873 1070,Private,No,-33.6422,19.0092
+1344,Huis Lettie Theron,15 Luyt Street Hermanus,Hermanus,Western Cape,7200,028 312 1012,Private,No,-34.4192,19.2372
+1345,George Frail Care Centre,38 Meade Street George,George,Western Cape,6530,044 874 1780,Private,No,-33.9622,22.4622
+1346,Aristea Frail Care,9 Park Drive St Georges Park,Gqeberha Central,Eastern Cape,6001,041 683 9477,Private,No,-33.9688,25.5852
+1347,Nazareth House Port Elizabeth,38 Park Drive St Georges Park,Gqeberha Central,Eastern Cape,6001,041 717 9207,Private,No,-33.9660,25.6080
+1348,Summerwood Frail Care,24 Church Road Walmer,Walmer,Eastern Cape,6070,041 472 3360,Private,No,-33.9760,25.5540
+1349,Huis Bergsig,16 Caledon Street Kariega,Kariega,Eastern Cape,6230,041 451 9526,Private,No,-33.7930,25.3940
+1350,Fairhaven Old Age Home,18 Pearce Street Berea,East London,Eastern Cape,5247,043 268 9225,Private,No,-33.0000,27.8950
+1351,Ekuphumleni Old Age Home,Zone Nine Mdantsane,Mdantsane,Eastern Cape,5219,043 226 2401,Government,No,-32.9230,27.7940
+1352,Mthatha Frail Care Centre,21 Sutherland Street Mthatha,Mthatha,Eastern Cape,5100,047 706 3870,Private,No,-31.5790,28.7810
+1353,Herfsakker Frail Care,34 Marshall Street,Polokwane,Limpopo,0699,015 295 6120,Private,No,-23.9020,29.4720
+1354,Nirvana Frail Care Centre,9 Lotus Street,Polokwane,Limpopo,0699,015 293 3340,Private,No,-23.9130,29.4350
+1355,Huis Sonskyn,23 Claude Wheatley Street,Tzaneen,Limpopo,0850,015 307 3310,Private,No,-23.8330,30.1590
+1356,Mokopane Old Age Home,15 Van Riebeeck Street,Mokopane,Limpopo,0600,015 491 3360,Private,No,-24.1980,29.0040
+1357,Huis Goedversorg,27 Grobler Street,Makhado,Limpopo,0920,015 516 4420,Private,No,-23.0490,29.9040
+1358,Bela-Bela Frail Care Centre,21 Lubbe Street,Bela-Bela,Limpopo,0480,014 736 3320,Private,No,-24.8860,28.2940
+1359,Phalaborwa Old Age Home,8 Koper Street,Phalaborwa,Limpopo,1390,015 781 4460,Private,No,-23.9430,31.1440
+1360,Huis Herfsvreugde,30 Paul Kruger Street,Mbombela,Mpumalanga,1200,013 752 2910,Private,No,-25.4655,30.9723
+1361,Huis Immergroen,18 Plumer Street,Emalahleni,Mpumalanga,1034,013 656 4511,Private,No,-25.8643,29.2354
+1362,Huis Eikelaan,40 Meyer Street,Middelburg,Mpumalanga,1055,013 282 4730,Private,No,-25.7820,29.4678
+1363,Huis Sorgvry,20 Fourie Street,Ermelo,Mpumalanga,2350,017 811 3344,Private,No,-26.5383,29.9773
+1364,Huis Sonskyn,7 Walter Sisulu Street,Secunda,Mpumalanga,2302,017 634 4262,Private,No,-26.5127,29.1960
+1365,White River Frail Care Centre,14 Hennie van Till Street,White River,Mpumalanga,1240,013 750 2190,Private,No,-25.3377,31.0147
+1366,Standerton Frail Care Centre,20 Charl Cilliers Street,Standerton,Mpumalanga,2430,017 712 4471,Private,No,-26.9460,29.2460
+1367,Rusoord Frail Care,21 Von Wielligh Street,Rustenburg,North West,0299,014 537 2209,Private,No,-25.6580,27.2561
+1368,Huis Eikelaan,10 Esselen Street,Potchefstroom,North West,2520,018 297 3042,Private,No,-26.7134,27.0889
+1369,Ons Hulde Old Age Home,43 Leask Street,Klerksdorp,North West,2571,018 468 3003,Private,No,-26.8698,26.6157
+1370,Huis Welverdiend,27 Murray Avenue,Brits,North West,0250,012 250 9881,Private,No,-25.6162,27.7606
+1371,Mahikeng Frail Care Centre,18 Robinson Street,Mahikeng,North West,2745,018 381 2055,Private,No,-25.8508,25.6515
+1372,Huis Sorgvry,35 Market Street,Vryburg,North West,8601,053 927 7346,Private,No,-26.9622,24.7236
+1373,Lichtenburg Old Age Home,31 Scholtz Street,Lichtenburg,North West,2740,018 632 7723,Private,No,-26.1587,26.1758
+1374,Ons Tuiste Old Age Home,20 Dan Pienaar Drive,Bloemfontein,Free State,9301,051 163 6293,Private,No,-29.1030,26.2200
+1375,Striata Frail Care Centre,5 Furstenburg Road,Bloemfontein,Free State,9301,051 164 4212,Private,No,-29.1200,26.2100
+1376,Goldfields Old Age Home,18 Long Road,Welkom,Free State,9469,057 165 2131,Private,No,-27.9520,26.7840
+1377,Huis Najaar Old Age Home,15 Pretorius Street,Bethlehem,Free State,9701,058 166 0050,Private,No,-28.2330,28.3030
+1378,Kroonstad Frail Care Centre,28 Murray Street,Kroonstad,Free State,9499,056 166 7969,Private,No,-27.6530,27.2330
+1379,Huis Vaalpark Old Age Home,9 Grey Avenue,Sasolburg,Free State,1948,016 167 5888,Private,No,-26.7800,27.8430
+1380,Harrismith Frail Care Centre,22 Southey Street,Harrismith,Free State,9880,058 168 3807,Private,No,-28.2660,29.1340
+1381,Nazareth House,8 Lawson Street,Kimberley,Northern Cape,8301,053 831 1250,Private,No,-28.7372,24.7569
+1382,Huis Kiepersol,15 Oliver Road,Kimberley,Northern Cape,8301,053 832 5120,Private,No,-28.7322,24.7679
+1383,Rusoord Frail Care Centre,3 Carters Glen Road,Kimberley,Northern Cape,8301,053 831 7340,Private,No,-28.7442,24.7699
+1384,Huis Tuiste Old Age Home,19 Park Street,Upington,Northern Cape,8801,054 332 1810,Private,No,-28.4640,21.2510
+1385,Huis Spes Bona,11 Friedlander Street,De Aar,Northern Cape,7000,053 631 1460,Private,No,-30.6470,24.0160
+1386,Huis Namakwaland,5 Keerom Street,Springbok,Northern Cape,8240,027 712 1920,Private,No,-29.6670,17.8880
+1387,Kuruman Frail Care Centre,22 Church Street,Kuruman,Northern Cape,8460,053 712 2270,Private,No,-27.4490,23.4280
+1388,Huis Hantam,6 Water Street,Calvinia,Northern Cape,8190,027 341 1480,Private,No,-31.4700,19.7730

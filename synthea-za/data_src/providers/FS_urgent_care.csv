@@ -1,0 +1,11 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+FS-UC-001,Westdene Emergency Centre,30 Second Avenue,Bloemfontein,Free State,9301,051 132 2106,Private,Yes,-29.1110,26.2090
+FS-UC-002,Bloemfontein Day Hospital,12 Wilcocks Road,Bloemfontein,Free State,9321,051 133 0025,Private,Yes,-29.1070,26.1880
+FS-UC-003,Langenhoven Park After Hours Medical Centre,40 Mimosa Avenue,Bloemfontein,Free State,9330,051 133 7944,Private,Yes,-29.0950,26.1600
+FS-UC-004,Welkom Emergency Centre,60 Stateway,Welkom,Free State,9459,057 134 5863,Private,Yes,-27.9860,26.7360
+FS-UC-005,Bethlehem Day Hospital,25 Muller Street,Bethlehem,Free State,9701,058 135 3782,Private,Yes,-28.2290,28.3010
+FS-UC-006,Kroonstad After Hours Medical Centre,52 Brill Street,Kroonstad,Free State,9499,056 136 1701,Private,Yes,-27.6500,27.2290
+FS-UC-007,Vaalpark Emergency Centre,5 Hennie Alberts Street,Sasolburg,Free State,1948,016 136 9620,Private,Yes,-26.7780,27.8410
+FS-UC-008,Harrismith Emergency Centre,2 Stuart Street,Harrismith,Free State,9880,058 137 7539,Private,Yes,-28.2690,29.1310
+FS-UC-009,Parys Day Hospital,30 Boom Street,Parys,Free State,9585,056 138 5458,Private,Yes,-26.9030,27.4540
+FS-UC-010,Phuthaditjhaba Twenty Four Hour Medical Centre,5 Setsing Road,Phuthaditjhaba,Free State,9866,058 139 3377,Private,Yes,-28.5310,28.8170

@@ -1,0 +1,64 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+MP-PC-001,Nelspruit Community Health Centre,15 Bester Street,Mbombela,Mpumalanga,1200,013 755 1234,Government,No,-25.4715,30.9663
+MP-PC-002,Riverside Medical Centre,4 Riverside Drive,Mbombela,Mpumalanga,1201,013 757 0211,Private,No,-25.4945,30.9703
+MP-PC-003,Sonheuwel Family Practice,22 Henshall Street,Mbombela,Mpumalanga,1201,013 752 4480,Private,No,-25.4665,30.9743
+MP-PC-004,KaNyamazane Community Health Centre,1 Main Road,KaNyamazane,Mpumalanga,1214,013 794 1140,Government,No,-25.4391,31.1461
+MP-PC-005,Matsulu Community Health Centre,12 Mandela Street,Matsulu,Mpumalanga,1203,013 778 0350,Government,No,-25.5108,31.3298
+MP-PC-006,Kabokweni Clinic,8 Ngwenya Street,Kabokweni,Mpumalanga,1245,013 796 1480,Government,No,-25.3373,31.1040
+MP-PC-007,White River Clinic,11 Chief Mgiyeni Khumalo Drive,White River,Mpumalanga,1240,013 751 1066,Government,No,-25.3297,31.0077
+MP-PC-008,White River Family Practice,3 Hennie van Till Street,White River,Mpumalanga,1240,013 750 0533,Private,No,-25.3367,31.0137
+MP-PC-009,Hazyview Clinic,2 Main Road,Hazyview,Mpumalanga,1242,013 737 7260,Government,No,-25.0403,31.1276
+MP-PC-010,Hazyview Medical Centre,15 Numbi Road,Hazyview,Mpumalanga,1242,013 737 8102,Private,No,-25.0473,31.1226
+MP-PC-011,Mkhuhlu Clinic,5 Main Road,Mkhuhlu,Mpumalanga,1246,013 795 5520,Government,No,-25.0207,31.2488
+MP-PC-012,Bushbuckridge Community Health Centre,1 Main Road,Bushbuckridge,Mpumalanga,1280,013 799 1850,Government,No,-24.8293,31.0647
+MP-PC-013,Bushbuckridge Family Practice,7 Market Street,Bushbuckridge,Mpumalanga,1280,013 799 2277,Private,No,-24.8373,31.0707
+MP-PC-014,Acornhoek Community Health Centre,3 Main Road,Acornhoek,Mpumalanga,1360,013 795 3122,Government,No,-24.6040,31.0793
+MP-PC-015,Thulamahashe Community Health Centre,6 Main Road,Thulamahashe,Mpumalanga,1365,013 773 0560,Government,No,-24.7192,31.2043
+MP-PC-016,Barberton Clinic,9 Pilgrim Street,Barberton,Mpumalanga,1300,013 712 4213,Government,No,-25.7839,31.0491
+MP-PC-017,Barberton Family Practice,18 Judge Street,Barberton,Mpumalanga,1300,013 712 5588,Private,No,-25.7889,31.0571
+MP-PC-018,Malalane Clinic,4 Impala Street,Malalane,Mpumalanga,1320,013 790 0427,Government,No,-25.4813,31.5197
+MP-PC-019,Malalane Medical Centre,12 Sibu Street,Malalane,Mpumalanga,1320,013 790 1920,Private,No,-25.4873,31.5147
+MP-PC-020,Komatipoort Clinic,6 Rissik Street,Komatipoort,Mpumalanga,1340,013 793 7334,Government,No,-25.4363,31.9520
+MP-PC-021,Kamhlushwa Clinic,10 Main Road,Kamhlushwa,Mpumalanga,1345,013 781 1255,Government,No,-25.7303,31.7363
+MP-PC-022,Sabie Clinic,12 Tenth Street,Sabie,Mpumalanga,1260,013 764 1610,Government,No,-25.1030,30.7873
+MP-PC-023,Graskop Clinic,5 Louis Trichardt Street,Graskop,Mpumalanga,1270,013 767 1263,Government,No,-24.9313,30.8313
+MP-PC-024,Mashishing Clinic,20 Voortrekker Street,Mashishing,Mpumalanga,1120,013 235 1740,Government,No,-25.0934,30.4519
+MP-PC-025,Lydenburg Family Practice,8 Kantoor Street,Mashishing,Mpumalanga,1120,013 235 3391,Private,No,-25.1004,30.4449
+MP-PC-026,Emalahleni Community Health Centre,20 President Avenue,Emalahleni,Mpumalanga,1035,013 656 2270,Government,No,-25.8683,29.2354
+MP-PC-027,Klipfontein Family Practice,14 Beatty Avenue,Emalahleni,Mpumalanga,1034,013 692 4150,Private,No,-25.8813,29.2394
+MP-PC-028,Reyno Ridge Medical Centre,6 Reyno Ridge Drive,Emalahleni,Mpumalanga,1035,013 697 0588,Private,No,-25.8593,29.2194
+MP-PC-029,KwaGuqa Clinic,3 Mzilikazi Street,KwaGuqa,Mpumalanga,1037,013 696 1133,Government,No,-25.8970,29.1803
+MP-PC-030,Lynnville Clinic,9 Nkosi Street,KwaGuqa,Mpumalanga,1037,013 696 2904,Government,No,-25.9060,29.1893
+MP-PC-031,Middelburg Clinic,7 Cowen Ntuli Street,Middelburg,Mpumalanga,1050,013 243 7270,Government,No,-25.7720,29.4618
+MP-PC-032,Kanonkop Family Practice,22 Meyer Street,Middelburg,Mpumalanga,1055,013 282 5571,Private,No,-25.7830,29.4688
+MP-PC-033,Mhluzi Community Health Centre,4 Tswelopele Street,Mhluzi,Mpumalanga,1053,013 244 1835,Government,No,-25.7803,29.4363
+MP-PC-034,Delmas Clinic,15 Sarel Cilliers Street,Delmas,Mpumalanga,2210,013 665 2213,Government,No,-26.1438,28.6888
+MP-PC-035,Delmas Family Practice,31 Van der Walt Street,Delmas,Mpumalanga,2210,013 665 4190,Private,No,-26.1488,28.6838
+MP-PC-036,Botleng Clinic,6 Mahlangu Street,Botleng,Mpumalanga,2211,013 665 6228,Government,No,-26.1303,28.7137
+MP-PC-037,Kriel Clinic,2 Delfos Street,Kriel,Mpumalanga,2271,017 648 2466,Government,No,-26.2563,29.2574
+MP-PC-038,Phola Clinic,8 Main Street,Phola,Mpumalanga,2230,013 645 1107,Government,No,-26.0303,29.0687
+MP-PC-039,Siyabuswa Community Health Centre,5 Main Street,Siyabuswa,Mpumalanga,0472,013 973 0219,Government,No,-25.1137,29.0530
+MP-PC-040,KwaMhlanga Clinic,3 Moloto Road,KwaMhlanga,Mpumalanga,1022,013 947 1156,Government,No,-25.4363,28.6970
+MP-PC-041,Kwaggafontein Clinic,4 Main Road,Kwaggafontein,Mpumalanga,0458,013 986 0230,Government,No,-25.2980,28.8530
+MP-PC-042,Hendrina Clinic,12 Church Street,Hendrina,Mpumalanga,1095,013 293 0344,Government,No,-26.1589,29.7214
+MP-PC-043,Belfast Clinic,15 Mills Street,eMakhazeni,Mpumalanga,1100,013 253 1120,Government,No,-25.6842,30.0383
+MP-PC-044,Secunda Clinic,8 Walter Sisulu Street,Secunda,Mpumalanga,2302,017 634 2171,Government,No,-26.5137,29.1970
+MP-PC-045,Secunda Medical Centre,19 Heunis Street,Secunda,Mpumalanga,2302,017 631 2208,Private,No,-26.5207,29.2060
+MP-PC-046,Embalenhle Community Health Centre,2 Main Road,Embalenhle,Mpumalanga,2285,017 685 3147,Government,No,-26.5303,29.0863
+MP-PC-047,Standerton Clinic,11 Charl Cilliers Street,Standerton,Mpumalanga,2430,017 712 3387,Government,No,-26.9470,29.2470
+MP-PC-048,Standerton Family Practice,26 Walter Sisulu Street,Standerton,Mpumalanga,2430,017 712 6650,Private,No,-26.9540,29.2540
+MP-PC-049,Sakhile Clinic,7 Main Street,Sakhile,Mpumalanga,2431,017 719 0318,Government,No,-26.9647,29.2197
+MP-PC-050,Ermelo Clinic,14 Church Street,Ermelo,Mpumalanga,2350,017 811 4273,Government,No,-26.5303,29.9863
+MP-PC-051,Ermelo Medical Centre,33 Fourie Street,Ermelo,Mpumalanga,2351,017 819 5516,Private,No,-26.5373,29.9783
+MP-PC-052,Wesselton Clinic,4 Main Road,Wesselton,Mpumalanga,2352,017 811 6392,Government,No,-26.5147,29.9803
+MP-PC-053,Bethal Clinic,9 Chris Hani Street,Bethal,Mpumalanga,2310,017 647 2244,Government,No,-26.4470,29.4697
+MP-PC-054,Bethal Family Practice,17 Kruger Street,Bethal,Mpumalanga,2310,017 647 5131,Private,No,-26.4530,29.4637
+MP-PC-055,Emzinoni Clinic,3 Main Street,Emzinoni,Mpumalanga,2311,017 647 7119,Government,No,-26.4803,29.4853
+MP-PC-056,Piet Retief Clinic,6 Kerk Street,eMkhondo,Mpumalanga,2380,017 826 3320,Government,No,-26.9970,30.7970
+MP-PC-057,Piet Retief Family Practice,21 Brand Street,eMkhondo,Mpumalanga,2380,017 826 4475,Private,No,-27.0040,30.8040
+MP-PC-058,Ethandakukhanya Clinic,5 Main Road,Ethandakukhanya,Mpumalanga,2381,017 826 6203,Government,No,-27.0147,30.8363
+MP-PC-059,Volksrust Clinic,13 Adelaide Street,Volksrust,Mpumalanga,2470,017 735 2167,Government,No,-27.3637,29.8863
+MP-PC-060,Balfour Clinic,8 Stuart Street,Balfour,Mpumalanga,2410,017 773 0266,Government,No,-26.6697,28.5853
+MP-PC-061,Carolina Clinic,11 Voortrekker Street,Carolina,Mpumalanga,1185,017 843 1340,Government,No,-26.0637,30.1137
+MP-PC-062,Elukwatini Community Health Centre,2 Main Road,Elukwatini,Mpumalanga,1192,017 883 0441,Government,No,-25.9970,30.7530
+MP-PC-063,Amsterdam Clinic,7 Church Street,Amsterdam,Mpumalanga,2375,017 846 0160,Government,No,-26.6363,30.6647

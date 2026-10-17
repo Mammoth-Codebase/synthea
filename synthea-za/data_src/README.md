@@ -39,4 +39,4 @@ Per province and facility kind: `<CODE>_hospitals.csv`, `<CODE>_primary_care.csv
 
 Validate a single file while editing with
 
-    python -m synthea_za.cli validate-part <kind> <file> [--province "Gauteng"]
+    python -m synthea_za validate-part <kind> <file> [--province "Gauteng"]

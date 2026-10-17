@@ -1,0 +1,40 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+MP-H-001,Rob Ferreira Hospital,1 Madiba Drive,Mbombela,Mpumalanga,1200,013 741 6100,Government,Yes,-25.4695,30.9683
+MP-H-002,Nelspruit Hospital,1 Louise Street,Mbombela,Mpumalanga,1201,013 759 0500,Private,Yes,-25.4645,30.9903
+MP-H-003,Kiaat Hospital,9 Kiaat Street,Mbombela,Mpumalanga,1200,013 755 3000,Private,Yes,-25.4805,30.9603
+MP-H-004,Lowveld Hospital,39 Sonheuwel Street,Mbombela,Mpumalanga,1201,013 753 2900,Private,Yes,-25.4785,30.9763
+MP-H-005,Themba Hospital,1 Themba Hospital Road,Kabokweni,Mpumalanga,1245,013 796 9500,Government,Yes,-25.3263,31.0950
+MP-H-006,White River Hospital,12 Peter Graham Street,White River,Mpumalanga,1240,013 751 2700,Private,Yes,-25.3347,31.0147
+MP-H-007,Barberton Hospital,1 Hospital Street,Barberton,Mpumalanga,1300,013 712 2301,Government,Yes,-25.7899,31.0501
+MP-H-008,Barberton TB Hospital,24 Crown Street,Barberton,Mpumalanga,1300,013 712 3550,Government,No,-25.7829,31.0581
+MP-H-009,Shongwe Hospital,1 Shongwe Hospital Road,Kamhlushwa,Mpumalanga,1345,013 781 0200,Government,Yes,-25.7253,31.6403
+MP-H-010,Tonga Hospital,1 Tonga Main Road,Kamhlushwa,Mpumalanga,1345,013 780 0356,Government,Yes,-25.7153,31.8053
+MP-H-011,Matikwana Hospital,1 Matikwana Road,Mkhuhlu,Mpumalanga,1246,013 795 5000,Government,Yes,-25.0297,31.2398
+MP-H-012,Mapulaneng Hospital,1 Mapulaneng Road,Bushbuckridge,Mpumalanga,1280,013 799 0214,Government,Yes,-24.8353,31.0697
+MP-H-013,Tintswalo Hospital,1 Tintswalo Road,Acornhoek,Mpumalanga,1360,013 795 8000,Government,Yes,-24.5950,31.0853
+MP-H-014,Sabie Hospital,10 Main Street,Sabie,Mpumalanga,1260,013 764 1222,Government,Yes,-25.0950,30.7803
+MP-H-015,Lydenburg Hospital,1 Hospital Street,Mashishing,Mpumalanga,1120,013 235 2211,Government,Yes,-25.0944,30.4499
+MP-H-016,Witbank Hospital,1 Mandela Street,Emalahleni,Mpumalanga,1035,013 653 2000,Government,Yes,-25.8733,29.2334
+MP-H-017,Witbank TB Hospital,2 Hospital Street,Emalahleni,Mpumalanga,1034,013 656 1313,Government,No,-25.8653,29.2284
+MP-H-018,Cosmos Hospital,39 Botha Avenue,Emalahleni,Mpumalanga,1035,013 690 2000,Private,Yes,-25.8823,29.2254
+MP-H-019,Middelburg Hospital,1 Dr Beyers Naude Street,Middelburg,Mpumalanga,1050,013 282 2000,Government,Yes,-25.7730,29.4648
+MP-H-020,Midmed Hospital,10 Fitzpatrick Street,Middelburg,Mpumalanga,1055,013 283 8000,Private,Yes,-25.7700,29.4598
+MP-H-021,Bernice Samuel Hospital,1 Samuel Road,Delmas,Mpumalanga,2210,013 665 1301,Government,Yes,-26.1478,28.6798
+MP-H-022,KwaMhlanga Hospital,1 Hospital Road,KwaMhlanga,Mpumalanga,1022,013 947 3500,Government,Yes,-25.4303,28.7050
+MP-H-023,Mmametlhake Hospital,1 Mmametlhake Main Road,Siyabuswa,Mpumalanga,0472,013 976 1310,Government,Yes,-25.0497,28.9300
+MP-H-024,Matibidi Hospital,1 Matibidi Main Road,Graskop,Mpumalanga,1270,013 767 0100,Government,Yes,-24.7800,30.8900
+MP-H-025,Impungwe Hospital,1 Impungwe Road,Kwaggafontein,Mpumalanga,0458,013 986 0101,Government,Yes,-25.2950,28.8550
+MP-H-026,H A Grove Hospital,20 Vermooten Street,eMakhazeni,Mpumalanga,1100,013 253 0100,Government,Yes,-25.6902,30.0333
+MP-H-027,Ermelo Hospital,1 Joubert Street,Ermelo,Mpumalanga,2350,017 811 2031,Government,Yes,-26.5303,29.9803
+MP-H-028,Ermelo Private Hospital,25 De Jager Street,Ermelo,Mpumalanga,2351,017 819 1000,Private,Yes,-26.5413,29.9903
+MP-H-029,Evander Hospital,1 Hospital Street,Secunda,Mpumalanga,2302,017 632 1000,Government,Yes,-26.4697,29.1000
+MP-H-030,Highveld Hospital,1 Nelson Mandela Drive,Secunda,Mpumalanga,2302,017 638 8000,Private,Yes,-26.5197,29.2200
+MP-H-031,Secunda Private Hospital,15 Heunis Street,Secunda,Mpumalanga,2302,017 631 1000,Private,Yes,-26.5147,29.2050
+MP-H-032,Bethal Hospital,1 Hospital Street,Bethal,Mpumalanga,2310,017 647 1133,Government,Yes,-26.4520,29.4697
+MP-H-033,Standerton Hospital,1 Hospital Street,Standerton,Mpumalanga,2430,017 712 9200,Government,Yes,-26.9450,29.2550
+MP-H-034,Standerton TB Hospital,5 Dr Beyers Naude Street,Standerton,Mpumalanga,2430,017 712 3000,Government,No,-26.9550,29.2450
+MP-H-035,Piet Retief Hospital,1 Hospital Street,eMkhondo,Mpumalanga,2380,017 826 2121,Government,Yes,-27.0050,30.8050
+MP-H-036,Amajuba Memorial Hospital,1 Hospital Street,Volksrust,Mpumalanga,2470,017 735 5071,Government,Yes,-27.3647,29.8803
+MP-H-037,Carolina Hospital,1 Hospital Street,Carolina,Mpumalanga,1185,017 843 1012,Government,Yes,-26.0647,30.1147
+MP-H-038,Embhuleni Hospital,1 Embhuleni Road,Elukwatini,Mpumalanga,1192,017 883 0025,Government,Yes,-26.0050,30.7450
+MP-H-039,Elsie Ballot Hospital,10 Church Street,Amsterdam,Mpumalanga,2375,017 846 0088,Government,Yes,-26.6303,30.6697

@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-HH-001,Rustenburg Home Nursing,14 Von Wielligh Street,Rustenburg,North West,0300,014 597 5516,Private,No,-25.6655,27.2526
+NW-HH-002,Klerksdorp Home Nursing,19 Wells Street,Klerksdorp,North West,2571,018 468 1290,Private,No,-26.8660,26.6256
+NW-HH-003,Potchefstroom Home Care Services,26 Meyer Street,Potchefstroom,North West,2531,018 294 2848,Private,No,-26.6970,27.0824
+NW-HH-004,Mahikeng Home Nursing,15 Carrington Street,Mahikeng,North West,2745,018 381 7839,Private,No,-25.8682,25.6593

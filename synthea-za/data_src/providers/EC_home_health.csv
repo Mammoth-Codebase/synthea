@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+EC-HH-001,Gqeberha Home Nursing,27 Cape Road Newton Park,Gqeberha Central,Eastern Cape,6045,041 279 9401,Private,No,-33.9580,25.5920
+EC-HH-002,East London Home Nursing,17 Gately Street Quigney,East London,Eastern Cape,5213,043 891 2196,Private,No,-33.0190,27.9170
+EC-HH-003,Mthatha Home Nursing,11 Sutherland Street Mthatha,Mthatha,Eastern Cape,5100,047 725 7334,Private,No,-31.5760,28.7900
+EC-HH-004,Komani Home Care Services,19 Robinson Road Komani,Komani,Eastern Cape,5320,045 293 8781,Private,No,-31.9030,26.8660

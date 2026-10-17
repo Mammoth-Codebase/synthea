@@ -1,0 +1,104 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+1122,Sandton Day Hospital,10 Stella Street Sandown,Sandton,Gauteng,2196,011 784 3350,Private,Yes,-26.1060,28.0560
+1123,Rosebank Emergency Centre,22 Cradock Avenue Rosebank,Johannesburg Central,Gauteng,2193,011 447 2280,Private,Yes,-26.1460,28.0420
+1124,Hillbrow Emergency Unit,Cnr Esselen Street and Klein Street Hillbrow,Johannesburg Central,Gauteng,2001,011 720 6710,Government,Yes,-26.1895,28.0460
+1125,Fourways Emergency Centre,Cnr Witkoppen Road and Cedar Road Fourways,Randburg,Gauteng,2169,011 465 1180,Private,Yes,-26.0180,28.0100
+1126,Soweto Day Hospital,Chris Hani Road Diepkloof,Soweto,Gauteng,1864,011 938 2170,Private,Yes,-26.2520,27.9450
+1127,Centurion Day Hospital,1 Embankment Road Zwartkop,Centurion,Gauteng,0157,012 643 2440,Private,Yes,-25.8550,28.1800
+1128,Menlyn Day Hospital,Cnr Atterbury Road and Lois Avenue Menlyn,Pretoria Central,Gauteng,0081,012 348 1120,Private,Yes,-25.7830,28.2760
+1129,Pretoria North Emergency Centre,140 Burger Street Pretoria North,Pretoria Central,Gauteng,0182,012 546 3350,Private,Yes,-25.6830,28.1730
+1130,Benoni Emergency Centre,26 Tom Jones Street Benoni,Benoni,Gauteng,1501,011 421 3340,Private,Yes,-26.1880,28.3200
+1131,Kempton Park Day Hospital,45 Pretoria Road Kempton Park,Kempton Park,Gauteng,1619,011 975 1390,Private,Yes,-26.1050,28.2280
+1132,Germiston Day Hospital,89 Meyer Street Germiston,Germiston,Gauteng,1401,011 873 2240,Private,Yes,-26.2180,28.1650
+1133,Vaal Emergency Centre,33 Frikkie Meyer Boulevard Vanderbijlpark,Vanderbijlpark,Gauteng,1911,016 933 2320,Private,Yes,-26.7120,27.8400
+1134,Krugersdorp Day Hospital,10 Luipaard Street Krugersdorp,Krugersdorp,Gauteng,1739,011 953 2230,Private,Yes,-26.1020,27.7700
+1135,Berea Emergency Centre,Berea Road,Durban Central,KwaZulu-Natal,4001,031 549 5207,Private,Yes,-29.8512,31.0021
+1136,Umhlanga Day Hospital,Umhlanga Rocks Drive,Umhlanga,KwaZulu-Natal,4320,031 882 5958,Private,Yes,-29.7241,31.0792
+1137,Pinetown Day Hospital,Josiah Gumede Road,Pinetown,KwaZulu-Natal,3610,031 559 4755,Private,Yes,-29.8172,30.8551
+1138,Chatsworth Emergency Centre,Higginson Highway,Chatsworth,KwaZulu-Natal,4092,031 450 6055,Private,Yes,-29.9121,30.8612
+1139,KwaMashu Emergency Centre,Malandela Road,KwaMashu,KwaZulu-Natal,4360,031 337 9801,Government,Yes,-29.7432,30.9802
+1140,Amanzimtoti Day Hospital,Kingsway Road,Amanzimtoti,KwaZulu-Natal,4126,031 499 8537,Private,Yes,-30.0492,30.8812
+1141,Hayfields Day Hospital,Cleland Road,Pietermaritzburg,KwaZulu-Natal,3201,033 671 3804,Private,Yes,-29.6252,30.4172
+1142,Richards Bay Emergency Centre,Lira Link,Richards Bay,KwaZulu-Natal,3900,035 737 4881,Private,Yes,-28.7762,32.0432
+1143,Newcastle Day Hospital,Victoria Road,Newcastle,KwaZulu-Natal,2940,034 719 6825,Private,Yes,-27.7542,29.9362
+1144,Ladysmith Emergency Centre,Lyell Street,Ladysmith,KwaZulu-Natal,3370,036 826 5264,Private,Yes,-28.5572,29.7792
+1145,Ballito Day Hospital,Leonora Drive,Ballito,KwaZulu-Natal,4420,032 915 4313,Private,Yes,-29.5412,31.2112
+1146,Margate Emergency Centre,Marine Drive,Margate,KwaZulu-Natal,4275,039 421 8231,Private,Yes,-30.8652,30.3742
+1147,Foreshore Emergency Centre,12 Hertzog Boulevard Foreshore,Cape Town Central,Western Cape,8001,021 421 5500,Private,Yes,-33.9192,18.4302
+1148,Atlantic Seaboard Emergency Centre,88 Regent Road Sea Point,Sea Point,Western Cape,8005,021 439 6700,Private,Yes,-33.9182,18.3842
+1149,Claremont Day Hospital,33 Main Road Claremont,Claremont,Western Cape,7708,021 683 7200,Private,Yes,-33.9842,18.4672
+1150,Bellville Day Hospital,61 Voortrekker Road Bellville,Bellville,Western Cape,7530,021 949 8100,Private,Yes,-33.9012,18.6252
+1151,Durbanville Day Hospital,18 Main Road Durbanville,Durbanville,Western Cape,7550,021 975 9400,Private,Yes,-33.8332,18.6542
+1152,Helderberg Emergency Centre,110 Main Road Somerset West,Somerset West,Western Cape,7130,021 851 2600,Private,Yes,-34.0822,18.8402
+1153,Blaauwberg Emergency Centre,24 Blaauwberg Road Table View,Table View,Western Cape,7441,021 557 9300,Private,Yes,-33.8182,18.4932
+1154,Khayelitsha Emergency Centre,Lwandle Road Site C,Khayelitsha,Western Cape,7784,021 387 2100,Government,Yes,-34.0372,18.6722
+1155,Stellenbosch Day Hospital,40 Dorp Street Stellenbosch,Stellenbosch,Western Cape,7600,021 883 9100,Private,Yes,-33.9362,18.8582
+1156,Paarl Emergency Centre,60 Main Street Paarl,Paarl,Western Cape,7646,021 871 1300,Private,Yes,-33.7362,18.9652
+1157,George Day Hospital,25 Caledon Street George,George,Western Cape,6530,044 873 5100,Private,Yes,-33.9592,22.4592
+1158,Hermanus Emergency Centre,14 Magnolia Avenue Hermanus,Hermanus,Western Cape,7200,028 313 1200,Private,Yes,-34.4172,19.2322
+1159,Greenacres Emergency Centre,Ring Road Greenacres,Gqeberha Central,Eastern Cape,6045,041 271 7611,Private,Yes,-33.9450,25.5680
+1160,Newton Park Day Hospital,55 Cape Road Newton Park,Gqeberha Central,Eastern Cape,6045,041 306 3386,Private,Yes,-33.9560,25.5680
+1161,Walmer Day Hospital,27 Heugh Road Walmer,Walmer,Eastern Cape,6070,041 703 6676,Private,Yes,-33.9860,25.5900
+1162,Motherwell Twenty-Four Hour Centre,Addo Road Motherwell,Motherwell,Eastern Cape,6211,041 410 4582,Government,Yes,-33.7710,25.5760
+1163,Kariega Day Hospital,48 Market Street Kariega,Kariega,Eastern Cape,6230,041 866 7818,Private,Yes,-33.7430,25.4320
+1164,Vincent Emergency Centre,20 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 740 2947,Private,Yes,-32.9940,27.8880
+1165,Quigney Day Hospital,31 Inverleith Terrace Quigney,East London,Eastern Cape,5213,043 515 6309,Private,Yes,-33.0190,27.9180
+1166,Mdantsane Twenty-Four Hour Clinic,Mdantsane Access Road Mdantsane,Mdantsane,Eastern Cape,5219,043 477 9380,Government,Yes,-32.9290,27.7650
+1167,Mthatha Emergency Centre,52 Nelson Mandela Drive Mthatha,Mthatha,Eastern Cape,5100,047 822 1164,Private,Yes,-31.5890,28.8100
+1168,Komani Day Hospital,37 Cathcart Road Komani,Komani,Eastern Cape,5320,045 768 9506,Private,Yes,-31.9320,26.8800
+1169,Makhanda Emergency Centre,22 Beaufort Street Makhanda,Makhanda,Eastern Cape,6139,046 474 2341,Private,Yes,-33.3210,26.5000
+1170,Jeffreys Bay Day Hospital,14 Da Gama Road Jeffreys Bay,Jeffreys Bay,Eastern Cape,6330,042 856 9287,Private,Yes,-34.0590,24.8990
+1171,Polokwane Day Hospital,45 Grobler Street,Polokwane,Limpopo,0699,015 291 4800,Private,Yes,-23.9030,29.4640
+1172,Bendor Emergency Centre,10 Bendor Drive,Polokwane,Limpopo,0699,015 297 6600,Private,Yes,-23.8880,29.4850
+1173,Rethabile Community Health Centre,1 Rethabile Road,Polokwane,Limpopo,0700,015 293 2440,Government,Yes,-23.9260,29.4440
+1174,Thohoyandou Day Hospital,8 Thavhani Drive,Thohoyandou,Limpopo,0950,015 962 7700,Private,Yes,-22.9440,30.4880
+1175,Makhado Emergency Centre,21 Trichardt Street,Makhado,Limpopo,0920,015 516 5500,Private,Yes,-23.0440,29.9060
+1176,Tzaneen Day Hospital,12 Boundary Street,Tzaneen,Limpopo,0850,015 307 6600,Private,Yes,-23.8340,30.1640
+1177,Phalaborwa Emergency Centre,6 Essenhout Street,Phalaborwa,Limpopo,1390,015 781 7700,Private,Yes,-23.9410,31.1420
+1178,Mokopane Day Hospital,19 Pretorius Street,Mokopane,Limpopo,0601,015 491 7700,Private,Yes,-24.1930,29.0080
+1179,Lephalale Emergency Centre,14 Chris Hani Drive,Lephalale,Limpopo,0555,014 763 7700,Private,Yes,-23.6760,27.7010
+1180,Bela-Bela Day Hospital,16 Voortrekker Street,Bela-Bela,Limpopo,0480,014 736 6600,Private,Yes,-24.8840,28.2910
+1181,Burgersfort Emergency Centre,9 Hendrik Potgieter Street,Burgersfort,Limpopo,1150,013 231 6600,Private,Yes,-24.6760,30.3340
+1182,Hoedspruit Emergency Centre,5 Marula Street,Hoedspruit,Limpopo,1380,015 793 5500,Private,Yes,-24.3510,30.9570
+1183,Nelspruit Day Hospital,25 Van der Merwe Street,Mbombela,Mpumalanga,1200,013 752 3300,Private,Yes,-25.4685,30.9783
+1184,Riverside Emergency Centre,10 Riverside Drive,Mbombela,Mpumalanga,1201,013 757 1911,Private,Yes,-25.4925,30.9723
+1185,White River Day Hospital,5 Kruger Park Street,White River,Mpumalanga,1240,013 750 1255,Private,Yes,-25.3277,31.0097
+1186,Hazyview Twenty Four Hour Medical Centre,20 Main Road,Hazyview,Mpumalanga,1242,013 737 6565,Private,Yes,-25.0383,31.1296
+1187,Bushbuckridge Emergency Centre,4 Main Road,Bushbuckridge,Mpumalanga,1280,013 799 3150,Government,Yes,-24.8273,31.0717
+1188,Emalahleni Day Hospital,12 Botha Avenue,Emalahleni,Mpumalanga,1035,013 690 4400,Private,Yes,-25.8793,29.2274
+1189,Witbank Emergency Centre,40 OR Tambo Road,Emalahleni,Mpumalanga,1034,013 656 7900,Private,Yes,-25.8673,29.2374
+1190,Middelburg Day Hospital,18 Joubert Street,Middelburg,Mpumalanga,1050,013 282 9100,Private,Yes,-25.7790,29.4708
+1191,Secunda Emergency Centre,9 Nelson Mandela Drive,Secunda,Mpumalanga,2302,017 634 7711,Private,Yes,-26.5217,29.2120
+1192,Ermelo Day Hospital,30 Joubert Street,Ermelo,Mpumalanga,2350,017 811 7700,Private,Yes,-26.5283,29.9873
+1193,Standerton Emergency Centre,14 Dr Beyers Naude Street,Standerton,Mpumalanga,2430,017 712 8180,Private,Yes,-26.9460,29.2440
+1194,Rustenburg Day Hospital,30 Beyers Naude Drive,Rustenburg,North West,0300,014 594 7507,Private,Yes,-25.6706,27.2340
+1195,Cashan Emergency Centre,5 Kameeldoring Avenue,Rustenburg,North West,0299,014 592 8998,Private,Yes,-25.6646,27.2535
+1196,Tlhabane Twenty-Four Hour Clinic,20 Moruleng Street,Tlhabane,North West,0309,014 565 8049,Government,Yes,-25.6281,27.2001
+1197,Brits Day Hospital,61 Pienaar Street,Brits,North West,0250,012 252 9744,Private,Yes,-25.6197,27.7628
+1198,Hartbeespoort Medical Centre,9 Scott Street,Hartbeespoort,North West,0216,012 259 6286,Private,Yes,-25.7574,27.8553
+1199,Mahikeng Day Hospital,40 Carrington Street,Mahikeng,North West,2745,018 384 9157,Private,Yes,-25.8598,25.6411
+1200,Lichtenburg Emergency Centre,52 Bantjes Street,Lichtenburg,North West,2740,018 632 8080,Private,Yes,-26.1312,26.1561
+1201,Klerksdorp Day Hospital,14 Neser Street,Klerksdorp,North West,2571,018 464 3553,Private,Yes,-26.8545,26.6503
+1202,Flamwood Emergency Centre,22 Kiepersol Avenue,Klerksdorp,North West,2574,018 468 6267,Private,Yes,-26.8846,26.6487
+1203,Potchefstroom Day Hospital,60 Gerrit Maritz Street,Potchefstroom,North West,2531,018 294 8039,Private,Yes,-26.7155,27.0908
+1204,Vryburg Emergency Centre,33 Stella Street,Vryburg,North West,8600,053 927 2333,Private,Yes,-26.9322,24.7419
+1205,Westdene Emergency Centre,30 Second Avenue,Bloemfontein,Free State,9301,051 132 2106,Private,Yes,-29.1110,26.2090
+1206,Bloemfontein Day Hospital,12 Wilcocks Road,Bloemfontein,Free State,9321,051 133 0025,Private,Yes,-29.1070,26.1880
+1207,Langenhoven Park After Hours Medical Centre,40 Mimosa Avenue,Bloemfontein,Free State,9330,051 133 7944,Private,Yes,-29.0950,26.1600
+1208,Welkom Emergency Centre,60 Stateway,Welkom,Free State,9459,057 134 5863,Private,Yes,-27.9860,26.7360
+1209,Bethlehem Day Hospital,25 Muller Street,Bethlehem,Free State,9701,058 135 3782,Private,Yes,-28.2290,28.3010
+1210,Kroonstad After Hours Medical Centre,52 Brill Street,Kroonstad,Free State,9499,056 136 1701,Private,Yes,-27.6500,27.2290
+1211,Vaalpark Emergency Centre,5 Hennie Alberts Street,Sasolburg,Free State,1948,016 136 9620,Private,Yes,-26.7780,27.8410
+1212,Harrismith Emergency Centre,2 Stuart Street,Harrismith,Free State,9880,058 137 7539,Private,Yes,-28.2690,29.1310
+1213,Parys Day Hospital,30 Boom Street,Parys,Free State,9585,056 138 5458,Private,Yes,-26.9030,27.4540
+1214,Phuthaditjhaba Twenty Four Hour Medical Centre,5 Setsing Road,Phuthaditjhaba,Free State,9866,058 139 3377,Private,Yes,-28.5310,28.8170
+1215,Kimberley Day Hospital,10 Long Street,Kimberley,Northern Cape,8301,053 831 2500,Private,Yes,-28.7332,24.7599
+1216,Diamond Fields Emergency Centre,65 Du Toitspan Road,Kimberley,Northern Cape,8301,053 832 4100,Private,Yes,-28.7322,24.7609
+1217,Galeshewe Emergency Centre,5 Seochoareng Street,Galeshewe,Northern Cape,8345,053 830 2200,Government,Yes,-28.7050,24.7360
+1218,Upington Day Hospital,21 Le Roux Street,Upington,Northern Cape,8801,054 331 1300,Private,Yes,-28.4600,21.2510
+1219,Kalahari Emergency Centre,8 Scott Street,Upington,Northern Cape,8801,054 332 2600,Private,Yes,-28.4540,21.2490
+1220,Kathu Emergency Centre,12 Hendrik van Eck Road,Kathu,Northern Cape,8446,053 723 1400,Private,Yes,-27.6930,23.0560
+1221,Kuruman Day Hospital,31 Beare Street,Kuruman,Northern Cape,8460,053 712 3300,Private,Yes,-27.4480,23.4370
+1222,Springbok Emergency Centre,14 Voortrekker Street,Springbok,Northern Cape,8240,027 718 1200,Private,Yes,-29.6620,17.8830
+1223,De Aar Emergency Centre,18 Station Street,De Aar,Northern Cape,7000,053 631 2700,Private,Yes,-30.6460,24.0090
+1224,Postmasburg Emergency Centre,6 Main Street,Postmasburg,Northern Cape,8420,053 313 2100,Private,Yes,-28.3270,23.0730

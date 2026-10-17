@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+LP-N-001,Herfsakker Frail Care,34 Marshall Street,Polokwane,Limpopo,0699,015 295 6120,Private,No,-23.9020,29.4720
+LP-N-002,Nirvana Frail Care Centre,9 Lotus Street,Polokwane,Limpopo,0699,015 293 3340,Private,No,-23.9130,29.4350
+LP-N-003,Huis Sonskyn,23 Claude Wheatley Street,Tzaneen,Limpopo,0850,015 307 3310,Private,No,-23.8330,30.1590
+LP-N-004,Mokopane Old Age Home,15 Van Riebeeck Street,Mokopane,Limpopo,0600,015 491 3360,Private,No,-24.1980,29.0040
+LP-N-005,Huis Goedversorg,27 Grobler Street,Makhado,Limpopo,0920,015 516 4420,Private,No,-23.0490,29.9040
+LP-N-006,Bela-Bela Frail Care Centre,21 Lubbe Street,Bela-Bela,Limpopo,0480,014 736 3320,Private,No,-24.8860,28.2940
+LP-N-007,Phalaborwa Old Age Home,8 Koper Street,Phalaborwa,Limpopo,1390,015 781 4460,Private,No,-23.9430,31.1440

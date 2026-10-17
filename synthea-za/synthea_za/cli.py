@@ -329,3 +329,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
     return COMMANDS[args.command](args)
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

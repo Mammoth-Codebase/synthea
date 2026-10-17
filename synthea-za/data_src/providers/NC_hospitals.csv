@@ -1,0 +1,37 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NC-H-001,Robert Mangaliso Sobukwe Hospital,1 Du Toitspan Road,Kimberley,Northern Cape,8301,053 802 9111,Government,Yes,-28.7252,24.7619
+NC-H-002,West End Hospital,1 Beaconsfield Road,Kimberley,Northern Cape,8301,053 802 2300,Government,No,-28.7482,24.7559
+NC-H-003,Northern Cape Mental Health Hospital,9 Memorial Road,Kimberley,Northern Cape,8301,053 802 5000,Government,No,-28.7402,24.7319
+NC-H-004,Kimberley Private Hospital,177 Du Toitspan Road,Kimberley,Northern Cape,8301,053 838 1111,Private,Yes,-28.7362,24.7639
+NC-H-005,Gariep Hospital,1 Welgevonden Avenue,Kimberley,Northern Cape,8301,053 807 2000,Private,Yes,-28.7432,24.7719
+NC-H-006,Royal Hospital and Heart Centre,1 Carrington Road,Kimberley,Northern Cape,8301,053 045 0500,Private,Yes,-28.7382,24.7589
+NC-H-007,Galeshewe Day Hospital,1 Nobengula Street,Galeshewe,Northern Cape,8345,053 830 3600,Government,Yes,-28.7060,24.7340
+NC-H-008,Professor ZK Matthews Hospital,1 Hospital Street,Barkly West,Northern Cape,8375,053 531 0471,Government,Yes,-28.5410,24.5240
+NC-H-009,Warrenton Hospital,15 Market Street,Warrenton,Northern Cape,8530,053 497 3121,Government,Yes,-28.1120,24.8450
+NC-H-010,Jan Kempdorp Hospital,1 Hospital Road,Jan Kempdorp,Northern Cape,8550,053 456 0206,Government,Yes,-27.9270,24.8360
+NC-H-011,Connie Vorster Hospital,2 Hendrik Street,Hartswater,Northern Cape,8570,053 474 0043,Government,Yes,-27.7520,24.7990
+NC-H-012,Kuruman Hospital,1 Main Street,Kuruman,Northern Cape,8460,053 712 8100,Government,Yes,-27.4560,23.4370
+NC-H-013,Tshwaragano Hospital,1 Hospital Road,Batlharos,Northern Cape,8477,053 712 8300,Government,Yes,-27.3270,23.3440
+NC-H-014,Kuruman Private Hospital,24 Voortrekker Street,Kuruman,Northern Cape,8460,053 712 0100,Private,Yes,-27.4470,23.4260
+NC-H-015,Kathu Private Hospital,1 Frikkie Meyer Street,Kathu,Northern Cape,8446,053 723 2800,Private,Yes,-27.7010,23.0570
+NC-H-016,Dr Van Niekerk Hospital,1 Hospital Street,Springbok,Northern Cape,8240,027 712 1551,Government,Yes,-29.6600,17.8810
+NC-H-017,Port Nolloth Hospital,3 Main Road,Port Nolloth,Northern Cape,8280,027 851 8055,Government,Yes,-29.2510,16.8720
+NC-H-018,Abraham Esau Hospital,1 Hospital Street,Calvinia,Northern Cape,8190,027 341 1105,Government,Yes,-31.4750,19.7800
+NC-H-019,Garies Hospital,2 Main Road,Garies,Northern Cape,8220,027 652 1011,Government,Yes,-30.5600,17.9870
+NC-H-020,Pofadder Hospital,5 Church Street,Pofadder,Northern Cape,8890,054 933 0066,Government,Yes,-29.1300,19.3990
+NC-H-021,Sutherland Hospital,4 Piet Retief Street,Sutherland,Northern Cape,6920,023 571 1030,Government,Yes,-32.3910,20.6680
+NC-H-022,Fraserburg Hospital,7 Voortrekker Street,Fraserburg,Northern Cape,6960,023 741 1070,Government,Yes,-31.9180,21.5100
+NC-H-023,Williston Hospital,10 Kerk Street,Williston,Northern Cape,8920,053 391 3080,Government,Yes,-31.3410,20.9280
+NC-H-024,De Aar Hospital,1 Visser Street,De Aar,Northern Cape,7000,053 632 9000,Government,Yes,-30.6560,24.0200
+NC-H-025,Manne Dipico Hospital,11 Bell Street,Colesberg,Northern Cape,9795,051 753 0631,Government,Yes,-30.7170,25.0930
+NC-H-026,Victoria West Hospital,8 Pastorie Street,Victoria West,Northern Cape,7070,053 621 0026,Government,Yes,-31.4040,23.1220
+NC-H-027,Carnarvon Hospital,6 Hospital Street,Carnarvon,Northern Cape,8925,053 382 3012,Government,Yes,-30.9670,22.1320
+NC-H-028,Prieska Hospital,2 Hospital Street,Prieska,Northern Cape,8940,053 353 1110,Government,Yes,-29.6680,22.7420
+NC-H-029,Douglas Hospital,12 Campbell Street,Douglas,Northern Cape,8730,053 298 1500,Government,Yes,-29.0530,23.7750
+NC-H-030,Hopetown Hospital,9 Kerk Street,Hopetown,Northern Cape,8750,053 203 0043,Government,Yes,-29.6270,24.0900
+NC-H-031,Dr Harry Surtie Hospital,1 Hospital Road,Upington,Northern Cape,8801,054 338 7000,Government,Yes,-28.4470,21.2700
+NC-H-032,Upington Private Hospital,54 Schroder Street,Upington,Northern Cape,8801,054 338 8100,Private,Yes,-28.4610,21.2480
+NC-H-033,Keimoes Hospital,3 Hospital Street,Keimoes,Northern Cape,8860,054 461 1055,Government,Yes,-28.7040,20.9740
+NC-H-034,Kakamas Hospital,5 Voortrekker Road,Kakamas,Northern Cape,8870,054 431 0046,Government,Yes,-28.7740,20.6180
+NC-H-035,Kenhardt Hospital,2 Hospital Street,Kenhardt,Northern Cape,8900,054 651 0020,Government,Yes,-29.3430,21.1530
+NC-H-036,Postmasburg Hospital,1 Hospital Street,Postmasburg,Northern Cape,8420,053 313 1900,Government,Yes,-28.3340,23.0750

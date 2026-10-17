@@ -1,0 +1,13 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-U-001,Foreshore Emergency Centre,12 Hertzog Boulevard Foreshore,Cape Town Central,Western Cape,8001,021 421 5500,Private,Yes,-33.9192,18.4302
+WC-U-002,Atlantic Seaboard Emergency Centre,88 Regent Road Sea Point,Sea Point,Western Cape,8005,021 439 6700,Private,Yes,-33.9182,18.3842
+WC-U-003,Claremont Day Hospital,33 Main Road Claremont,Claremont,Western Cape,7708,021 683 7200,Private,Yes,-33.9842,18.4672
+WC-U-004,Bellville Day Hospital,61 Voortrekker Road Bellville,Bellville,Western Cape,7530,021 949 8100,Private,Yes,-33.9012,18.6252
+WC-U-005,Durbanville Day Hospital,18 Main Road Durbanville,Durbanville,Western Cape,7550,021 975 9400,Private,Yes,-33.8332,18.6542
+WC-U-006,Helderberg Emergency Centre,110 Main Road Somerset West,Somerset West,Western Cape,7130,021 851 2600,Private,Yes,-34.0822,18.8402
+WC-U-007,Blaauwberg Emergency Centre,24 Blaauwberg Road Table View,Table View,Western Cape,7441,021 557 9300,Private,Yes,-33.8182,18.4932
+WC-U-008,Khayelitsha Emergency Centre,Lwandle Road Site C,Khayelitsha,Western Cape,7784,021 387 2100,Government,Yes,-34.0372,18.6722
+WC-U-009,Stellenbosch Day Hospital,40 Dorp Street Stellenbosch,Stellenbosch,Western Cape,7600,021 883 9100,Private,Yes,-33.9362,18.8582
+WC-U-010,Paarl Emergency Centre,60 Main Street Paarl,Paarl,Western Cape,7646,021 871 1300,Private,Yes,-33.7362,18.9652
+WC-U-011,George Day Hospital,25 Caledon Street George,George,Western Cape,6530,044 873 5100,Private,Yes,-33.9592,22.4592
+WC-U-012,Hermanus Emergency Centre,14 Magnolia Avenue Hermanus,Hermanus,Western Cape,7200,028 313 1200,Private,Yes,-34.4172,19.2322

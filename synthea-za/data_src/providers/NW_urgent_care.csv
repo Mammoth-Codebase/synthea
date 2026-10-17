@@ -1,0 +1,12 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+NW-UC-001,Rustenburg Day Hospital,30 Beyers Naude Drive,Rustenburg,North West,0300,014 594 7507,Private,Yes,-25.6706,27.2340
+NW-UC-002,Cashan Emergency Centre,5 Kameeldoring Avenue,Rustenburg,North West,0299,014 592 8998,Private,Yes,-25.6646,27.2535
+NW-UC-003,Tlhabane Twenty-Four Hour Clinic,20 Moruleng Street,Tlhabane,North West,0309,014 565 8049,Government,Yes,-25.6281,27.2001
+NW-UC-004,Brits Day Hospital,61 Pienaar Street,Brits,North West,0250,012 252 9744,Private,Yes,-25.6197,27.7628
+NW-UC-005,Hartbeespoort Medical Centre,9 Scott Street,Hartbeespoort,North West,0216,012 259 6286,Private,Yes,-25.7574,27.8553
+NW-UC-006,Mahikeng Day Hospital,40 Carrington Street,Mahikeng,North West,2745,018 384 9157,Private,Yes,-25.8598,25.6411
+NW-UC-007,Lichtenburg Emergency Centre,52 Bantjes Street,Lichtenburg,North West,2740,018 632 8080,Private,Yes,-26.1312,26.1561
+NW-UC-008,Klerksdorp Day Hospital,14 Neser Street,Klerksdorp,North West,2571,018 464 3553,Private,Yes,-26.8545,26.6503
+NW-UC-009,Flamwood Emergency Centre,22 Kiepersol Avenue,Klerksdorp,North West,2574,018 468 6267,Private,Yes,-26.8846,26.6487
+NW-UC-010,Potchefstroom Day Hospital,60 Gerrit Maritz Street,Potchefstroom,North West,2531,018 294 8039,Private,Yes,-26.7155,27.0908
+NW-UC-011,Vryburg Emergency Centre,33 Stella Street,Vryburg,North West,8600,053 927 2333,Private,Yes,-26.9322,24.7419

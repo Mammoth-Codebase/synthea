@@ -1,0 +1,7 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+FS-D-001,Universitas Renal Unit,1 Logeman Street,Bloemfontein,Free State,9321,051 142 6835,Government,No,-29.1100,26.1840
+FS-D-002,Bloemfontein Renal Care Centre,70 Kellner Street,Bloemfontein,Free State,9301,051 143 4754,Private,No,-29.1130,26.2075
+FS-D-003,Goldfields Renal Unit,24 Koppie Alleen Road,Welkom,Free State,9459,057 144 2673,Private,No,-27.9850,26.7310
+FS-D-004,Bethlehem Renal Unit,35 Lindley Street,Bethlehem,Free State,9701,058 145 0592,Private,No,-28.2340,28.2990
+FS-D-005,Kroonstad Dialysis Centre,42 Cross Street,Kroonstad,Free State,9499,056 145 8511,Private,No,-27.6490,27.2310
+FS-D-006,Vaalpark Renal Unit,12 Hennie Alberts Street,Sasolburg,Free State,1948,016 146 6430,Private,No,-26.7795,27.8390

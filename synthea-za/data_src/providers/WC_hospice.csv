@@ -1,0 +1,6 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+WC-HS-001,St Lukes Hospice,92 Wetton Road Kenilworth,Wynberg,Western Cape,7800,021 797 5335,Private,No,-33.9962,18.4802
+WC-HS-002,Helderberg Hospice,Hospital Road Somerset West,Somerset West,Western Cape,7130,021 852 4608,Private,No,-34.0842,18.8472
+WC-HS-003,Drakenstein Hospice,20 Durban Street Paarl,Paarl,Western Cape,7646,021 872 4060,Private,No,-33.7352,18.9612
+WC-HS-004,Knysna Sedgefield Hospice,6 Trotter Street Knysna,Knysna,Western Cape,6571,044 384 0593,Private,No,-34.0362,23.0482
+WC-HS-005,Stellenbosch Hospice,8 Van Riebeeck Street Stellenbosch,Stellenbosch,Western Cape,7600,021 886 5665,Private,No,-33.9352,18.8592

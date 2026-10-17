@@ -1,0 +1,668 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+455,Zola Community Health Centre,Ndaba Drive Zola,Soweto,Gauteng,1868,011 936 1300,Government,No,-26.2440,27.8440
+456,Chiawelo Community Health Centre,Mhlaba Drive Chiawelo,Soweto,Gauteng,1818,011 980 1700,Government,No,-26.2820,27.8630
+457,Lillian Ngoyi Community Health Centre,Cnr Chris Hani Road and Immink Drive Diepkloof,Soweto,Gauteng,1864,011 985 6200,Government,No,-26.2530,27.9415
+458,Hillbrow Community Health Centre,Cnr Esselen Street and Klein Street Hillbrow,Johannesburg Central,Gauteng,2001,011 720 6600,Government,No,-26.1890,28.0455
+459,Yeoville Clinic,Cnr Raleigh Street and Fortesque Road Yeoville,Johannesburg Central,Gauteng,2198,011 648 3701,Government,No,-26.1830,28.0640
+460,Braamfontein Medical Centre,25 Jorissen Street Braamfontein,Johannesburg Central,Gauteng,2017,011 339 1420,Private,No,-26.1930,28.0335
+461,Bryanston Clinic,Cnr Main Road and Mount Street Bryanston,Sandton,Gauteng,2191,011 463 1700,Government,No,-26.0560,28.0215
+462,Rivonia Family Practice,12 Rivonia Boulevard Rivonia,Sandton,Gauteng,2128,011 803 2250,Private,No,-26.0590,28.0605
+463,Randburg Clinic,Cnr Hill Street and Jan Smuts Avenue,Randburg,Gauteng,2194,011 886 3420,Government,No,-26.0940,27.9950
+464,Ferndale Family Practice,10 Dale Road Ferndale,Randburg,Gauteng,2194,011 789 3360,Private,No,-26.0990,28.0010
+465,Northriding Medical Centre,34 Bellairs Drive Northriding,Randburg,Gauteng,2169,011 462 5180,Private,No,-26.0530,27.9580
+466,Discoverers Community Health Centre,Cnr Mahatma Gandhi Street and Goldman Street Florida,Roodepoort,Gauteng,1709,011 472 3300,Government,No,-26.1715,27.9135
+467,Princess Clinic,Nkosi Street Princess,Roodepoort,Gauteng,1724,011 760 2020,Government,No,-26.1540,27.8620
+468,Wilgeheuwel Family Practice,15 Van Dalen Road Wilgeheuwel,Roodepoort,Gauteng,2170,011 794 2130,Private,No,-26.0880,27.9230
+469,Alexandra Community Health Centre,Eighth Avenue Alexandra,Alexandra,Gauteng,2090,011 882 1081,Government,No,-26.1050,28.0980
+470,East Bank Clinic,Cnr London Road and Far East Bank Drive,Alexandra,Gauteng,2090,011 443 2560,Government,No,-26.1010,28.1130
+471,Rabie Ridge Clinic,Bokmakierie Street Rabie Ridge,Midrand,Gauteng,1685,011 393 1610,Government,No,-25.9920,28.1640
+472,Kyalami Family Practice,7 Kyalami Boulevard Kyalami,Midrand,Gauteng,1687,011 466 0580,Private,No,-25.9820,28.0810
+473,Diepsloot Clinic,Ingonyama Road Diepsloot South,Diepsloot,Gauteng,2189,011 464 3310,Government,No,-25.9360,28.0120
+474,Diepsloot Community Health Centre,Ingonyama Road Diepsloot West,Diepsloot,Gauteng,2189,011 464 1320,Government,No,-25.9300,28.0050
+475,Lenasia Clinic,Cnr Nirvana Drive and Rose Avenue,Lenasia,Gauteng,1827,011 852 3122,Government,No,-26.3190,27.8280
+476,Lenasia Medical Centre,46 Protea Avenue Lenasia,Lenasia,Gauteng,1827,011 854 7120,Private,No,-26.3250,27.8340
+477,Orange Farm Clinic,Link Road Orange Farm,Orange Farm,Gauteng,1841,011 850 1220,Government,No,-26.4860,27.8580
+478,Stretford Community Health Centre,Mpho Street Stretford,Orange Farm,Gauteng,1841,011 850 0760,Government,No,-26.4790,27.8690
+479,Eldorado Park Clinic,Nickel Street Eldorado Park,Eldorado Park,Gauteng,1811,011 945 1040,Government,No,-26.2985,27.8945
+480,Skinner Street Clinic,302 Nana Sita Street Pretoria Central,Pretoria Central,Gauteng,0002,012 358 7221,Government,No,-25.7515,28.1900
+481,Sunnyside Clinic,Cnr Kotze Street and Troye Street Sunnyside,Pretoria Central,Gauteng,0002,012 344 1150,Government,No,-25.7560,28.2060
+482,Hatfield Medical Centre,1122 Burnett Street Hatfield,Pretoria Central,Gauteng,0083,012 362 4420,Private,No,-25.7490,28.2370
+483,Olievenhoutbosch Clinic,Rethabile Street Olievenhoutbosch,Centurion,Gauteng,0175,012 661 1920,Government,No,-25.9040,28.1080
+484,Lyttelton Clinic,Cnr Cantonments Road and Rabie Street Lyttelton,Centurion,Gauteng,0157,012 664 5820,Government,No,-25.8390,28.2050
+485,Centurion Medical Centre,1041 Lenchen Avenue North,Centurion,Gauteng,0157,012 663 4410,Private,No,-25.8560,28.1870
+486,Stanza Bopape Community Health Centre,Tsamaya Road Mamelodi East,Mamelodi,Gauteng,0122,012 805 6300,Government,No,-25.7120,28.3950
+487,Mamelodi West Clinic,Hinterland Avenue Mamelodi West,Mamelodi,Gauteng,0122,012 805 4540,Government,No,-25.7210,28.3600
+488,Soshanguve Community Health Centre,Aubrey Matlala Road Soshanguve,Soshanguve,Gauteng,0152,012 790 2210,Government,No,-25.5260,28.1020
+489,Kgabo Clinic,Ruth First Street Soshanguve,Soshanguve,Gauteng,0152,012 790 4480,Government,No,-25.5080,28.0920
+490,Atteridgeville Clinic,Cnr Maunde Street and Komane Street,Atteridgeville,Gauteng,0008,012 373 1240,Government,No,-25.7720,28.0800
+491,Saulsville Clinic,Mazibuko Street Saulsville,Atteridgeville,Gauteng,0008,012 386 1340,Government,No,-25.7700,28.0650
+492,Ga-Rankuwa Clinic,Tsebe Street Zone 1,Ga-Rankuwa,Gauteng,0208,012 700 1310,Government,No,-25.6150,27.9950
+493,Mabopane Clinic,Dikgang Street Mabopane,Mabopane,Gauteng,0190,012 701 2650,Government,No,-25.5010,28.0180
+494,Mabopane Medical Centre,3 Molefe Makinta Highway Mabopane,Mabopane,Gauteng,0190,012 702 3210,Private,No,-25.5060,28.0280
+495,Hammanskraal Clinic,Old Warmbaths Road Hammanskraal,Hammanskraal,Gauteng,0400,012 711 0870,Government,No,-25.4120,28.2780
+496,Temba Community Health Centre,Mogale Street Temba,Hammanskraal,Gauteng,0407,012 717 4120,Government,No,-25.3940,28.3090
+497,Laudium Community Health Centre,Cnr Tangerine Street and Eleventh Avenue,Laudium,Gauteng,0037,012 374 3240,Government,No,-25.7740,28.1050
+498,Cullinan Clinic,Oak Avenue Cullinan,Cullinan,Gauteng,1000,012 734 1760,Government,No,-25.6740,28.5220
+499,Bronkhorstspruit Clinic,Cnr Church Street and Market Street,Bronkhorstspruit,Gauteng,1020,013 932 0290,Government,No,-25.8110,28.7420
+500,Tembisa Main Clinic,Andrew Mapheto Drive,Tembisa,Gauteng,1632,011 926 3360,Government,No,-25.9990,28.2180
+501,Winnie Mandela Clinic,Isiziba Street Winnie Mandela Section,Tembisa,Gauteng,1632,011 316 1410,Government,No,-25.9850,28.2130
+502,Tembisa Medical Centre,21 Sam Molele Drive,Tembisa,Gauteng,1632,011 926 7730,Private,No,-26.0020,28.2300
+503,Delville Clinic,Cnr Victoria Street and Harold Road Delville,Germiston,Gauteng,1401,011 825 1720,Government,No,-26.2250,28.1800
+504,Primrose Clinic,Cnr Rietfontein Road and Beaconsfield Avenue Primrose,Germiston,Gauteng,1401,011 828 3450,Government,No,-26.1850,28.1680
+505,Bedfordview Medical Centre,44 Van Buuren Road Bedfordview,Germiston,Gauteng,2008,011 616 2430,Private,No,-26.1790,28.1350
+506,Actonville Clinic,Cnr Fourth Street and Mayet Drive Actonville,Benoni,Gauteng,1501,011 422 1530,Government,No,-26.1840,28.3360
+507,Rynfield Clinic,Cnr Pretoria Road and Eighth Avenue Rynfield,Benoni,Gauteng,1514,011 849 3220,Government,No,-26.1590,28.3410
+508,Reiger Park Clinic,Lemur Street Reiger Park,Boksburg,Gauteng,1459,011 898 4660,Government,No,-26.2200,28.2400
+509,Sunward Park Medical Centre,33 Kingfisher Avenue Sunward Park,Boksburg,Gauteng,1459,011 913 1260,Private,No,-26.2500,28.2500
+510,Kwa-Thema Community Health Centre,Cnr Moloi Street and Teboho Street Kwa-Thema,Springs,Gauteng,1559,011 736 3360,Government,No,-26.2990,28.3870
+511,Springs Family Practice,21 Fourth Street Springs,Springs,Gauteng,1559,011 812 2170,Private,No,-26.2480,28.4010
+512,Kempton Park Clinic,Cnr Monument Road and Long Street,Kempton Park,Gauteng,1619,011 999 0540,Government,No,-26.1030,28.2330
+513,Birchleigh Family Practice,18 Bergrivier Drive Birchleigh,Kempton Park,Gauteng,1619,011 391 4420,Private,No,-26.0770,28.2360
+514,Alberton Clinic,Cnr Voortrekker Road and Du Plessis Road,Alberton,Gauteng,1449,011 907 1710,Government,No,-26.2660,28.1230
+515,Brackenhurst Medical Centre,25 Hennie Alberts Street Brackenhurst,Alberton,Gauteng,1448,011 867 3350,Private,No,-26.2970,28.1120
+516,Ramokonopi Community Health Centre,Mokoena Street Ramokonopi,Katlehong,Gauteng,1431,011 905 1830,Government,No,-26.3400,28.1540
+517,Katlehong Clinic,Kumalo Street Katlehong,Katlehong,Gauteng,1431,011 860 2220,Government,No,-26.3300,28.1440
+518,Thokoza Clinic,Khumalo Street Thokoza,Thokoza,Gauteng,1426,011 905 2330,Government,No,-26.3630,28.1460
+519,Vosloorus Clinic,Sam Sekoati Avenue Vosloorus,Vosloorus,Gauteng,1475,011 906 5310,Government,No,-26.3490,28.2010
+520,Daveyton Main Clinic,Eiselen Street Daveyton,Daveyton,Gauteng,1520,011 424 1540,Government,No,-26.1510,28.4190
+521,Brakpan Clinic,Cnr Victoria Avenue and Kingsway,Brakpan,Gauteng,1541,011 740 2150,Government,No,-26.2360,28.3690
+522,Nigel Clinic,Cnr Kingsway and Third Avenue,Nigel,Gauteng,1491,011 814 1340,Government,No,-26.4200,28.4680
+523,Sharpeville Clinic,Seeiso Street Sharpeville,Vereeniging,Gauteng,1939,016 422 3340,Government,No,-26.6890,27.8720
+524,Three Rivers Medical Centre,14 General Hertzog Road Three Rivers,Vereeniging,Gauteng,1929,016 423 2210,Private,No,-26.6700,27.9680
+525,Vanderbijlpark Clinic,Cnr Attie Fourie Street and Rossini Boulevard,Vanderbijlpark,Gauteng,1911,016 950 5220,Government,No,-26.7100,27.8380
+526,Boipatong Clinic,Nelson Mandela Street Boipatong,Vanderbijlpark,Gauteng,1911,016 988 2140,Government,No,-26.6780,27.8600
+527,Johan Heyns Community Health Centre,Moshoeshoe Street Zone 12,Sebokeng,Gauteng,1983,016 592 5410,Government,No,-26.5800,27.8400
+528,Sebokeng Clinic,Mokoena Street Zone 14,Sebokeng,Gauteng,1983,016 592 1250,Government,No,-26.5920,27.8340
+529,Evaton Clinic,Adams Road Evaton,Evaton,Gauteng,1984,016 594 2230,Government,No,-26.5340,27.8510
+530,Empilisweni Clinic,Easton Road Evaton West,Evaton,Gauteng,1984,016 594 7110,Government,No,-26.5250,27.8340
+531,Heidelberg Clinic,Cnr Voortrekker Street and Ueckermann Street,Heidelberg,Gauteng,1441,016 341 4220,Government,No,-26.5040,28.3600
+532,Ratanda Clinic,Mokoena Street Ratanda,Heidelberg,Gauteng,1441,016 341 2470,Government,No,-26.5370,28.3460
+533,Krugersdorp Clinic,Cnr Human Street and Burger Street,Krugersdorp,Gauteng,1739,011 951 2320,Government,No,-26.1010,27.7720
+534,Munsieville Clinic,Mogale Street Munsieville,Krugersdorp,Gauteng,1739,011 660 7330,Government,No,-26.0770,27.7730
+535,Noordheuwel Family Practice,60 Robert Broom Drive Noordheuwel,Krugersdorp,Gauteng,1739,011 954 1860,Private,No,-26.0940,27.7900
+536,Randfontein Clinic,Cnr Sutherland Avenue and Stubbs Street,Randfontein,Gauteng,1759,011 411 2240,Government,No,-26.1840,27.7010
+537,Toekomsrus Clinic,Maree Street Toekomsrus,Randfontein,Gauteng,1759,011 693 1470,Government,No,-26.2100,27.6900
+538,Carletonville Clinic,Cnr Annan Road and Kaolin Street,Carletonville,Gauteng,2499,018 788 2230,Government,No,-26.3610,27.3980
+539,Khutsong Clinic,Letsie Street Khutsong,Carletonville,Gauteng,2499,018 786 1140,Government,No,-26.3420,27.3330
+540,Kagiso Clinic,Kagiso Avenue Kagiso,Kagiso,Gauteng,1754,011 410 1250,Government,No,-26.1520,27.7850
+541,Westonaria Clinic,Cnr Hospital Street and Neptune Street,Westonaria,Gauteng,1779,011 753 1250,Government,No,-26.3190,27.6510
+542,Bekkersdal Clinic,Sebenza Street Bekkersdal,Westonaria,Gauteng,1779,011 753 4360,Government,No,-26.2850,27.6700
+543,Lancers Road Clinic,35 Lancers Road,Durban Central,KwaZulu-Natal,4001,031 218 6766,Government,No,-29.8521,31.0075
+544,Musgrave Medical Centre,118 Musgrave Road,Durban Central,KwaZulu-Natal,4001,031 329 8328,Private,No,-29.8432,31.0049
+545,Glenwood Family Practice,22 Bulwer Road,Durban Central,KwaZulu-Natal,4001,031 805 1508,Private,No,-29.8689,30.9935
+546,Umlazi Clinic,Griffiths Mxenge Highway,Umlazi,KwaZulu-Natal,4031,031 947 1788,Government,No,-29.9634,30.8926
+547,Mangosuthu Medical Centre,Mangosuthu Highway,Umlazi,KwaZulu-Natal,4031,031 386 5000,Private,No,-29.9712,30.8795
+548,KwaMashu Community Health Centre,Malandela Road,KwaMashu,KwaZulu-Natal,4360,031 687 5778,Government,No,-29.7412,30.9835
+549,Bester Family Practice,Bester Road,KwaMashu,KwaZulu-Natal,4360,031 294 5636,Private,No,-29.7503,30.9872
+550,Phoenix Community Health Centre,Grove End Drive,Phoenix,KwaZulu-Natal,4068,031 629 8570,Government,No,-29.7061,31.0132
+551,Phoenix Medical Centre,Phoenix Highway,Phoenix,KwaZulu-Natal,4068,031 806 5786,Private,No,-29.7002,31.0209
+552,Chatsworth Clinic,Florence Nightingale Drive,Chatsworth,KwaZulu-Natal,4092,031 488 9926,Government,No,-29.9102,30.8701
+553,Chatsworth Medical Centre,Higginson Highway,Chatsworth,KwaZulu-Natal,4092,031 757 4340,Private,No,-29.9164,30.8588
+554,Pinetown Clinic,Kings Road,Pinetown,KwaZulu-Natal,3610,031 933 3009,Government,No,-29.8158,30.8532
+555,Pinetown Family Practice,Old Main Road,Pinetown,KwaZulu-Natal,3610,031 404 6513,Private,No,-29.8193,30.8467
+556,Inanda Community Health Centre,Inanda Main Road,Inanda,KwaZulu-Natal,4310,031 348 6203,Government,No,-29.6991,30.9349
+557,Ntuzuma Clinic,Ntuzuma Main Road,Ntuzuma,KwaZulu-Natal,4359,031 884 9133,Government,No,-29.7211,30.9538
+558,Umhlanga Medical Centre,Lighthouse Road,Umhlanga,KwaZulu-Natal,4320,031 528 8350,Private,No,-29.7276,31.0872
+559,Gateway Family Practice,Centenary Boulevard,Umhlanga,KwaZulu-Natal,4320,031 501 9665,Private,No,-29.7254,31.0734
+560,Westville Medical Centre,Jan Hofmeyr Road,Westville,KwaZulu-Natal,3629,031 377 6172,Private,No,-29.8298,30.9265
+561,Westville Family Practice,Buckingham Terrace,Westville,KwaZulu-Natal,3629,031 689 4309,Private,No,-29.8324,30.9312
+562,Isipingo Clinic,Old Main Road,Isipingo,KwaZulu-Natal,4110,031 631 5516,Government,No,-29.9887,30.9251
+563,Isipingo Medical Centre,Inwabi Road,Isipingo,KwaZulu-Natal,4110,031 962 8116,Private,No,-29.9872,30.9288
+564,Amanzimtoti Clinic,Beach Road,Amanzimtoti,KwaZulu-Natal,4126,031 243 3389,Government,No,-30.0512,30.8846
+565,Amanzimtoti Family Practice,Kingsway Road,Amanzimtoti,KwaZulu-Natal,4126,031 810 3412,Private,No,-30.0478,30.8858
+566,Verulam Clinic,Wick Street,Verulam,KwaZulu-Natal,4340,031 964 6113,Government,No,-29.6487,31.0481
+567,Verulam Medical Centre,Todd Street,Verulam,KwaZulu-Natal,4340,031 383 8745,Private,No,-29.6512,31.0523
+568,Tongaat Community Health Centre,Main Road,Tongaat,KwaZulu-Natal,4400,031 907 1344,Government,No,-29.5714,31.1189
+569,Tongaat Medical Centre,Gopalall Hurbans Road,Tongaat,KwaZulu-Natal,4400,031 780 8474,Private,No,-29.5689,31.1232
+570,Hillcrest Clinic,Old Main Road,Hillcrest,KwaZulu-Natal,3650,031 956 5003,Government,No,-29.7802,30.7659
+571,Hillcrest Family Practice,Hospital Road,Hillcrest,KwaZulu-Natal,3650,031 684 6567,Private,No,-29.7781,30.7621
+572,East Boom Community Health Centre,Boom Street,Pietermaritzburg,KwaZulu-Natal,3201,033 775 9042,Government,No,-29.6072,30.3861
+573,Scottsville Medical Centre,Durban Road,Pietermaritzburg,KwaZulu-Natal,3209,033 654 5988,Private,No,-29.6213,30.3952
+574,Hayfields Family Practice,Cleland Road,Pietermaritzburg,KwaZulu-Natal,3201,033 587 1368,Private,No,-29.6238,30.4142
+575,Imbalenhle Community Health Centre,Thwala Road,Edendale,KwaZulu-Natal,3217,033 810 8105,Government,No,-29.6421,30.3512
+576,Caluza Clinic,Caluza Road,Edendale,KwaZulu-Natal,3217,033 760 9223,Government,No,-29.6552,30.3161
+577,Howick Clinic,Somme Street,Howick,KwaZulu-Natal,3290,033 240 8016,Government,No,-29.4842,30.2341
+578,Howick Medical Centre,Main Street,Howick,KwaZulu-Natal,3290,033 217 3407,Private,No,-29.4821,30.2302
+579,Richards Bay Clinic,Anglers Road,Richards Bay,KwaZulu-Natal,3900,035 372 3917,Government,No,-28.7821,32.0412
+580,Richards Bay Medical Centre,Bullion Boulevard,Richards Bay,KwaZulu-Natal,3900,035 293 8698,Private,No,-28.7716,32.0502
+581,Meerensee Family Practice,Pelican Road,Richards Bay,KwaZulu-Natal,3900,035 429 2163,Private,No,-28.7906,32.0961
+582,Empangeni Clinic,Turnbull Street,Empangeni,KwaZulu-Natal,3880,035 561 7646,Government,No,-28.7512,31.8912
+583,Empangeni Medical Centre,Commercial Road,Empangeni,KwaZulu-Natal,3880,035 357 6801,Private,No,-28.7482,31.8958
+584,Eshowe Clinic,Osborn Road,Eshowe,KwaZulu-Natal,3815,035 823 7225,Government,No,-28.8912,31.4712
+585,Eshowe Family Practice,Main Street,Eshowe,KwaZulu-Natal,3815,035 630 4285,Private,No,-28.8887,31.4685
+586,Esikhaleni Clinic,Esikhaleni Main Road,Esikhaleni,KwaZulu-Natal,3887,035 488 6352,Government,No,-28.8668,31.9023
+587,Ladysmith Clinic,Keate Street,Ladysmith,KwaZulu-Natal,3370,036 745 1184,Government,No,-28.5583,29.7832
+588,Ladysmith Medical Centre,Murchison Street,Ladysmith,KwaZulu-Natal,3370,036 758 6976,Private,No,-28.5612,29.7789
+589,Ezakheni Clinic,Ezakheni Main Road,Ezakheni,KwaZulu-Natal,3381,036 728 1653,Government,No,-28.6318,29.9032
+590,Estcourt Clinic,Harding Street,Estcourt,KwaZulu-Natal,3310,036 467 3297,Government,No,-29.0081,29.8732
+591,Estcourt Family Practice,Lorne Street,Estcourt,KwaZulu-Natal,3310,036 322 2290,Private,No,-29.0112,29.8681
+592,Vryheid Clinic,Mark Street,Vryheid,KwaZulu-Natal,3100,034 848 2896,Government,No,-27.7712,30.7932
+593,Vryheid Medical Centre,Kerk Street,Vryheid,KwaZulu-Natal,3100,034 762 3378,Private,No,-27.7681,30.7891
+594,Ulundi Clinic,Princess Magogo Street,Ulundi,KwaZulu-Natal,3838,035 758 6916,Government,No,-28.3182,31.4201
+595,Nongoma Clinic,Main Road,Nongoma,KwaZulu-Natal,3950,035 509 6816,Government,No,-27.9021,31.6482
+596,Pongola Clinic,Naude Street,Pongola,KwaZulu-Natal,3170,034 286 6409,Government,No,-27.3812,31.6201
+597,Mtubatuba Clinic,Inkosi Mtubatuba Road,Mtubatuba,KwaZulu-Natal,3935,035 790 2913,Government,No,-28.4182,32.1812
+598,Mtubatuba Medical Centre,Riverview Road,Mtubatuba,KwaZulu-Natal,3935,035 781 9573,Private,No,-28.4142,32.1872
+599,Mkuze Clinic,Main Road,Mkuze,KwaZulu-Natal,3965,035 919 3785,Government,No,-27.6181,32.0352
+600,KwaDukuza Clinic,Hulett Street,KwaDukuza,KwaZulu-Natal,4450,032 551 5044,Government,No,-29.3352,31.2862
+601,KwaDukuza Medical Centre,Mahatma Gandhi Street,KwaDukuza,KwaZulu-Natal,4450,032 822 9360,Private,No,-29.3312,31.2891
+602,Shakaskraal Clinic,Shakaskraal Main Road,Ballito,KwaZulu-Natal,4420,032 903 9401,Government,No,-29.4502,31.2231
+603,Ballito Medical Centre,Ballito Drive,Ballito,KwaZulu-Natal,4420,032 410 5720,Private,No,-29.5372,31.2158
+604,Sundumbili Clinic,Sundumbili Main Road,Mandeni,KwaZulu-Natal,4490,032 997 5314,Government,No,-29.1372,31.4012
+605,Mandeni Medical Centre,Twala Street,Mandeni,KwaZulu-Natal,4490,032 317 1065,Private,No,-29.1531,31.3972
+606,Kokstad Clinic,Hope Street,Kokstad,KwaZulu-Natal,4700,039 924 8306,Government,No,-30.5512,29.4192
+607,Kokstad Medical Centre,Main Street,Kokstad,KwaZulu-Natal,4700,039 791 8094,Private,No,-30.5482,29.4231
+608,Ixopo Clinic,High Street,Ixopo,KwaZulu-Natal,3276,039 341 8763,Government,No,-30.1512,30.0652
+609,Gamalakhe Community Health Centre,Gamalakhe Main Road,Port Shepstone,KwaZulu-Natal,4240,039 618 3319,Government,No,-30.7812,30.4021
+610,Port Shepstone Medical Centre,Aiken Street,Port Shepstone,KwaZulu-Natal,4240,039 988 4056,Private,No,-30.7402,30.4532
+611,Margate Clinic,Marine Drive,Margate,KwaZulu-Natal,4275,039 845 8431,Government,No,-30.8631,30.3722
+612,Margate Family Practice,Valley Road,Margate,KwaZulu-Natal,4275,039 885 9305,Private,No,-30.8612,30.3681
+613,Scottburgh Clinic,Williamson Street,Scottburgh,KwaZulu-Natal,4180,039 637 9988,Government,No,-30.2862,30.7512
+614,Scottburgh Medical Centre,Bram Fischer Road,Scottburgh,KwaZulu-Natal,4180,039 813 2387,Private,No,-30.2832,30.7561
+615,Dundee Clinic,Victoria Street,Dundee,KwaZulu-Natal,3000,034 587 3135,Government,No,-28.1681,30.2312
+616,Dundee Family Practice,Gladstone Street,Dundee,KwaZulu-Natal,3000,034 998 2086,Private,No,-28.1652,30.2362
+617,Greytown Clinic,Durban Street,Greytown,KwaZulu-Natal,3250,033 714 9885,Government,No,-29.0652,30.5972
+618,Newcastle Clinic,Scott Street,Newcastle,KwaZulu-Natal,2940,034 521 6027,Government,No,-27.7592,29.9342
+619,Newcastle Medical Centre,Allen Street,Newcastle,KwaZulu-Natal,2940,034 317 7986,Private,No,-27.7562,29.9282
+620,Arbor Park Family Practice,Arbor Park Drive,Newcastle,KwaZulu-Natal,2940,034 955 8580,Private,No,-27.7702,29.9412
+621,Madadeni Clinic,Madadeni Main Road,Madadeni,KwaZulu-Natal,2951,034 722 1301,Government,No,-27.7622,30.0581
+622,Osizweni Community Health Centre,Osizweni Main Road,Osizweni,KwaZulu-Natal,2952,034 702 7438,Government,No,-27.7912,30.1221
+623,Robbie Nurock Community Day Centre,78 Buitenkant Street,Cape Town Central,Western Cape,8001,021 465 7011,Government,No,-33.9292,18.4232
+624,Woodstock Community Health Centre,Mountain Road Woodstock,Cape Town Central,Western Cape,7925,021 442 1800,Government,No,-33.9292,18.4455
+625,Cape Town Family Practice,44 Loop Street,Cape Town Central,Western Cape,8001,021 422 2630,Private,No,-33.9205,18.4195
+626,Site B Community Health Centre,Ntlazane Road Site B,Khayelitsha,Western Cape,7784,021 361 5700,Government,No,-34.0292,18.6702
+627,Michael Mapongwana Community Health Centre,Steve Biko Road Harare,Khayelitsha,Western Cape,7784,021 361 3900,Government,No,-34.0512,18.6912
+628,Kuyasa Clinic,Walter Sisulu Drive Kuyasa,Khayelitsha,Western Cape,7784,021 364 1200,Government,No,-34.0462,18.7082
+629,Mitchells Plain Community Health Centre,AZ Berman Drive Mitchells Plain,Mitchells Plain,Western Cape,7785,021 392 5161,Government,No,-34.0452,18.6102
+630,Lentegeur Community Health Centre,Merrydale Avenue Lentegeur,Mitchells Plain,Western Cape,7785,021 371 7080,Government,No,-34.0302,18.6112
+631,Westridge Family Practice,12 Weltevreden Road Westridge,Mitchells Plain,Western Cape,7785,021 391 4455,Private,No,-34.0532,18.6012
+632,Gugulethu Community Health Centre,NY3 Gugulethu,Gugulethu,Western Cape,7750,021 637 1280,Government,No,-33.9772,18.5682
+633,Vuyani Clinic,NY1 Gugulethu,Gugulethu,Western Cape,7750,021 637 2420,Government,No,-33.9832,18.5642
+634,Nyanga Community Health Centre,Sithandathu Avenue Nyanga,Nyanga,Western Cape,7750,021 386 1131,Government,No,-33.9922,18.5872
+635,Crossroads Community Health Centre,Lansdowne Road Crossroads,Nyanga,Western Cape,7750,021 386 1511,Government,No,-33.9962,18.5992
+636,Langa Clinic,Washington Street Langa,Langa,Western Cape,7455,021 694 1740,Government,No,-33.9452,18.5272
+637,Inzame Zabantu Community Health Centre,Govan Mbeki Road Philippi East,Philippi,Western Cape,7785,021 371 2300,Government,No,-34.0012,18.5892
+638,Browns Farm Clinic,Stock Road Browns Farm,Philippi,Western Cape,7785,021 371 6300,Government,No,-33.9992,18.5712
+639,Dr Abdurahman Community Health Centre,Klipfontein Road Kewtown,Athlone,Western Cape,7764,021 637 1150,Government,No,-33.9602,18.5082
+640,Athlone Medical Centre,18 Belgravia Road Athlone,Athlone,Western Cape,7764,021 696 5550,Private,No,-33.9632,18.5002
+641,Bellville South Community Day Centre,Kasselsvlei Road Bellville South,Bellville,Western Cape,7530,021 951 5900,Government,No,-33.9172,18.6262
+642,Bellville Medical Centre,40 Durban Road Bellville,Bellville,Western Cape,7530,021 948 3310,Private,No,-33.8992,18.6292
+643,Parow Community Health Centre,Tallent Street Parow,Parow,Western Cape,7500,021 930 8050,Government,No,-33.9012,18.5912
+644,Bishop Lavis Community Health Centre,Lavis Drive Bishop Lavis,Parow,Western Cape,7500,021 934 4260,Government,No,-33.9502,18.5822
+645,Elsies River Community Health Centre,Halt Road Elsies River,Goodwood,Western Cape,7460,021 931 8080,Government,No,-33.9302,18.5702
+646,Goodwood Family Practice,55 Voortrekker Road Goodwood,Goodwood,Western Cape,7460,021 591 2232,Private,No,-33.9112,18.5512
+647,Durbanville Clinic,Oxford Street Durbanville,Durbanville,Western Cape,7550,021 970 3111,Government,No,-33.8322,18.6512
+648,Durbanville Medical Centre,22 Wellington Road Durbanville,Durbanville,Western Cape,7550,021 975 1750,Private,No,-33.8292,18.6482
+649,Kuils River Clinic,Van Riebeeck Road Kuils River,Kuils River,Western Cape,7580,021 900 1600,Government,No,-33.9212,18.6912
+650,Kuils River Family Practice,8 Church Street Kuils River,Kuils River,Western Cape,7580,021 903 2171,Private,No,-33.9232,18.6952
+651,Mfuleni Community Health Centre,Mfuleni Main Road Mfuleni,Blue Downs,Western Cape,7100,021 909 1100,Government,No,-34.0032,18.6782
+652,Eerste River Clinic,Beverley Street Eerste River,Blue Downs,Western Cape,7100,021 902 2400,Government,No,-33.9982,18.7102
+653,Delft Community Health Centre,Delft Main Road Delft,Delft,Western Cape,7100,021 954 2238,Government,No,-33.9702,18.6412
+654,Delft South Clinic,Hindle Road Delft South,Delft,Western Cape,7100,021 955 2000,Government,No,-33.9802,18.6462
+655,Kraaifontein Community Health Centre,Brighton Road Kraaifontein,Kraaifontein,Western Cape,7570,021 987 0080,Government,No,-33.8512,18.7212
+656,Wallacedene Clinic,Ndabeni Street Wallacedene,Kraaifontein,Western Cape,7570,021 987 7920,Government,No,-33.8592,18.7352
+657,Brackenfell Clinic,Williams Street Brackenfell,Brackenfell,Western Cape,7560,021 982 4232,Government,No,-33.8762,18.6992
+658,Brackenfell Family Practice,15 Paradys Street Brackenfell,Brackenfell,Western Cape,7560,021 981 2770,Private,No,-33.8732,18.7032
+659,Macassar Community Day Centre,Musica Avenue Macassar,Somerset West,Western Cape,7130,021 857 2130,Government,No,-34.0702,18.7652
+660,Somerset West Medical Centre,48 Main Road Somerset West,Somerset West,Western Cape,7130,021 852 5820,Private,No,-34.0812,18.8452
+661,Gustrouw Community Day Centre,Gustrouw Road Strand,Strand,Western Cape,7140,021 845 5680,Government,No,-34.1082,18.8352
+662,Strand Family Practice,30 Beach Road Strand,Strand,Western Cape,7140,021 853 2430,Private,No,-34.1122,18.8262
+663,Lady Michaelis Community Day Centre,Main Road Plumstead,Wynberg,Western Cape,7800,021 762 2461,Government,No,-34.0142,18.4662
+664,Wynberg Medical Centre,10 Church Street Wynberg,Wynberg,Western Cape,7800,021 797 6300,Private,No,-34.0052,18.4702
+665,Claremont Family Practice,25 Protea Road Claremont,Claremont,Western Cape,7708,021 671 4420,Private,No,-33.9812,18.4672
+666,Rondebosch Family Practice,6 Belmont Road Rondebosch,Rondebosch,Western Cape,7700,021 685 7610,Private,No,-33.9602,18.4712
+667,Sea Point Medical Centre,102 Main Road Sea Point,Sea Point,Western Cape,8005,021 434 3120,Private,No,-33.9162,18.3892
+668,Dunoon Community Health Centre,Dunoon Main Road Dunoon,Milnerton,Western Cape,7441,021 557 2000,Government,No,-33.8302,18.5342
+669,Milnerton Medical Centre,20 Koeberg Road Milnerton,Milnerton,Western Cape,7441,021 551 4650,Private,No,-33.8732,18.5062
+670,Table View Clinic,Blaauwberg Road Table View,Table View,Western Cape,7441,021 557 3812,Government,No,-33.8212,18.4922
+671,Table View Family Practice,14 Parklands Main Road Table View,Table View,Western Cape,7441,021 556 2270,Private,No,-33.8152,18.4952
+672,Saxonsea Clinic,Reygersdal Avenue Saxonsea,Atlantis,Western Cape,7349,021 572 2370,Government,No,-33.5712,18.4882
+673,Atlantis Medical Centre,5 Wesfleur Circle Atlantis,Atlantis,Western Cape,7349,021 572 3310,Private,No,-33.5672,18.4842
+674,Hout Bay Clinic,Main Road Hout Bay,Hout Bay,Western Cape,7806,021 790 1050,Government,No,-34.0462,18.3562
+675,Masiphumelele Clinic,Pokela Road Masiphumelele,Fish Hoek,Western Cape,7975,021 785 3101,Government,No,-34.1282,18.3722
+676,Fish Hoek Medical Centre,62 Main Road Fish Hoek,Fish Hoek,Western Cape,7975,021 782 2210,Private,No,-34.1372,18.4312
+677,Kayamandi Clinic,Masitandane Road Kayamandi,Stellenbosch,Western Cape,7600,021 889 5340,Government,No,-33.9212,18.8472
+678,Cloetesville Community Day Centre,Long Street Cloetesville,Stellenbosch,Western Cape,7600,021 889 5450,Government,No,-33.9152,18.8562
+679,Stellenbosch Medical Centre,12 Bird Street Stellenbosch,Stellenbosch,Western Cape,7600,021 887 0330,Private,No,-33.9342,18.8632
+680,TC Newman Community Day Centre,Van der Stel Street Paarl,Paarl,Western Cape,7646,021 862 4220,Government,No,-33.7312,18.9602
+681,Mbekweni Clinic,Nelson Mandela Avenue Mbekweni,Paarl,Western Cape,7646,021 868 2030,Government,No,-33.6952,18.9792
+682,Paarl Medical Centre,36 Lady Grey Street Paarl,Paarl,Western Cape,7646,021 872 3380,Private,No,-33.7322,18.9632
+683,Wellington Community Day Centre,Church Street Wellington,Wellington,Western Cape,7655,021 864 1230,Government,No,-33.6412,19.0112
+684,Worcester Community Day Centre,Durban Street Worcester,Worcester,Western Cape,6850,023 348 4300,Government,No,-33.6462,19.4462
+685,Avian Park Clinic,Kingfisher Street Avian Park,Worcester,Western Cape,6850,023 347 5160,Government,No,-33.6302,19.4302
+686,Worcester Medical Centre,50 Church Street Worcester,Worcester,Western Cape,6850,023 342 2140,Private,No,-33.6442,19.4492
+687,Malmesbury Clinic,Piet Retief Street Malmesbury,Malmesbury,Western Cape,7300,022 482 2630,Government,No,-33.4612,18.7312
+688,Vredenburg Clinic,Main Road Vredenburg,Vredenburg,Western Cape,7380,022 713 1170,Government,No,-32.9062,17.9902
+689,Louwville Clinic,Lukin Road Louwville,Vredenburg,Western Cape,7380,022 713 3180,Government,No,-32.9122,17.9862
+690,Saldanha Clinic,Main Street Saldanha,Saldanha,Western Cape,7395,022 714 1340,Government,No,-33.0122,17.9452
+691,Zwelihle Clinic,Swartdam Road Zwelihle,Hermanus,Western Cape,7200,028 313 8081,Government,No,-34.4262,19.2132
+692,Hermanus Medical Centre,7 Main Road Hermanus,Hermanus,Western Cape,7200,028 312 2500,Private,No,-34.4192,19.2352
+693,Caledon Clinic,Hospital Street Caledon,Caledon,Western Cape,7230,028 212 1340,Government,No,-34.2322,19.4272
+694,Grabouw Community Health Centre,Main Road Grabouw,Grabouw,Western Cape,7160,021 859 2580,Government,No,-34.1512,19.0182
+695,Railton Clinic,Buitekant Street Railton,Swellendam,Western Cape,6740,028 514 2700,Government,No,-34.0252,20.4352
+696,Thembalethu Community Day Centre,Ngcakani Street Thembalethu,George,Western Cape,6529,044 801 9150,Government,No,-33.9982,22.4812
+697,Pacaltsdorp Clinic,Mission Street Pacaltsdorp,George,Western Cape,6529,044 803 9240,Government,No,-34.0032,22.4442
+698,George Medical Centre,90 York Street George,George,Western Cape,6530,044 874 4360,Private,No,-33.9612,22.4602
+699,Knysna Town Clinic,Clyde Street Knysna,Knysna,Western Cape,6571,044 302 6500,Government,No,-34.0352,23.0462
+700,Knysna Medical Centre,16 Main Road Knysna,Knysna,Western Cape,6571,044 382 5140,Private,No,-34.0382,23.0502
+701,Kwanokuthula Community Day Centre,Kwanokuthula Main Road Kwanokuthula,Plettenberg Bay,Western Cape,6600,044 501 1600,Government,No,-34.0362,23.3302
+702,Plettenberg Bay Medical Centre,9 Marine Drive Plettenberg Bay,Plettenberg Bay,Western Cape,6600,044 533 2080,Private,No,-34.0542,23.3742
+703,Alma Community Day Centre,Alhof Drive Mossel Bay,Mossel Bay,Western Cape,6506,044 604 6300,Government,No,-34.1762,22.1312
+704,Kwanonqaba Clinic,Mayixhale Street Kwanonqaba,Mossel Bay,Western Cape,6506,044 695 2100,Government,No,-34.1652,22.1182
+705,Mossel Bay Medical Centre,28 Marsh Street Mossel Bay,Mossel Bay,Western Cape,6506,044 691 1120,Private,No,-34.1822,22.1472
+706,Bridgton Clinic,Aster Street Bridgton,Oudtshoorn,Western Cape,6625,044 203 7500,Government,No,-33.5812,22.2072
+707,Oudtshoorn Medical Centre,44 Baron van Reede Street Oudtshoorn,Oudtshoorn,Western Cape,6625,044 272 3350,Private,No,-33.5892,22.2022
+708,Beaufort West Clinic,Bird Street Beaufort West,Beaufort West,Western Cape,6970,023 414 2050,Government,No,-32.3582,22.5842
+709,Central Community Health Centre,Govan Mbeki Avenue Central,Gqeberha Central,Eastern Cape,6001,041 723 6234,Government,No,-33.9708,25.6162
+710,Newton Park Family Practice,18 Cape Road Newton Park,Gqeberha Central,Eastern Cape,6045,041 701 5084,Private,No,-33.9610,25.5630
+711,Korsten Clinic,Durban Road Korsten,Gqeberha Central,Eastern Cape,6020,041 511 3921,Government,No,-33.9350,25.5860
+712,Walmer Clinic,Heugh Road Walmer,Walmer,Eastern Cape,6070,041 421 6378,Government,No,-33.9910,25.5930
+713,Walmer Medical Centre,11 Main Road Walmer,Walmer,Eastern Cape,6070,041 389 8590,Private,No,-33.9820,25.5590
+714,New Brighton Clinic,Mendi Road New Brighton,New Brighton,Eastern Cape,6200,041 606 3612,Government,No,-33.9030,25.6050
+715,KwaZakhele Community Health Centre,Daku Road KwaZakhele,KwaZakhele,Eastern Cape,6205,041 890 1916,Government,No,-33.9050,25.5660
+716,Zwide Clinic,Koyana Street Zwide,Zwide,Eastern Cape,6201,041 646 8619,Government,No,-33.8950,25.5480
+717,Motherwell Community Health Centre,Addo Road Motherwell,Motherwell,Eastern Cape,6211,041 812 7919,Government,No,-33.8040,25.5720
+718,Motherwell Family Practice,Tyinira Street Motherwell,Motherwell,Eastern Cape,6211,041 486 3051,Private,No,-33.8120,25.6040
+719,Bethelsdorp Clinic,Stanford Road Bethelsdorp,Bethelsdorp,Eastern Cape,6059,041 268 7771,Government,No,-33.8770,25.5050
+720,Kariega Community Health Centre,Caledon Street Kariega,Kariega,Eastern Cape,6229,041 616 2534,Government,No,-33.7700,25.3810
+721,Cannon Hill Family Practice,22 Mitchell Street Kariega,Kariega,Eastern Cape,6230,041 732 4561,Private,No,-33.7700,25.4380
+722,KwaNobuhle Clinic,Matanzima Road KwaNobuhle,KwaNobuhle,Eastern Cape,6242,041 650 2660,Government,No,-33.7940,25.3890
+723,Despatch Medical Centre,40 Main Road Despatch,Despatch,Eastern Cape,6220,041 641 7812,Private,No,-33.8260,25.4970
+724,Empilweni Gompo Community Health Centre,Gompo Town Duncan Village,Duncan Village,Eastern Cape,5209,043 472 3208,Government,No,-32.9870,27.8830
+725,Vincent Medical Centre,12 Devereux Avenue Vincent,East London,Eastern Cape,5247,043 753 8717,Private,No,-33.0030,27.8970
+726,Quigney Family Practice,9 Currie Street Quigney,East London,Eastern Cape,5213,043 600 5021,Private,No,-33.0180,27.9170
+727,Nontyatyambo Community Health Centre,Mdantsane Access Road Mdantsane,Mdantsane,Eastern Cape,5219,043 237 2281,Government,No,-32.9650,27.7950
+728,Mdantsane Zone Nine Clinic,Daluxolo Street Mdantsane,Mdantsane,Eastern Cape,5219,043 407 6059,Government,No,-32.9470,27.7960
+729,Duncan Village Day Hospital,Douglas Smit Highway Duncan Village,Duncan Village,Eastern Cape,5209,043 572 2867,Government,No,-32.9800,27.8920
+730,Qonce Clinic,Buffalo Road Qonce,Qonce,Eastern Cape,5601,043 524 5257,Government,No,-32.8500,27.4010
+731,Qonce Family Practice,8 Cambridge Road Qonce,Qonce,Eastern Cape,5601,043 794 1695,Private,No,-32.8940,27.4070
+732,Zwelitsha Clinic,Main Road Zwelitsha,Zwelitsha,Eastern Cape,5608,040 742 3434,Government,No,-32.9440,27.4350
+733,Bhisho Clinic,Independence Avenue Bhisho,Bhisho,Eastern Cape,5605,040 790 1942,Government,No,-32.8780,27.4330
+734,Ngangelizwe Community Health Centre,Ngangelizwe Main Road Mthatha,Mthatha,Eastern Cape,5099,047 796 7984,Government,No,-31.5869,28.7894
+735,Mthatha Medical Centre,35 Sutherland Street Mthatha,Mthatha,Eastern Cape,5100,047 543 2170,Private,No,-31.5940,28.7820
+736,Southernwood Family Practice,14 Madeira Street Mthatha,Mthatha,Eastern Cape,5100,047 294 3913,Private,No,-31.5650,28.7940
+737,Lusikisiki Clinic,Main Road Lusikisiki,Lusikisiki,Eastern Cape,4820,039 577 5069,Government,No,-31.3597,29.5817
+738,Port St Johns Clinic,Main Street Port St Johns,Port St Johns,Eastern Cape,5120,047 849 4969,Government,No,-31.6190,29.5460
+739,Libode Clinic,Main Road Libode,Libode,Eastern Cape,5160,047 544 5301,Government,No,-31.5340,29.0360
+740,Qumbu Clinic,Main Street Qumbu,Qumbu,Eastern Cape,5180,047 319 8443,Government,No,-31.1540,28.8470
+741,Tsolo Clinic,Main Road Tsolo,Tsolo,Eastern Cape,5170,047 500 9429,Government,No,-31.3370,28.7790
+742,Komani Community Health Centre,Cathcart Road Komani,Komani,Eastern Cape,5320,045 553 2436,Government,No,-31.9260,26.8450
+743,Komani Medical Centre,60 Robinson Road Komani,Komani,Eastern Cape,5319,045 365 9177,Private,No,-31.8966,26.9053
+744,Cofimvaba Clinic,Main Street Cofimvaba,Cofimvaba,Eastern Cape,5380,047 628 4973,Government,No,-32.0070,27.5630
+745,Ngcobo Clinic,Main Street Ngcobo,Ngcobo,Eastern Cape,5050,047 714 5925,Government,No,-31.6690,27.9880
+746,Cradock Clinic,Market Street Cradock,Cradock,Eastern Cape,5880,048 364 2151,Government,No,-32.1362,25.5992
+747,Cradock Family Practice,15 Adderley Street Cradock,Cradock,Eastern Cape,5880,048 498 5871,Private,No,-32.1672,25.6492
+748,Butterworth Community Health Centre,Mthatha Road Butterworth,Butterworth,Eastern Cape,4960,047 371 4777,Government,No,-32.3070,28.1440
+749,Butterworth Medical Centre,21 Merriman Street Butterworth,Butterworth,Eastern Cape,4960,047 674 7708,Private,No,-32.3600,28.1720
+750,Dutywa Community Health Centre,Main Road Dutywa,Dutywa,Eastern Cape,5000,047 439 3115,Government,No,-32.1220,28.3100
+751,Willowvale Clinic,Main Street Willowvale,Willowvale,Eastern Cape,5040,047 264 5627,Government,No,-32.2460,28.4760
+752,Fort Beaufort Clinic,Durban Street Fort Beaufort,Fort Beaufort,Eastern Cape,5720,046 857 8037,Government,No,-32.8100,26.6570
+753,Alice Clinic,Main Street Alice,Alice,Eastern Cape,5700,040 742 4374,Government,No,-32.7970,26.8110
+754,Stutterheim Clinic,Hill Street Stutterheim,Stutterheim,Eastern Cape,4930,043 723 4025,Government,No,-32.5870,27.3970
+755,Mbizana Community Health Centre,Main Street Mbizana,Mbizana,Eastern Cape,4800,039 467 7982,Government,No,-30.8850,29.8850
+756,Matatiele Clinic,Main Street Matatiele,Matatiele,Eastern Cape,4730,039 553 1225,Government,No,-30.3570,28.7900
+757,Matatiele Family Practice,26 Boom Street Matatiele,Matatiele,Eastern Cape,4730,039 407 1674,Private,No,-30.3310,28.7970
+758,KwaBhaca Clinic,Main Road KwaBhaca,KwaBhaca,Eastern Cape,5090,039 714 4481,Government,No,-30.8920,29.0080
+759,eMaxesibeni Clinic,Main Street eMaxesibeni,eMaxesibeni,Eastern Cape,4735,039 432 2321,Government,No,-30.8170,29.3890
+760,Aliwal North Clinic,Somerset Street Aliwal North,Aliwal North,Eastern Cape,9750,051 262 9821,Government,No,-30.6840,26.7040
+761,Aliwal North Family Practice,33 Barkly Street Aliwal North,Aliwal North,Eastern Cape,9750,051 884 9921,Private,No,-30.7060,26.7000
+762,Sterkspruit Community Health Centre,Main Road Sterkspruit,Sterkspruit,Eastern Cape,9762,051 208 5583,Government,No,-30.5090,27.3660
+763,Mount Fletcher Clinic,Main Street Mount Fletcher,Mount Fletcher,Eastern Cape,4770,039 321 5253,Government,No,-30.6930,28.5060
+764,Joza Community Health Centre,Raglan Road Joza,Makhanda,Eastern Cape,6139,046 728 5603,Government,No,-33.3320,26.5300
+765,Makhanda Medical Centre,45 Hill Street Makhanda,Makhanda,Eastern Cape,6140,046 859 5102,Private,No,-33.3220,26.5270
+766,Graaff-Reinet Clinic,Caledon Street Graaff-Reinet,Graaff-Reinet,Eastern Cape,6280,049 675 2198,Government,No,-32.2290,24.5660
+767,Graaff-Reinet Family Practice,17 Church Street Graaff-Reinet,Graaff-Reinet,Eastern Cape,6280,049 524 2422,Private,No,-32.2390,24.5140
+768,Jeffreys Bay Clinic,Da Gama Road Jeffreys Bay,Jeffreys Bay,Eastern Cape,6330,042 230 2456,Government,No,-34.0360,24.9110
+769,Jeffreys Bay Medical Centre,8 Schelde Street Jeffreys Bay,Jeffreys Bay,Eastern Cape,6330,042 382 8054,Private,No,-34.0660,24.8930
+770,Humansdorp Clinic,Voortrekker Street Humansdorp,Humansdorp,Eastern Cape,6300,042 208 2173,Government,No,-34.0500,24.7490
+771,Somerset East Clinic,Nojoli Street Somerset East,Somerset East,Eastern Cape,5850,042 614 1542,Government,No,-32.7080,25.6010
+772,Somerset East Family Practice,19 Paulet Street Somerset East,Somerset East,Eastern Cape,5850,042 723 4564,Private,No,-32.7200,25.5940
+773,Braelyn Clinic,Jarvis Road Braelyn,East London,Eastern Cape,5201,043 745 2210,Government,No,-33.0050,27.8850
+774,Westenburg Clinic,12 Mirage Street,Polokwane,Limpopo,0699,015 293 1050,Government,No,-23.9180,29.4320
+775,Nirvana Clinic,25 Lotus Street,Polokwane,Limpopo,0699,015 293 1142,Government,No,-23.9120,29.4330
+776,Polokwane Medical Centre,61 Biccard Street,Polokwane,Limpopo,0699,015 291 3380,Private,No,-23.9040,29.4650
+777,Seshego Clinic,1 Chris Hani Street,Seshego,Limpopo,0742,015 223 7730,Government,No,-23.8440,29.3860
+778,Seshego Medical Centre,40 Nelson Mandela Drive,Seshego,Limpopo,0742,015 223 4461,Private,No,-23.8500,29.3920
+779,Mankweng Clinic,1 Mankweng Main Road,Mankweng,Limpopo,0727,015 267 0266,Government,No,-23.8850,29.7250
+780,Turfloop Medical Centre,8 University Road,Mankweng,Limpopo,0727,015 268 2150,Private,No,-23.8900,29.7320
+781,Lebowakgomo Clinic,1 Zone A Main Road,Lebowakgomo,Limpopo,0737,015 633 6210,Government,No,-24.3020,29.5620
+782,Lebowakgomo Medical Centre,5 Zone B Mall Road,Lebowakgomo,Limpopo,0737,015 633 4785,Private,No,-24.2980,29.5650
+783,Moletjie Clinic,1 Moshate Road,Moletjie,Limpopo,0744,015 222 1030,Government,No,-23.7420,29.2820
+784,Ga-Mphahlele Clinic,1 Mphahlele Main Road,Ga-Mphahlele,Limpopo,0736,015 633 1201,Government,No,-24.1980,29.6520
+785,Moletlane Clinic,1 Moletlane Main Road,Zebediela,Limpopo,0620,015 662 1120,Government,No,-24.3120,29.3180
+786,Senwabarwana Clinic,2 Bochum Main Road,Senwabarwana,Limpopo,0790,015 505 1370,Government,No,-23.2920,28.9580
+787,Mogwadi Clinic,1 Dendron Main Road,Mogwadi,Limpopo,0715,015 501 0205,Government,No,-23.3820,29.3220
+788,Makwarela Clinic,1 Makwarela Main Road,Thohoyandou,Limpopo,0950,015 962 1320,Government,No,-22.9400,30.4900
+789,Thohoyandou Medical Centre,22 Mphephu Drive,Thohoyandou,Limpopo,0950,015 962 4406,Private,No,-22.9480,30.4860
+790,Nancefield Clinic,1 Nancefield Main Road,Musina,Limpopo,0900,015 534 1180,Government,No,-22.3500,30.0350
+791,Musina Medical Centre,7 Irwin Street,Musina,Limpopo,0900,015 534 2345,Private,No,-22.3360,30.0420
+792,Makhado Clinic,14 Krogh Street,Makhado,Limpopo,0920,015 516 1040,Government,No,-23.0430,29.9030
+793,Louis Trichardt Medical Centre,33 Burger Street,Makhado,Limpopo,0920,015 516 2270,Private,No,-23.0460,29.9100
+794,Malamulele Clinic,2 Main Street,Malamulele,Limpopo,0982,015 851 1230,Government,No,-23.0090,30.6960
+795,Shayandima Clinic,1 Shayandima Main Road,Shayandima,Limpopo,0945,015 964 1200,Government,No,-22.9920,30.4280
+796,Tshilwavhusiku Clinic,1 Tshilwavhusiku Main Road,Tshilwavhusiku,Limpopo,0920,015 583 0120,Government,No,-23.0320,30.1520
+797,Waterval Clinic,1 Waterval Main Road,Elim,Limpopo,0960,015 556 1150,Government,No,-23.1750,30.0580
+798,Sibasa Clinic,1 Sibasa Main Road,Sibasa,Limpopo,0970,015 963 1210,Government,No,-22.9450,30.4680
+799,Nzhelele Clinic,1 Dzanani Main Road,Nzhelele,Limpopo,0993,015 973 1130,Government,No,-22.8320,30.0320
+800,Hlanganani Clinic,1 Hlanganani Main Road,Hlanganani,Limpopo,0948,015 556 2140,Government,No,-23.1620,30.4020
+801,Giyani Community Health Centre,1 Section A Main Road,Giyani,Limpopo,0826,015 812 1255,Government,No,-23.3080,30.7210
+802,Giyani Medical Centre,10 Main Road,Giyani,Limpopo,0826,015 812 3320,Private,No,-23.3120,30.7170
+803,Tzaneen Clinic,9 Peace Street,Tzaneen,Limpopo,0850,015 307 1310,Government,No,-23.8350,30.1610
+804,Tzaneen Medical Centre,15 Agatha Street,Tzaneen,Limpopo,0850,015 307 4480,Private,No,-23.8310,30.1650
+805,Nkowankowa Community Health Centre,1 Nkowankowa Main Road,Nkowankowa,Limpopo,0870,015 303 1230,Government,No,-23.8800,30.2890
+806,Phalaborwa Clinic,4 Sealene Road,Phalaborwa,Limpopo,1390,015 781 1050,Government,No,-23.9440,31.1390
+807,Phalaborwa Medical Centre,18 Hendrik van Eck Street,Phalaborwa,Limpopo,1390,015 781 5520,Private,No,-23.9400,31.1430
+808,Namakgale Clinic,1 Namakgale Zone B Road,Namakgale,Limpopo,1391,015 783 1220,Government,No,-23.9580,31.0430
+809,Lenyenye Clinic,1 Lenyenye Main Road,Lenyenye,Limpopo,0857,015 355 1130,Government,No,-23.9680,30.2680
+810,Hoedspruit Clinic,3 Kudu Street,Hoedspruit,Limpopo,1380,015 793 1115,Government,No,-24.3520,30.9540
+811,Hoedspruit Medical Centre,12 Springbok Street,Hoedspruit,Limpopo,1380,015 793 2225,Private,No,-24.3480,30.9580
+812,Kgapane Clinic,2 Kgapane Main Road,Ga-Kgapane,Limpopo,0838,015 328 1140,Government,No,-23.6420,30.2280
+813,Lulekani Clinic,1 Lulekani Main Road,Lulekani,Limpopo,1392,015 783 1350,Government,No,-23.8820,31.0780
+814,Burgersfort Clinic,5 Aloe Street,Burgersfort,Limpopo,1150,013 231 7120,Government,No,-24.6790,30.3310
+815,Burgersfort Medical Centre,21 Dirk Winterbach Street,Burgersfort,Limpopo,1150,013 231 8840,Private,No,-24.6750,30.3360
+816,Jane Furse Gateway Clinic,2 Hospital Road,Jane Furse,Limpopo,1085,013 265 1240,Government,No,-24.7470,29.8380
+817,Groblersdal Clinic,12 Grobler Street,Groblersdal,Limpopo,0470,013 262 1130,Government,No,-25.1720,29.3930
+818,Groblersdal Medical Centre,8 Tautes Avenue,Groblersdal,Limpopo,0470,013 262 4450,Private,No,-25.1680,29.3970
+819,Marble Hall Clinic,6 Fourie Street,Marble Hall,Limpopo,0450,013 261 1220,Government,No,-24.9680,29.2910
+820,Marble Hall Family Practice,14 Bothma Street,Marble Hall,Limpopo,0450,013 261 2370,Private,No,-24.9640,29.2950
+821,Steelpoort Clinic,1 Steelpoort Main Road,Steelpoort,Limpopo,1133,013 230 1140,Government,No,-24.7320,30.2020
+822,Praktiseer Community Health Centre,1 Praktiseer Main Road,Praktiseer,Limpopo,1155,013 231 1360,Government,No,-24.6520,30.2880
+823,Ga-Masemola Clinic,1 Masemola Main Road,Ga-Masemola,Limpopo,1060,013 265 3120,Government,No,-24.6020,29.7220
+824,Elandsdoorn Clinic,1 Elandsdoorn Main Road,Elandsdoorn,Limpopo,0485,013 983 1130,Government,No,-25.2790,29.2560
+825,Mokopane Clinic,16 Ruiter Road,Mokopane,Limpopo,0600,015 491 1320,Government,No,-24.1960,29.0070
+826,Mokopane Medical Centre,44 Hooge Street,Mokopane,Limpopo,0601,015 491 4480,Private,No,-24.1920,29.0110
+827,Mahwelereng Clinic,1 Mahwelereng Main Road,Mahwelereng,Limpopo,0626,015 483 1210,Government,No,-24.1620,28.9680
+828,Phagameng Clinic,1 Phagameng Main Road,Modimolle,Limpopo,0510,014 717 1240,Government,No,-24.7050,28.4120
+829,Modimolle Medical Centre,25 Potgieter Street,Modimolle,Limpopo,0510,014 717 3360,Private,No,-24.6980,28.4060
+830,Bela-Bela Clinic,9 Moffat Street,Bela-Bela,Limpopo,0480,014 736 1150,Government,No,-24.8850,28.2880
+831,Bela-Bela Medical Centre,31 Pretoria Road,Bela-Bela,Limpopo,0480,014 736 4470,Private,No,-24.8810,28.2920
+832,Thabazimbi Clinic,7 Eland Street,Thabazimbi,Limpopo,0380,014 777 1230,Government,No,-24.5930,27.4080
+833,Thabazimbi Family Practice,18 Rietbok Street,Thabazimbi,Limpopo,0380,014 777 2290,Private,No,-24.5890,27.4120
+834,Lephalale Clinic,10 Chris Hani Drive,Lephalale,Limpopo,0555,014 763 1240,Government,No,-23.6790,27.6980
+835,Lephalale Medical Centre,22 Nelson Mandela Drive,Lephalale,Limpopo,0555,014 763 4410,Private,No,-23.6750,27.7020
+836,Marapong Clinic,1 Marapong Main Road,Marapong,Limpopo,0556,014 763 5120,Government,No,-23.6520,27.6320
+837,Mookgophong Clinic,8 Nelson Mandela Drive,Mookgophong,Limpopo,0560,014 743 1160,Government,No,-24.5250,28.7150
+838,Northam Clinic,1 Northam Main Road,Northam,Limpopo,0360,014 784 1130,Government,No,-24.9520,27.2630
+839,Nelspruit Community Health Centre,15 Bester Street,Mbombela,Mpumalanga,1200,013 755 1234,Government,No,-25.4715,30.9663
+840,Riverside Medical Centre,4 Riverside Drive,Mbombela,Mpumalanga,1201,013 757 0211,Private,No,-25.4945,30.9703
+841,Sonheuwel Family Practice,22 Henshall Street,Mbombela,Mpumalanga,1201,013 752 4480,Private,No,-25.4665,30.9743
+842,KaNyamazane Community Health Centre,1 Main Road,KaNyamazane,Mpumalanga,1214,013 794 1140,Government,No,-25.4391,31.1461
+843,Matsulu Community Health Centre,12 Mandela Street,Matsulu,Mpumalanga,1203,013 778 0350,Government,No,-25.5108,31.3298
+844,Kabokweni Clinic,8 Ngwenya Street,Kabokweni,Mpumalanga,1245,013 796 1480,Government,No,-25.3373,31.1040
+845,White River Clinic,11 Chief Mgiyeni Khumalo Drive,White River,Mpumalanga,1240,013 751 1066,Government,No,-25.3297,31.0077
+846,White River Family Practice,3 Hennie van Till Street,White River,Mpumalanga,1240,013 750 0533,Private,No,-25.3367,31.0137
+847,Hazyview Clinic,2 Main Road,Hazyview,Mpumalanga,1242,013 737 7260,Government,No,-25.0403,31.1276
+848,Hazyview Medical Centre,15 Numbi Road,Hazyview,Mpumalanga,1242,013 737 8102,Private,No,-25.0473,31.1226
+849,Mkhuhlu Clinic,5 Main Road,Mkhuhlu,Mpumalanga,1246,013 795 5520,Government,No,-25.0207,31.2488
+850,Bushbuckridge Community Health Centre,1 Main Road,Bushbuckridge,Mpumalanga,1280,013 799 1850,Government,No,-24.8293,31.0647
+851,Bushbuckridge Family Practice,7 Market Street,Bushbuckridge,Mpumalanga,1280,013 799 2277,Private,No,-24.8373,31.0707
+852,Acornhoek Community Health Centre,3 Main Road,Acornhoek,Mpumalanga,1360,013 795 3122,Government,No,-24.6040,31.0793
+853,Thulamahashe Community Health Centre,6 Main Road,Thulamahashe,Mpumalanga,1365,013 773 0560,Government,No,-24.7192,31.2043
+854,Barberton Clinic,9 Pilgrim Street,Barberton,Mpumalanga,1300,013 712 4213,Government,No,-25.7839,31.0491
+855,Barberton Family Practice,18 Judge Street,Barberton,Mpumalanga,1300,013 712 5588,Private,No,-25.7889,31.0571
+856,Malalane Clinic,4 Impala Street,Malalane,Mpumalanga,1320,013 790 0427,Government,No,-25.4813,31.5197
+857,Malalane Medical Centre,12 Sibu Street,Malalane,Mpumalanga,1320,013 790 1920,Private,No,-25.4873,31.5147
+858,Komatipoort Clinic,6 Rissik Street,Komatipoort,Mpumalanga,1340,013 793 7334,Government,No,-25.4363,31.9520
+859,Kamhlushwa Clinic,10 Main Road,Kamhlushwa,Mpumalanga,1345,013 781 1255,Government,No,-25.7303,31.7363
+860,Sabie Clinic,12 Tenth Street,Sabie,Mpumalanga,1260,013 764 1610,Government,No,-25.1030,30.7873
+861,Graskop Clinic,5 Louis Trichardt Street,Graskop,Mpumalanga,1270,013 767 1263,Government,No,-24.9313,30.8313
+862,Mashishing Clinic,20 Voortrekker Street,Mashishing,Mpumalanga,1120,013 235 1740,Government,No,-25.0934,30.4519
+863,Lydenburg Family Practice,8 Kantoor Street,Mashishing,Mpumalanga,1120,013 235 3391,Private,No,-25.1004,30.4449
+864,Emalahleni Community Health Centre,20 President Avenue,Emalahleni,Mpumalanga,1035,013 656 2270,Government,No,-25.8683,29.2354
+865,Klipfontein Family Practice,14 Beatty Avenue,Emalahleni,Mpumalanga,1034,013 692 4150,Private,No,-25.8813,29.2394
+866,Reyno Ridge Medical Centre,6 Reyno Ridge Drive,Emalahleni,Mpumalanga,1035,013 697 0588,Private,No,-25.8593,29.2194
+867,KwaGuqa Clinic,3 Mzilikazi Street,KwaGuqa,Mpumalanga,1037,013 696 1133,Government,No,-25.8970,29.1803
+868,Lynnville Clinic,9 Nkosi Street,KwaGuqa,Mpumalanga,1037,013 696 2904,Government,No,-25.9060,29.1893
+869,Middelburg Clinic,7 Cowen Ntuli Street,Middelburg,Mpumalanga,1050,013 243 7270,Government,No,-25.7720,29.4618
+870,Kanonkop Family Practice,22 Meyer Street,Middelburg,Mpumalanga,1055,013 282 5571,Private,No,-25.7830,29.4688
+871,Mhluzi Community Health Centre,4 Tswelopele Street,Mhluzi,Mpumalanga,1053,013 244 1835,Government,No,-25.7803,29.4363
+872,Delmas Clinic,15 Sarel Cilliers Street,Delmas,Mpumalanga,2210,013 665 2213,Government,No,-26.1438,28.6888
+873,Delmas Family Practice,31 Van der Walt Street,Delmas,Mpumalanga,2210,013 665 4190,Private,No,-26.1488,28.6838
+874,Botleng Clinic,6 Mahlangu Street,Botleng,Mpumalanga,2211,013 665 6228,Government,No,-26.1303,28.7137
+875,Kriel Clinic,2 Delfos Street,Kriel,Mpumalanga,2271,017 648 2466,Government,No,-26.2563,29.2574
+876,Phola Clinic,8 Main Street,Phola,Mpumalanga,2230,013 645 1107,Government,No,-26.0303,29.0687
+877,Siyabuswa Community Health Centre,5 Main Street,Siyabuswa,Mpumalanga,0472,013 973 0219,Government,No,-25.1137,29.0530
+878,KwaMhlanga Clinic,3 Moloto Road,KwaMhlanga,Mpumalanga,1022,013 947 1156,Government,No,-25.4363,28.6970
+879,Kwaggafontein Clinic,4 Main Road,Kwaggafontein,Mpumalanga,0458,013 986 0230,Government,No,-25.2980,28.8530
+880,Hendrina Clinic,12 Church Street,Hendrina,Mpumalanga,1095,013 293 0344,Government,No,-26.1589,29.7214
+881,Belfast Clinic,15 Mills Street,eMakhazeni,Mpumalanga,1100,013 253 1120,Government,No,-25.6842,30.0383
+882,Secunda Clinic,8 Walter Sisulu Street,Secunda,Mpumalanga,2302,017 634 2171,Government,No,-26.5137,29.1970
+883,Secunda Medical Centre,19 Heunis Street,Secunda,Mpumalanga,2302,017 631 2208,Private,No,-26.5207,29.2060
+884,Embalenhle Community Health Centre,2 Main Road,Embalenhle,Mpumalanga,2285,017 685 3147,Government,No,-26.5303,29.0863
+885,Standerton Clinic,11 Charl Cilliers Street,Standerton,Mpumalanga,2430,017 712 3387,Government,No,-26.9470,29.2470
+886,Standerton Family Practice,26 Walter Sisulu Street,Standerton,Mpumalanga,2430,017 712 6650,Private,No,-26.9540,29.2540
+887,Sakhile Clinic,7 Main Street,Sakhile,Mpumalanga,2431,017 719 0318,Government,No,-26.9647,29.2197
+888,Ermelo Clinic,14 Church Street,Ermelo,Mpumalanga,2350,017 811 4273,Government,No,-26.5303,29.9863
+889,Ermelo Medical Centre,33 Fourie Street,Ermelo,Mpumalanga,2351,017 819 5516,Private,No,-26.5373,29.9783
+890,Wesselton Clinic,4 Main Road,Wesselton,Mpumalanga,2352,017 811 6392,Government,No,-26.5147,29.9803
+891,Bethal Clinic,9 Chris Hani Street,Bethal,Mpumalanga,2310,017 647 2244,Government,No,-26.4470,29.4697
+892,Bethal Family Practice,17 Kruger Street,Bethal,Mpumalanga,2310,017 647 5131,Private,No,-26.4530,29.4637
+893,Emzinoni Clinic,3 Main Street,Emzinoni,Mpumalanga,2311,017 647 7119,Government,No,-26.4803,29.4853
+894,Piet Retief Clinic,6 Kerk Street,eMkhondo,Mpumalanga,2380,017 826 3320,Government,No,-26.9970,30.7970
+895,Piet Retief Family Practice,21 Brand Street,eMkhondo,Mpumalanga,2380,017 826 4475,Private,No,-27.0040,30.8040
+896,Ethandakukhanya Clinic,5 Main Road,Ethandakukhanya,Mpumalanga,2381,017 826 6203,Government,No,-27.0147,30.8363
+897,Volksrust Clinic,13 Adelaide Street,Volksrust,Mpumalanga,2470,017 735 2167,Government,No,-27.3637,29.8863
+898,Balfour Clinic,8 Stuart Street,Balfour,Mpumalanga,2410,017 773 0266,Government,No,-26.6697,28.5853
+899,Carolina Clinic,11 Voortrekker Street,Carolina,Mpumalanga,1185,017 843 1340,Government,No,-26.0637,30.1137
+900,Elukwatini Community Health Centre,2 Main Road,Elukwatini,Mpumalanga,1192,017 883 0441,Government,No,-25.9970,30.7530
+901,Amsterdam Clinic,7 Church Street,Amsterdam,Mpumalanga,2375,017 846 0160,Government,No,-26.6363,30.6647
+902,Rustenburg Town Clinic,45 Nelson Mandela Drive,Rustenburg,North West,0299,014 592 1346,Government,No,-25.6866,27.2425
+903,Cashan Family Practice,12 Kameeldoring Avenue,Rustenburg,North West,0300,014 597 5724,Private,No,-25.6641,27.2428
+904,Waterfall Medical Centre,8 Waterfall Avenue,Rustenburg,North West,0299,014 537 9602,Private,No,-25.6726,27.2366
+905,Tlhabane Community Health Centre,14 Moruleng Street,Tlhabane,North West,0309,014 566 7072,Government,No,-25.6444,27.2001
+906,Boitekong Community Health Centre,3 Mandela Street,Boitekong,North West,0308,014 538 4147,Government,No,-25.5958,27.2648
+907,Freedom Park Clinic,6 Freedom Road,Freedom Park,North West,0299,014 592 7920,Government,No,-25.6407,27.3145
+908,Phokeng Clinic,9 Legato Road,Phokeng,North West,0335,014 566 8583,Government,No,-25.5893,27.1153
+909,Bafokeng Medical Centre,21 Mogono Street,Phokeng,North West,0335,014 573 7956,Private,No,-25.5632,27.1185
+910,Marikana Clinic,4 Station Road,Marikana,North West,0284,014 572 8823,Government,No,-25.6818,27.4787
+911,Mogwase Community Health Centre,11 Moruleng Road,Mogwase,North West,0314,014 555 7943,Government,No,-25.2922,27.2332
+912,Brits Town Clinic,30 Murray Avenue,Brits,North West,0250,012 252 9985,Government,No,-25.6449,27.7948
+913,Brits Medical Centre,55 Pienaar Street,Brits,North West,0250,012 252 4807,Private,No,-25.6144,27.7860
+914,Elandsrand Family Practice,7 Tom Street,Brits,North West,0250,012 250 3830,Private,No,-25.6204,27.7764
+915,Oukasie Clinic,2 Thabo Mbeki Street,Oukasie,North West,0250,012 252 8166,Government,No,-25.6138,27.7766
+916,Letlhabile Community Health Centre,1 Sekwati Street,Letlhabile,North West,0264,012 255 6762,Government,No,-25.4880,27.8016
+917,Hartbeespoort Clinic,18 Scott Street,Hartbeespoort,North West,0216,012 259 5796,Government,No,-25.7332,27.8818
+918,Ifafi Family Practice,24 Van Rensburg Street,Hartbeespoort,North West,0216,012 259 2433,Private,No,-25.7340,27.8625
+919,Koster Clinic,15 Hoof Street,Koster,North West,0348,014 543 8466,Government,No,-25.8738,26.9031
+920,Borolelo Clinic,3 Borolelo Main Road,Swartruggens,North West,2835,014 544 8601,Government,No,-25.6516,26.6954
+921,Makapanstad Community Health Centre,5 Makapanstad Main Road,Makapanstad,North West,0404,012 716 4409,Government,No,-25.2244,28.1181
+922,Mathibestad Clinic,2 Mathibestad Road,Makapanstad,North West,0404,012 718 8006,Government,No,-25.2210,28.0820
+923,Mahikeng Gateway Clinic,1 Sekame Road,Mahikeng,North West,2745,018 381 5053,Government,No,-25.8812,25.6446
+924,Montshioa Clinic,10 Montshioa Main Road,Mahikeng,North West,2737,018 384 6578,Government,No,-25.8526,25.6568
+925,Golfview Medical Centre,33 Carrington Street,Mahikeng,North West,2745,018 381 8095,Private,No,-25.8663,25.6267
+926,Mmabatho Community Health Centre,6 Dr James Moroka Drive,Mmabatho,North West,2735,018 386 8873,Government,No,-25.8408,25.6180
+927,Riviera Park Medical Centre,19 Riviera Park Avenue,Mmabatho,North West,2735,018 386 8763,Private,No,-25.8613,25.6208
+928,Lichtenburg Clinic,25 Scholtz Street,Lichtenburg,North West,2740,018 632 9520,Government,No,-26.1450,26.1726
+929,Lichtenburg Medical Centre,47 Bantjes Street,Lichtenburg,North West,2740,018 633 6664,Private,No,-26.1680,26.1799
+930,Boikhutso Clinic,8 Boikhutso Main Road,Boikhutso,North West,2740,018 632 4350,Government,No,-26.1335,26.1533
+931,Itsoseng Clinic,12 Unit Two Road,Itsoseng,North West,2744,018 338 7560,Government,No,-26.0508,25.9420
+932,Ikageleng Clinic,4 Ikageleng Main Road,Zeerust,North West,2865,018 642 6200,Government,No,-25.5489,26.1010
+933,Zeerust Family Practice,28 Church Street,Zeerust,North West,2865,018 642 5777,Private,No,-25.5400,26.0920
+934,Dinokana Clinic,1 Dinokana Main Road,Dinokana,North West,2868,018 363 2644,Government,No,-25.4412,25.8735
+935,Coligny Clinic,16 Voortrekker Street,Coligny,North West,2725,018 673 2518,Government,No,-26.3309,26.2995
+936,Delareyville Clinic,20 Schoeman Street,Delareyville,North West,2770,053 948 7742,Government,No,-26.6950,25.4554
+937,Delareyville Family Practice,9 Kerk Street,Delareyville,North West,2770,053 948 7965,Private,No,-26.6771,25.4617
+938,Atamelang Clinic,3 Atamelang Main Road,Atamelang,North West,2772,053 948 3471,Government,No,-26.7091,25.4162
+939,Ottosdal Clinic,14 Van Riebeeck Street,Ottosdal,North West,2610,018 571 8872,Government,No,-26.8176,25.9838
+940,Klerksdorp Gateway Clinic,9 Joe Slovo Road,Klerksdorp,North West,2571,018 464 3060,Government,No,-26.8514,26.6234
+941,Wilkoppies Medical Centre,41 Totius Street,Klerksdorp,North West,2571,018 468 4774,Private,No,-26.8642,26.6479
+942,Flamwood Family Practice,17 Kiepersol Avenue,Klerksdorp,North West,2574,018 464 3646,Private,No,-26.8737,26.6444
+943,Grace Mokgomo Community Health Centre,2 Jouberton Main Road,Jouberton,North West,2574,018 466 6907,Government,No,-26.8974,26.5828
+944,Jouberton Clinic,27 Extension Road,Jouberton,North West,2574,018 465 1300,Government,No,-26.8926,26.5672
+945,Kanana Clinic,5 Kanana Main Road,Kanana,North West,2619,018 475 8533,Government,No,-26.9531,26.6510
+946,Khuma Clinic,8 Khuma Main Road,Khuma,North West,2551,018 484 5874,Government,No,-26.9179,26.7830
+947,Alabama Clinic,11 Alabama Road,Alabama,North West,2571,018 465 6482,Government,No,-26.8619,26.6143
+948,Orkney Clinic,22 Leask Street,Orkney,North West,2619,018 473 1978,Government,No,-26.9704,26.6742
+949,Orkney Medical Centre,6 Milner Avenue,Orkney,North West,2619,018 473 1813,Private,No,-26.9830,26.6821
+950,Stilfontein Clinic,13 Bram Fischer Street,Stilfontein,North West,2551,018 484 5034,Government,No,-26.8390,26.7616
+951,Stilfontein Family Practice,31 Delfos Street,Stilfontein,North West,2551,018 484 8541,Private,No,-26.8588,26.7764
+952,Potchefstroom Gateway Clinic,33 Hoffman Street,Potchefstroom,North West,2531,018 297 1405,Government,No,-26.7260,27.0974
+953,Baillie Park Medical Centre,48 Beyers Naude Avenue,Potchefstroom,North West,2520,018 294 2341,Private,No,-26.7334,27.1098
+954,Bult Family Practice,15 Tom Street,Potchefstroom,North West,2531,018 297 2883,Private,No,-26.7028,27.0906
+955,Steve Tshwete Community Health Centre,1 Ikageng Main Road,Ikageng,North West,2531,018 295 1755,Government,No,-26.7058,27.0511
+956,Ikageng Clinic,19 Molefe Street,Ikageng,North West,2531,018 295 4189,Government,No,-26.7313,27.0387
+957,Promosa Clinic,7 Promosa Main Road,Promosa,North West,2531,018 293 2336,Government,No,-26.6893,27.0519
+958,Ventersdorp Clinic,10 Church Street,Ventersdorp,North West,2710,018 264 7060,Government,No,-26.3055,26.8312
+959,Ventersdorp Family Practice,23 Van Tonder Street,Ventersdorp,North West,2710,018 264 8959,Private,No,-26.3025,26.8188
+960,Tshing Clinic,4 Tshing Main Road,Tshing,North West,2710,018 264 3674,Government,No,-26.3257,26.8198
+961,Wolmaransstad Clinic,12 Piet Retief Street,Wolmaransstad,North West,2630,018 596 8477,Government,No,-27.1840,26.0019
+962,Wolmaransstad Medical Centre,36 Kruger Street,Wolmaransstad,North West,2630,018 596 7422,Private,No,-27.1939,25.9897
+963,Vryburg Clinic,18 Market Street,Vryburg,North West,8601,053 927 9298,Government,No,-26.9691,24.7193
+964,Vryburg Medical Centre,29 Stella Street,Vryburg,North West,8600,053 927 3927,Private,No,-26.9351,24.7189
+965,Vryburg Family Practice,7 Molopo Street,Vryburg,North West,8601,053 927 4407,Private,No,-26.9301,24.7467
+966,Huhudi Clinic,3 Huhudi Main Road,Huhudi,North West,8601,053 927 3714,Government,No,-26.9667,24.7560
+967,Taung Clinic,6 Taung Station Road,Taung,North West,8580,053 994 5752,Government,No,-27.5528,24.7925
+968,Pudimoe Clinic,2 Pudimoe Main Road,Taung,North West,8580,053 994 9286,Government,No,-27.4230,24.7330
+969,Ipelegeng Clinic,9 Ipelegeng Main Road,Schweizer-Reneke,North West,2780,053 963 4845,Government,No,-27.1644,25.3402
+970,Schweizer-Reneke Family Practice,14 Schweizer Street,Schweizer-Reneke,North West,2780,053 963 8909,Private,No,-27.1765,25.3435
+971,Bloemhof Clinic,11 Kerk Street,Bloemhof,North West,2660,053 433 4334,Government,No,-27.6598,25.6059
+972,Christiana Clinic,16 Robyn Street,Christiana,North West,2680,053 441 6256,Government,No,-27.9102,25.1577
+973,Ganyesa Clinic,4 Ganyesa Main Road,Ganyesa,North West,8613,053 998 5894,Government,No,-26.6147,24.1654
+974,Heidedal Community Health Centre,1 Heide Street,Bloemfontein,Free State,9301,051 121 7377,Government,No,-29.1340,26.2420
+975,Batho Clinic,12 Fort Hare Street,Bloemfontein,Free State,9301,051 122 5296,Government,No,-29.1270,26.2230
+976,Westdene Family Practice,42 Kellner Street,Bloemfontein,Free State,9301,051 123 3215,Private,No,-29.1125,26.2070
+977,Langenhoven Park Medical Centre,15 Westmead Road,Bloemfontein,Free State,9330,051 124 1134,Private,No,-29.0970,26.1640
+978,Fichardt Park Family Practice,64 Benade Drive,Bloemfontein,Free State,9317,051 124 9053,Private,No,-29.1535,26.1845
+979,Universitas Family Practice,9 Logeman Street,Bloemfontein,Free State,9321,051 125 6972,Private,No,-29.1120,26.1860
+980,MUCPP Community Health Centre,1 Moshoeshoe Road,Mangaung,Free State,9323,051 126 4891,Government,No,-29.1640,26.2610
+981,Rocklands Clinic,22 Rocklands Main Road,Mangaung,Free State,9323,051 127 2810,Government,No,-29.1700,26.2550
+982,Kagisanong Clinic,5 Mokhele Street,Mangaung,Free State,9323,051 128 0729,Government,No,-29.1600,26.2680
+983,Botshabelo Community Health Centre,1 Main Road,Botshabelo,Free State,9781,051 128 8648,Government,No,-29.2320,26.7200
+984,Botshabelo Section H Clinic,12 Section H Main Street,Botshabelo,Free State,9781,051 129 6567,Government,No,-29.2360,26.7120
+985,Thaba Nchu Clinic,10 Dr Moroka Road,Thaba Nchu,Free State,9780,051 130 4486,Government,No,-29.2180,26.8300
+986,Selosesha Clinic,8 Selosesha Road,Thaba Nchu,Free State,9780,051 131 2405,Government,No,-29.2100,26.8400
+987,Wepener Clinic,15 Church Street,Wepener,Free State,9944,051 132 0324,Government,No,-29.7340,27.0340
+988,Dewetsdorp Clinic,20 Voortrekker Street,Dewetsdorp,Free State,9940,051 132 8243,Government,No,-29.5840,26.6510
+989,Welkom Clinic,12 Stateway,Welkom,Free State,9459,057 133 6162,Government,No,-27.9820,26.7340
+990,Bronville Clinic,3 Bronville Road,Welkom,Free State,9469,057 134 4081,Government,No,-27.9540,26.7830
+991,Riebeeckstad Family Practice,24 Long Road,Welkom,Free State,9469,057 135 2000,Private,No,-27.9510,26.7850
+992,Welkom Medical Centre,88 Stateway,Welkom,Free State,9459,057 135 9919,Private,No,-27.9830,26.7300
+993,Thabong Community Health Centre,40 Mothusi Street,Thabong,Free State,9463,057 136 7838,Government,No,-27.9780,26.7920
+994,Bophelong Clinic,15 Mandela Street,Thabong,Free State,9463,057 137 5757,Government,No,-27.9830,26.7880
+995,Virginia Clinic,10 Church Street,Virginia,Free State,9430,057 138 3676,Government,No,-28.1020,26.8650
+996,Virginia Family Practice,31 Second Street,Virginia,Free State,9430,057 139 1595,Private,No,-28.0990,26.8690
+997,Meloding Clinic,5 Meloding Road,Meloding,Free State,9431,057 139 9514,Government,No,-28.0840,26.8340
+998,Odendaalsrus Clinic,14 Church Street,Odendaalsrus,Free State,9480,057 140 7433,Government,No,-27.8680,26.6820
+999,Odendaalsrus Family Practice,22 Kolbe Street,Odendaalsrus,Free State,9480,057 141 5352,Private,No,-27.8650,26.6850
+1000,Kutlwanong Clinic,1 Kutlwanong Main Road,Kutlwanong,Free State,9482,057 142 3271,Government,No,-27.8610,26.7310
+1001,Hennenman Clinic,9 Voortrekker Street,Hennenman,Free State,9445,057 143 1190,Government,No,-27.9680,27.0340
+1002,Bultfontein Clinic,17 Voortrekker Street,Bultfontein,Free State,9670,051 143 9109,Government,No,-28.2840,26.1510
+1003,Hoopstad Clinic,11 Mark Street,Hoopstad,Free State,9479,053 144 7028,Government,No,-27.8330,25.9180
+1004,Boshof Clinic,6 Voortrekker Street,Boshof,Free State,8340,053 145 4947,Government,No,-28.5510,25.2510
+1005,Winburg Clinic,5 Brand Street,Winburg,Free State,9420,051 146 2866,Government,No,-28.5180,26.9990
+1006,Bethlehem Clinic,14 Pretorius Street,Bethlehem,Free State,9701,058 147 0785,Government,No,-28.2320,28.3020
+1007,Bethlehem Family Practice,40 Commissioner Street,Bethlehem,Free State,9701,058 147 8704,Private,No,-28.2310,28.3080
+1008,Dihlabeng Medical Centre,12 Cambridge Street,Bethlehem,Free State,9701,058 148 6623,Private,No,-28.2360,28.2960
+1009,Bohlokong Clinic,3 Mokoena Street,Bohlokong,Free State,9702,058 149 4542,Government,No,-28.2190,28.3380
+1010,Phuthaditjhaba Community Health Centre,2 Setsing Road,Phuthaditjhaba,Free State,9866,058 150 2461,Government,No,-28.5340,28.8150
+1011,Bluegumbosch Clinic,1 Bluegumbosch Road,Phuthaditjhaba,Free State,9870,058 151 0380,Government,No,-28.5050,28.8450
+1012,Maluti Medical Centre,18 Setsing Road,Phuthaditjhaba,Free State,9866,058 151 8299,Private,No,-28.5300,28.8200
+1013,Harrismith Clinic,30 Southey Street,Harrismith,Free State,9880,058 152 6218,Government,No,-28.2680,29.1320
+1014,Harrismith Family Practice,18 Piet Retief Street,Harrismith,Free State,9880,058 153 4137,Private,No,-28.2650,29.1350
+1015,Intabazwe Clinic,5 Intabazwe Road,Intabazwe,Free State,9881,058 154 2056,Government,No,-28.2560,29.1410
+1016,Tshiame Clinic,1 Tshiame Main Road,Tshiame,Free State,9882,058 154 9975,Government,No,-28.3010,29.0210
+1017,Ficksburg Clinic,20 Voortrekker Street,Ficksburg,Free State,9730,051 155 7894,Government,No,-28.8670,27.8680
+1018,Ficksburg Family Practice,9 Bloem Street,Ficksburg,Free State,9730,051 156 5813,Private,No,-28.8650,27.8650
+1019,Meqheleng Clinic,4 Meqheleng Road,Meqheleng,Free State,9731,051 157 3732,Government,No,-28.8810,27.8510
+1020,Ladybrand Clinic,25 Joubert Street,Ladybrand,Free State,9745,051 158 1651,Government,No,-29.2010,27.4490
+1021,Ladybrand Medical Centre,14 Kerk Street,Ladybrand,Free State,9745,051 158 9570,Private,No,-29.1980,27.4520
+1022,Clarens Clinic,8 Market Street,Clarens,Free State,9707,058 159 7489,Government,No,-28.5180,28.4180
+1023,Clarens Family Practice,3 Church Street,Clarens,Free State,9707,058 160 5408,Private,No,-28.5150,28.4160
+1024,Senekal Clinic,12 Kerk Street,Senekal,Free State,9600,058 161 3327,Government,No,-28.3170,27.6180
+1025,Reitz Clinic,9 Church Street,Reitz,Free State,9810,058 162 1246,Government,No,-27.8020,28.4320
+1026,Vrede Clinic,6 Theron Street,Vrede,Free State,9835,058 162 9165,Government,No,-27.4320,29.1680
+1027,Warden Clinic,11 Jan Smuts Street,Warden,Free State,9890,058 163 7084,Government,No,-27.8510,28.9680
+1028,Sasolburg Clinic,2 Fichardt Street,Sasolburg,Free State,1947,016 164 5003,Government,No,-26.8150,27.8190
+1029,Vaalpark Family Practice,7 Grey Avenue,Sasolburg,Free State,1948,016 165 2922,Private,No,-26.7810,27.8420
+1030,Sasolburg Medical Centre,15 Louis Trichardt Street,Sasolburg,Free State,1947,016 166 0841,Private,No,-26.8180,27.8150
+1031,Zamdela Community Health Centre,1 Zamdela Main Road,Zamdela,Free State,1949,016 166 8760,Government,No,-26.8510,27.8520
+1032,Kroonstad Clinic,18 Murray Street,Kroonstad,Free State,9499,056 167 6679,Government,No,-27.6510,27.2320
+1033,Kroonstad Medical Centre,36 Reitz Street,Kroonstad,Free State,9499,056 168 4598,Private,No,-27.6540,27.2350
+1034,Maokeng Community Health Centre,1 Maokeng Main Road,Maokeng,Free State,9501,056 169 2517,Government,No,-27.6310,27.2610
+1035,Seeisoville Clinic,9 Seeisoville Road,Maokeng,Free State,9501,056 170 0436,Government,No,-27.6350,27.2650
+1036,Parys Clinic,10 Bree Street,Parys,Free State,9585,056 170 8355,Government,No,-26.9010,27.4510
+1037,Parys Family Practice,22 Philip Street,Parys,Free State,9585,056 171 6274,Private,No,-26.8990,27.4530
+1038,Tumahole Clinic,3 Tumahole Road,Tumahole,Free State,9586,056 172 4193,Government,No,-26.9210,27.4810
+1039,Heilbron Clinic,7 Elizabeth Street,Heilbron,Free State,9650,058 173 2112,Government,No,-27.2840,27.9650
+1040,Frankfort Clinic,12 Dirkie Uys Street,Frankfort,Free State,9830,058 174 0031,Government,No,-27.2820,28.5020
+1041,Viljoenskroon Clinic,20 Steyn Street,Viljoenskroon,Free State,9520,056 174 7950,Government,No,-27.2010,26.9510
+1042,Rammulotsi Clinic,2 Rammulotsi Road,Viljoenskroon,Free State,9520,056 175 5869,Government,No,-27.2050,26.9450
+1043,Koffiefontein Clinic,14 Groot Trek Street,Koffiefontein,Free State,9986,053 176 3788,Government,No,-29.4170,25.0010
+1044,Jagersfontein Clinic,9 Lind Street,Jagersfontein,Free State,9974,051 177 1707,Government,No,-29.7680,25.4320
+1045,Trompsburg Clinic,4 Bogues Street,Trompsburg,Free State,9913,051 177 9626,Government,No,-30.0340,25.7820
+1046,Zastron Clinic,16 Main Street,Zastron,Free State,9950,051 178 7545,Government,No,-30.3010,27.0820
+1047,Smithfield Clinic,21 Douglas Street,Smithfield,Free State,9966,051 179 5464,Government,No,-30.2180,26.5340
+1048,Beaconsfield Clinic,22 Central Road,Kimberley,Northern Cape,8301,053 831 1540,Government,No,-28.7462,24.7539
+1049,Florianville Clinic,5 Lobelia Street,Kimberley,Northern Cape,8301,053 871 2260,Government,No,-28.7162,24.7359
+1050,Du Toitspan Family Practice,150 Du Toitspan Road,Kimberley,Northern Cape,8301,053 832 3180,Private,No,-28.7342,24.7629
+1051,Hadison Park Medical Centre,12 Central Avenue,Kimberley,Northern Cape,8301,053 861 4420,Private,No,-28.7222,24.7379
+1052,Betty Gaetsewe Clinic,14 Seochoareng Street,Galeshewe,Northern Cape,8345,053 830 1150,Government,No,-28.7040,24.7320
+1053,Masakhane Clinic,3 Phakamile Mabija Road,Galeshewe,Northern Cape,8345,053 830 1370,Government,No,-28.7150,24.7450
+1054,Galeshewe Family Practice,41 Nobengula Street,Galeshewe,Northern Cape,8345,053 871 5620,Private,No,-28.7070,24.7430
+1055,Roodepan Clinic,7 Jacaranda Street,Roodepan,Northern Cape,8309,053 872 1160,Government,No,-28.6800,24.7560
+1056,Ritchie Clinic,4 Modderrivier Road,Ritchie,Northern Cape,8710,053 511 0260,Government,No,-29.0380,24.5930
+1057,Barkly West Clinic,18 Campbell Street,Barkly West,Northern Cape,8375,053 531 0820,Government,No,-28.5350,24.5170
+1058,Delportshoop Community Health Centre,6 Church Street,Delportshoop,Northern Cape,8377,053 561 0120,Government,No,-28.4080,24.3130
+1059,Warrenton Clinic,9 Kerk Street,Warrenton,Northern Cape,8530,053 497 3380,Government,No,-28.1170,24.8500
+1060,Jan Kempdorp Clinic,12 Pniel Street,Jan Kempdorp,Northern Cape,8550,053 456 0540,Government,No,-27.9200,24.8300
+1061,Hartswater Clinic,6 Du Plessis Street,Hartswater,Northern Cape,8570,053 474 0660,Government,No,-27.7580,24.8060
+1062,Hartswater Medical Centre,21 Hoofweg Street,Hartswater,Northern Cape,8570,053 474 1270,Private,No,-27.7530,24.7990
+1063,Pampierstad Community Health Centre,2 Mokgatlhe Street,Pampierstad,Northern Cape,8566,053 475 0090,Government,No,-27.7820,24.6900
+1064,Kuruman Clinic,16 Seodin Road,Kuruman,Northern Cape,8460,053 712 1610,Government,No,-27.4550,23.4360
+1065,Wrenchville Clinic,5 Dippenaar Street,Kuruman,Northern Cape,8460,053 712 2230,Government,No,-27.4450,23.4230
+1066,Kuruman Medical Centre,40 Main Street,Kuruman,Northern Cape,8460,053 712 3450,Private,No,-27.4500,23.4350
+1067,Mothibistad Clinic,8 Mogodi Street,Mothibistad,Northern Cape,8474,053 773 0140,Government,No,-27.3840,23.4220
+1068,Bankhara-Bodulong Clinic,3 Legae Street,Bankhara-Bodulong,Northern Cape,8460,053 712 7170,Government,No,-27.4320,23.4030
+1069,Batlharos Clinic,11 Moffat Road,Batlharos,Northern Cape,8477,053 773 0510,Government,No,-27.3340,23.3430
+1070,Kathu Clinic,9 Rietbok Street,Kathu,Northern Cape,8446,053 723 1120,Government,No,-27.6920,23.0450
+1071,Sesheng Clinic,2 Tlhatlogang Street,Kathu,Northern Cape,8446,053 723 1660,Government,No,-27.7080,23.0650
+1072,Kathu Family Practice,17 Hendrik van Eck Road,Kathu,Northern Cape,8446,053 723 2470,Private,No,-27.6940,23.0540
+1073,Olifantshoek Community Health Centre,4 Kerk Street,Olifantshoek,Northern Cape,8450,053 771 0180,Government,No,-27.9380,22.7360
+1074,Springbok Community Health Centre,12 Namakwa Street,Springbok,Northern Cape,8240,027 712 2150,Government,No,-29.6680,17.8890
+1075,Namakwa Medical Centre,33 Voortrekker Street,Springbok,Northern Cape,8240,027 718 1360,Private,No,-29.6610,17.8820
+1076,Springbok Family Practice,8 Van Riebeeck Street,Springbok,Northern Cape,8240,027 718 2210,Private,No,-29.6620,17.8910
+1077,Okiep Clinic,5 Main Road,Okiep,Northern Cape,8270,027 744 1150,Government,No,-29.5950,17.8750
+1078,Nababeep Clinic,3 Hospital Street,Nababeep,Northern Cape,8265,027 718 8270,Government,No,-29.5970,17.7770
+1079,Steinkopf Community Health Centre,7 Kerk Street,Steinkopf,Northern Cape,8244,027 721 8030,Government,No,-29.2590,17.7380
+1080,Port Nolloth Clinic,10 Beach Road,Port Nolloth,Northern Cape,8280,027 851 8360,Government,No,-29.2570,16.8710
+1081,Port Nolloth Medical Centre,4 Main Road,Port Nolloth,Northern Cape,8280,027 851 7120,Private,No,-29.2520,16.8660
+1082,Calvinia Clinic,14 Water Street,Calvinia,Northern Cape,8190,027 341 1430,Government,No,-31.4690,19.7730
+1083,Hantam Medical Centre,27 Hoop Street,Calvinia,Northern Cape,8190,027 341 2610,Private,No,-31.4740,19.7790
+1084,Garies Clinic,6 Church Street,Garies,Northern Cape,8220,027 652 1260,Government,No,-30.5640,17.9930
+1085,Pofadder Clinic,3 Main Street,Pofadder,Northern Cape,8890,054 933 0340,Government,No,-29.1260,19.3940
+1086,Sutherland Clinic,8 Jubilee Street,Sutherland,Northern Cape,6920,023 571 1320,Government,No,-32.3960,20.6690
+1087,Fraserburg Clinic,4 Kerk Street,Fraserburg,Northern Cape,6960,023 741 1210,Government,No,-31.9140,21.5160
+1088,Williston Clinic,5 Hoop Street,Williston,Northern Cape,8920,053 391 3260,Government,No,-31.3460,20.9220
+1089,De Aar Clinic,14 Station Street,De Aar,Northern Cape,7000,053 631 0820,Government,No,-30.6470,24.0080
+1090,Nonzwakazi Clinic,2 Maduna Street,De Aar,Northern Cape,7000,053 631 1570,Government,No,-30.6620,24.0220
+1091,De Aar Medical Centre,27 Friedlander Street,De Aar,Northern Cape,7000,053 631 2340,Private,No,-30.6480,24.0170
+1092,Colesberg Clinic,19 Church Street,Colesberg,Northern Cape,9795,051 753 0420,Government,No,-30.7230,25.1000
+1093,Colesberg Family Practice,7 Bell Street,Colesberg,Northern Cape,9795,051 753 1180,Private,No,-30.7180,25.0940
+1094,Hanover Community Health Centre,3 Market Street,Hanover,Northern Cape,7005,053 643 0150,Government,No,-31.0710,24.4520
+1095,Britstown Community Health Centre,8 Kerk Street,Britstown,Northern Cape,8782,053 672 0210,Government,No,-30.5940,23.5060
+1096,Victoria West Clinic,15 Church Street,Victoria West,Northern Cape,7070,053 621 0380,Government,No,-31.3980,23.1160
+1097,Victoria West Family Practice,22 Mark Street,Victoria West,Northern Cape,7070,053 621 1140,Private,No,-31.4030,23.1210
+1098,Carnarvon Clinic,9 Victoria Street,Carnarvon,Northern Cape,8925,053 382 3240,Government,No,-30.9710,22.1320
+1099,Prieska Clinic,11 Victoria Street,Prieska,Northern Cape,8940,053 353 1460,Government,No,-29.6620,22.7480
+1100,Prieska Medical Centre,24 Main Street,Prieska,Northern Cape,8940,053 353 2270,Private,No,-29.6680,22.7430
+1101,Douglas Clinic,5 Breedt Street,Douglas,Northern Cape,8730,053 298 1720,Government,No,-29.0600,23.7760
+1102,Douglas Family Practice,18 Campbell Street,Douglas,Northern Cape,8730,053 298 2350,Private,No,-29.0550,23.7690
+1103,Hopetown Clinic,4 Van der Walt Street,Hopetown,Northern Cape,8750,053 203 0290,Government,No,-29.6220,24.0840
+1104,Noupoort Community Health Centre,6 Church Street,Noupoort,Northern Cape,5950,049 842 0170,Government,No,-31.1910,24.9530
+1105,Rosedale Clinic,12 Rosedale Road,Upington,Northern Cape,8801,054 332 1680,Government,No,-28.4710,21.2680
+1106,Progress Clinic,5 Progress Street,Upington,Northern Cape,8801,054 338 2450,Government,No,-28.4450,21.2460
+1107,Upington Medical Centre,61 Schroder Street,Upington,Northern Cape,8801,054 331 2730,Private,No,-28.4610,21.2500
+1108,Schroder Street Family Practice,88 Schroder Street,Upington,Northern Cape,8801,054 332 3810,Private,No,-28.4590,21.2520
+1109,Paballelo Clinic,9 Dakota Road,Paballelo,Northern Cape,8809,054 338 4120,Government,No,-28.4270,21.2270
+1110,Paballelo Family Practice,21 Maduna Street,Paballelo,Northern Cape,8809,054 338 5310,Private,No,-28.4330,21.2340
+1111,Keimoes Clinic,7 Main Road,Keimoes,Northern Cape,8860,054 461 1320,Government,No,-28.7100,20.9810
+1112,Keimoes Family Practice,14 Kanoneiland Road,Keimoes,Northern Cape,8860,054 461 2180,Private,No,-28.7050,20.9750
+1113,Kakamas Clinic,9 Voortrekker Road,Kakamas,Northern Cape,8870,054 431 0620,Government,No,-28.7680,20.6130
+1114,Kakamas Medical Centre,25 Main Street,Kakamas,Northern Cape,8870,054 431 1150,Private,No,-28.7730,20.6180
+1115,Groblershoop Community Health Centre,3 Kerk Street,Groblershoop,Northern Cape,8850,054 833 0160,Government,No,-28.9030,21.9870
+1116,Kenhardt Clinic,6 Kerk Street,Kenhardt,Northern Cape,8900,054 651 0310,Government,No,-29.3470,21.1590
+1117,Postmasburg Clinic,11 Main Street,Postmasburg,Northern Cape,8420,053 313 1270,Government,No,-28.3270,23.0670
+1118,Boichoko Clinic,4 Mokwena Street,Postmasburg,Northern Cape,8420,053 313 2540,Government,No,-28.3400,23.0820
+1119,Postmasburg Medical Centre,28 Springbok Street,Postmasburg,Northern Cape,8420,053 313 3160,Private,No,-28.3280,23.0740
+1120,Danielskuil Community Health Centre,8 Barker Street,Danielskuil,Northern Cape,8405,053 384 0140,Government,No,-28.1860,23.5430
+1121,Danielskuil Family Practice,15 Main Street,Danielskuil,Northern Cape,8405,053 384 0820,Private,No,-28.1910,23.5480

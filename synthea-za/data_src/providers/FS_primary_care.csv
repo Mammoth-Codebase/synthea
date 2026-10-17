@@ -1,0 +1,75 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+FS-PC-001,Heidedal Community Health Centre,1 Heide Street,Bloemfontein,Free State,9301,051 121 7377,Government,No,-29.1340,26.2420
+FS-PC-002,Batho Clinic,12 Fort Hare Street,Bloemfontein,Free State,9301,051 122 5296,Government,No,-29.1270,26.2230
+FS-PC-003,Westdene Family Practice,42 Kellner Street,Bloemfontein,Free State,9301,051 123 3215,Private,No,-29.1125,26.2070
+FS-PC-004,Langenhoven Park Medical Centre,15 Westmead Road,Bloemfontein,Free State,9330,051 124 1134,Private,No,-29.0970,26.1640
+FS-PC-005,Fichardt Park Family Practice,64 Benade Drive,Bloemfontein,Free State,9317,051 124 9053,Private,No,-29.1535,26.1845
+FS-PC-006,Universitas Family Practice,9 Logeman Street,Bloemfontein,Free State,9321,051 125 6972,Private,No,-29.1120,26.1860
+FS-PC-007,MUCPP Community Health Centre,1 Moshoeshoe Road,Mangaung,Free State,9323,051 126 4891,Government,No,-29.1640,26.2610
+FS-PC-008,Rocklands Clinic,22 Rocklands Main Road,Mangaung,Free State,9323,051 127 2810,Government,No,-29.1700,26.2550
+FS-PC-009,Kagisanong Clinic,5 Mokhele Street,Mangaung,Free State,9323,051 128 0729,Government,No,-29.1600,26.2680
+FS-PC-010,Botshabelo Community Health Centre,1 Main Road,Botshabelo,Free State,9781,051 128 8648,Government,No,-29.2320,26.7200
+FS-PC-011,Botshabelo Section H Clinic,12 Section H Main Street,Botshabelo,Free State,9781,051 129 6567,Government,No,-29.2360,26.7120
+FS-PC-012,Thaba Nchu Clinic,10 Dr Moroka Road,Thaba Nchu,Free State,9780,051 130 4486,Government,No,-29.2180,26.8300
+FS-PC-013,Selosesha Clinic,8 Selosesha Road,Thaba Nchu,Free State,9780,051 131 2405,Government,No,-29.2100,26.8400
+FS-PC-014,Wepener Clinic,15 Church Street,Wepener,Free State,9944,051 132 0324,Government,No,-29.7340,27.0340
+FS-PC-015,Dewetsdorp Clinic,20 Voortrekker Street,Dewetsdorp,Free State,9940,051 132 8243,Government,No,-29.5840,26.6510
+FS-PC-016,Welkom Clinic,12 Stateway,Welkom,Free State,9459,057 133 6162,Government,No,-27.9820,26.7340
+FS-PC-017,Bronville Clinic,3 Bronville Road,Welkom,Free State,9469,057 134 4081,Government,No,-27.9540,26.7830
+FS-PC-018,Riebeeckstad Family Practice,24 Long Road,Welkom,Free State,9469,057 135 2000,Private,No,-27.9510,26.7850
+FS-PC-019,Welkom Medical Centre,88 Stateway,Welkom,Free State,9459,057 135 9919,Private,No,-27.9830,26.7300
+FS-PC-020,Thabong Community Health Centre,40 Mothusi Street,Thabong,Free State,9463,057 136 7838,Government,No,-27.9780,26.7920
+FS-PC-021,Bophelong Clinic,15 Mandela Street,Thabong,Free State,9463,057 137 5757,Government,No,-27.9830,26.7880
+FS-PC-022,Virginia Clinic,10 Church Street,Virginia,Free State,9430,057 138 3676,Government,No,-28.1020,26.8650
+FS-PC-023,Virginia Family Practice,31 Second Street,Virginia,Free State,9430,057 139 1595,Private,No,-28.0990,26.8690
+FS-PC-024,Meloding Clinic,5 Meloding Road,Meloding,Free State,9431,057 139 9514,Government,No,-28.0840,26.8340
+FS-PC-025,Odendaalsrus Clinic,14 Church Street,Odendaalsrus,Free State,9480,057 140 7433,Government,No,-27.8680,26.6820
+FS-PC-026,Odendaalsrus Family Practice,22 Kolbe Street,Odendaalsrus,Free State,9480,057 141 5352,Private,No,-27.8650,26.6850
+FS-PC-027,Kutlwanong Clinic,1 Kutlwanong Main Road,Kutlwanong,Free State,9482,057 142 3271,Government,No,-27.8610,26.7310
+FS-PC-028,Hennenman Clinic,9 Voortrekker Street,Hennenman,Free State,9445,057 143 1190,Government,No,-27.9680,27.0340
+FS-PC-029,Bultfontein Clinic,17 Voortrekker Street,Bultfontein,Free State,9670,051 143 9109,Government,No,-28.2840,26.1510
+FS-PC-030,Hoopstad Clinic,11 Mark Street,Hoopstad,Free State,9479,053 144 7028,Government,No,-27.8330,25.9180
+FS-PC-031,Boshof Clinic,6 Voortrekker Street,Boshof,Free State,8340,053 145 4947,Government,No,-28.5510,25.2510
+FS-PC-032,Winburg Clinic,5 Brand Street,Winburg,Free State,9420,051 146 2866,Government,No,-28.5180,26.9990
+FS-PC-033,Bethlehem Clinic,14 Pretorius Street,Bethlehem,Free State,9701,058 147 0785,Government,No,-28.2320,28.3020
+FS-PC-034,Bethlehem Family Practice,40 Commissioner Street,Bethlehem,Free State,9701,058 147 8704,Private,No,-28.2310,28.3080
+FS-PC-035,Dihlabeng Medical Centre,12 Cambridge Street,Bethlehem,Free State,9701,058 148 6623,Private,No,-28.2360,28.2960
+FS-PC-036,Bohlokong Clinic,3 Mokoena Street,Bohlokong,Free State,9702,058 149 4542,Government,No,-28.2190,28.3380
+FS-PC-037,Phuthaditjhaba Community Health Centre,2 Setsing Road,Phuthaditjhaba,Free State,9866,058 150 2461,Government,No,-28.5340,28.8150
+FS-PC-038,Bluegumbosch Clinic,1 Bluegumbosch Road,Phuthaditjhaba,Free State,9870,058 151 0380,Government,No,-28.5050,28.8450
+FS-PC-039,Maluti Medical Centre,18 Setsing Road,Phuthaditjhaba,Free State,9866,058 151 8299,Private,No,-28.5300,28.8200
+FS-PC-040,Harrismith Clinic,30 Southey Street,Harrismith,Free State,9880,058 152 6218,Government,No,-28.2680,29.1320
+FS-PC-041,Harrismith Family Practice,18 Piet Retief Street,Harrismith,Free State,9880,058 153 4137,Private,No,-28.2650,29.1350
+FS-PC-042,Intabazwe Clinic,5 Intabazwe Road,Intabazwe,Free State,9881,058 154 2056,Government,No,-28.2560,29.1410
+FS-PC-043,Tshiame Clinic,1 Tshiame Main Road,Tshiame,Free State,9882,058 154 9975,Government,No,-28.3010,29.0210
+FS-PC-044,Ficksburg Clinic,20 Voortrekker Street,Ficksburg,Free State,9730,051 155 7894,Government,No,-28.8670,27.8680
+FS-PC-045,Ficksburg Family Practice,9 Bloem Street,Ficksburg,Free State,9730,051 156 5813,Private,No,-28.8650,27.8650
+FS-PC-046,Meqheleng Clinic,4 Meqheleng Road,Meqheleng,Free State,9731,051 157 3732,Government,No,-28.8810,27.8510
+FS-PC-047,Ladybrand Clinic,25 Joubert Street,Ladybrand,Free State,9745,051 158 1651,Government,No,-29.2010,27.4490
+FS-PC-048,Ladybrand Medical Centre,14 Kerk Street,Ladybrand,Free State,9745,051 158 9570,Private,No,-29.1980,27.4520
+FS-PC-049,Clarens Clinic,8 Market Street,Clarens,Free State,9707,058 159 7489,Government,No,-28.5180,28.4180
+FS-PC-050,Clarens Family Practice,3 Church Street,Clarens,Free State,9707,058 160 5408,Private,No,-28.5150,28.4160
+FS-PC-051,Senekal Clinic,12 Kerk Street,Senekal,Free State,9600,058 161 3327,Government,No,-28.3170,27.6180
+FS-PC-052,Reitz Clinic,9 Church Street,Reitz,Free State,9810,058 162 1246,Government,No,-27.8020,28.4320
+FS-PC-053,Vrede Clinic,6 Theron Street,Vrede,Free State,9835,058 162 9165,Government,No,-27.4320,29.1680
+FS-PC-054,Warden Clinic,11 Jan Smuts Street,Warden,Free State,9890,058 163 7084,Government,No,-27.8510,28.9680
+FS-PC-055,Sasolburg Clinic,2 Fichardt Street,Sasolburg,Free State,1947,016 164 5003,Government,No,-26.8150,27.8190
+FS-PC-056,Vaalpark Family Practice,7 Grey Avenue,Sasolburg,Free State,1948,016 165 2922,Private,No,-26.7810,27.8420
+FS-PC-057,Sasolburg Medical Centre,15 Louis Trichardt Street,Sasolburg,Free State,1947,016 166 0841,Private,No,-26.8180,27.8150
+FS-PC-058,Zamdela Community Health Centre,1 Zamdela Main Road,Zamdela,Free State,1949,016 166 8760,Government,No,-26.8510,27.8520
+FS-PC-059,Kroonstad Clinic,18 Murray Street,Kroonstad,Free State,9499,056 167 6679,Government,No,-27.6510,27.2320
+FS-PC-060,Kroonstad Medical Centre,36 Reitz Street,Kroonstad,Free State,9499,056 168 4598,Private,No,-27.6540,27.2350
+FS-PC-061,Maokeng Community Health Centre,1 Maokeng Main Road,Maokeng,Free State,9501,056 169 2517,Government,No,-27.6310,27.2610
+FS-PC-062,Seeisoville Clinic,9 Seeisoville Road,Maokeng,Free State,9501,056 170 0436,Government,No,-27.6350,27.2650
+FS-PC-063,Parys Clinic,10 Bree Street,Parys,Free State,9585,056 170 8355,Government,No,-26.9010,27.4510
+FS-PC-064,Parys Family Practice,22 Philip Street,Parys,Free State,9585,056 171 6274,Private,No,-26.8990,27.4530
+FS-PC-065,Tumahole Clinic,3 Tumahole Road,Tumahole,Free State,9586,056 172 4193,Government,No,-26.9210,27.4810
+FS-PC-066,Heilbron Clinic,7 Elizabeth Street,Heilbron,Free State,9650,058 173 2112,Government,No,-27.2840,27.9650
+FS-PC-067,Frankfort Clinic,12 Dirkie Uys Street,Frankfort,Free State,9830,058 174 0031,Government,No,-27.2820,28.5020
+FS-PC-068,Viljoenskroon Clinic,20 Steyn Street,Viljoenskroon,Free State,9520,056 174 7950,Government,No,-27.2010,26.9510
+FS-PC-069,Rammulotsi Clinic,2 Rammulotsi Road,Viljoenskroon,Free State,9520,056 175 5869,Government,No,-27.2050,26.9450
+FS-PC-070,Koffiefontein Clinic,14 Groot Trek Street,Koffiefontein,Free State,9986,053 176 3788,Government,No,-29.4170,25.0010
+FS-PC-071,Jagersfontein Clinic,9 Lind Street,Jagersfontein,Free State,9974,051 177 1707,Government,No,-29.7680,25.4320
+FS-PC-072,Trompsburg Clinic,4 Bogues Street,Trompsburg,Free State,9913,051 177 9626,Government,No,-30.0340,25.7820
+FS-PC-073,Zastron Clinic,16 Main Street,Zastron,Free State,9950,051 178 7545,Government,No,-30.3010,27.0820
+FS-PC-074,Smithfield Clinic,21 Douglas Street,Smithfield,Free State,9966,051 179 5464,Government,No,-30.2180,26.5340

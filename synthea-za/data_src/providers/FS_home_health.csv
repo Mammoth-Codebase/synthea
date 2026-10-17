@@ -1,0 +1,5 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+FS-HH-001,Bloemfontein Home Nursing,36 Zastron Street,Bloemfontein,Free State,9301,051 174 1022,Private,No,-29.1190,26.2090
+FS-HH-002,Goldfields Home Nursing,45 Stateway,Welkom,Free State,9459,057 174 8941,Private,No,-27.9840,26.7310
+FS-HH-003,Eastern Free State Home Nursing,19 Commissioner Street,Bethlehem,Free State,9701,058 175 6860,Private,No,-28.2300,28.3070
+FS-HH-004,Vaal Home Care,30 Fichardt Street,Sasolburg,Free State,1947,016 176 4779,Private,No,-26.8160,27.8170

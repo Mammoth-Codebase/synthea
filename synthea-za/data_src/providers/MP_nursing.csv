@@ -1,0 +1,8 @@
+id,name,address,city,state,zip,phone,ownership,emergency,lat,lon
+MP-N-001,Huis Herfsvreugde,30 Paul Kruger Street,Mbombela,Mpumalanga,1200,013 752 2910,Private,No,-25.4655,30.9723
+MP-N-002,Huis Immergroen,18 Plumer Street,Emalahleni,Mpumalanga,1034,013 656 4511,Private,No,-25.8643,29.2354
+MP-N-003,Huis Eikelaan,40 Meyer Street,Middelburg,Mpumalanga,1055,013 282 4730,Private,No,-25.7820,29.4678
+MP-N-004,Huis Sorgvry,20 Fourie Street,Ermelo,Mpumalanga,2350,017 811 3344,Private,No,-26.5383,29.9773
+MP-N-005,Huis Sonskyn,7 Walter Sisulu Street,Secunda,Mpumalanga,2302,017 634 4262,Private,No,-26.5127,29.1960
+MP-N-006,White River Frail Care Centre,14 Hennie van Till Street,White River,Mpumalanga,1240,013 750 2190,Private,No,-25.3377,31.0147
+MP-N-007,Standerton Frail Care Centre,20 Charl Cilliers Street,Standerton,Mpumalanga,2430,017 712 4471,Private,No,-26.9460,29.2460
