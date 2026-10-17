@@ -1,0 +1,237 @@
+{
+  "default": {
+    "black": {
+      "zulu": 0.27,
+      "xhosa": 0.19,
+      "sepedi": 0.115,
+      "setswana": 0.095,
+      "sesotho": 0.09,
+      "xitsonga": 0.05,
+      "siswati": 0.035,
+      "tshivenda": 0.03,
+      "isindebele": 0.02,
+      "english": 0.03,
+      "afrikaans": 0.015,
+      "shona": 0.025,
+      "portuguese": 0.012,
+      "chichewa": 0.008,
+      "french": 0.005
+    },
+    "white": {
+      "afrikaans": 0.59,
+      "english": 0.39,
+      "german": 0.01,
+      "portuguese": 0.01
+    },
+    "other": {
+      "afrikaans": 0.74,
+      "english": 0.26
+    },
+    "asian": {
+      "english": 0.9,
+      "gujarati": 0.03,
+      "hindi": 0.02,
+      "tamil": 0.02,
+      "urdu": 0.015,
+      "telugu": 0.01,
+      "chinese": 0.005
+    },
+    "native": {
+      "english": 1.0
+    },
+    "hawaiian": {
+      "english": 1.0
+    },
+    "hispanic": {
+      "english": 1.0
+    }
+  },
+  "by_state": {
+    "Gauteng": {
+      "black": {
+        "zulu": 0.21,
+        "sepedi": 0.12,
+        "sesotho": 0.12,
+        "setswana": 0.1,
+        "xitsonga": 0.08,
+        "xhosa": 0.07,
+        "tshivenda": 0.05,
+        "isindebele": 0.03,
+        "siswati": 0.02,
+        "english": 0.05,
+        "afrikaans": 0.01,
+        "shona": 0.08,
+        "portuguese": 0.03,
+        "chichewa": 0.02,
+        "french": 0.01
+      },
+      "white": {
+        "afrikaans": 0.53,
+        "english": 0.44,
+        "german": 0.015,
+        "portuguese": 0.015
+      },
+      "other": {
+        "afrikaans": 0.55,
+        "english": 0.45
+      }
+    },
+    "KwaZulu-Natal": {
+      "black": {
+        "zulu": 0.9,
+        "xhosa": 0.04,
+        "english": 0.03,
+        "sesotho": 0.01,
+        "shona": 0.01,
+        "chichewa": 0.01
+      },
+      "white": {
+        "english": 0.8,
+        "afrikaans": 0.2
+      },
+      "other": {
+        "english": 0.85,
+        "afrikaans": 0.15
+      },
+      "asian": {
+        "english": 0.9,
+        "tamil": 0.03,
+        "hindi": 0.03,
+        "gujarati": 0.02,
+        "urdu": 0.015,
+        "telugu": 0.005
+      }
+    },
+    "Western Cape": {
+      "black": {
+        "xhosa": 0.84,
+        "sesotho": 0.03,
+        "zulu": 0.03,
+        "english": 0.03,
+        "shona": 0.04,
+        "french": 0.01,
+        "chichewa": 0.01,
+        "portuguese": 0.01
+      },
+      "white": {
+        "afrikaans": 0.5,
+        "english": 0.48,
+        "german": 0.02
+      },
+      "other": {
+        "afrikaans": 0.76,
+        "english": 0.24
+      }
+    },
+    "Eastern Cape": {
+      "black": {
+        "xhosa": 0.92,
+        "sesotho": 0.04,
+        "zulu": 0.02,
+        "english": 0.02
+      },
+      "white": {
+        "english": 0.6,
+        "afrikaans": 0.4
+      },
+      "other": {
+        "afrikaans": 0.75,
+        "english": 0.25
+      }
+    },
+    "Limpopo": {
+      "black": {
+        "sepedi": 0.6,
+        "xitsonga": 0.19,
+        "tshivenda": 0.18,
+        "zulu": 0.01,
+        "shona": 0.015,
+        "english": 0.005
+      },
+      "white": {
+        "afrikaans": 0.85,
+        "english": 0.15
+      },
+      "other": {
+        "afrikaans": 0.7,
+        "english": 0.3
+      }
+    },
+    "Mpumalanga": {
+      "black": {
+        "siswati": 0.32,
+        "zulu": 0.3,
+        "isindebele": 0.12,
+        "xitsonga": 0.12,
+        "sepedi": 0.1,
+        "sesotho": 0.02,
+        "portuguese": 0.01,
+        "english": 0.01
+      },
+      "white": {
+        "afrikaans": 0.8,
+        "english": 0.2
+      },
+      "other": {
+        "afrikaans": 0.7,
+        "english": 0.3
+      }
+    },
+    "North West": {
+      "black": {
+        "setswana": 0.75,
+        "sesotho": 0.07,
+        "xhosa": 0.06,
+        "zulu": 0.03,
+        "xitsonga": 0.03,
+        "sepedi": 0.03,
+        "english": 0.01,
+        "shona": 0.02
+      },
+      "white": {
+        "afrikaans": 0.88,
+        "english": 0.12
+      },
+      "other": {
+        "afrikaans": 0.85,
+        "english": 0.15
+      }
+    },
+    "Free State": {
+      "black": {
+        "sesotho": 0.72,
+        "setswana": 0.1,
+        "xhosa": 0.09,
+        "zulu": 0.05,
+        "english": 0.02,
+        "shona": 0.02
+      },
+      "white": {
+        "afrikaans": 0.9,
+        "english": 0.1
+      },
+      "other": {
+        "afrikaans": 0.9,
+        "english": 0.1
+      }
+    },
+    "Northern Cape": {
+      "black": {
+        "setswana": 0.56,
+        "afrikaans": 0.2,
+        "xhosa": 0.15,
+        "sesotho": 0.05,
+        "english": 0.02,
+        "zulu": 0.02
+      },
+      "white": {
+        "afrikaans": 0.9,
+        "english": 0.1
+      },
+      "other": {
+        "afrikaans": 0.93,
+        "english": 0.07
+      }
+    }
+  }
+}

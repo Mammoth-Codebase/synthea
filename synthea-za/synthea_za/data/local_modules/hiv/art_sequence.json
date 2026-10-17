@@ -1,0 +1,282 @@
+{
+  "name": "art_sequence",
+  "remarks": [
+    "South African replacement for Synthea's hiv/art_sequence submodule (synthea-za).",
+    "Chooses the public sector antiretroviral regimen in force at the time of the visit. Before April 2004 no antiretroviral therapy was available in the public sector; a small minority with private cover received dual or triple therapy, which is ignored here.",
+    "When the era changes the previous regimen is stopped (hiv/stop_all_art_meds) and the new one started. About 12% of people move to second line therapy after failing first line."
+  ],
+  "states": {
+    "Initial": {
+      "type": "Initial",
+      "conditional_transition": [
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "pregnant",
+            "operator": "==",
+            "value": true
+          }
+        },
+        {
+          "transition": "Second Line Check"
+        }
+      ]
+    },
+    "Terminal": {
+      "type": "Terminal"
+    },
+    "Second Line Check": {
+      "type": "Simple",
+      "complex_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_second_line",
+            "operator": "is not nil"
+          },
+          "transition": "Year Check"
+        },
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_year",
+            "operator": "is nil"
+          },
+          "transition": "Year Check"
+        },
+        {
+          "distributions": [
+            {
+              "distribution": 0.02,
+              "transition": "Set Second Line"
+            },
+            {
+              "distribution": 0.98,
+              "transition": "Year Check"
+            }
+          ]
+        }
+      ]
+    },
+    "Set Second Line": {
+      "type": "SetAttribute",
+      "attribute": "art_second_line",
+      "value": true,
+      "direct_transition": "Stop For Second Line"
+    },
+    "Stop For Second Line": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/stop_all_art_meds",
+      "direct_transition": "Reset Year"
+    },
+    "Reset Year": {
+      "type": "SetAttribute",
+      "attribute": "art_year",
+      "value": 0,
+      "direct_transition": "Year Check"
+    },
+    "Year Check": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "Check 2019",
+          "condition": {
+            "condition_type": "Date",
+            "operator": ">=",
+            "date": {
+              "year": 2019,
+              "month": 12,
+              "day": 1,
+              "hour": 0,
+              "minute": 0,
+              "second": 0,
+              "millisecond": 0
+            }
+          }
+        },
+        {
+          "transition": "Check 2013",
+          "condition": {
+            "condition_type": "Date",
+            "operator": ">=",
+            "date": {
+              "year": 2013,
+              "month": 4,
+              "day": 1,
+              "hour": 0,
+              "minute": 0,
+              "second": 0,
+              "millisecond": 0
+            }
+          }
+        },
+        {
+          "transition": "Check 2010",
+          "condition": {
+            "condition_type": "Date",
+            "operator": ">=",
+            "year": 2010
+          }
+        },
+        {
+          "transition": "Check 2004",
+          "condition": {
+            "condition_type": "Date",
+            "operator": ">=",
+            "date": {
+              "year": 2004,
+              "month": 4,
+              "day": 1,
+              "hour": 0,
+              "minute": 0,
+              "second": 0,
+              "millisecond": 0
+            }
+          }
+        },
+        {
+          "transition": "Set Zero"
+        }
+      ]
+    },
+    "Set Zero": {
+      "type": "SetAttribute",
+      "attribute": "art_year",
+      "value": 0,
+      "direct_transition": "Terminal"
+    },
+    "Check 2004": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_year",
+            "operator": ">=",
+            "value": 2004
+          }
+        },
+        {
+          "transition": "Stop All 2004"
+        }
+      ]
+    },
+    "Stop All 2004": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/stop_all_art_meds",
+      "direct_transition": "Regimen 2004"
+    },
+    "Regimen 2004": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/art_sequence_za_2004",
+      "direct_transition": "Set 2004"
+    },
+    "Set 2004": {
+      "type": "SetAttribute",
+      "attribute": "art_year",
+      "value": 2004,
+      "direct_transition": "Terminal"
+    },
+    "Check 2010": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_year",
+            "operator": ">=",
+            "value": 2010
+          }
+        },
+        {
+          "transition": "Stop All 2010"
+        }
+      ]
+    },
+    "Stop All 2010": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/stop_all_art_meds",
+      "direct_transition": "Regimen 2010"
+    },
+    "Regimen 2010": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/art_sequence_za_2010",
+      "direct_transition": "Set 2010"
+    },
+    "Set 2010": {
+      "type": "SetAttribute",
+      "attribute": "art_year",
+      "value": 2010,
+      "direct_transition": "Terminal"
+    },
+    "Check 2013": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_year",
+            "operator": ">=",
+            "value": 2013
+          }
+        },
+        {
+          "transition": "Stop All 2013"
+        }
+      ]
+    },
+    "Stop All 2013": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/stop_all_art_meds",
+      "direct_transition": "Regimen 2013"
+    },
+    "Regimen 2013": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/art_sequence_za_2013",
+      "direct_transition": "Set 2013"
+    },
+    "Set 2013": {
+      "type": "SetAttribute",
+      "attribute": "art_year",
+      "value": 2013,
+      "direct_transition": "Terminal"
+    },
+    "Check 2019": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "transition": "Terminal",
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "art_year",
+            "operator": ">=",
+            "value": 2019
+          }
+        },
+        {
+          "transition": "Stop All 2019"
+        }
+      ]
+    },
+    "Stop All 2019": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/stop_all_art_meds",
+      "direct_transition": "Regimen 2019"
+    },
+    "Regimen 2019": {
+      "type": "CallSubmodule",
+      "submodule": "hiv/art_sequence_za_2019",
+      "direct_transition": "Set 2019"
+    },
+    "Set 2019": {
+      "type": "SetAttribute",
+      "attribute": "art_year",
+      "value": 2019,
+      "direct_transition": "Terminal"
+    }
+  }
+}

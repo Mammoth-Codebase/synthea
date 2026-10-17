@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "synthea-za"
+version = "0.1.0"
+description = "South African synthetic patient population generator built on Synthea, producing FHIR R4 bundles for InterSystems HealthShare"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+dependencies = []
+
+[project.scripts]
+synthea-za = "synthea_za.cli:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=7"]
+
+[tool.setuptools.packages.find]
+include = ["synthea_za*"]
+
+[tool.setuptools.package-data]
+synthea_za = ["data/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

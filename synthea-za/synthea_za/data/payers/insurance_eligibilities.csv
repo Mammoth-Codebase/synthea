@@ -1,0 +1,5 @@
+Name,Poverty Multiplier,Income Threshold,Age Threshold,Qualifying Codes,Qualifying Attributes,Poverty Multiplier File,Spenddown File,Acceptance Likelihood,Sub-Eligibilities,Logical Operator,Notes
+PublicSector,,,0,,,,,,,and,Every resident may use public sector facilities
+MedicalScheme,,,0,,,,,0.55,,and,Scheme membership is limited by affordability and employer cover
+PublicServant,,,18,,,,,0.14,,and,Approximates the share of employed adults working for the state
+PoliceService,,,18,,,,,0.02,,and,Approximates the share of adults in the police service

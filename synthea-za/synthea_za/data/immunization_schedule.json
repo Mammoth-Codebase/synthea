@@ -1,0 +1,149 @@
+{
+  "bcg": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "19",
+      "display": "BCG"
+    },
+    "at_months": [
+      0
+    ],
+    "first_available": 1973
+  },
+  "opv": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "02",
+      "display": "OPV"
+    },
+    "at_months": [
+      0,
+      1.5
+    ],
+    "first_available": 1973
+  },
+  "rv_mono": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "119",
+      "display": "rotavirus, monovalent"
+    },
+    "at_months": [
+      1.5,
+      3.5
+    ],
+    "first_available": 2009
+  },
+  "hexavalent": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "146",
+      "display": "DTaP,IPV,Hib,HepB"
+    },
+    "remark": "Hexaxim (DTaP-IPV-Hib-HepB) replaced the pentavalent plus hepatitis B schedule in 2015; the combined code is used from 2009 for simplicity",
+    "at_months": [
+      1.5,
+      2.5,
+      3.5,
+      18
+    ],
+    "first_available": 2009
+  },
+  "pcv": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "133",
+      "display": "Pneumococcal conjugate PCV 13"
+    },
+    "at_months": [
+      1.5,
+      3.5,
+      9
+    ],
+    "first_available": 2009
+  },
+  "measles": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "05",
+      "display": "measles"
+    },
+    "at_months": [
+      6,
+      12
+    ],
+    "first_available": 1975
+  },
+  "td": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "113",
+      "display": "Td (adult) preservative free"
+    },
+    "at_months": [
+      72,
+      144
+    ],
+    "first_available": 1995
+  },
+  "hpv": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "118",
+      "display": "HPV, bivalent"
+    },
+    "remark": "School based programme for girls in grade 4 from 2014 using the bivalent vaccine; Synthea applies schedules to all children so the module gives one dose series around age nine",
+    "at_months": [
+      108,
+      114
+    ],
+    "first_available": 2014
+  },
+  "influenza": {
+    "code": {
+      "system": "http://hl7.org/fhir/sid/cvx",
+      "code": "140",
+      "display": "Influenza, seasonal, injectable, preservative free"
+    },
+    "remark": "annual influenza vaccination offered to adults over 65 and high risk groups",
+    "at_months": [
+      780,
+      792,
+      804,
+      816,
+      828,
+      840,
+      852,
+      864,
+      876,
+      888,
+      900,
+      912,
+      924,
+      936,
+      948,
+      960,
+      972,
+      984,
+      996,
+      1008,
+      1020,
+      1032,
+      1044,
+      1056,
+      1068,
+      1080,
+      1092,
+      1104,
+      1116,
+      1128,
+      1140,
+      1152,
+      1164,
+      1176,
+      1188,
+      1200
+    ],
+    "first_available": 2000
+  }
+}

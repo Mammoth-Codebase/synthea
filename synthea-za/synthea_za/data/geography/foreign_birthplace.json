@@ -1,0 +1,7 @@
+{
+  "shona": ["Harare,Harare,ZW", "Bulawayo,Bulawayo,ZW", "Masvingo,Masvingo,ZW", "Mutare,Manicaland,ZW", "Gweru,Midlands,ZW", "Chitungwiza,Harare,ZW"],
+  "portuguese": ["Maputo,Maputo,MZ", "Matola,Maputo,MZ", "Beira,Sofala,MZ", "Xai-Xai,Gaza,MZ", "Inhambane,Inhambane,MZ", "Luanda,Luanda,AO", "Lisbon,Lisbon,PT", "Funchal,Madeira,PT"],
+  "chichewa": ["Lilongwe,Central Region,MW", "Blantyre,Southern Region,MW", "Zomba,Southern Region,MW", "Mzuzu,Northern Region,MW"],
+  "french": ["Kinshasa,Kinshasa,CD", "Lubumbashi,Haut-Katanga,CD", "Bukavu,South Kivu,CD", "Yaounde,Centre,CM", "Douala,Littoral,CM"],
+  "german": ["Windhoek,Khomas,NA", "Swakopmund,Erongo,NA", "Hamburg,Hamburg,DE", "Munich,Bavaria,DE"]
+}

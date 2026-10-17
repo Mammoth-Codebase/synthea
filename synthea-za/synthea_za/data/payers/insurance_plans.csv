@@ -1,0 +1,16 @@
+Payer Id,Plan Id,Name,Services Covered,Deductible,Default Coinsurance,Default Copay,Monthly Premium,Max Out of Pocket,Medicare Supplement,Is ACA Plan,Income Based Premium,Eligibility Policy,Start Year,End Year,Priority Level,Notes
+10000,10001,Public Health Services,*,0,0,0,0,0,false,false,false,PublicSector,0,,5,Free primary health care and means-tested hospital fees under the Uniform Patient Fee Schedule
+40000,40001,Discovery Health KeyCare,*,0,0,10,90,3000,false,false,false,MedicalScheme,0,,1,Entry level network option
+40000,40002,Discovery Health Classic Saver,*,400,0.8,0,220,6000,false,false,false,MedicalScheme,0,,1,Savings based option
+40000,40003,Discovery Health Comprehensive,*,100,0.9,0,420,8000,false,false,false,MedicalScheme,0,,1,Comprehensive option
+41000,41001,GEMS Tanzanite One,*,0,0,10,75,3000,false,false,false,PublicServant,0,,1,Public servants only
+41000,41002,GEMS Emerald,*,200,0.85,0,210,6000,false,false,false,PublicServant,0,,1,Public servants only
+42000,42001,Bonitas BonEssential,*,0,0,10,95,3000,false,false,false,MedicalScheme,0,,1,Hospital plan
+42000,42002,Bonitas BonComprehensive,*,300,0.85,0,330,7000,false,false,false,MedicalScheme,0,,1,
+43000,43001,Momentum Ingwe,*,0,0,10,80,3000,false,false,false,MedicalScheme,0,,1,Network option
+43000,43002,Momentum Custom,*,350,0.8,0,190,6000,false,false,false,MedicalScheme,0,,1,
+44000,44001,Medihelp MedVital,*,0,0,10,85,3000,false,false,false,MedicalScheme,0,,1,
+45000,45001,Bestmed Beat,*,250,0.8,0,150,5000,false,false,false,MedicalScheme,0,,1,
+46000,46001,Polmed Aquarium,*,0,0.9,0,180,5000,false,false,false,PoliceService,0,,1,Police service members only
+47000,47001,Fedhealth flexiFED,*,350,0.8,0,170,6000,false,false,false,MedicalScheme,0,,1,
+48000,48001,Medshield MediValue,*,0,0,10,110,4000,false,false,false,MedicalScheme,0,,1,
