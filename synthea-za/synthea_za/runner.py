@@ -57,13 +57,20 @@ def ensure_java(java: str) -> str:
     return resolved
 
 
+# files Gradle itself writes under src/main on every invocation (also for tests), which must
+# not make the jar look older than the sources
+GENERATED_SOURCES = {"version.txt"}
+
+
 def jar_is_stale(jar: Path, sources: Path = SYNTHEA_ROOT / "src" / "main") -> bool:
     """True when any Synthea source or resource file is newer than the built jar."""
     if not jar.is_file() or not sources.is_dir():
         return False
     built = jar.stat().st_mtime
     for path in sources.rglob("*"):
-        if path.is_file() and path.stat().st_mtime > built:
+        if path.name in GENERATED_SOURCES or not path.is_file():
+            continue
+        if path.stat().st_mtime > built:
             return True
     return False
 

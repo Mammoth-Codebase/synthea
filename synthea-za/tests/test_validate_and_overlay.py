@@ -68,3 +68,26 @@ def test_module_overrides_keys_are_escaped_for_java_properties():
         assert "\\:\\:" in key, key
         unescaped = key.replace("\\:", "").replace("\\ ", "").replace("\\=", "")
         assert ":" not in unescaped and " " not in unescaped, key
+
+
+def test_jar_is_stale_ignores_generated_version_file(tmp_path):
+    import os
+    import time
+    from synthea_za.runner import jar_is_stale
+    sources = tmp_path / "src" / "main"
+    (sources / "java").mkdir(parents=True)
+    (sources / "resources").mkdir()
+    old = time.time() - 100
+    source = sources / "java" / "Foo.java"
+    source.write_text("class Foo {}")
+    os.utime(source, (old, old))
+    jar = tmp_path / "synthea.jar"
+    jar.write_bytes(b"jar")
+    os.utime(jar, (old + 10, old + 10))
+    assert jar_is_stale(jar, sources) is False
+    version = sources / "resources" / "version.txt"
+    version.write_text("v1")  # written by every Gradle run, must not count
+    assert jar_is_stale(jar, sources) is False
+    source.write_text("class Foo { int x; }")  # now newer than the jar
+    assert jar_is_stale(jar, sources) is True
+    assert jar_is_stale(tmp_path / "missing.jar", sources) is False
