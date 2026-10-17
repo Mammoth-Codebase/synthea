@@ -36,6 +36,9 @@ def make_bundle():
                           "item": [{"net": {"value": 10.5, "currency": "USD"}}]}},
             {"resource": {"resourceType": "Practitioner", "id": "pr1",
                           "identifier": [{"system": "http://hl7.org/fhir/sid/us-npi", "value": "9999999896"}]}},
+            {"resource": {"resourceType": "Encounter", "id": "e1",
+                          "participant": [{"individual": {"reference": "Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|9999999896", "display": "Dr. Thabo Mokoena"}}],
+                          "serviceProvider": {"reference": "Organization?identifier=https://github.com/synthetichealth/synthea|abc", "display": "Zola CHC"}}},
         ],
     }
 
@@ -65,6 +68,11 @@ def test_transform_bundle_rewrites_identifiers_phones_money_and_units():
     assert practitioner["identifier"][0]["system"].startswith("http://www.hpcsa.co.za")
     assert practitioner["identifier"][0]["value"].startswith("MP ")
     assert stats.patients == 1 and stats.money_converted == 2 and stats.observations_converted == 1
+    encounter = bundle["entry"][5]["resource"]
+    reference = encounter["participant"][0]["individual"]["reference"]
+    assert reference == f"Practitioner?identifier={practitioner['identifier'][0]['system']}|{practitioner['identifier'][0]['value']}"
+    assert encounter["serviceProvider"]["reference"].startswith("Organization?identifier=https://github.com")
+    assert stats.references_rewritten == 1
 
 
 def test_transform_is_idempotent_and_options_can_disable_steps():

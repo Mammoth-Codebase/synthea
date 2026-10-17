@@ -47,6 +47,7 @@ class PostProcessStats:
     observations_converted: int = 0
     practitioners_rewritten: int = 0
     skipped_deceased: int = 0
+    references_rewritten: int = 0
     files: List[str] = field(default_factory=list)
 
     def as_dict(self) -> Dict[str, Any]:
@@ -59,6 +60,7 @@ class PostProcessStats:
             "observations_converted": self.observations_converted,
             "practitioners_rewritten": self.practitioners_rewritten,
             "skipped_deceased": self.skipped_deceased,
+            "references_rewritten": self.references_rewritten,
         }
 
 
@@ -134,7 +136,7 @@ def rewrite_practitioner(resource: Dict[str, Any], options: PostProcessOptions,
     for identifier in resource.get("identifier", []):
         if identifier.get("system") == US_NPI_SYSTEM:
             identifier["system"] = options.practitioner_system
-            identifier["value"] = hpcsa_registration(str(identifier.get("value", resource.get("id"))))
+            identifier["value"] = hpcsa_registration(str(identifier.get("value", "")))
             identifier["type"] = {
                 "coding": [{"system": V2_0203, "code": "PRN", "display": "Provider number"}],
                 "text": "HPCSA registration number",
@@ -142,6 +144,41 @@ def rewrite_practitioner(resource: Dict[str, Any], options: PostProcessOptions,
             changed = True
     if changed:
         stats.practitioners_rewritten += 1
+
+
+NPI_REFERENCE = re.compile(r"^(Practitioner|PractitionerRole)\?identifier=" + re.escape(US_NPI_SYSTEM) + r"\|(\d+)$")
+
+
+def rewrite_practitioner_references(node: Any, options: PostProcessOptions) -> int:
+    """Rewrite conditional references that point at practitioners by their US NPI.
+
+    Synthea links encounters, claims and other resources to practitioners with
+    ``Practitioner?identifier=http://hl7.org/fhir/sid/us-npi|<npi>``. The practitioner
+    resources receive HPCSA style identifiers, so the references must follow or a FHIR
+    server could not resolve them.
+    """
+    changed = 0
+    if isinstance(node, dict):
+        reference = node.get("reference")
+        if isinstance(reference, str):
+            match = NPI_REFERENCE.match(reference)
+            if match:
+                node["reference"] = (f"{match.group(1)}?identifier={options.practitioner_system}|"
+                                     f"{hpcsa_registration(match.group(2))}")
+                changed += 1
+        identifier = node.get("identifier")
+        if isinstance(identifier, dict) and identifier.get("system") == US_NPI_SYSTEM \
+                and isinstance(identifier.get("value"), str) and "type" not in node:
+            # a Reference.identifier (logical reference) to a practitioner
+            identifier["system"] = options.practitioner_system
+            identifier["value"] = hpcsa_registration(identifier["value"])
+            changed += 1
+        for value in node.values():
+            changed += rewrite_practitioner_references(value, options)
+    elif isinstance(node, list):
+        for value in node:
+            changed += rewrite_practitioner_references(value, options)
+    return changed
 
 
 def convert_money(node: Any, options: PostProcessOptions, stats: PostProcessStats) -> None:
@@ -228,6 +265,7 @@ def transform_bundle(bundle: Dict[str, Any], options: PostProcessOptions,
             add_meta_tag(resource, options.meta_tag)
     if options.currency:
         convert_money(bundle, options, stats)
+    stats.references_rewritten += rewrite_practitioner_references(bundle, options)
     return bundle
 
 
