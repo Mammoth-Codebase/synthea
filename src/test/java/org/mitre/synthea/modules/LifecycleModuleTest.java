@@ -6,6 +6,7 @@ import org.junit.AfterClass;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.mitre.synthea.helpers.Config;
 import org.mitre.synthea.helpers.PhysiologyValueGenerator;
 import org.mitre.synthea.helpers.Utilities;
 import org.mitre.synthea.world.agents.Person;
@@ -22,6 +23,27 @@ public class LifecycleModuleTest {
   @AfterClass
   public static void after() {
     LifecycleModule.ENABLE_DEATH_BY_NATURAL_CAUSES = deathByNaturalCauses;
+  }
+
+  @Test
+  public void testConfiguredProbabilityPrefersGenderSpecificKey() {
+    String key = "lifecycle.test.probability";
+    try {
+      assertEquals(0.3, LifecycleModule.configuredProbability(key, "M", 0.3), 0.0);
+      Config.set(key, "0.2");
+      assertEquals(0.2, LifecycleModule.configuredProbability(key, "M", 0.3), 0.0);
+      assertEquals(0.2, LifecycleModule.configuredProbability(key, null, 0.3), 0.0);
+      Config.set(key + ".female", "0.05");
+      assertEquals(0.2, LifecycleModule.configuredProbability(key, "M", 0.3), 0.0);
+      assertEquals(0.05, LifecycleModule.configuredProbability(key, "F", 0.3), 0.0);
+      // a negative gender specific value falls back to the generic key
+      Config.set(key + ".male", "-1");
+      assertEquals(0.2, LifecycleModule.configuredProbability(key, "M", 0.3), 0.0);
+    } finally {
+      Config.remove(key);
+      Config.remove(key + ".male");
+      Config.remove(key + ".female");
+    }
   }
 
   @Test

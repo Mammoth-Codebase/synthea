@@ -113,6 +113,16 @@ public class Immunizations {
       return -1;
     }
 
+    // Don't administer if the schedule restricts the immunization to one gender
+    // (e.g. HPV programmes that vaccinate girls only)
+    Object gender = schedule.get("gender");
+    if (gender != null) {
+      String personGender = String.valueOf(person.attributes.get(Person.GENDER));
+      if (!gender.toString().equalsIgnoreCase(personGender)) {
+        return -1;
+      }
+    }
+
     // Don't administer if all recommended doses have already been given
     List atMonths = new ArrayList((List) schedule.get("at_months"));
     if (history.size() >= atMonths.size()) {

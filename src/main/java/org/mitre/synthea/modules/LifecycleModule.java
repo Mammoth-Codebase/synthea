@@ -1074,33 +1074,46 @@ public final class LifecycleModule extends Module {
     // http://www.cdc.gov/tobacco/data_statistics/fact_sheets/youth_data/tobacco_use/
     if (person.attributes.get(Person.SMOKER) == null && person.ageInYears(time) == 16) {
       int year = Utilities.getYear(time);
-      Boolean smoker = person.rand() < likelihoodOfBeingASmoker(year);
+      String gender = (String) person.attributes.get(Person.GENDER);
+      Boolean smoker = person.rand() < likelihoodOfBeingASmoker(year, gender);
       person.attributes.put(Person.SMOKER, smoker);
       double quitSmokingBaseline = Config.getAsDouble("lifecycle.quit_smoking.baseline", 0.01);
       person.attributes.put(LifecycleModule.QUIT_SMOKING_PROBABILITY, quitSmokingBaseline);
     }
   }
 
-  private static double likelihoodOfBeingASmoker(int year) {
-    // 16.1% of MA are smokers in 2016.
-    // http://www.cdc.gov/tobacco/data_statistics/state_data/state_highlights/2010/states/massachusetts/
-    // but the rate is decreasing over time
-    // http://www.cdc.gov/tobacco/data_statistics/tables/trends/cig_smoking/
-    // selected #s:
-    // 1965 - 42.4%
-    // 1975 - 37.1%
-    // 1985 - 30.1%
-    // 1995 - 24.7%
-    // 2005 - 20.9%
-    // 2015 - 16.1%
-    // assume that it was never significantly higher than 42% pre-1960s, but will continue to drop
-    // slowly after 2016
-    // it's decreasing about .5% per year
+  private static double likelihoodOfBeingASmoker(int year, String gender) {
+    // an explicit probability (for populations other than the US) overrides the US trend,
+    // which follows CDC state smoking statistics: 42.4% in 1965 declining linearly since
+    double configured = configuredProbability("lifecycle.smoking.probability", gender, -1.0);
+    if (configured >= 0.0) {
+      return configured;
+    }
     if (year < 1965) {
       return 0.424;
     }
 
     return ((year * -0.4865) + 996.41) / 100.0;
+  }
+
+  /**
+   * Look up a configured lifecycle probability, preferring a gender specific key
+   * ({@code key.male} or {@code key.female}) over the generic key when one is set to a
+   * value of zero or more.
+   * @param key the generic property name, e.g. "lifecycle.smoking.probability"
+   * @param gender the person's gender, "M" or "F" (may be null)
+   * @param defaultValue the value to use when no key is configured
+   * @return the configured probability
+   */
+  static double configuredProbability(String key, String gender, double defaultValue) {
+    if (gender != null) {
+      String suffix = "M".equalsIgnoreCase(gender) ? ".male" : ".female";
+      double specific = Config.getAsDouble(key + suffix, -1.0);
+      if (specific >= 0.0) {
+        return specific;
+      }
+    }
+    return Config.getAsDouble(key, defaultValue);
   }
 
   private static void startAlcoholism(Person person, long time) {
@@ -1109,7 +1122,10 @@ public final class LifecycleModule extends Module {
     // https://www.therecoveryvillage.com/alcohol-abuse/types-alcoholics/
     if (person.attributes.get(Person.ALCOHOLIC) == null && person.ageInYears(time) == 25) {
       // assume about 8 mil alcoholics/320 mil gen pop
-      Boolean alcoholic = person.rand() < 0.025;
+      String gender = (String) person.attributes.get(Person.GENDER);
+      double alcoholismProbability =
+          configuredProbability("lifecycle.alcoholism.probability", gender, 0.025);
+      Boolean alcoholic = person.rand() < alcoholismProbability;
       person.attributes.put(Person.ALCOHOLIC, alcoholic);
       double quitAlcoholismBaseline =
               Config.getAsDouble("lifecycle.quit_alcoholism.baseline", 0.05);

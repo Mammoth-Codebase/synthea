@@ -46,7 +46,7 @@ public abstract class ExportHelper {
       value = ((Code)observation.value).display;
     } else if (observation.value instanceof String) {
       value = (String)observation.value;
-    } else if (observation.value instanceof Double) {
+    } else if (observation.value instanceof Number) {
       // round to 1 decimal place for display
       value = String.format(Locale.US, "%.1f", observation.value);
     } else if (observation.value instanceof SampledData) {
@@ -148,7 +148,7 @@ public abstract class ExportHelper {
       type = "text";
     } else if (observation.value instanceof String) {
       type = "text";
-    } else if (observation.value instanceof Double) {
+    } else if (observation.value instanceof Number) {
       type = "numeric";
     } else if (observation.value instanceof Boolean) {
       type = "boolean";
