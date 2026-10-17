@@ -816,6 +816,11 @@ public abstract class State implements Cloneable, Serializable {
         value = data;
       } else if (distribution != null) {
         value = distribution.generate(person);
+        if (Boolean.TRUE.equals(distribution.round)) {
+          // a rounded distribution describes a whole number (for example a disease stage):
+          // store it as an Integer so consumers that expect integers keep working
+          value = (int) Math.round((double) value);
+        }
       } else if (valueCode != null) {
         value = valueCode;
       } else if (valueAttribute != null) {

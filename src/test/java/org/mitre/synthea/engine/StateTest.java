@@ -638,6 +638,18 @@ public class StateTest {
   }
 
   @Test
+  public void setAttribute_with_rounded_distribution_is_integer() throws Exception {
+    Module module = TestHelper.getFixture("set_attribute.json");
+    person.attributes.remove("Kidney Damage Stage");
+    State set6 = module.getState("Set_Attribute_6");
+    assertTrue(set6.process(person, time));
+    Object stage = person.attributes.get("Kidney Damage Stage");
+    assertTrue("rounded distributions should produce integers", stage instanceof Integer);
+    int value = (Integer) stage;
+    assertTrue(value >= 1 && value <= 4);
+  }
+
+  @Test
   public void setAttribute_without_value() throws Exception {
     Module module = TestHelper.getFixture("set_attribute.json");
 
