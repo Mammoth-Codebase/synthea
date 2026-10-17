@@ -21,7 +21,7 @@ import shutil
 from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Set, Tuple
+from typing import Any, Callable, Dict, Iterable, List, Optional, Set, Tuple
 
 from synthea_za.config import PostProcessOptions
 from synthea_za.sa_id import (hpcsa_registration, south_african_id, south_african_mobile,
@@ -46,6 +46,7 @@ class PostProcessStats:
     money_converted: int = 0
     observations_converted: int = 0
     practitioners_rewritten: int = 0
+    skipped_deceased: int = 0
     files: List[str] = field(default_factory=list)
 
     def as_dict(self) -> Dict[str, Any]:
@@ -57,6 +58,7 @@ class PostProcessStats:
             "money_converted": self.money_converted,
             "observations_converted": self.observations_converted,
             "practitioners_rewritten": self.practitioners_rewritten,
+            "skipped_deceased": self.skipped_deceased,
         }
 
 
@@ -234,15 +236,43 @@ def is_patient_bundle(path: Path) -> bool:
     return not (name.startswith("hospitalInformation") or name.startswith("practitionerInformation"))
 
 
+def patient_of(bundle: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    for entry in bundle.get("entry", []):
+        resource = entry.get("resource", {})
+        if resource.get("resourceType") == "Patient":
+            return resource
+    return None
+
+
+def died_before(bundle: Dict[str, Any], cutoff: date) -> bool:
+    """True when the bundle's patient died before ``cutoff``.
+
+    Synthea exports people who died long before the history window with an almost empty
+    record; a demo corpus normally wants only the living and the recently deceased.
+    """
+    patient = patient_of(bundle)
+    if not patient or not patient.get("deceasedDateTime"):
+        return False
+    return date.fromisoformat(patient["deceasedDateTime"][:10]) < cutoff
+
+
 def process_files(files: Iterable[Tuple[Path, Path]], options: PostProcessOptions,
                   used_ids: Optional[Set[str]] = None,
-                  stats: Optional[PostProcessStats] = None) -> PostProcessStats:
-    """Transform each ``(source, target)`` pair of bundle files."""
+                  stats: Optional[PostProcessStats] = None,
+                  skip: Optional[Callable[[Dict[str, Any]], bool]] = None) -> PostProcessStats:
+    """Transform each ``(source, target)`` pair of bundle files.
+
+    ``skip`` may veto a bundle (for example a patient who died before the history window);
+    vetoed bundles are counted in ``stats.skipped_deceased`` and not written.
+    """
     stats = stats or PostProcessStats()
     used_ids = used_ids if used_ids is not None else set()
     for source, target in files:
         with source.open("r", encoding="utf-8") as handle:
             bundle = json.load(handle)
+        if skip is not None and bundle.get("resourceType") == "Bundle" and skip(bundle):
+            stats.skipped_deceased += 1
+            continue
         if bundle.get("resourceType") == "Bundle":
             transform_bundle(bundle, options, used_ids, stats)
         target.parent.mkdir(parents=True, exist_ok=True)
@@ -254,11 +284,13 @@ def process_files(files: Iterable[Tuple[Path, Path]], options: PostProcessOption
 
 def process_directory(raw_fhir_dir: Path, out_fhir_dir: Path, options: PostProcessOptions,
                       label: Optional[str] = None, used_ids: Optional[Set[str]] = None,
-                      stats: Optional[PostProcessStats] = None) -> PostProcessStats:
+                      stats: Optional[PostProcessStats] = None,
+                      deceased_cutoff: Optional[date] = None) -> PostProcessStats:
     """Transform every bundle under ``raw_fhir_dir`` into ``out_fhir_dir``.
 
     Organisation and practitioner bundles are renamed with ``label`` (normally the
-    province code) so that several provincial runs can share one output folder.
+    province code) so that several provincial runs can share one output folder. When
+    ``deceased_cutoff`` is given, patients who died before that date are left out.
     """
     pairs: List[Tuple[Path, Path]] = []
     for source in sorted(raw_fhir_dir.glob("*.json")):
@@ -267,7 +299,8 @@ def process_directory(raw_fhir_dir: Path, out_fhir_dir: Path, options: PostProce
             stem = "hospitalInformation" if name.startswith("hospitalInformation") else "practitionerInformation"
             name = f"{stem}_{label}.json"
         pairs.append((source, out_fhir_dir / name))
-    return process_files(pairs, options, used_ids, stats)
+    skip = (lambda bundle: died_before(bundle, deceased_cutoff)) if deceased_cutoff else None
+    return process_files(pairs, options, used_ids, stats, skip=skip)
 
 
 def copy_other_outputs(raw_dir: Path, out_dir: Path, label: str) -> None:

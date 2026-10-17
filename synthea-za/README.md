@@ -86,7 +86,13 @@ synthea-za generate -p 100 --clinical-notes --csv     # also notes and Synthea C
 synthea-za generate -p 100 --jobs 3                   # simulate three provinces at once
 synthea-za generate -p 100 --property generate.middle_names=0.3
 synthea-za generate -p 100 --keep-raw                 # keep Synthea's raw output and logs
+synthea-za generate -p 100 --keep-old-deaths          # also export people who died before the window
 ```
+
+`--patients` is the number of living patients. Synthea also simulates people who died
+along the way; those who died inside the history window are exported too (they make
+realistic recent deaths), while people who died before the window are left out unless
+`--keep-old-deaths` is given, because their records would be almost empty.
 
 Post-processing switches: `--no-national-id`, `--national-id-system URI`,
 `--practitioner-system URI`, `--mrn-system URI`, `--keep-drivers-licence`, `--no-phones`,
@@ -153,6 +159,9 @@ python -m synthea_za.build_data
 
 Disease calibration lives in `tools/make_hiv_tables.py` (HIV lookup tables) and
 `tools/make_tb_module.py` (tuberculosis module); run them after changing parameters.
+`tools/localise_builtin_modules.py` copies built in Synthea submodules that hard code US
+assumptions (the social needs screening's refugee question) into the local modules with
+South African values; rerun it after updating Synthea.
 
 ## Tests
 

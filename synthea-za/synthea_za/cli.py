@@ -95,6 +95,8 @@ def build_parser() -> argparse.ArgumentParser:
     gen.add_argument("--age-range", default=None, help="limit patient ages, e.g. 18-65")
     gen.add_argument("--gender", choices=["M", "F"], default=None)
     gen.add_argument("--only-alive", action="store_true", help="only export patients alive at the reference date")
+    gen.add_argument("--keep-old-deaths", action="store_true",
+                     help="also export patients who died before the history window (they have almost no records)")
     gen.add_argument("--jar", type=Path, default=DEFAULT_JAR, help="path to synthea-with-dependencies.jar")
     gen.add_argument("--java", default="java", help="java executable (default: java on PATH)")
     gen.add_argument("--java-opt", action="append", default=[], help="extra JVM option, e.g. -Xmx8g (repeatable)")
@@ -207,6 +209,14 @@ def command_generate(args: argparse.Namespace) -> int:
 
     used_ids = set()
     stats = None
+    deceased_cutoff = None
+    if not args.keep_old_deaths:
+        reference = (date(int(args.reference_date[:4]), int(args.reference_date[4:6]), int(args.reference_date[6:8]))
+                     if args.reference_date else date.today())
+        try:
+            deceased_cutoff = reference.replace(year=reference.year - config.years_of_history)
+        except ValueError:  # 29 February
+            deceased_cutoff = reference.replace(year=reference.year - config.years_of_history, day=28)
     manifest = {"version": __version__, "generated_at": date.today().isoformat(),
                 "patients_requested": config.patients, "seed": config.seed,
                 "years_of_history": config.years_of_history, "runs": [], "postprocess": None}
@@ -223,7 +233,8 @@ def command_generate(args: argparse.Namespace) -> int:
         raw_fhir = result.output_dir / "fhir"
         if raw_fhir.is_dir():
             stats = process_directory(raw_fhir, fhir_out, config.postprocess,
-                                      label=result.province.code, used_ids=used_ids, stats=stats)
+                                      label=result.province.code, used_ids=used_ids, stats=stats,
+                                      deceased_cutoff=deceased_cutoff)
         copy_other_outputs(result.output_dir, output, result.province.code)
     if stats is not None:
         manifest["postprocess"] = stats.as_dict()
@@ -240,8 +251,10 @@ def command_generate(args: argparse.Namespace) -> int:
         shutil.rmtree(config.overlay_dir.parent, ignore_errors=True)
 
     produced = stats.patients if stats else 0
+    skipped = stats.skipped_deceased if stats else 0
     print(f"Generated {produced} patient bundle(s) in {fhir_out} "
-          f"({manifest['seconds']}s, {failures} failed province run(s))")
+          f"({manifest['seconds']}s, {failures} failed province run(s), "
+          f"{skipped} patient(s) who died before the history window left out)")
     if failures:
         print("Some provinces failed; see manifest.json and the synthea.log files "
               "(re-run with --keep-raw to retain them)", file=sys.stderr)

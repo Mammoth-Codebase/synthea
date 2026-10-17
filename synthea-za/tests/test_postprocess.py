@@ -93,3 +93,19 @@ def test_meta_tag_is_added_once():
     transform_bundle(bundle, options, set(), PostProcessStats())
     tags = bundle["entry"][0]["resource"]["meta"]["tag"]
     assert len(tags) == 1 and tags[0]["code"] == "synthetic"
+
+
+def test_died_before_filter(tmp_path):
+    from datetime import date
+    from synthea_za.postprocess import died_before, process_files
+    bundle = make_bundle()
+    assert not died_before(bundle, date(2016, 1, 1))
+    bundle["entry"][0]["resource"]["deceasedDateTime"] = "2001-05-06T10:00:00+02:00"
+    assert died_before(bundle, date(2016, 1, 1))
+    assert not died_before(bundle, date(2000, 1, 1))
+    source = tmp_path / "old.json"
+    source.write_text(json.dumps(bundle))
+    target = tmp_path / "out" / "old.json"
+    stats = process_files([(source, target)], PostProcessOptions(), set(), None,
+                          skip=lambda b: died_before(b, date(2016, 1, 1)))
+    assert stats.skipped_deceased == 1 and not target.exists()
