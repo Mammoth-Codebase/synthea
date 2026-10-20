@@ -55,6 +55,26 @@ approximates them rather than matching them exactly; `summary.md` reports what w
 
 ## Quick start
 
+On a Mac or Linux machine the bundled script does everything (finds or installs Java and
+Python, builds the jar on the first run and generates a corpus):
+
+```bash
+git clone https://github.com/Mammoth-Codebase/synthea.git
+cd synthea
+git checkout claude/sa-synthea-population-generator-gu33o7
+synthea-za/run_local.sh 200 ~/sa-corpus          # patients, output directory
+```
+
+The script also works on its own: saved anywhere outside a checkout, it clones the branch
+into `~/synthea` (or `REPO_DIR`) first.
+
+`EXTRA_ARGS="--province GP --csv" ./run_local.sh 50` passes extra generate options,
+`INSTALL_DEPS=1` lets it install a missing JDK or Python with Homebrew, and setting
+`HEALTHSHARE_URL` with `HEALTHSHARE_USER`/`HEALTHSHARE_PASSWORD` (or `HEALTHSHARE_TOKEN`)
+loads the result into HealthShare afterwards. The header of the script lists every option.
+
+By hand:
+
 ```bash
 cd synthea-za
 pip install -e .                 # installs the synthea-za command (or use python -m synthea_za)

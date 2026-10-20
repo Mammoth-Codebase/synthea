@@ -106,7 +106,7 @@ def build_parser() -> argparse.ArgumentParser:
     gen.add_argument("--jar", type=Path, default=DEFAULT_JAR, help="path to synthea-with-dependencies.jar")
     gen.add_argument("--java", default=os.environ.get("JAVA", "java"),
                      help="java executable (default: $JAVA or java on PATH)")
-    gen.add_argument("--java-opt", action="append", default=[], help="extra JVM option, e.g. -Xmx8g (repeatable)")
+    gen.add_argument("--java-opt", action="append", default=[], help="extra JVM option, written as --java-opt=-Xmx8g (repeatable)")
     gen.add_argument("--no-build", action="store_true", help="fail instead of building the jar when it is missing")
     gen.add_argument("--jobs", type=int, default=1, help="number of provinces to simulate concurrently")
     gen.add_argument("--keep-raw", action="store_true", help="keep Synthea's unprocessed output under <output>/.work")
